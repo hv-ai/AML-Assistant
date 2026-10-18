@@ -1,0 +1,113 @@
+{
+  "source_id": "S01",
+  "url": "https://www.fincen.gov/about-fincen/what-we-do",
+  "capture_method": "web_tool_text_extract",
+  "captured_date": "2026-10-16",
+  "coverage": "selected section excerpt; not original HTML or complete regulatory corpus",
+  "extract_line_range": [
+    5,
+    29
+  ],
+  "lines": [
+    {
+      "line": 5,
+      "text": "# What We Do"
+    },
+    {
+      "line": 6,
+      "text": ""
+    },
+    {
+      "line": 7,
+      "text": "FinCEN carries out its mission by receiving and maintaining financial transactions data; analyzing and disseminating that data for law enforcement purposes; and building global cooperation with counterpart organizations in other countries and with international bodies."
+    },
+    {
+      "line": 8,
+      "text": "FinCEN exercises regulatory functions primarily under the Currency and Foreign Transactions Reporting Act of 1970, as amended by Title III of the USA PATRIOT Act of 2001 and other legislation, which legislative framework is commonly referred to as the \"Bank Secrecy Act\" (BSA). The BSA is the nation’s first and most comprehensive Federal anti-money laundering and counter-terrorism financing (AML/CFT) statute."
+    },
+    {
+      "line": 9,
+      "text": "In brief, the BSA authorizes the Secretary of the Treasury to issue regulations requiring banks and other financial institutions to take a number of precautions against financial crime, including the establishment of AML programs and the filing of reports that have been determined to have a high degree of usefulness in criminal, tax, and regulatory investigations and proceedings, and certain intelligence and counter-terrorism matters."
+    },
+    {
+      "line": 10,
+      "text": "The Secretary of the Treasury has delegated to the Director of FinCEN the authority to implement, administer, and enforce compliance with the BSA and associated regulations."
+    },
+    {
+      "line": 11,
+      "text": "Congress has given FinCEN certain duties and responsibilities for the central collection, analysis, and dissemination of data reported under FinCEN’s regulations and other related data in support of government and financial industry partners at the Federal, State, local, and international levels. To fulfill its responsibilities toward the detection and deterrence of financial crime, FinCEN:"
+    },
+    {
+      "line": 12,
+      "text": "  * Issues and interprets regulations authorized by statute;"
+    },
+    {
+      "line": 13,
+      "text": "  * Supports and enforces compliance with those regulations;"
+    },
+    {
+      "line": 14,
+      "text": "  * Supports, coordinates, and analyzes data regarding compliance examination functions delegated to other Federal regulators;"
+    },
+    {
+      "line": 15,
+      "text": "  * Manages the collection, processing, storage, dissemination, and protection of data filed under FinCEN’s reporting requirements;"
+    },
+    {
+      "line": 16,
+      "text": "  * Maintains a government-wide access service to FinCEN’s data, and networks users with overlapping interests;"
+    },
+    {
+      "line": 17,
+      "text": "  * Supports law enforcement investigations and prosecutions;"
+    },
+    {
+      "line": 18,
+      "text": "  * Synthesizes data to recommend internal and external allocation of resources to areas of greatest financial crime risk;"
+    },
+    {
+      "line": 19,
+      "text": "  * Shares information and coordinates with foreign financial intelligence unit (FIU) counterparts on AML/CFT efforts; and"
+    },
+    {
+      "line": 20,
+      "text": "  * Conducts analysis to support policymakers; law enforcement, regulatory, and intelligence agencies; FIUs; and the financial industry."
+    },
+    {
+      "line": 21,
+      "text": "FinCEN serves as the FIU for the United States and is one of more than 100 FIUs making up the Egmont Group, an international entity focused on information sharing and cooperation among FIUs. An FIU is a central, national agency responsible for receiving (and, as permitted, requesting), analyzing, and disseminating to the competent authorities disclosures of financial information:"
+    },
+    {
+      "line": 22,
+      "text": "  * concerning suspected proceeds of crime and potential financing of terrorism or"
+    },
+    {
+      "line": 23,
+      "text": "  * required by national legislation or regulation"
+    },
+    {
+      "line": 24,
+      "text": ""
+    },
+    {
+      "line": 25,
+      "text": "in order to combat money laundering and terrorism financing."
+    },
+    {
+      "line": 26,
+      "text": ""
+    },
+    {
+      "line": 27,
+      "text": "As one of the world’s leading FIUs, FinCEN exchanges financial information with FIU counterparts around the world in support of U.S. and foreign financial crime investigations."
+    },
+    {
+      "line": 28,
+      "text": "The basic concept underlying FinCEN’s core activities is \"follow the money.\" The primary motive of criminals is financial gain, and they leave financial trails as they try to launder the proceeds of crimes or attempt to spend their ill-gotten profits. FinCEN partners with law enforcement at all levels of government and supports the nation’s foreign policy and national security objectives."
+    },
+    {
+      "line": 29,
+      "text": "Law enforcement agencies successfully use similar techniques, including searching information collected by FinCEN from the financial industry, to investigate and hold accountable a broad range of criminals, including perpetrators of fraud, tax evaders, and narcotics traffickers. More recently, the techniques used to follow money trails also have been applied to investigating and disrupting terrorist groups, which often depend on financial and other support networks."
+    }
+  ]
+}

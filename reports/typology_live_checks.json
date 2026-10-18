@@ -1,0 +1,68 @@
+{
+  "scope": "One sample per typology; citation existence checks only until separate evidence review; not an accuracy benchmark.",
+  "checks": [
+    {
+      "topic": "structuring",
+      "question": "Explain structuring and two risk indicators an AML analyst should investigate. Distinguish suspicious patterns from proof and date any historical ruling.",
+      "status": "supported",
+      "claims": 3,
+      "cached": false,
+      "seconds": 4.7,
+      "result_path": "reports/typology_answer_structuring.json"
+    },
+    {
+      "topic": "money_mules",
+      "question": "Explain money mule accounts and two transaction indicators an AML analyst should investigate. Do not infer criminality from nationality or occupation alone.",
+      "status": "supported",
+      "claims": 3,
+      "cached": false,
+      "seconds": 4.4,
+      "result_path": "reports/typology_answer_money_mules.json"
+    },
+    {
+      "topic": "trade_based",
+      "question": "Explain trade-based money laundering and two invoice or payment indicators an AML analyst should investigate. Distinguish FATF indicators from US legal requirements.",
+      "status": "supported",
+      "claims": 3,
+      "cached": false,
+      "seconds": 5.4,
+      "result_path": "reports/typology_answer_trade_based.json"
+    },
+    {
+      "topic": "shell_companies",
+      "question": "Explain how shell and front companies can be misused and two warning indicators. Explain why shell companies are not automatically illicit.",
+      "status": "supported",
+      "claims": 3,
+      "cached": false,
+      "seconds": 4.2,
+      "result_path": "reports/typology_answer_shell_companies.json"
+    },
+    {
+      "topic": "digital_assets",
+      "question": "Explain digital asset investment scam laundering and two financial indicators for bank analysts. Distinguish scam victim payments from laundering-network activity.",
+      "status": "supported",
+      "claims": 3,
+      "cached": false,
+      "seconds": 14.2,
+      "result_path": "reports/typology_answer_digital_assets.json"
+    },
+    {
+      "topic": "corruption",
+      "question": "Explain laundering of foreign public corruption proceeds and two financial indicators for bank analysts. Why is one red flag not conclusive?",
+      "status": "supported",
+      "claims": 3,
+      "cached": false,
+      "seconds": 4.6,
+      "result_path": "reports/typology_answer_corruption.json"
+    },
+    {
+      "topic": "human_trafficking",
+      "question": "Explain human trafficking-related financial flows and two financial indicators for bank analysts. Why is a single red flag insufficient?",
+      "status": "supported",
+      "claims": 3,
+      "cached": false,
+      "seconds": 5.7,
+      "result_path": "reports/typology_answer_human_trafficking.json"
+    }
+  ]
+}

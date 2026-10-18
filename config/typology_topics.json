@@ -1,0 +1,102 @@
+[
+  {
+    "id": "structuring",
+    "label": "Structuring",
+    "question": "Explain structuring and two risk indicators an AML analyst should investigate. Distinguish suspicious patterns from proof and date any historical ruling.",
+    "source_ids": [
+      "S15",
+      "S14"
+    ],
+    "aliases": [
+      "structuring",
+      "smurfing"
+    ]
+  },
+  {
+    "id": "money_mules",
+    "label": "Money mules",
+    "question": "Explain money mule accounts and two transaction indicators an AML analyst should investigate. Do not infer criminality from nationality or occupation alone.",
+    "source_ids": [
+      "S16",
+      "S14"
+    ],
+    "aliases": [
+      "money mule",
+      "mule account",
+      "funnel account"
+    ]
+  },
+  {
+    "id": "trade_based",
+    "label": "Trade-based laundering",
+    "question": "Explain trade-based money laundering and two invoice or payment indicators an AML analyst should investigate. Distinguish FATF indicators from US legal requirements.",
+    "source_ids": [
+      "S17",
+      "S16"
+    ],
+    "aliases": [
+      "trade based",
+      "tbml"
+    ]
+  },
+  {
+    "id": "shell_companies",
+    "label": "Shell & front companies",
+    "question": "Explain how shell and front companies can be misused and two warning indicators. Explain why shell companies are not automatically illicit.",
+    "source_ids": [
+      "S18",
+      "S14"
+    ],
+    "aliases": [
+      "shell company",
+      "front company",
+      "nominee"
+    ]
+  },
+  {
+    "id": "digital_assets",
+    "label": "Digital assets",
+    "question": "Explain digital asset investment scam laundering and two financial indicators for bank analysts. Distinguish scam victim payments from laundering-network activity.",
+    "source_ids": [
+      "S19",
+      "S14",
+      "S22"
+    ],
+    "aliases": [
+      "digital asset",
+      "crypto",
+      "cryptocurrency",
+      "virtual currency",
+      "stablecoin"
+    ]
+  },
+  {
+    "id": "corruption",
+    "label": "Corruption",
+    "question": "Explain laundering of foreign public corruption proceeds and two financial indicators for bank analysts. Why is one red flag not conclusive?",
+    "source_ids": [
+      "S20",
+      "S14"
+    ],
+    "aliases": [
+      "corruption",
+      "kleptocracy",
+      "bribery"
+    ]
+  },
+  {
+    "id": "human_trafficking",
+    "label": "Human trafficking",
+    "question": "Explain human trafficking-related financial flows and two financial indicators for bank analysts. Why is a single red flag insufficient?",
+    "source_ids": [
+      "S21",
+      "S14"
+    ],
+    "aliases": [
+      "human trafficking",
+      "forced labor",
+      "forced labour",
+      "sex trafficking"
+    ]
+  }
+]

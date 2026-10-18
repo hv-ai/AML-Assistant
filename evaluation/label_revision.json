@@ -1,0 +1,5 @@
+{
+  "revision": "1.1",
+  "reason": "Source review confirmed the minimal-staff indicator in S17:L8-L8. Removed S17:L10-L10 from C06 because it does not contain that indicator. No retrieval parameters or questions changed. Initial report retained.",
+  "expert_review": "pending"
+}

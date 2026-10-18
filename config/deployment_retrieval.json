@@ -1,0 +1,12 @@
+{
+  "ready": true,
+  "index_name": "aml-research",
+  "host": "aml-research-fkigtlu.svc.aped-4627-b74a.pinecone.io",
+  "namespace": "aml-dcb1390107db350795b7",
+  "corpus_hash": "1339b9e5dcca80463fefd3a6f572556a0b7ecf2be58cc9ffecb8cb4e89908d1d",
+  "model": "Qwen/Qwen3-Embedding-8B",
+  "dimension": 1024,
+  "vectors": 356,
+  "parent_chunks": 231,
+  "verified_at": "2026-10-18T16:25:30Z"
+}

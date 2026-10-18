@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-18",
+  "software_tests": 89,
+  "status": "local changes; manual deployment pending",
+  "latency_target_seconds": 8,
+  "generated_spot_checks_seconds": {
+    "KYC": 5.77,
+    "CDD_generated_partial": 6.415,
+    "money_mules": 2.885,
+    "risk_assessment": 3.881
+  },
+  "cdd_resolution": "Prepared, labelled source-linked explanation; two procedures; no binding CFR text; no new answer-model call. Browser observed 0.65 seconds including retrieval.",
+  "security": "Five bounded probes passed, including two live indirect injections. Not comprehensive jailbreak testing.",
+  "first_open": "Warm public GETs 92\u2013289ms; controlled cold startup untested and unresolved.",
+  "news": "Current-month default, 2026 monthly/custom date/agency filters, incomplete captured archive; not all key news.",
+  "authority": "No binding CFR rule indexed. Gap displayed above legal answers.",
+  "citations": "Numbered short titles and all retrieved passages selectable.",
+  "semantic_review": "CDD generated answer was partial; exact-quote checks do not establish full claim entailment. Other spot checks are examples, not an expert-labelled accuracy score."
+}

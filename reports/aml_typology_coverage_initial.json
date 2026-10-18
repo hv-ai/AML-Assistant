@@ -1,0 +1,171 @@
+{
+  "audit_date": "2026-10-17",
+  "scope": "US bank research-library coverage; 20 practical review topics, not an exhaustive universal taxonomy",
+  "indexed_sources": 8,
+  "indexed_chunks": 50,
+  "result": "No reviewed typology has adequate dedicated research coverage.",
+  "counts": {
+    "covered": 0,
+    "partial": 9,
+    "missing": 11
+  },
+  "topics": [
+    {
+      "topic": "Cash structuring / smurfing",
+      "status": "Missing",
+      "evidence": [],
+      "reason": "No explanation of the typology or its indicators. General words such as \u201cstructure\u201d do not count."
+    },
+    {
+      "topic": "Bulk cash smuggling / cash-intensive businesses",
+      "status": "Missing",
+      "evidence": [],
+      "reason": "No dedicated mechanism, case or indicators."
+    },
+    {
+      "topic": "Money mules / funnel accounts",
+      "status": "Missing",
+      "evidence": [],
+      "reason": "No dedicated source text indexed."
+    },
+    {
+      "topic": "Trade-based money laundering",
+      "status": "Missing",
+      "evidence": [],
+      "reason": "No trade laundering overview or trade-specific indicators indexed."
+    },
+    {
+      "topic": "Shell/front companies and concealed ownership",
+      "status": "Missing",
+      "evidence": [],
+      "reason": "Beneficial-ownership controls are mentioned, but concealment typologies are not explained."
+    },
+    {
+      "topic": "Professional laundering / underground banking / hawala",
+      "status": "Missing",
+      "evidence": [],
+      "reason": "No dedicated source text indexed."
+    },
+    {
+      "topic": "Digital-asset laundering",
+      "status": "Missing",
+      "evidence": [],
+      "reason": "No dedicated source text indexed. Live news headlines do not fill the policy-library gap."
+    },
+    {
+      "topic": "Fraud proceeds, scams and elder exploitation",
+      "status": "Partial",
+      "evidence": [
+        "S01:L28-L29"
+      ],
+      "reason": "Fraud is named; scam-specific laundering mechanisms and indicators are absent."
+    },
+    {
+      "topic": "Cybercrime / ransomware proceeds",
+      "status": "Missing",
+      "evidence": [],
+      "reason": "No dedicated source text indexed."
+    },
+    {
+      "topic": "Drug trafficking / criminal-network proceeds",
+      "status": "Partial",
+      "evidence": [
+        "S01:L28-L29",
+        "S04:L94-L97"
+      ],
+      "reason": "Narcotics traffickers are named; laundering methods and indicators are absent."
+    },
+    {
+      "topic": "Human trafficking / human smuggling proceeds",
+      "status": "Missing",
+      "evidence": [],
+      "reason": "No dedicated source text indexed."
+    },
+    {
+      "topic": "Corruption / PEP-related laundering",
+      "status": "Missing",
+      "evidence": [],
+      "reason": "No dedicated corruption or PEP laundering source indexed."
+    },
+    {
+      "topic": "Terrorist-financing patterns",
+      "status": "Partial",
+      "evidence": [
+        "S01:L28-L29"
+      ],
+      "reason": "Terrorist groups and financial support are mentioned, without a usable typology treatment."
+    },
+    {
+      "topic": "Proliferation financing",
+      "status": "Partial",
+      "evidence": [
+        "S04:L94-L97"
+      ],
+      "reason": "OFAC role is described; financing patterns and indicators are not covered."
+    },
+    {
+      "topic": "Sanctions-evasion laundering",
+      "status": "Partial",
+      "evidence": [
+        "S04:L94-L97"
+      ],
+      "reason": "OFAC/BSA relationship is described, without evasion typologies or dedicated sanctions guidance."
+    },
+    {
+      "topic": "Correspondent / payable-through account misuse",
+      "status": "Partial",
+      "evidence": [
+        "S12:L79-L87"
+      ],
+      "reason": "Higher-risk due diligence context is available, but account-misuse patterns are not explained."
+    },
+    {
+      "topic": "Real estate / high-value-asset laundering",
+      "status": "Missing",
+      "evidence": [],
+      "reason": "No dedicated source text indexed."
+    },
+    {
+      "topic": "MSB / remittance channel misuse",
+      "status": "Partial",
+      "evidence": [
+        "S04:L72-L73"
+      ],
+      "reason": "MSBs are only named as an institution category."
+    },
+    {
+      "topic": "Casino, securities and insurance channel misuse",
+      "status": "Partial",
+      "evidence": [
+        "S04:L72-L73"
+      ],
+      "reason": "These sectors are named, without sector-specific laundering mechanisms or indicators."
+    },
+    {
+      "topic": "Tax-evasion proceeds",
+      "status": "Partial",
+      "evidence": [
+        "S01:L28-L29"
+      ],
+      "reason": "Tax evaders are named; laundering patterns are absent."
+    }
+  ],
+  "references": [
+    {
+      "title": "2026 US Treasury National Money Laundering Risk Assessment",
+      "url": "https://home.treasury.gov/system/files/246/2026-NMLRA.pdf"
+    },
+    {
+      "title": "FinCEN advisory and alert directory",
+      "url": "https://www.fincen.gov/resources/advisoriesbulletinsfact-sheets"
+    },
+    {
+      "title": "FinCEN 2021 AML/CFT priorities (dated threat baseline)",
+      "url": "https://www.fincen.gov/news/news-releases/fincen-issues-first-national-amlcft-priorities-and-accompanying-statements"
+    },
+    {
+      "title": "FATF methods and trends (international context)",
+      "url": "https://www.fatf-gafi.org/en/topics/methods-and-trends.html"
+    }
+  ]
+}

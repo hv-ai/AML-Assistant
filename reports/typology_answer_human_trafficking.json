@@ -1,0 +1,205 @@
+{
+  "evidence": [
+    {
+      "chunk_id": "S21:L10-L10",
+      "source_id": "S21",
+      "title": "Supplemental Advisory on Identifying and Reporting Human Trafficking and Related Activity",
+      "heading": "Supplemental Advisory on Identifying and Reporting Human Trafficking and Related Activity \u00b7 PDF page 5",
+      "issuer": "FinCEN",
+      "authority_type": "advisory",
+      "url": "https://www.fincen.gov/sites/default/files/advisory/2020-10-15/Advisory%20Human%20Trafficking%20508%20FINAL_0.pdf",
+      "published_date": "2020-10-15",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 5 \u00b7 extracted text lines 10-10",
+      "pdf_page": 5,
+      "topics": [
+        "human_trafficking"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "FINCEN ADVISORY\n5\nCase Study: Funnel Accounts Facilitate International Thai Sex Trafficking Ring\n4.  Alternative Payment Methods \nIn addition to payment via cash, traffickers also have accepted payment via credit cards, prepaid \ncards,23 mobile payment applications, and convertible virtual currency. 24  Buyers of commercial \nsex use prepaid cards\u2014a method of payment using funds paid in advance, which can be acquired \nanonymously with cash or on darknet websites\u2014to register with escort websites and to purchase \nsexual services, flights, throw-away phones, and hotel rooms. 25\nIllicit actors also use virtual currency to advertise commercial sex online.  For example, human \ntraffickers have purchased prepaid cards, and then used the cards to purchase virtual currency on \na peer-to-peer exchange platform.  Human traffickers then use the virtual currency to buy online \nadvertisements that feature commercial sex acts to obtain customers. 26\nFinCEN also has identified transactions in which human traffickers use third-party payment \nprocessors (TPPPs) to wire funds, which gives the appearance that the TPPP is the originator or \nbeneficiary of the wire transfer and conceals the true originator or beneficiary.  For example, human \ntraffickers facilitate payments via TPPPs for the operation of online escort services and online \nstreaming services that use voice-over Internet protocol technology.  Human traffickers and their \nfacilitators use TPPPs to wire funds to individuals or businesses both domestically and abroad.27\nCase Study: Trafficking Involving Prepaid Cards and Bitcoin\nII.  Behavioral and Financial Red Flag Indicators  \nof Human Trafficking\nIn applying the red flags below and the red flags in the 2014 Advisory, financial institutions are \nadvised that no single red flag is a clear indicator of human trafficking activity, although each can \nbe indicative of forced labor and/or sex trafficking.  Given that human trafficking is a predicate \noffense to money laundering, the financial red flags also may be indicative of other money \nlaundering-related offenses.  Financial institutions should consider additional factors, such as \na customer\u2019s previous financial activity and the existence of typologies or other red flags, when \ndetermining whether transactions may be associated with human trafficking.  \n23. See U.S. Department of the Treasury, \u201cNational Money Laundering Risk Assessment,\u201d p. 15-16, (2018).\n24. For more information about illicit activity involving convertible virtual currency see FinCEN Advisory,  \nFIN-2019-A003, \u201c Advisory on Illicit Activity Involving Convertible Virtual Currency,\u201d (May 9, 2019).\n25. See New York County District Attorney Cyrus Vance Jr.\u2019s testimony, \u201cFollowing the Money: How Human Traffickers \nExploit the U.S. Financial Markets: Hearing before the Subcommittee on Oversight and Investigations of the \nCommittee on Financial Services of the U.S. House of Representatives,\u201d (January 30, 2018).  See also U.S. Department \nof Homeland Security, \u201cUsing a Financial Attack Strategy to Combat Human Trafficking,\u201d (January 29, 2015); and \nU.S. Department of the Treasury, \u201cNational Money Laundering Risk Assessment,\u201d p. 15-16, (2018).\n26. See New York County District Attorney Cyrus Vance Jr.\u2019s testimony, \u201cFollowing the Money: How Human Traffickers \nExploit the U.S. Financial Markets: Hearing before the Subcommittee on Oversight and Investigations of the \nCommittee on Financial Services of the U.S. House of Representatives,\u201d (January 30, 2018); and Financial Action Task \nForce, \u201cFinancial Flows from Human Trafficking,\u201d p. 55-56, (July 2018).\n27. See, e.g., Financial Action Task Force, \u201cFinancial Flows from Human Trafficking,\u201d pp. 20-26, (July 2018).",
+      "retrieval_score": 31.09444
+    },
+    {
+      "chunk_id": "S21:L14-L14",
+      "source_id": "S21",
+      "title": "Supplemental Advisory on Identifying and Reporting Human Trafficking and Related Activity",
+      "heading": "Supplemental Advisory on Identifying and Reporting Human Trafficking and Related Activity \u00b7 PDF page 7",
+      "issuer": "FinCEN",
+      "authority_type": "advisory",
+      "url": "https://www.fincen.gov/sites/default/files/advisory/2020-10-15/Advisory%20Human%20Trafficking%20508%20FINAL_0.pdf",
+      "published_date": "2020-10-15",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 7 \u00b7 extracted text lines 14-14",
+      "pdf_page": 7,
+      "topics": [
+        "human_trafficking"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "FINCEN ADVISORY\n7\nFinancial Indicators \nTo help identify and report transactions possibly associated with human trafficking, FinCEN \nhas identified 10 new financial red flag indicators.  These red flags do not replace the red flags \nidentified in the 2014 Advisory, all of which remain relevant. 31  The Financial Action Task Force \nreport on the \u201cFinancial Flows from Human Trafficking\u201d also provides numerous indicators of \nmoney laundering related to human trafficking. 32\n Customers frequently appear to move through, and transact from, different geographic \nlocations in the United States.  These transactions can be combined with travel and \ntransactions in and to foreign countries that are significant conduits for human trafficking. 33\n Transactions are inconsistent with a customer\u2019s expected activity and/or line of business in \nan apparent effort to cover trafficking victims\u2019 living costs, including housing (e.g., hotel, \nmotel, short-term rentals, or residential accommodations), transportation (e.g., airplane, taxi, \nlimousine, or rideshare services), medical expenses, pharmacies, clothing, grocery stores, and \nrestaurants, to include fast food eateries.   \n Transactional activity largely occurs outside of normal business operating hours (e.g., an \nestablishment that operates during the day has a large number of transactions at night), is \nalmost always made in cash, and deposits are larger than what is expected for the business \nand the size of its operations.  \n A customer frequently makes cash deposits with no Automated Clearing House (ACH) payments.  \n An individual frequently purchases and uses prepaid access cards.  \n A customer\u2019s account shares common identifiers, such as a telephone number, email, and \nsocial media handle, or address, associated with escort agency websites and commercial sex \nadvertisements.\n Frequent transactions with online classified sites that are based in foreign jurisdictions.  \n A customer frequently sends or receives funds via cryptocurrency to or from darknet markets \nor services known to be associated with illicit activity.  This may include services that host \nadvertising content for illicit services, sell illicit content, or financial institutions that allow \nprepaid cards to pay for cryptocurrencies without appropriate risk mitigation controls.\n Frequent transactions using third-party payment processors that conceal the originators and/\nor beneficiaries of the transactions.  \n A customer avoids transactions that require identification documents or that trigger reporting \nrequirements.\n31. FinCEN Advisory, FIN-2014-A008, \u201cGuidance on Recognizing Activity that May be Associated with Human \nSmuggling and Human Trafficking \u2013 Financial Red Flags,\u201d (September 11, 2014).\n32. Financial Action Task Force, \u201cFinancial Flows from Human Trafficking,\u201d pp. 65-70, (July 2018).\n33. For information on specific countries, and whether they are conduits for human trafficking, see U.S. Department of \nState, \u201cTrafficking in Persons Report,\u201d (June 2019).",
+      "retrieval_score": 29.59118
+    },
+    {
+      "chunk_id": "S21:L2-L2",
+      "source_id": "S21",
+      "title": "Supplemental Advisory on Identifying and Reporting Human Trafficking and Related Activity",
+      "heading": "Supplemental Advisory on Identifying and Reporting Human Trafficking and Related Activity \u00b7 PDF page 1",
+      "issuer": "FinCEN",
+      "authority_type": "advisory",
+      "url": "https://www.fincen.gov/sites/default/files/advisory/2020-10-15/Advisory%20Human%20Trafficking%20508%20FINAL_0.pdf",
+      "published_date": "2020-10-15",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 1 \u00b7 extracted text lines 2-2",
+      "pdf_page": 1,
+      "topics": [
+        "human_trafficking"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "1\nThe Financial Crimes Enforcement Network \n(FinCEN) is issuing this advisory to help save lives, \nand to protect the most vulnerable in our society \nfrom predators and cowards who prey on the \ninnocent and defenseless for money and greed.  This \nadvisory supplements the 2014 FinCEN Guidance \non Recognizing Activity that May be Associated \nwith Human Smuggling and Human Trafficking \u2013 \nFinancial Red Flags (\u201c2014 Advisory\u201d). 1\n1. FinCEN Advisory, FIN-2014-A008, \u201cGuidance on Recognizing Activity that May be Associated with Human \nSmuggling and Human Trafficking \u2013 Financial Red Flags,\u201d (September 11, 2014).\n2. See U.S. Department of Homeland Security, Blue Campaign, \u201cWhat is Human Trafficking?\u201d\n3. See U.S. Department of State, \u201cTrafficking in Persons Report,\u201d (June 2019); see also Financial Action Task Force, \n\u201cFinancial Flows from Human Trafficking,\u201d p. 15 (July 2018).\nHuman traffickers and their facilitators exploit \nadults and children in the United States, and \naround the world, for financial gain, among other \nreasons.  Victims are placed into forced labor, \nslavery, involuntary servitude, and peonage, and/\nor forced to engage in commercial sex acts.  Anyone \ncan be a victim regardless of origin, sex, age, or \nlegal status. 2  And anyone can be a trafficker, from \na single individual, such as a family member, \nto a criminal network, terrorist organization, or \ncorrupt government regime. 3  The global COVID-19 \npandemic can exacerbate the conditions that \ncontribute to human trafficking, as the support \nstructures for potential victims collapse, and \nSupplemental Advisory on Identifying and Reporting \nHuman Trafficking and Related Activity\nHuman traffickers and their facilitators exploit the innocent and most vulnerable of \nour society for financial gain, employing an evolving range of money laundering \ntactics to evade detection, hide their proceeds, and grow their criminal enterprise.\nThis Advisory should be shared with:\n\u2022 Chief Executive Officers\n\u2022 Chief Operating Officers\n\u2022 Chief Compliance Officers\n\u2022 Chief Risk Officers\n\u2022 AML/BSA Departments\n\u2022 Legal Departments\n\u2022 Cyber and Security Departments\n\u2022 Customer-Facing Staff \n\u2022 Money Services Businesses\n\u2022 Casinos\nFIN-2020-A008 October 15, 2020\nSAR Filing Request:\nFinCEN requests financial institutions \nreference this advisory in SAR field \n2 (Filing Institution Note to FinCEN) \nand the narrative by including the \nfollowing key term: \u201c HUMAN \nTRAFFICKING FIN-2020-A008 \u201d and \nselecting SAR Field 38(h)  (human \ntrafficking).  Additional guidance \nappears near the end of this advisory.",
+      "retrieval_score": 27.01233
+    },
+    {
+      "chunk_id": "S21:L4-L4",
+      "source_id": "S21",
+      "title": "Supplemental Advisory on Identifying and Reporting Human Trafficking and Related Activity",
+      "heading": "Supplemental Advisory on Identifying and Reporting Human Trafficking and Related Activity \u00b7 PDF page 2",
+      "issuer": "FinCEN",
+      "authority_type": "advisory",
+      "url": "https://www.fincen.gov/sites/default/files/advisory/2020-10-15/Advisory%20Human%20Trafficking%20508%20FINAL_0.pdf",
+      "published_date": "2020-10-15",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 2 \u00b7 extracted text lines 4-4",
+      "pdf_page": 2,
+      "topics": [
+        "human_trafficking"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "FINCEN ADVISORY\n2\ntraffickers target those most impacted and vulnerable. 4  Other effects of the pandemic (e.g., travel \nlimitations, shelter-in-place orders, teleworking) also may affect the typologies and red flag \nindicators provided below.  \nUnfortunately, in addition to the horrific toll on victims and their families, their very lives, dignity, \nand livelihood, human trafficking is now one of the most profitable and violent forms of international \ncrime, generating an estimated $150 billion worldwide per year.5  In the United States, human \ntrafficking now occurs in a broad range of licit and illicit industries (e.g., hospitality, agricultural, \njanitorial services, construction, restaurants, care for persons with disabilities, salon services, massage \nparlors, retail, fairs and carnivals, peddling and begging, child care, domestic work, and drug \nsmuggling and distribution).6  Transactions involving proceeds generated by human trafficking can \nbe the basis for federal criminal charges and asset forfeiture, as human trafficking and associated \ncrimes constitute specified unlawful activities (SUAs) for the crime of money laundering.7\nSince the 2014 Advisory, FinCEN collaborated with law enforcement to identify 20 new financial \nand behavioral indicators of labor and sex trafficking, and four additional typologies.  This \nadvisory provides: (i) new information to assist in identifying and reporting human trafficking, and \nto aid the global effort to combat this crime; and (ii) two illustrative recent case studies.  The 2014 \nAdvisory remains relevant, and provides information related to human smuggling, in addition to \nhuman trafficking.\n4. Polaris, \u201cCOVID-19 May Increase Human Trafficking in Vulnerable Communities,\u201d (April 7, 2020).  See also U.S. \nDepartment of State, \u201cTrafficking in Persons Report,\u201d (June 2019) (discussing the vulnerabilities that traffickers target \nglobally).\n5. International Labour Organization, \u201cProfits and Poverty: The Economics of Forced Labour,\u201d p. 13, (May 20, 2014).  \nSee also U.S. Department of the Treasury, \u201cCombatting Human Trafficking,\u201d (January 29, 2020).\n6. See U.S. Department of State, \u201cTrafficking in Persons Report,\u201d pp. 491\u2013492 (June 2019).  Relatedly, goods that are \nproduced by forced or child labor can be illegally imported into the United States.  The U.S. Customs and Border \nProtection issues Withhold and Release Orders against imported merchandise suspected of being produced from \nforced or child labor.  The U.S. Department of Labor maintains a list of goods and their source countries, which it has \nreason to believe are produced by forced or child labor in violation of international standards.\n7. SUAs relevant to human trafficking cases include a variety of offenses listed under 18 U.S.C.  \u00a7\u00a7 1956(c)(7) and \n1961(1), such as those listed in Title 18, unless otherwise specified.\n8. See 8 U.S.C.  \u00a7 1324.  See also, U.S. Department of State, \u201cHuman Trafficking and Migrant Smuggling: Understanding \nthe Difference,\u201d (June 27, 2017).  \n9. See generally 18 U.S.C.  \u00a7\u00a7 1581, 1584, 1589, 1590, 1591, 2421, 2422, 2423, and 2425; 22 U.S.C.  \u00a7\u00a7 7102(4) and (11); The \nVictims of Trafficking and Violence Protection Act of 2000 (Pub.  L.  No.  106-386); applicable state laws; and U.S. \nDepartment of State, \u201cReport on U.S. Government Efforts to Combat Trafficking in Persons,\u201d (December 1, 2017).\nHuman Smuggling\nActs or attempts to bring unauthorized aliens \nto or into the United States, transport them \nwithin the U.S., harbor unlawful aliens, \nencourage entry of illegal aliens, or conspire \nto commit these violations, knowingly or in \nreckless disregard of illegal status .8\nHuman Trafficking\nThe act of recruiting, harboring, \ntransporting, providing or obtaining a \nperson for forced labor or commercial sex acts \nthrough the use of force, fraud, or coercion .9",
+      "retrieval_score": 21.74912
+    },
+    {
+      "chunk_id": "S21:L6-L6",
+      "source_id": "S21",
+      "title": "Supplemental Advisory on Identifying and Reporting Human Trafficking and Related Activity",
+      "heading": "Supplemental Advisory on Identifying and Reporting Human Trafficking and Related Activity \u00b7 PDF page 3",
+      "issuer": "FinCEN",
+      "authority_type": "advisory",
+      "url": "https://www.fincen.gov/sites/default/files/advisory/2020-10-15/Advisory%20Human%20Trafficking%20508%20FINAL_0.pdf",
+      "published_date": "2020-10-15",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 3 \u00b7 extracted text lines 6-6",
+      "pdf_page": 3,
+      "topics": [
+        "human_trafficking"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "FINCEN ADVISORY\n3\nIn contrast to human smuggling, human trafficking does not require movement.  Human \ntraffickers can exploit individuals within the border of a country, and even in a victim\u2019s own \nhome.  Human trafficking can also begin as human smuggling, as individuals who enter a \ncountry voluntarily and illegally are inherently vulnerable to abuse and exploitation, and often \nowe a large debt to their smuggler. 10\nBecause the information financial institutions collect and report is vital to identifying human \ntrafficking and stopping the growth of this crime, it is imperative that financial institutions \nenable their detection and reporting of suspicious transactions by becoming aware of the current \nmethodologies that traffickers and facilitators use.  It is also critical that customer-facing staff are \naware of behavioral indicators that may indicate human trafficking, as the only outside contact for \nvictims of human trafficking may occur when visiting financial institutions.\n10. See U.S. Immigrations and Customs Enforcement, \u201cHuman Trafficking vs Human Smuggling,\u201d (Summer 2017); and \nsee also U.S. Department of State, \u201cHuman Trafficking and Migrant Smuggling: Understanding the Difference,\u201d (June \n27, 2017).\n11. An establishment that provides food, drinks, dancing, and music, and is typically found in Latin American \ncommunities.   \n12. See Financial Action Task Force, \u201cFinancial Flows from Human Trafficking,\u201d p. 54 (July 2018).  See also U.S. \nDepartment of Justice, \u201cSex Trafficking Ring Leader Gets Life in Federal Prison,\u201d (January 20, 2016).\n13. U.S. Department of Justice, \u201cWhat is Human Trafficking?\u201d (January 6, 2017).\nI.  New Typologies of Human Trafficking \nTo evade detection, hide their illicit proceeds, and profit off the backs of victims, human traffickers \nemploy a variety of evolving techniques.  Below are four typologies, identified in Bank Secrecy Act \n(BSA) data since FinCEN issued the 2014 Advisory, that human traffickers and facilitators have \nused to launder money.  \n1.  Front Companies \nHuman traffickers routinely establish and use front companies, sometimes legal entities, to hide \nthe true nature of a business, and its illicit activities, owners, and associates.  Front companies are \nbusinesses that combine illicit proceeds with those gained from legitimate business operations.  \nExamples of front companies used by human traffickers for labor or sex trafficking include massage \nbusinesses, escort services, bars, restaurants, and cantinas. 11  In the case of businesses that act as \na front for human trafficking, typically the establishment appears legitimate with registrations \nand licenses.  The front company generates revenue from sales of alcoholic beverages and cover \ncharges.  Patrons, however, also can obtain illicit sexual services from trafficked individuals, \nusually elsewhere in the establishment. 12  In addition, illicit massage businesses or nail and hair \nsalons can offer sexual services under the guise of legitimate businesses and/or exploit individuals \nfor the purpose of forced labor. 13  Often, these establishments will appear to be a single storefront, \nyet are part of a larger network.  Payments for these illicit services are usually in cash, and \ntraffickers may invest the illicit proceeds in high-value assets, such as real estate and cars.",
+      "retrieval_score": 21.73847
+    }
+  ],
+  "retrieval": "BM25 keyword",
+  "question": "Explain human trafficking-related financial flows and two financial indicators for bank analysts. Why is a single red flag insufficient?",
+  "scope": "US banks",
+  "citation_check": "IDs and exact quotes checked; claim support needs review",
+  "cached": false,
+  "status": "supported",
+  "summary": "Human trafficking financial flows and red flags",
+  "claims": [
+    {
+      "text": "Human trafficking-related financial flows involve illicit proceeds from forced labor and commercial sex acts, laundered through front companies, prepaid cards, virtual currency, and third-party payment processors to conceal origins and beneficiaries.",
+      "evidence": [
+        {
+          "id": "S21:L10-L10",
+          "quote": "FINCEN ADVISORY\n5\nCase Study: Funnel Accounts Facilitate International Thai Sex Trafficking Ring\n4."
+        },
+        {
+          "id": "S21:L10-L10",
+          "quote": "Alternative Payment Methods \nIn addition to payment via cash, traffickers also have accepted payment via credit cards, prepaid \ncards,23 mobile payment applications, and convertible virtual currency."
+        },
+        {
+          "id": "S21:L10-L10",
+          "quote": "24  Buyers of commercial \nsex use prepaid cards\u2014a method of payment using funds paid in advance, which can be acquired \nanonymously with cash or on darknet websites\u2014to register with escort websites and to purchase \nsexual services, flights, throw-away phones, and hotel rooms."
+        },
+        {
+          "id": "S21:L10-L10",
+          "quote": "25\nIllicit actors also use virtual currency to advertise commercial sex online."
+        },
+        {
+          "id": "S21:L10-L10",
+          "quote": "For example, human \ntraffickers have purchased prepaid cards, and then used the cards to purchase virtual currency on \na peer-to-peer exchange platform."
+        },
+        {
+          "id": "S21:L10-L10",
+          "quote": "Human traffickers then use the virtual currency to buy online \nadvertisements that feature commercial sex acts to obtain customers."
+        },
+        {
+          "id": "S21:L10-L10",
+          "quote": "26\nFinCEN also has identified transactions in which human traffickers use third-party payment \nprocessors (TPPPs) to wire funds, which gives the appearance that the TPPP is the originator or \nbeneficiary of the wire transfer and conceals the true originator or beneficiary."
+        },
+        {
+          "id": "S21:L10-L10",
+          "quote": "For example, human \ntraffickers facilitate payments via TPPPs for the operation of online escort services and online \nstreaming services that use voice-over Internet protocol technology."
+        },
+        {
+          "id": "S21:L10-L10",
+          "quote": "Human traffickers and their \nfacilitators use TPPPs to wire funds to individuals or businesses both domestically and abroad.27\nCase Study: Trafficking Involving Prepaid Cards and Bitcoin\nII."
+        },
+        {
+          "id": "S21:L6-L6",
+          "quote": "Front Companies \nHuman traffickers routinely establish and use front companies, sometimes legal entities, to hide \nthe true nature of a business, and its illicit activities, owners, and associates."
+        },
+        {
+          "id": "S21:L6-L6",
+          "quote": "Front companies are \nbusinesses that combine illicit proceeds with those gained from legitimate business operations."
+        },
+        {
+          "id": "S21:L6-L6",
+          "quote": "Examples of front companies used by human traffickers for labor or sex trafficking include massage \nbusinesses, escort services, bars, restaurants, and cantinas."
+        },
+        {
+          "id": "S21:L6-L6",
+          "quote": "11  In the case of businesses that act as \na front for human trafficking, typically the establishment appears legitimate with registrations \nand licenses."
+        },
+        {
+          "id": "S21:L6-L6",
+          "quote": "The front company generates revenue from sales of alcoholic beverages and cover \ncharges."
+        },
+        {
+          "id": "S21:L6-L6",
+          "quote": "Patrons, however, also can obtain illicit sexual services from trafficked individuals, \nusually elsewhere in the establishment."
+        },
+        {
+          "id": "S21:L6-L6",
+          "quote": "12  In addition, illicit massage businesses or nail and hair \nsalons can offer sexual services under the guise of legitimate businesses and/or exploit individuals \nfor the purpose of forced labor."
+        },
+        {
+          "id": "S21:L6-L6",
+          "quote": "13  Often, these establishments will appear to be a single storefront, \nyet are part of a larger network."
+        },
+        {
+          "id": "S21:L6-L6",
+          "quote": "Payments for these illicit services are usually in cash, and \ntraffickers may invest the illicit proceeds in high-value assets, such as real estate and cars."
+        }
+      ]
+    },
+    {
+      "text": "Two financial indicators for bank analysts are frequent use of prepaid access cards and transactions inconsistent with a customer's expected activity, such as large cash deposits or purchases of hotel stays, transportation, and medical expenses for victims.",
+      "evidence": [
+        {
+          "id": "S21:L14-L14",
+          "quote": "An individual frequently purchases and uses prepaid access cards."
+        },
+        {
+          "id": "S21:L14-L14",
+          "quote": "33\n Transactions are inconsistent with a customer\u2019s expected activity and/or line of business in \nan apparent effort to cover trafficking victims\u2019 living costs, including housing (e.g., hotel, \nmotel, short-term rentals, or residential accommodations), transportation (e.g., airplane, taxi, \nlimousine, or rideshare services), medical expenses, pharmacies, clothing, grocery stores, and \nrestaurants, to include fast food eateries."
+        }
+      ]
+    }
+  ],
+  "checklist": [],
+  "limitations": [
+    "The evidence does not specify thresholds for SAR filing based on red flags alone, nor does it define a required number of indicators for reporting.",
+    "A generated claim with an unsupported frequency, obligation or legal-currency assertion was omitted. Other claim support still requires review."
+  ],
+  "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "latency_seconds": 5.67
+}

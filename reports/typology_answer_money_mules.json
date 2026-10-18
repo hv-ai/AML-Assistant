@@ -1,0 +1,159 @@
+{
+  "evidence": [
+    {
+      "chunk_id": "S16:L18-L18",
+      "source_id": "S16",
+      "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+      "heading": "Money laundering networks: money mules, trade-based laundering and shell companies \u00b7 PDF page 9",
+      "issuer": "FinCEN",
+      "authority_type": "advisory",
+      "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf",
+      "published_date": "2025-08-28",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 9 \u00b7 extracted text lines 18-18",
+      "pdf_page": 9,
+      "topics": [
+        "money_mules",
+        "trade_based",
+        "shell_companies"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "FINCEN ADVISORY\n9\nRed Flags Potentially Indicative of CMLN-Affiliated Money Mules\n A customer, especially a customer who presented a Chinese passport as identification during \nthe onboarding process, regularly receives funds that are not commensurate with the reported \noccupation or income, and the source of the funds cannot be attributed to payroll or other \nlegitimate sources of income ( i.e., unexplained wealth). 43\n During the onboarding process, a customer presents a Chinese passport and a visa that \ncontain the same photograph despite being allegedly issued years apart. 44  \n A customer, especially a Chinese national, creates an account at a financial institution and \nreports their occupation as a student during the onboarding process.  This customer then \nregularly deposits cash into their account or receives wire transfers notated as \u201ctuition\u201d or \n\u201cliving expenses\u201d that are not commensurate with the reported information.  After receiving \nthe funds, the customer may subsequently initiate wire transfers or P2P transactions to \nunknown individuals who are unrelated to the purpose of the wire transfers or may make \ncredit or debit card payments. \n A customer, especially a Chinese national, reports their occupation during customer \nonboarding as a student, retiree, housewife, or other low-income occupation but has \nunexplained wealth.\n A customer, especially a Chinese national with unexplained wealth, initiates a wire transfer \nrelated to a real estate purchase or purchases cashier\u2019s checks made payable to a real estate \ncompany.  The customer may be accompanied by a real estate agent at the time of purchasing \nthe cashier\u2019s checks.\n A customer, especially a Chinese national, regularly deposits large volumes of cash or \ncashier\u2019s checks, or receives multiple wire, ACH, or P2P transfers for no business or apparent \nlawful purpose.  The customer then subsequently uses the funds to purchase a cashier\u2019s check \nor disperses the funds to other individuals using P2P and wire transfers, often to other high-\nrisk jurisdictions.  \n A customer\u2019s account, especially a Chinese national, receives numerous transfers or deposits, \nand has a significant number of withdrawals or transfers, none of which appear to be related \nto routine payroll, living expenses, or customer\u2019s stated expected activity. \n A customer, especially a Chinese national, has large amounts of cash funding cashier\u2019s checks, \nwhich are then deposited at another financial institution. \n A customer, especially a Chinese national, is reluctant or refuses to provide information \nregarding the source of funds deposited or transferred into their account or acts evasive when \nquestioned about the purpose of a transaction or may explain it as repayment of a loan.  \n43. See Counterfeit Chinese Passports, supra note 10.\n44. Id.",
+      "retrieval_score": 21.73551
+    },
+    {
+      "chunk_id": "S16:L12-L12",
+      "source_id": "S16",
+      "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+      "heading": "Money laundering networks: money mules, trade-based laundering and shell companies \u00b7 PDF page 6",
+      "issuer": "FinCEN",
+      "authority_type": "advisory",
+      "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf",
+      "published_date": "2025-08-28",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 6 \u00b7 extracted text lines 12-12",
+      "pdf_page": 6,
+      "topics": [
+        "money_mules",
+        "trade_based",
+        "shell_companies"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "FINCEN ADVISORY\n6\nthese money mules may report their occupation during the account onboarding process as \n\u201cstudent,\u201d \u201chousewife,\u201d \u201cretired,\u201d \u201claborer,\u201d or other occupations that typically do not engage in \nlarge volumes of transactions.  CMLNs may also provide money mules with counterfeit Chinese \npassports to facilitate account opening and engage in other illicit financial behavior. 33  CMLNs may \nalso recruit financial institution employees to act as complicit insiders or infiltrate and place CMLN \nmembers within a financial institution to assist in CMLN operations. 34   \nCMLN money mules may also engage in \u201csmurfing\u201d operations 35 across multiple depository \ninstitution branches to deposit illicit funds into money mule accounts, or into accounts held by \nU.S.-based Chinese nationals and businesses.  CMLN money mules have also been observed \ndepositing large sums of cash during a visit, irrespective of Currency Transaction Reporting \nrequirements. 36  The money mules may also purchase cashier\u2019s checks from depository institutions \nwith U.S.-based Chinese nationals and businesses listed as the payee directly.  Alternatively, \nCMLNs may purchase cashier\u2019s checks listing the payee as a shell company the CMLNs beneficially \nown or listing the payee as a U.S.-based company or individual in the real estate industry.  \nCMLNs may use money mules or shell companies to purchase real estate, which may serve as an \ninvestment for the CMLN or a wealthy China-based client of the CMLN. 37  They may also deposit \nthe illicit funds into existing money mule accounts ( i.e., personal or shell company accounts) and \nthen use wire, automated clearing house (ACH), or peer-to-peer (P2P) transfers to send the money \nto separate accounts held by U.S.-based Chinese nationals and businesses. 38  These actions are \nintended to launder the illicit funds and make them available to the Chinese citizens, businesses, or \nnationals who purchased them from the CMLN.  According to BSA reporting, financial institutions \nthat have questioned customers, who are the ultimate beneficiaries or recipients of these funds, \nhave been told that the customer was unable to move their money out of China due to currency \ncontrol laws, and the customer paid for a service to circumvent these restrictions.  While that is \npartially true, the reality is that the CMLNs keep the beneficiaries\u2019 funds in China, and pay them \nwith laundered, illicit funds in the United States.\nTrade-Based Money Laundering\nCMLNs may also use complex TBML schemes to launder the Cartels\u2019 illicit funds.  According to \nlaw enforcement, CMLNs may use money mules and other recruits to purchase U.S. electronics \nand other luxury goods ( e.g., cell phones, automobiles, clothing, designer handbags, etc.) at various \n33. See Counterfeit Chinese Passports, supra note 10; see also FinCEN, FIN-2024-NTC1, \u201cFinCEN Notice on the Use of \nCounterfeit U.S. Passport Cards to Perpetrate Identity Theft and Fraud Schemes at Financial Institutions\u201d (Apr. 15, 2024).\n34. See U.S. Department of Homeland Security, Homeland Security Investigations Assistant Director Ricardo Mayoral, \n\u201cWritten Testimony for Senate Caucus on International Narcotics Control Hearing Entitled \u2018Chinese Money \nLaundering Organizations: Cleaning Cartel Cash\u2019\u201d (\u201cHSI Testimony\u201d) (Apr. 30, 2024), at p. 5; see also DOJ, \u201cQueens \nMan Admits Orchestrating $653 Million Money Laundering Conspiracy, Operating Unlicensed Money Transmitting \nBusiness, and Bribing Bank Employees\u201d (Feb. 22, 2022).\n35. \u201cSmurfs\u201d are teams of persons who, acting in conjunction with or on behalf of other persons, structure financial \ntransactions for the purpose of evading the requirement to file a Currency Transaction Report. \n36. See Bags of Cash, supra note 32.\n37. See FinCEN CMLN FTA, supra note 13, at pp. 18-19; see also 2024 NMLRA, supra note 3, at p. 30.\n38. See DOJ, \u201cThree Members of a Prolific Chinese Money Laundering Organization Plead Guilty to Laundering Tens of \nMillions of Dollars in Drug Proceeds\u201d (May 1, 2025).",
+      "retrieval_score": 15.71917
+    },
+    {
+      "chunk_id": "S16:L10-L10",
+      "source_id": "S16",
+      "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+      "heading": "Money laundering networks: money mules, trade-based laundering and shell companies \u00b7 PDF page 5",
+      "issuer": "FinCEN",
+      "authority_type": "advisory",
+      "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf",
+      "published_date": "2025-08-28",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 5 \u00b7 extracted text lines 10-10",
+      "pdf_page": 5,
+      "topics": [
+        "money_mules",
+        "trade_based",
+        "shell_companies"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "FINCEN ADVISORY\n5\nFinancial Typologies Associated with CMLNs Laundering  \nIllicit Cartel Proceeds\nCMLNs\u2019 Use of Mirror Transactions\nTo launder funds, CMLNs transfer value globally and sometimes simultaneously using a form \nof IVTS.  For example, once a U.S.-based CMLN receives USD from a Cartel for laundering, \nit coordinates with Mexico-based CMLN counterparts who conduct a reciprocal or \u201cmirror \ntransaction,\u201d 28 in which an equivalent amount of pesos is transferred to the Cartels\u2019 Mexico-based \naccounts, minus a nominal fee.  Through this informal value transfer, CMLNs \u201cpurchase\u201d the value \nof the Cartels\u2019 illicit USD proceeds in pesos.  This mirror transaction occurs nearly instantly and \navoids many of the risks involved with cross-border bulk cash smuggling or with depositing large \nsums of USD in Mexico-based financial institutions and thereby circumvents Mexico\u2019s USD deposit \nrestrictions.  CMLNs may also use convertible virtual currency (CVC) as an alternative means to \nconduct mirror transactions with the Cartels. 29  Similar to other mirror transactions, use of CVC \navoids the risks associated with physical transportation of cash or depositing bulk USD. \nThe U.S.-based CMLNs then sell the USD purchased from the Cartels, by advertising it on social \nmedia or leveraging personal networks, to Chinese citizens or businesses seeking to evade the \nPRC\u2019s currency control laws.30  Once identified, the buyer is connected by the U.S.-based CMLN \nto a China-based operator, who instructs the buyer to transfer an equivalent amount of RMB, \nplus a significant fee, from their bank account in China to an account controlled by the China-\nbased operator. 31  This RMB transfer internal to China avoids the PRC\u2019s currency control laws \nand effectively \u201cpurchases\u201d the control of the USD from the CMLN.  Once the transfer is made \nin China, the U.S.-based CMLN makes the purchased USD available to the Chinese buyers in the \nUnited States, typically by laundering the cash through the U.S. financial system. \nUse of Money Mules\nAs part of the laundering process, CMLNs may use money mules to deposit the illicit USD into \naccounts they are directed to open at U.S. depository institutions, or at accounts held by U.S.-based \nChinese nationals or businesses. 32  In situations where the money mules are opening accounts, \n28. The term \u201cmirror transactions\u201d or \u201cmirror transfer\u201d is used by U.S. law enforcement to describe a money laundering \ntypology involving foreign currency exchange.  The process typically happens within Chinese underground banking \nand black market peso exchange schemes and usually involves a money broker or an accountant who conducts two \nequal, but separate, transactions involving at least two parties who often are unaware of each other.  In this scheme, \nthe broker or accountant makes payments to each party using the other parties\u2019 currency, \u201cmirroring\u201d or balancing \nthe transactions.  See 2024 NMLRA, supra note 3, at pp. 29-30.\n29. See 2024 NDTA, supra note 17, at p. 47.\n30. See 2024 NMLRA, supra note 3, at pp. 29-30.\n31. The China-based CMLN operator will typically sell the RMB obtained from this transaction to Mexican or Chinese \nimporters in Mexico with business in China through a mirror transfer via the Mexico-based CMLN operator to obtain \nmore pesos.  This cycle replenishes the Mexico-based CMLN operator\u2019s supply of pesos for future transactions. \nSee 2024 NMLRA, supra note 3, at p. 30.\n32. See FinCEN CMLN FTA, supra note 13, at pp. 19-20; see also Wall Street Journal, \u201cBags of Cash From Drug Cartels \nFlood Teller Windows at U.S. Banks\u201d (\u201cBags of Cash\u201d) (May 14, 2025).",
+      "retrieval_score": 11.35994
+    },
+    {
+      "chunk_id": "S16:L4-L4",
+      "source_id": "S16",
+      "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+      "heading": "Money laundering networks: money mules, trade-based laundering and shell companies \u00b7 PDF page 2",
+      "issuer": "FinCEN",
+      "authority_type": "advisory",
+      "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf",
+      "published_date": "2025-08-28",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 2 \u00b7 extracted text lines 4-4",
+      "pdf_page": 2,
+      "topics": [
+        "money_mules",
+        "trade_based",
+        "shell_companies"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "FINCEN ADVISORY\n2\nThis Advisory supports FinCEN\u2019s work to bring awareness to, and counter, TCO-related revenue \nstreams7 and is consistent with two of the eight national anti-money laundering and countering \nthe financing of terrorism (AML/CFT) priorities (i.e., drug trafficking organization (DTO) activity \nand TCO activity).8  Further, on January 20, 2025, the President issued Executive Order (E.O.) 14157 \ndesignating certain international cartels and other TCOs as Foreign Terrorist Organizations (FTOs) \nand Specially Designated Global Terrorists (SDGTs).9  The Cartels functionally control nearly all \nillegal traffic across the southwest border of the United States, and their activities threaten the safety \nof the American people, the security of the United States, and the stability of the international order \nin the Western Hemisphere.  Treasury is committed to countering the activity of the Cartels and \nrelated actors. \nThis Advisory: (i) provides an overview of CMLNs and their connection to the Cartels, (ii) discusses \nfinancial typologies associated with CMLNs laundering the Cartels\u2019 illicit proceeds, (iii) highlights \nred flag indicators, and (iv) reminds financial institutions of their reporting requirements under \nthe Bank Secrecy Act (BSA).  The information contained in this Advisory is derived from FinCEN\u2019s \nanalysis of open-source reporting, BSA reporting, and information from law enforcement partners.\nOverview of Chinese Money Laundering Networks\nCMLNs operate in a compartmentalized fashion, leveraging relationships built on trust rather than \nworking through a hierarchical structure to launder money.  CMLNs often launder illicit proceeds \nfor a number of TCOs and may engage in some form of additional criminal activity as part of \ntheir money laundering operations, such as the provision of fake identification documents to \nindividuals opening bank accounts on their behalf. 10  CMLNs typically comprise both current and \nformer U.S.- and foreign-based Chinese passport holders ( i.e., Chinese nationals).  CMLNs often \nrecruit members of Chinese or other diaspora populations to participate in their money laundering \noperations to act as money mules, 11 money brokers, and cash couriers. 12  In the United States, \nCMLNs appear to have increasingly recruited Chinese students studying at U.S. universities, and \n7. See FinCEN, FIN-2025-A002, \u201cFinCEN Alert on Oil Smuggling Schemes on the U.S. Southwest Border Associated \nwith Mexico-Based Cartels\u201d (May 1, 2025); FinCEN, FIN-2025-A001, \u201cFinCEN Alert on Bulk Cash Smuggling and \nRepatriation by Mexico-Based Transnational Criminal Organizations\u201d (Mar. 31, 2025); FinCEN, FIN-2024-A002, \n\u201cSupplemental Advisory on the Procurement of Precursor Chemicals and Manufacturing Equipment Used for the \nSynthesis of Illicit Fentanyl and Other Synthetic Opioids\u201d (June 20, 2024); FinCEN, OFAC, and FBI, FIN-2024-NTC2, \n\u201cFinCEN, OFAC, and FBI Joint Notice on Timeshare Fraud Associated with Mexico-Based Transnational Criminal \nOrganizations\u201d (July 16, 2024).\n8. See FinCEN, \u201cAnti-Money Laundering and Countering the Financing of Terrorism National Priorities\u201d (June 30, 2021).\n9. See White House, \u201cDesignating Cartels and Other Organizations as Foreign Terrorist Organizations and Specially \nDesignated Global Terrorists\u201d (Jan. 20, 2025); U.S. Department of State, \u201cDesignation of International Cartels\u201d \n(Feb. 20, 2025).\n10. Id.; see also U.S. Immigration and Customs Enforcement, Cornerstone Report Issue #48, \u201cChinese Money Laundering \nOrganizations (CMLOs) - Use of Counterfeit Chinese Passports\u201d (\u201cCounterfeit Chinese Passports\u201d) (Jan. 2, 2024).\n11. Money mules are people who are used, wittingly or unwittingly, to transfer value, either by laundering stolen money \nor physically transporting goods or other merchandise.  See FATF, \u201cProfessional Money Laundering\u201d (July 2018), at \np. 22.  According to law enforcement, criminal organizations often target students as potential money mules. \nSee generally Federal Bureau of Investigation (FBI), \u201cMoney Mules\u201d (as of Aug. 27, 2025).\n12. See DOJ, \u201cFinal Three Members Charged in Prolific Chinese Money Laundering Scheme Plead Guilty to Laundering \nTens of Millions in Drug Proceeds\u201d (July 7, 2025).",
+      "retrieval_score": 11.19416
+    },
+    {
+      "chunk_id": "S16:L24-L24",
+      "source_id": "S16",
+      "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+      "heading": "Money laundering networks: money mules, trade-based laundering and shell companies \u00b7 PDF page 12",
+      "issuer": "FinCEN",
+      "authority_type": "advisory",
+      "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf",
+      "published_date": "2025-08-28",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 12 \u00b7 extracted text lines 24-24",
+      "pdf_page": 12,
+      "topics": [
+        "money_mules",
+        "trade_based",
+        "shell_companies"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "FINCEN ADVISORY\n12\ninstitutions also should select all other relevant suspicious activity fields, such as those in SAR fields \n36 (Money Laundering) and 38 (Other Suspicious Activities), if applicable. \nFinancial institutions should include all available information relating to the account and \nlocations involved in the reported activity, identifying information related to other entities and \npersons involved in the activity and the status of their accounts with the institution.  Financial \ninstitutions also should provide all available information regarding other domestic and foreign \nfinancial institutions involved in the activity; where appropriate, financial institutions should \nconsider filing a SAR jointly on shared suspicious activity. 50 \nFinancial institutions are required to file complete and accurate reports that incorporate all \nrelevant information available.  In situations involving violations requiring immediate attention, \nsuch as ongoing money laundering schemes, a financial institution should also immediately \nnotify, by telephone, an appropriate law enforcement authority, in addition to filing a timely \nSAR.51  Immediate notification to law enforcement is especially important in situations involving \nsuspected terrorist activity, as terrorists and terrorist organizations often rely on the international \nfinancial system to acquire funding to sustain and finance their operations and engage in acts \nof terrorism.  Additionally, FinCEN emphasizes that any financial institution and any director, \nofficer, employee, or agent of such institution who makes, or requires another to make any \nvoluntary disclosure of any possible violation of law or regulation to a government agency under \nthe BSA or its implementing regulations is protected from liability for any such disclosure.52\nFinancial institutions wanting to report suspicious transactions that may potentially relate to \nterrorist activity should call the Financial Institutions Toll-Free Hotline at (866) 556-3974  \n(7 days a week, 24 hours a day).53\nOther Relevant BSA Reporting Requirements\nFinancial institutions and other entities or persons may also have other relevant BSA reporting \nrequirements to provide information in connection with the subject of this Advisory.  These \ninclude obligations related to the Currency Transaction Report (CTR), 54  Report of Cash \nPayments Over $10,000 Received in a Trade or Business (Form 8300), 55  Report of Foreign \n50. See 31 CFR \u00a7\u00a7 1020.320(e)(1)(ii)(A)(2))(i), 1021.320(e)(1)(ii)(A)(2)), 1022.320(d)(1)(ii)(A)(2), 1023.320(e)(1)(ii)(A)(2)(i), \n1024.320(d)(1)(ii)(A)(2), 1025.320(e)(1)(ii)(A)(2), 1026.320(e)(1)(ii)(A)(2)(i), 1029.320(d)(1)(ii)(A)(2), 1030.320(d)(1)(ii)(A)(2).\n51. See, e.g., 31 CFR \u00a7\u00a7 1020.320(b)(3), 1022.320(b)(3), 1023.320(b)(3).\n52. 31 U.S.C. \u00a7 5318(g)(3); see, e.g., 31 CFR 1020.320(f). \n53. The purpose of the hotline is to expedite the delivery of this information to law enforcement.  Financial institutions \nshould immediately report any imminent threat to local-area law enforcement officials.\n54. A report of each deposit, withdrawal, exchange of currency, or other payment or transfer, by, through, or to a \nfinancial institution that involves a transaction in currency of more than $10,000.  Multiple transactions may be \naggregated when determining whether the reporting threshold has been met.  See 31 CFR \u00a7\u00a7 1010.310-313, 1020.310-\n313, 1021.310-313, 1022.310-313, 1023.310-313, 1024.310-313, and 1026.310-313.\n55. A report filed by a trade or business that receives currency in excess of $10,000 in one transaction or two or more \nrelated transactions.  The transactions are required to be reported on a joint FinCEN/Internal Revenue Service form \nwhen not otherwise required to be reported on a CTR.  See 31 CFR \u00a7\u00a7 1010.330-331.  A Form 8300 also may be filed \nvoluntarily for any suspicious transaction, even if the total amount does not exceed $10,000.",
+      "retrieval_score": 10.03353
+    }
+  ],
+  "retrieval": "BM25 keyword",
+  "question": "Explain money mule accounts and two transaction indicators an AML analyst should investigate. Do not infer criminality from nationality or occupation alone.",
+  "scope": "US banks",
+  "citation_check": "IDs and exact quotes checked; claim support needs review",
+  "cached": false,
+  "status": "supported",
+  "summary": "Money mule accounts and transaction indicators",
+  "claims": [
+    {
+      "text": "Money mule accounts are used by criminal organizations to launder illicit funds, often involving individuals who deposit or transfer funds on behalf of others, sometimes unknowingly, to obscure the origin of the money.",
+      "evidence": [
+        {
+          "id": "S16:L4-L4",
+          "quote": "Money mules are people who are used, wittingly or unwittingly, to transfer value, either by laundering stolen money \nor physically transporting goods or other merchandise."
+        }
+      ]
+    },
+    {
+      "text": "A transaction indicator is a customer reporting a low-income occupation like student or housewife while receiving funds not commensurate with that income, such as large wire transfers labeled as 'tuition' or 'living expenses' that exceed typical amounts for such roles.",
+      "evidence": [
+        {
+          "id": "S16:L18-L18",
+          "quote": "This customer then \nregularly deposits cash into their account or receives wire transfers notated as \u201ctuition\u201d or \n\u201cliving expenses\u201d that are not commensurate with the reported information."
+        },
+        {
+          "id": "S16:L12-L12",
+          "quote": "FINCEN ADVISORY\n6\nthese money mules may report their occupation during the account onboarding process as \n\u201cstudent,\u201d \u201chousewife,\u201d \u201cretired,\u201d \u201claborer,\u201d or other occupations that typically do not engage in \nlarge volumes of transactions."
+        }
+      ]
+    },
+    {
+      "text": "Another transaction indicator is the use of multiple wire or P2P transfers to unknown individuals unrelated to the stated purpose of the transaction, often to high-risk jurisdictions, following receipt of unexplained funds.",
+      "evidence": [
+        {
+          "id": "S16:L18-L18",
+          "quote": "After receiving \nthe funds, the customer may subsequently initiate wire transfers or P2P transactions to \nunknown individuals who are unrelated to the purpose of the wire transfers or may make \ncredit or debit card payments."
+        },
+        {
+          "id": "S16:L18-L18",
+          "quote": "The customer then subsequently uses the funds to purchase a cashier\u2019s check \nor disperses the funds to other individuals using P2P and wire transfers, often to other high-\nrisk jurisdictions."
+        }
+      ]
+    }
+  ],
+  "checklist": [],
+  "limitations": [
+    "The evidence does not support a determination of criminality based on nationality or occupation alone; such factors must be evaluated contextually."
+  ],
+  "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "latency_seconds": 4.38
+}

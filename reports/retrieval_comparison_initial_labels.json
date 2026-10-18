@@ -1,0 +1,3262 @@
+{
+  "status": "complete",
+  "created_at": "2026-10-18T05:18:08.653998+00:00",
+  "corpus_hash": "3724243e4f43788c9f9be71bb758add713d69b6bfc233958a15a85013cc4df8d",
+  "dataset_hash": "a83b7b97543d9ec830d2dde11990dd7b399fdf844a7c5861eb5976e1ced5199f",
+  "embedding": {
+    "ready": true,
+    "pinecone_configured": true,
+    "embedding_model": "Qwen/Qwen3-Embedding-8B",
+    "dimension": 1024,
+    "vectors": 312,
+    "method": "Hybrid \u00b7 BM25 + semantic search"
+  },
+  "methods": [
+    "bm25",
+    "dense",
+    "hybrid"
+  ],
+  "protocol": {
+    "context_k": 5,
+    "candidate_k": 12,
+    "fusion": "reciprocal rank fusion, constant 60, equal channel weights",
+    "baseline": "Existing BM25 with domain topic routing; same source routing used by dense search.",
+    "timing": "Single sequential run; query embeddings precomputed/cached. Excludes generation and cold embedding latency.",
+    "labels": "Development: phrase-derived silver labels. Challenge: agent-curated captured-passage labels frozen before comparison. Neither is independent expert gold.",
+    "recall": "Known-passage recall only; labels are not an exhaustive relevance assessment.",
+    "faithfulness": "Not measured by retrieval scores. Citation integrity does not establish semantic support."
+  },
+  "summary": {
+    "development": {
+      "bm25": {
+        "questions": 24,
+        "hit_at_5": 1,
+        "mrr_at_5": 0.9236,
+        "known_passage_recall_at_5": 0.6499,
+        "ndcg_at_5": 0.8276,
+        "retrieval_p50_ms": 2.8,
+        "retrieval_p95_ms": 3.34
+      },
+      "dense": {
+        "questions": 24,
+        "hit_at_5": 0.9583,
+        "mrr_at_5": 0.9167,
+        "known_passage_recall_at_5": 0.6221,
+        "ndcg_at_5": 0.8225,
+        "retrieval_p50_ms": 457.9,
+        "retrieval_p95_ms": 536.58
+      },
+      "hybrid": {
+        "questions": 24,
+        "hit_at_5": 1,
+        "mrr_at_5": 0.9271,
+        "known_passage_recall_at_5": 0.6776,
+        "ndcg_at_5": 0.8532,
+        "retrieval_p50_ms": 460.25,
+        "retrieval_p95_ms": 539.53
+      }
+    },
+    "challenge": {
+      "bm25": {
+        "questions": 12,
+        "hit_at_5": 0.25,
+        "mrr_at_5": 0.1875,
+        "known_passage_recall_at_5": 0.2083,
+        "ndcg_at_5": 0.1703,
+        "retrieval_p50_ms": 4.55,
+        "retrieval_p95_ms": 6.67
+      },
+      "dense": {
+        "questions": 12,
+        "hit_at_5": 0.9167,
+        "mrr_at_5": 0.7875,
+        "known_passage_recall_at_5": 0.8611,
+        "ndcg_at_5": 0.7908,
+        "retrieval_p50_ms": 441.74,
+        "retrieval_p95_ms": 546.96
+      },
+      "hybrid": {
+        "questions": 12,
+        "hit_at_5": 0.8333,
+        "mrr_at_5": 0.5139,
+        "known_passage_recall_at_5": 0.7222,
+        "ndcg_at_5": 0.5413,
+        "retrieval_p50_ms": 446.9,
+        "retrieval_p95_ms": 551.87
+      }
+    }
+  },
+  "results": [
+    {
+      "id": "ST01",
+      "question": "What is structuring and why does intent to evade reporting matter?",
+      "relevant_passage_ids": [
+        "S15:L1-L4"
+      ],
+      "split": "development",
+      "category": "structuring",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 0.79,
+      "retrieved_passage_ids": [
+        "S15:L1-L4",
+        "S15:L5-L6",
+        "S15:L7-L13",
+        "S14:L94-L94",
+        "S14:L116-L116"
+      ]
+    },
+    {
+      "id": "ST01",
+      "question": "What is structuring and why does intent to evade reporting matter?",
+      "relevant_passage_ids": [
+        "S15:L1-L4"
+      ],
+      "split": "development",
+      "category": "structuring",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 481.14,
+      "retrieved_passage_ids": [
+        "S15:L1-L4",
+        "S15:L5-L6",
+        "S14:L94-L94",
+        "S14:L102-L102",
+        "S14:L124-L124"
+      ]
+    },
+    {
+      "id": "ST01",
+      "question": "What is structuring and why does intent to evade reporting matter?",
+      "relevant_passage_ids": [
+        "S15:L1-L4"
+      ],
+      "split": "development",
+      "category": "structuring",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 482.02,
+      "retrieved_passage_ids": [
+        "S15:L1-L4",
+        "S15:L5-L6",
+        "S14:L94-L94",
+        "S15:L7-L13",
+        "S14:L116-L116"
+      ]
+    },
+    {
+      "id": "ST02",
+      "question": "According to FinCEN's structuring ruling, should suspicious activity monitoring be one size fits all?",
+      "relevant_passage_ids": [
+        "S15:L5-L6"
+      ],
+      "split": "development",
+      "category": "structuring",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 3.0,
+      "retrieved_passage_ids": [
+        "S15:L5-L6",
+        "S15:L1-L4",
+        "S15:L7-L13",
+        "S14:L40-L40",
+        "S14:L130-L130"
+      ]
+    },
+    {
+      "id": "ST02",
+      "question": "According to FinCEN's structuring ruling, should suspicious activity monitoring be one size fits all?",
+      "relevant_passage_ids": [
+        "S15:L5-L6"
+      ],
+      "split": "development",
+      "category": "structuring",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 468.52,
+      "retrieved_passage_ids": [
+        "S15:L5-L6",
+        "S15:L1-L4",
+        "S15:L7-L13",
+        "S14:L102-L102",
+        "S14:L80-L80"
+      ]
+    },
+    {
+      "id": "ST02",
+      "question": "According to FinCEN's structuring ruling, should suspicious activity monitoring be one size fits all?",
+      "relevant_passage_ids": [
+        "S15:L5-L6"
+      ],
+      "split": "development",
+      "category": "structuring",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 471.59,
+      "retrieved_passage_ids": [
+        "S15:L5-L6",
+        "S15:L1-L4",
+        "S15:L7-L13",
+        "S14:L80-L80",
+        "S14:L130-L130"
+      ]
+    },
+    {
+      "id": "ST03",
+      "question": "What structuring patterns can involve multiple branches or multiple days of cash deposits?",
+      "relevant_passage_ids": [
+        "S15:L1-L4",
+        "S15:L5-L6",
+        "S16:L12-L12",
+        "S16:L16-L16"
+      ],
+      "split": "development",
+      "category": "structuring",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.25,
+        "ndcg_at_5": 0.3903800499921017
+      },
+      "retrieval_ms": 2.32,
+      "retrieved_passage_ids": [
+        "S15:L1-L4",
+        "S14:L96-L96",
+        "S14:L52-L52",
+        "S14:L50-L50",
+        "S14:L34-L34"
+      ]
+    },
+    {
+      "id": "ST03",
+      "question": "What structuring patterns can involve multiple branches or multiple days of cash deposits?",
+      "relevant_passage_ids": [
+        "S15:L1-L4",
+        "S15:L5-L6",
+        "S16:L12-L12",
+        "S16:L16-L16"
+      ],
+      "split": "development",
+      "category": "structuring",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.5,
+        "ndcg_at_5": 0.6366824387328317
+      },
+      "retrieval_ms": 476.88,
+      "retrieved_passage_ids": [
+        "S15:L1-L4",
+        "S15:L5-L6",
+        "S14:L96-L96",
+        "S14:L118-L118",
+        "S14:L102-L102"
+      ]
+    },
+    {
+      "id": "ST03",
+      "question": "What structuring patterns can involve multiple branches or multiple days of cash deposits?",
+      "relevant_passage_ids": [
+        "S15:L1-L4",
+        "S15:L5-L6",
+        "S16:L12-L12",
+        "S16:L16-L16"
+      ],
+      "split": "development",
+      "category": "structuring",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.5,
+        "ndcg_at_5": 0.5855700749881525
+      },
+      "retrieval_ms": 479.29,
+      "retrieved_passage_ids": [
+        "S15:L1-L4",
+        "S14:L96-L96",
+        "S15:L5-L6",
+        "S14:L50-L50",
+        "S14:L52-L52"
+      ]
+    },
+    {
+      "id": "MU01",
+      "question": "What is a money mule and how can a mule account be used to move illicit proceeds?",
+      "relevant_passage_ids": [
+        "S14:L6-L6",
+        "S14:L8-L8",
+        "S14:L22-L22",
+        "S14:L24-L24",
+        "S14:L42-L42",
+        "S14:L46-L46",
+        "S14:L48-L48",
+        "S14:L50-L50",
+        "S14:L52-L52",
+        "S14:L86-L86",
+        "S14:L118-L118",
+        "S16:L4-L4",
+        "S16:L10-L10",
+        "S16:L12-L12",
+        "S16:L18-L18"
+      ],
+      "split": "development",
+      "category": "money_mules",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.26666666666666666,
+        "ndcg_at_5": 0.8539316501572937
+      },
+      "retrieval_ms": 3.06,
+      "retrieved_passage_ids": [
+        "S16:L12-L12",
+        "S16:L10-L10",
+        "S16:L4-L4",
+        "S16:L16-L16",
+        "S14:L52-L52"
+      ]
+    },
+    {
+      "id": "MU01",
+      "question": "What is a money mule and how can a mule account be used to move illicit proceeds?",
+      "relevant_passage_ids": [
+        "S14:L6-L6",
+        "S14:L8-L8",
+        "S14:L22-L22",
+        "S14:L24-L24",
+        "S14:L42-L42",
+        "S14:L46-L46",
+        "S14:L48-L48",
+        "S14:L50-L50",
+        "S14:L52-L52",
+        "S14:L86-L86",
+        "S14:L118-L118",
+        "S16:L4-L4",
+        "S16:L10-L10",
+        "S16:L12-L12",
+        "S16:L18-L18"
+      ],
+      "split": "development",
+      "category": "money_mules",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.3333333333333333,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 455.66,
+      "retrieved_passage_ids": [
+        "S14:L50-L50",
+        "S14:L48-L48",
+        "S16:L4-L4",
+        "S16:L12-L12",
+        "S16:L10-L10"
+      ]
+    },
+    {
+      "id": "MU01",
+      "question": "What is a money mule and how can a mule account be used to move illicit proceeds?",
+      "relevant_passage_ids": [
+        "S14:L6-L6",
+        "S14:L8-L8",
+        "S14:L22-L22",
+        "S14:L24-L24",
+        "S14:L42-L42",
+        "S14:L46-L46",
+        "S14:L48-L48",
+        "S14:L50-L50",
+        "S14:L52-L52",
+        "S14:L86-L86",
+        "S14:L118-L118",
+        "S16:L4-L4",
+        "S16:L10-L10",
+        "S16:L12-L12",
+        "S16:L18-L18"
+      ],
+      "split": "development",
+      "category": "money_mules",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.3333333333333333,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 458.81,
+      "retrieved_passage_ids": [
+        "S16:L12-L12",
+        "S16:L4-L4",
+        "S16:L10-L10",
+        "S14:L50-L50",
+        "S14:L48-L48"
+      ]
+    },
+    {
+      "id": "MU02",
+      "question": "What financial red flags may indicate money mule account activity?",
+      "relevant_passage_ids": [
+        "S16:L4-L4",
+        "S16:L10-L10",
+        "S16:L12-L12",
+        "S16:L18-L18"
+      ],
+      "split": "development",
+      "category": "money_mules",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 0.3333333333333333,
+        "known_passage_recall_at_5": 0.5,
+        "ndcg_at_5": 0.36331756126716835
+      },
+      "retrieval_ms": 2.89,
+      "retrieved_passage_ids": [
+        "S16:L16-L16",
+        "S16:L20-L20",
+        "S16:L18-L18",
+        "S16:L4-L4",
+        "S14:L50-L50"
+      ]
+    },
+    {
+      "id": "MU02",
+      "question": "What financial red flags may indicate money mule account activity?",
+      "relevant_passage_ids": [
+        "S16:L4-L4",
+        "S16:L10-L10",
+        "S16:L12-L12",
+        "S16:L18-L18"
+      ],
+      "split": "development",
+      "category": "money_mules",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.5,
+        "ndcg_at_5": 0.5585075862632192
+      },
+      "retrieval_ms": 561.95,
+      "retrieved_passage_ids": [
+        "S16:L18-L18",
+        "S14:L50-L50",
+        "S16:L16-L16",
+        "S16:L12-L12",
+        "S14:L48-L48"
+      ]
+    },
+    {
+      "id": "MU02",
+      "question": "What financial red flags may indicate money mule account activity?",
+      "relevant_passage_ids": [
+        "S16:L4-L4",
+        "S16:L10-L10",
+        "S16:L12-L12",
+        "S16:L18-L18"
+      ],
+      "split": "development",
+      "category": "money_mules",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 0.5,
+        "known_passage_recall_at_5": 0.5,
+        "ndcg_at_5": 0.3973220069685352
+      },
+      "retrieval_ms": 564.91,
+      "retrieved_passage_ids": [
+        "S16:L16-L16",
+        "S16:L18-L18",
+        "S14:L50-L50",
+        "S16:L20-L20",
+        "S16:L12-L12"
+      ]
+    },
+    {
+      "id": "MU03",
+      "question": "Can money mules be unwitting rather than knowingly participating in money laundering?",
+      "relevant_passage_ids": [
+        "S14:L46-L46",
+        "S14:L48-L48",
+        "S14:L50-L50",
+        "S14:L98-L98",
+        "S14:L140-L140",
+        "S16:L4-L4",
+        "S16:L10-L10",
+        "S16:L14-L14"
+      ],
+      "split": "development",
+      "category": "money_mules",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 0.5,
+        "known_passage_recall_at_5": 0.375,
+        "ndcg_at_5": 0.5296347172140421
+      },
+      "retrieval_ms": 2.37,
+      "retrieved_passage_ids": [
+        "S16:L6-L6",
+        "S16:L14-L14",
+        "S16:L4-L4",
+        "S14:L48-L48",
+        "S14:L52-L52"
+      ]
+    },
+    {
+      "id": "MU03",
+      "question": "Can money mules be unwitting rather than knowingly participating in money laundering?",
+      "relevant_passage_ids": [
+        "S14:L46-L46",
+        "S14:L48-L48",
+        "S14:L50-L50",
+        "S14:L98-L98",
+        "S14:L140-L140",
+        "S16:L4-L4",
+        "S16:L10-L10",
+        "S16:L14-L14"
+      ],
+      "split": "development",
+      "category": "money_mules",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.375,
+        "ndcg_at_5": 0.7227265726449519
+      },
+      "retrieval_ms": 449.91,
+      "retrieved_passage_ids": [
+        "S14:L48-L48",
+        "S14:L50-L50",
+        "S16:L4-L4",
+        "S16:L12-L12",
+        "S16:L16-L16"
+      ]
+    },
+    {
+      "id": "MU03",
+      "question": "Can money mules be unwitting rather than knowingly participating in money laundering?",
+      "relevant_passage_ids": [
+        "S14:L46-L46",
+        "S14:L48-L48",
+        "S14:L50-L50",
+        "S14:L98-L98",
+        "S14:L140-L140",
+        "S16:L4-L4",
+        "S16:L10-L10",
+        "S16:L14-L14"
+      ],
+      "split": "development",
+      "category": "money_mules",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.375,
+        "ndcg_at_5": 0.7227265726449519
+      },
+      "retrieval_ms": 452.41,
+      "retrieved_passage_ids": [
+        "S14:L48-L48",
+        "S16:L4-L4",
+        "S14:L50-L50",
+        "S16:L6-L6",
+        "S16:L12-L12"
+      ]
+    },
+    {
+      "id": "TB01",
+      "question": "What is trade-based money laundering and how does it involve goods and trade transactions?",
+      "relevant_passage_ids": [
+        "S14:L6-L6",
+        "S14:L30-L30",
+        "S14:L34-L34",
+        "S14:L66-L66",
+        "S16:L6-L6",
+        "S16:L8-L8",
+        "S16:L12-L12",
+        "S16:L16-L16",
+        "S16:L20-L20",
+        "S17:L2-L2",
+        "S17:L4-L4",
+        "S17:L6-L6",
+        "S17:L8-L8",
+        "S17:L10-L10",
+        "S17:L12-L12",
+        "S17:L14-L14",
+        "S17:L16-L16"
+      ],
+      "split": "development",
+      "category": "trade_based",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.23529411764705882,
+        "ndcg_at_5": 0.7860137352654724
+      },
+      "retrieval_ms": 1.85,
+      "retrieved_passage_ids": [
+        "S17:L4-L4",
+        "S16:L14-L14",
+        "S17:L10-L10",
+        "S17:L14-L14",
+        "S17:L12-L12"
+      ]
+    },
+    {
+      "id": "TB01",
+      "question": "What is trade-based money laundering and how does it involve goods and trade transactions?",
+      "relevant_passage_ids": [
+        "S14:L6-L6",
+        "S14:L30-L30",
+        "S14:L34-L34",
+        "S14:L66-L66",
+        "S16:L6-L6",
+        "S16:L8-L8",
+        "S16:L12-L12",
+        "S16:L16-L16",
+        "S16:L20-L20",
+        "S17:L2-L2",
+        "S17:L4-L4",
+        "S17:L6-L6",
+        "S17:L8-L8",
+        "S17:L10-L10",
+        "S17:L12-L12",
+        "S17:L14-L14",
+        "S17:L16-L16"
+      ],
+      "split": "development",
+      "category": "trade_based",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.29411764705882354,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 427.25,
+      "retrieved_passage_ids": [
+        "S17:L10-L10",
+        "S17:L4-L4",
+        "S16:L6-L6",
+        "S17:L14-L14",
+        "S17:L12-L12"
+      ]
+    },
+    {
+      "id": "TB01",
+      "question": "What is trade-based money laundering and how does it involve goods and trade transactions?",
+      "relevant_passage_ids": [
+        "S14:L6-L6",
+        "S14:L30-L30",
+        "S14:L34-L34",
+        "S14:L66-L66",
+        "S16:L6-L6",
+        "S16:L8-L8",
+        "S16:L12-L12",
+        "S16:L16-L16",
+        "S16:L20-L20",
+        "S17:L2-L2",
+        "S17:L4-L4",
+        "S17:L6-L6",
+        "S17:L8-L8",
+        "S17:L10-L10",
+        "S17:L12-L12",
+        "S17:L14-L14",
+        "S17:L16-L16"
+      ],
+      "split": "development",
+      "category": "trade_based",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.29411764705882354,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 429.18,
+      "retrieved_passage_ids": [
+        "S17:L4-L4",
+        "S17:L10-L10",
+        "S17:L14-L14",
+        "S17:L12-L12",
+        "S17:L6-L6"
+      ]
+    },
+    {
+      "id": "TB02",
+      "question": "What trade-based money laundering indicators involve invoices, trade documents, commodity prices and payments?",
+      "relevant_passage_ids": [
+        "S17:L12-L12"
+      ],
+      "split": "development",
+      "category": "trade_based",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 1.44,
+      "retrieved_passage_ids": [
+        "S17:L12-L12",
+        "S17:L10-L10",
+        "S17:L14-L14",
+        "S17:L6-L6",
+        "S17:L4-L4"
+      ]
+    },
+    {
+      "id": "TB02",
+      "question": "What trade-based money laundering indicators involve invoices, trade documents, commodity prices and payments?",
+      "relevant_passage_ids": [
+        "S17:L12-L12"
+      ],
+      "split": "development",
+      "category": "trade_based",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 460.14,
+      "retrieved_passage_ids": [
+        "S17:L12-L12",
+        "S17:L10-L10",
+        "S17:L14-L14",
+        "S17:L6-L6",
+        "S17:L4-L4"
+      ]
+    },
+    {
+      "id": "TB02",
+      "question": "What trade-based money laundering indicators involve invoices, trade documents, commodity prices and payments?",
+      "relevant_passage_ids": [
+        "S17:L12-L12"
+      ],
+      "split": "development",
+      "category": "trade_based",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 461.68,
+      "retrieved_passage_ids": [
+        "S17:L12-L12",
+        "S17:L10-L10",
+        "S17:L14-L14",
+        "S17:L6-L6",
+        "S17:L4-L4"
+      ]
+    },
+    {
+      "id": "TB03",
+      "question": "Does a single trade-based money laundering risk indicator conclusively establish suspicious activity?",
+      "relevant_passage_ids": [
+        "S17:L4-L4",
+        "S17:L6-L6"
+      ],
+      "split": "development",
+      "category": "trade_based",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 0.9197207891481876
+      },
+      "retrieval_ms": 2.48,
+      "retrieved_passage_ids": [
+        "S17:L6-L6",
+        "S17:L16-L16",
+        "S17:L4-L4",
+        "S17:L10-L10",
+        "S17:L14-L14"
+      ]
+    },
+    {
+      "id": "TB03",
+      "question": "Does a single trade-based money laundering risk indicator conclusively establish suspicious activity?",
+      "relevant_passage_ids": [
+        "S17:L4-L4",
+        "S17:L6-L6"
+      ],
+      "split": "development",
+      "category": "trade_based",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 0.9197207891481876
+      },
+      "retrieval_ms": 461.59,
+      "retrieved_passage_ids": [
+        "S17:L6-L6",
+        "S17:L16-L16",
+        "S17:L4-L4",
+        "S17:L10-L10",
+        "S17:L14-L14"
+      ]
+    },
+    {
+      "id": "TB03",
+      "question": "Does a single trade-based money laundering risk indicator conclusively establish suspicious activity?",
+      "relevant_passage_ids": [
+        "S17:L4-L4",
+        "S17:L6-L6"
+      ],
+      "split": "development",
+      "category": "trade_based",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 0.9197207891481876
+      },
+      "retrieval_ms": 464.18,
+      "retrieved_passage_ids": [
+        "S17:L6-L6",
+        "S17:L16-L16",
+        "S17:L4-L4",
+        "S17:L10-L10",
+        "S17:L14-L14"
+      ]
+    },
+    {
+      "id": "SH01",
+      "question": "How do shell companies and front companies differ in money laundering?",
+      "relevant_passage_ids": [
+        "S14:L14-L14",
+        "S14:L34-L34",
+        "S14:L50-L50",
+        "S14:L52-L52",
+        "S14:L62-L62",
+        "S14:L64-L64",
+        "S14:L96-L96",
+        "S14:L98-L98",
+        "S14:L100-L100",
+        "S14:L112-L112",
+        "S14:L118-L118",
+        "S14:L120-L120",
+        "S14:L122-L122",
+        "S14:L124-L124",
+        "S14:L132-L132",
+        "S14:L136-L136",
+        "S14:L138-L138",
+        "S18:L1-L5",
+        "S18:L6-L9",
+        "S18:L10-L13",
+        "S18:L14-L21",
+        "S18:L22-L31",
+        "S18:L32-L33",
+        "S18:L34-L34"
+      ],
+      "split": "development",
+      "category": "shell_companies",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.20833333333333334,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 2.39,
+      "retrieved_passage_ids": [
+        "S14:L124-L124",
+        "S18:L1-L5",
+        "S18:L22-L31",
+        "S18:L14-L21",
+        "S18:L10-L13"
+      ]
+    },
+    {
+      "id": "SH01",
+      "question": "How do shell companies and front companies differ in money laundering?",
+      "relevant_passage_ids": [
+        "S14:L14-L14",
+        "S14:L34-L34",
+        "S14:L50-L50",
+        "S14:L52-L52",
+        "S14:L62-L62",
+        "S14:L64-L64",
+        "S14:L96-L96",
+        "S14:L98-L98",
+        "S14:L100-L100",
+        "S14:L112-L112",
+        "S14:L118-L118",
+        "S14:L120-L120",
+        "S14:L122-L122",
+        "S14:L124-L124",
+        "S14:L132-L132",
+        "S14:L136-L136",
+        "S14:L138-L138",
+        "S18:L1-L5",
+        "S18:L6-L9",
+        "S18:L10-L13",
+        "S18:L14-L21",
+        "S18:L22-L31",
+        "S18:L32-L33",
+        "S18:L34-L34"
+      ],
+      "split": "development",
+      "category": "shell_companies",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.20833333333333334,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 483.05,
+      "retrieved_passage_ids": [
+        "S18:L1-L5",
+        "S14:L124-L124",
+        "S14:L118-L118",
+        "S18:L22-L31",
+        "S18:L32-L33"
+      ]
+    },
+    {
+      "id": "SH01",
+      "question": "How do shell companies and front companies differ in money laundering?",
+      "relevant_passage_ids": [
+        "S14:L14-L14",
+        "S14:L34-L34",
+        "S14:L50-L50",
+        "S14:L52-L52",
+        "S14:L62-L62",
+        "S14:L64-L64",
+        "S14:L96-L96",
+        "S14:L98-L98",
+        "S14:L100-L100",
+        "S14:L112-L112",
+        "S14:L118-L118",
+        "S14:L120-L120",
+        "S14:L122-L122",
+        "S14:L124-L124",
+        "S14:L132-L132",
+        "S14:L136-L136",
+        "S14:L138-L138",
+        "S18:L1-L5",
+        "S18:L6-L9",
+        "S18:L10-L13",
+        "S18:L14-L21",
+        "S18:L22-L31",
+        "S18:L32-L33",
+        "S18:L34-L34"
+      ],
+      "split": "development",
+      "category": "shell_companies",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.20833333333333334,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 485.54,
+      "retrieved_passage_ids": [
+        "S14:L124-L124",
+        "S18:L1-L5",
+        "S18:L22-L31",
+        "S18:L14-L21",
+        "S18:L32-L33"
+      ]
+    },
+    {
+      "id": "SH02",
+      "question": "What suspicious payment and ownership indicators can arise with shell companies?",
+      "relevant_passage_ids": [
+        "S18:L1-L5",
+        "S18:L6-L9",
+        "S18:L22-L31"
+      ],
+      "split": "development",
+      "category": "shell_companies",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 0.9674679834891693
+      },
+      "retrieval_ms": 2.26,
+      "retrieved_passage_ids": [
+        "S18:L22-L31",
+        "S18:L6-L9",
+        "S18:L14-L21",
+        "S18:L1-L5",
+        "S18:L32-L33"
+      ]
+    },
+    {
+      "id": "SH02",
+      "question": "What suspicious payment and ownership indicators can arise with shell companies?",
+      "relevant_passage_ids": [
+        "S18:L1-L5",
+        "S18:L6-L9",
+        "S18:L22-L31"
+      ],
+      "split": "development",
+      "category": "shell_companies",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.6666666666666666,
+        "ndcg_at_5": 0.7653606369886217
+      },
+      "retrieval_ms": 439.36,
+      "retrieved_passage_ids": [
+        "S18:L22-L31",
+        "S18:L1-L5",
+        "S18:L32-L33",
+        "S18:L14-L21",
+        "S14:L118-L118"
+      ]
+    },
+    {
+      "id": "SH02",
+      "question": "What suspicious payment and ownership indicators can arise with shell companies?",
+      "relevant_passage_ids": [
+        "S18:L1-L5",
+        "S18:L6-L9",
+        "S18:L22-L31"
+      ],
+      "split": "development",
+      "category": "shell_companies",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 0.9469024295259745
+      },
+      "retrieval_ms": 441.72,
+      "retrieved_passage_ids": [
+        "S18:L22-L31",
+        "S18:L1-L5",
+        "S18:L14-L21",
+        "S18:L32-L33",
+        "S18:L6-L9"
+      ]
+    },
+    {
+      "id": "SH03",
+      "question": "Are all shell companies illegal or used for money laundering?",
+      "relevant_passage_ids": [
+        "S18:L1-L5",
+        "S18:L22-L31"
+      ],
+      "split": "development",
+      "category": "shell_companies",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.5,
+        "ndcg_at_5": 0.6131471927654584
+      },
+      "retrieval_ms": 2.73,
+      "retrieved_passage_ids": [
+        "S18:L1-L5",
+        "S18:L14-L21",
+        "S18:L32-L33",
+        "S18:L10-L13",
+        "S18:L6-L9"
+      ]
+    },
+    {
+      "id": "SH03",
+      "question": "Are all shell companies illegal or used for money laundering?",
+      "relevant_passage_ids": [
+        "S18:L1-L5",
+        "S18:L22-L31"
+      ],
+      "split": "development",
+      "category": "shell_companies",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 473.54,
+      "retrieved_passage_ids": [
+        "S18:L1-L5",
+        "S18:L22-L31",
+        "S18:L34-L34",
+        "S14:L118-L118",
+        "S18:L32-L33"
+      ]
+    },
+    {
+      "id": "SH03",
+      "question": "Are all shell companies illegal or used for money laundering?",
+      "relevant_passage_ids": [
+        "S18:L1-L5",
+        "S18:L22-L31"
+      ],
+      "split": "development",
+      "category": "shell_companies",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 476.39,
+      "retrieved_passage_ids": [
+        "S18:L1-L5",
+        "S18:L22-L31",
+        "S18:L32-L33",
+        "S18:L34-L34",
+        "S18:L14-L21"
+      ]
+    },
+    {
+      "id": "DA01",
+      "question": "How are digital assets and stablecoins used to launder digital asset investment scam proceeds?",
+      "relevant_passage_ids": [
+        "S14:L2-L2",
+        "S14:L6-L6",
+        "S14:L8-L8",
+        "S14:L12-L12",
+        "S14:L14-L14",
+        "S14:L22-L22",
+        "S14:L26-L26",
+        "S14:L30-L30",
+        "S14:L36-L36",
+        "S14:L38-L38",
+        "S14:L40-L40",
+        "S14:L42-L42",
+        "S14:L44-L44",
+        "S14:L46-L46",
+        "S14:L50-L50",
+        "S14:L52-L52",
+        "S14:L54-L54",
+        "S14:L56-L56",
+        "S14:L74-L74",
+        "S14:L76-L76",
+        "S14:L90-L90",
+        "S14:L94-L94",
+        "S14:L98-L98",
+        "S14:L100-L100",
+        "S14:L102-L102",
+        "S14:L104-L104",
+        "S14:L106-L106",
+        "S14:L108-L108",
+        "S14:L120-L120",
+        "S14:L124-L124",
+        "S14:L132-L132",
+        "S19:L2-L2",
+        "S19:L4-L4",
+        "S19:L6-L6",
+        "S19:L8-L8",
+        "S19:L10-L10",
+        "S19:L12-L12",
+        "S19:L14-L14",
+        "S19:L16-L16",
+        "S19:L18-L18",
+        "S19:L20-L20",
+        "S19:L22-L22"
+      ],
+      "split": "development",
+      "category": "digital_assets",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.11904761904761904,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 3.61,
+      "retrieved_passage_ids": [
+        "S19:L22-L22",
+        "S19:L18-L18",
+        "S19:L12-L12",
+        "S19:L14-L14",
+        "S19:L8-L8"
+      ]
+    },
+    {
+      "id": "DA01",
+      "question": "How are digital assets and stablecoins used to launder digital asset investment scam proceeds?",
+      "relevant_passage_ids": [
+        "S14:L2-L2",
+        "S14:L6-L6",
+        "S14:L8-L8",
+        "S14:L12-L12",
+        "S14:L14-L14",
+        "S14:L22-L22",
+        "S14:L26-L26",
+        "S14:L30-L30",
+        "S14:L36-L36",
+        "S14:L38-L38",
+        "S14:L40-L40",
+        "S14:L42-L42",
+        "S14:L44-L44",
+        "S14:L46-L46",
+        "S14:L50-L50",
+        "S14:L52-L52",
+        "S14:L54-L54",
+        "S14:L56-L56",
+        "S14:L74-L74",
+        "S14:L76-L76",
+        "S14:L90-L90",
+        "S14:L94-L94",
+        "S14:L98-L98",
+        "S14:L100-L100",
+        "S14:L102-L102",
+        "S14:L104-L104",
+        "S14:L106-L106",
+        "S14:L108-L108",
+        "S14:L120-L120",
+        "S14:L124-L124",
+        "S14:L132-L132",
+        "S19:L2-L2",
+        "S19:L4-L4",
+        "S19:L6-L6",
+        "S19:L8-L8",
+        "S19:L10-L10",
+        "S19:L12-L12",
+        "S19:L14-L14",
+        "S19:L16-L16",
+        "S19:L18-L18",
+        "S19:L20-L20",
+        "S19:L22-L22"
+      ],
+      "split": "development",
+      "category": "digital_assets",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.11904761904761904,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 425.34,
+      "retrieved_passage_ids": [
+        "S19:L18-L18",
+        "S14:L100-L100",
+        "S19:L16-L16",
+        "S19:L22-L22",
+        "S19:L14-L14"
+      ]
+    },
+    {
+      "id": "DA01",
+      "question": "How are digital assets and stablecoins used to launder digital asset investment scam proceeds?",
+      "relevant_passage_ids": [
+        "S14:L2-L2",
+        "S14:L6-L6",
+        "S14:L8-L8",
+        "S14:L12-L12",
+        "S14:L14-L14",
+        "S14:L22-L22",
+        "S14:L26-L26",
+        "S14:L30-L30",
+        "S14:L36-L36",
+        "S14:L38-L38",
+        "S14:L40-L40",
+        "S14:L42-L42",
+        "S14:L44-L44",
+        "S14:L46-L46",
+        "S14:L50-L50",
+        "S14:L52-L52",
+        "S14:L54-L54",
+        "S14:L56-L56",
+        "S14:L74-L74",
+        "S14:L76-L76",
+        "S14:L90-L90",
+        "S14:L94-L94",
+        "S14:L98-L98",
+        "S14:L100-L100",
+        "S14:L102-L102",
+        "S14:L104-L104",
+        "S14:L106-L106",
+        "S14:L108-L108",
+        "S14:L120-L120",
+        "S14:L124-L124",
+        "S14:L132-L132",
+        "S19:L2-L2",
+        "S19:L4-L4",
+        "S19:L6-L6",
+        "S19:L8-L8",
+        "S19:L10-L10",
+        "S19:L12-L12",
+        "S19:L14-L14",
+        "S19:L16-L16",
+        "S19:L18-L18",
+        "S19:L20-L20",
+        "S19:L22-L22"
+      ],
+      "split": "development",
+      "category": "digital_assets",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.11904761904761904,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 429.05,
+      "retrieved_passage_ids": [
+        "S19:L18-L18",
+        "S19:L22-L22",
+        "S19:L12-L12",
+        "S19:L14-L14",
+        "S19:L16-L16"
+      ]
+    },
+    {
+      "id": "DA02",
+      "question": "What bank payment red flags may indicate a customer is a victim of a digital asset investment scam?",
+      "relevant_passage_ids": [
+        "S19:L20-L20"
+      ],
+      "split": "development",
+      "category": "digital_assets",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 3.16,
+      "retrieved_passage_ids": [
+        "S19:L20-L20",
+        "S19:L18-L18",
+        "S19:L22-L22",
+        "S19:L4-L4",
+        "S19:L14-L14"
+      ]
+    },
+    {
+      "id": "DA02",
+      "question": "What bank payment red flags may indicate a customer is a victim of a digital asset investment scam?",
+      "relevant_passage_ids": [
+        "S19:L20-L20"
+      ],
+      "split": "development",
+      "category": "digital_assets",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 421.31,
+      "retrieved_passage_ids": [
+        "S19:L20-L20",
+        "S19:L22-L22",
+        "S19:L18-L18",
+        "S19:L14-L14",
+        "S19:L2-L2"
+      ]
+    },
+    {
+      "id": "DA02",
+      "question": "What bank payment red flags may indicate a customer is a victim of a digital asset investment scam?",
+      "relevant_passage_ids": [
+        "S19:L20-L20"
+      ],
+      "split": "development",
+      "category": "digital_assets",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 424.54,
+      "retrieved_passage_ids": [
+        "S19:L20-L20",
+        "S19:L18-L18",
+        "S19:L22-L22",
+        "S19:L14-L14",
+        "S19:L4-L4"
+      ]
+    },
+    {
+      "id": "DA03",
+      "question": "What laundering indicators does the FinCEN digital asset investment scam centers alert describe?",
+      "relevant_passage_ids": [
+        "S19:L2-L2",
+        "S19:L8-L8",
+        "S19:L10-L10",
+        "S19:L12-L12",
+        "S19:L16-L16",
+        "S19:L18-L18",
+        "S19:L22-L22",
+        "S19:L26-L26",
+        "S19:L30-L30",
+        "S19:L32-L32"
+      ],
+      "split": "development",
+      "category": "digital_assets",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.3,
+        "ndcg_at_5": 0.6843515475204855
+      },
+      "retrieval_ms": 3.22,
+      "retrieved_passage_ids": [
+        "S19:L22-L22",
+        "S19:L18-L18",
+        "S19:L4-L4",
+        "S19:L6-L6",
+        "S19:L2-L2"
+      ]
+    },
+    {
+      "id": "DA03",
+      "question": "What laundering indicators does the FinCEN digital asset investment scam centers alert describe?",
+      "relevant_passage_ids": [
+        "S19:L2-L2",
+        "S19:L8-L8",
+        "S19:L10-L10",
+        "S19:L12-L12",
+        "S19:L16-L16",
+        "S19:L18-L18",
+        "S19:L22-L22",
+        "S19:L26-L26",
+        "S19:L30-L30",
+        "S19:L32-L32"
+      ],
+      "split": "development",
+      "category": "digital_assets",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.3,
+        "ndcg_at_5": 0.6843515475204855
+      },
+      "retrieval_ms": 468.65,
+      "retrieved_passage_ids": [
+        "S19:L22-L22",
+        "S19:L2-L2",
+        "S19:L20-L20",
+        "S19:L14-L14",
+        "S19:L18-L18"
+      ]
+    },
+    {
+      "id": "DA03",
+      "question": "What laundering indicators does the FinCEN digital asset investment scam centers alert describe?",
+      "relevant_passage_ids": [
+        "S19:L2-L2",
+        "S19:L8-L8",
+        "S19:L10-L10",
+        "S19:L12-L12",
+        "S19:L16-L16",
+        "S19:L18-L18",
+        "S19:L22-L22",
+        "S19:L26-L26",
+        "S19:L30-L30",
+        "S19:L32-L32"
+      ],
+      "split": "development",
+      "category": "digital_assets",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.3,
+        "ndcg_at_5": 0.7227265726449519
+      },
+      "retrieval_ms": 472.1,
+      "retrieved_passage_ids": [
+        "S19:L22-L22",
+        "S19:L18-L18",
+        "S19:L2-L2",
+        "S19:L4-L4",
+        "S19:L14-L14"
+      ]
+    },
+    {
+      "id": "CO01",
+      "question": "How can foreign public corruption proceeds be laundered through companies and financial intermediaries?",
+      "relevant_passage_ids": [
+        "S20:L2-L2",
+        "S20:L4-L4",
+        "S20:L6-L6",
+        "S20:L10-L10",
+        "S20:L12-L12",
+        "S20:L14-L14",
+        "S20:L16-L16",
+        "S20:L20-L20",
+        "S20:L24-L24",
+        "S20:L26-L26"
+      ],
+      "split": "development",
+      "category": "corruption",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.4,
+        "ndcg_at_5": 0.830419897363192
+      },
+      "retrieval_ms": 2.89,
+      "retrieved_passage_ids": [
+        "S20:L2-L2",
+        "S20:L16-L16",
+        "S20:L8-L8",
+        "S20:L12-L12",
+        "S20:L6-L6"
+      ]
+    },
+    {
+      "id": "CO01",
+      "question": "How can foreign public corruption proceeds be laundered through companies and financial intermediaries?",
+      "relevant_passage_ids": [
+        "S20:L2-L2",
+        "S20:L4-L4",
+        "S20:L6-L6",
+        "S20:L10-L10",
+        "S20:L12-L12",
+        "S20:L14-L14",
+        "S20:L16-L16",
+        "S20:L20-L20",
+        "S20:L24-L24",
+        "S20:L26-L26"
+      ],
+      "split": "development",
+      "category": "corruption",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.3,
+        "ndcg_at_5": 0.6843515475204855
+      },
+      "retrieval_ms": 421.28,
+      "retrieved_passage_ids": [
+        "S20:L12-L12",
+        "S20:L2-L2",
+        "S14:L62-L62",
+        "S14:L64-L64",
+        "S20:L6-L6"
+      ]
+    },
+    {
+      "id": "CO01",
+      "question": "How can foreign public corruption proceeds be laundered through companies and financial intermediaries?",
+      "relevant_passage_ids": [
+        "S20:L2-L2",
+        "S20:L4-L4",
+        "S20:L6-L6",
+        "S20:L10-L10",
+        "S20:L12-L12",
+        "S20:L14-L14",
+        "S20:L16-L16",
+        "S20:L20-L20",
+        "S20:L24-L24",
+        "S20:L26-L26"
+      ],
+      "split": "development",
+      "category": "corruption",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.3,
+        "ndcg_at_5": 0.6992148198508501
+      },
+      "retrieval_ms": 424.26,
+      "retrieved_passage_ids": [
+        "S20:L2-L2",
+        "S20:L12-L12",
+        "S20:L8-L8",
+        "S20:L6-L6",
+        "S14:L62-L62"
+      ]
+    },
+    {
+      "id": "CO02",
+      "question": "What financial red flags of foreign public corruption involve government contracts and unexplained wealth?",
+      "relevant_passage_ids": [
+        "S20:L12-L12",
+        "S20:L16-L16"
+      ],
+      "split": "development",
+      "category": "corruption",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 0.8503449055347546
+      },
+      "retrieval_ms": 2.63,
+      "retrieved_passage_ids": [
+        "S20:L16-L16",
+        "S20:L4-L4",
+        "S20:L10-L10",
+        "S20:L6-L6",
+        "S20:L12-L12"
+      ]
+    },
+    {
+      "id": "CO02",
+      "question": "What financial red flags of foreign public corruption involve government contracts and unexplained wealth?",
+      "relevant_passage_ids": [
+        "S20:L12-L12",
+        "S20:L16-L16"
+      ],
+      "split": "development",
+      "category": "corruption",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 0.9197207891481876
+      },
+      "retrieval_ms": 427.5,
+      "retrieved_passage_ids": [
+        "S20:L16-L16",
+        "S20:L18-L18",
+        "S20:L12-L12",
+        "S20:L6-L6",
+        "S20:L2-L2"
+      ]
+    },
+    {
+      "id": "CO02",
+      "question": "What financial red flags of foreign public corruption involve government contracts and unexplained wealth?",
+      "relevant_passage_ids": [
+        "S20:L12-L12",
+        "S20:L16-L16"
+      ],
+      "split": "development",
+      "category": "corruption",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 430.24,
+      "retrieved_passage_ids": [
+        "S20:L16-L16",
+        "S20:L12-L12",
+        "S20:L6-L6",
+        "S20:L18-L18",
+        "S20:L10-L10"
+      ]
+    },
+    {
+      "id": "CO03",
+      "question": "Does a single corruption red flag determine that activity is illicit or suspicious?",
+      "relevant_passage_ids": [
+        "S20:L16-L16"
+      ],
+      "split": "development",
+      "category": "corruption",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 3.06,
+      "retrieved_passage_ids": [
+        "S20:L16-L16",
+        "S20:L20-L20",
+        "S20:L12-L12",
+        "S20:L24-L24",
+        "S20:L18-L18"
+      ]
+    },
+    {
+      "id": "CO03",
+      "question": "Does a single corruption red flag determine that activity is illicit or suspicious?",
+      "relevant_passage_ids": [
+        "S20:L16-L16"
+      ],
+      "split": "development",
+      "category": "corruption",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 523.2,
+      "retrieved_passage_ids": [
+        "S20:L16-L16",
+        "S20:L18-L18",
+        "S20:L24-L24",
+        "S20:L26-L26",
+        "S20:L2-L2"
+      ]
+    },
+    {
+      "id": "CO03",
+      "question": "Does a single corruption red flag determine that activity is illicit or suspicious?",
+      "relevant_passage_ids": [
+        "S20:L16-L16"
+      ],
+      "split": "development",
+      "category": "corruption",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 526.38,
+      "retrieved_passage_ids": [
+        "S20:L16-L16",
+        "S20:L18-L18",
+        "S20:L24-L24",
+        "S20:L12-L12",
+        "S20:L20-L20"
+      ]
+    },
+    {
+      "id": "HT01",
+      "question": "What financial typologies does FinCEN describe for human trafficking proceeds?",
+      "relevant_passage_ids": [
+        "S21:L2-L2",
+        "S21:L4-L4",
+        "S21:L6-L6",
+        "S21:L8-L8",
+        "S21:L10-L10",
+        "S21:L12-L12",
+        "S21:L14-L14",
+        "S21:L20-L20",
+        "S21:L22-L22"
+      ],
+      "split": "development",
+      "category": "human_trafficking",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.5555555555555556,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 3.34,
+      "retrieved_passage_ids": [
+        "S21:L6-L6",
+        "S21:L4-L4",
+        "S21:L10-L10",
+        "S21:L2-L2",
+        "S21:L8-L8"
+      ]
+    },
+    {
+      "id": "HT01",
+      "question": "What financial typologies does FinCEN describe for human trafficking proceeds?",
+      "relevant_passage_ids": [
+        "S21:L2-L2",
+        "S21:L4-L4",
+        "S21:L6-L6",
+        "S21:L8-L8",
+        "S21:L10-L10",
+        "S21:L12-L12",
+        "S21:L14-L14",
+        "S21:L20-L20",
+        "S21:L22-L22"
+      ],
+      "split": "development",
+      "category": "human_trafficking",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 0.5,
+        "known_passage_recall_at_5": 0.4444444444444444,
+        "ndcg_at_5": 0.6608397947263839
+      },
+      "retrieval_ms": 428.61,
+      "retrieved_passage_ids": [
+        "S14:L56-L56",
+        "S21:L4-L4",
+        "S21:L14-L14",
+        "S21:L2-L2",
+        "S21:L8-L8"
+      ]
+    },
+    {
+      "id": "HT01",
+      "question": "What financial typologies does FinCEN describe for human trafficking proceeds?",
+      "relevant_passage_ids": [
+        "S21:L2-L2",
+        "S21:L4-L4",
+        "S21:L6-L6",
+        "S21:L8-L8",
+        "S21:L10-L10",
+        "S21:L12-L12",
+        "S21:L14-L14",
+        "S21:L20-L20",
+        "S21:L22-L22"
+      ],
+      "split": "development",
+      "category": "human_trafficking",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.4444444444444444,
+        "ndcg_at_5": 0.7860137352654724
+      },
+      "retrieval_ms": 432.06,
+      "retrieved_passage_ids": [
+        "S21:L4-L4",
+        "S14:L56-L56",
+        "S21:L6-L6",
+        "S21:L2-L2",
+        "S21:L8-L8"
+      ]
+    },
+    {
+      "id": "HT02",
+      "question": "What financial red flags may indicate human trafficking-related payments and account activity?",
+      "relevant_passage_ids": [
+        "S21:L2-L2",
+        "S21:L4-L4",
+        "S21:L6-L6",
+        "S21:L8-L8",
+        "S21:L10-L10",
+        "S21:L12-L12",
+        "S21:L14-L14",
+        "S21:L20-L20",
+        "S21:L22-L22"
+      ],
+      "split": "development",
+      "category": "human_trafficking",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.5555555555555556,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 3.26,
+      "retrieved_passage_ids": [
+        "S21:L10-L10",
+        "S21:L14-L14",
+        "S21:L2-L2",
+        "S21:L4-L4",
+        "S21:L6-L6"
+      ]
+    },
+    {
+      "id": "HT02",
+      "question": "What financial red flags may indicate human trafficking-related payments and account activity?",
+      "relevant_passage_ids": [
+        "S21:L2-L2",
+        "S21:L4-L4",
+        "S21:L6-L6",
+        "S21:L8-L8",
+        "S21:L10-L10",
+        "S21:L12-L12",
+        "S21:L14-L14",
+        "S21:L20-L20",
+        "S21:L22-L22"
+      ],
+      "split": "development",
+      "category": "human_trafficking",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.5555555555555556,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 424.05,
+      "retrieved_passage_ids": [
+        "S21:L14-L14",
+        "S21:L10-L10",
+        "S21:L8-L8",
+        "S21:L12-L12",
+        "S21:L22-L22"
+      ]
+    },
+    {
+      "id": "HT02",
+      "question": "What financial red flags may indicate human trafficking-related payments and account activity?",
+      "relevant_passage_ids": [
+        "S21:L2-L2",
+        "S21:L4-L4",
+        "S21:L6-L6",
+        "S21:L8-L8",
+        "S21:L10-L10",
+        "S21:L12-L12",
+        "S21:L14-L14",
+        "S21:L20-L20",
+        "S21:L22-L22"
+      ],
+      "split": "development",
+      "category": "human_trafficking",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.5555555555555556,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 427.42,
+      "retrieved_passage_ids": [
+        "S21:L10-L10",
+        "S21:L14-L14",
+        "S21:L2-L2",
+        "S21:L8-L8",
+        "S21:L4-L4"
+      ]
+    },
+    {
+      "id": "HT03",
+      "question": "Why is a single human trafficking red flag insufficient to conclude trafficking is occurring?",
+      "relevant_passage_ids": [
+        "S21:L10-L10"
+      ],
+      "split": "development",
+      "category": "human_trafficking",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 2.84,
+      "retrieved_passage_ids": [
+        "S21:L10-L10",
+        "S21:L2-L2",
+        "S21:L14-L14",
+        "S21:L4-L4",
+        "S21:L6-L6"
+      ]
+    },
+    {
+      "id": "HT03",
+      "question": "Why is a single human trafficking red flag insufficient to conclude trafficking is occurring?",
+      "relevant_passage_ids": [
+        "S21:L10-L10"
+      ],
+      "split": "development",
+      "category": "human_trafficking",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 0,
+        "mrr_at_5": 0,
+        "known_passage_recall_at_5": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "retrieval_ms": 536.58,
+      "retrieved_passage_ids": [
+        "S21:L14-L14",
+        "S21:L12-L12",
+        "S21:L2-L2",
+        "S21:L22-L22",
+        "S21:L6-L6"
+      ]
+    },
+    {
+      "id": "HT03",
+      "question": "Why is a single human trafficking red flag insufficient to conclude trafficking is occurring?",
+      "relevant_passage_ids": [
+        "S21:L10-L10"
+      ],
+      "split": "development",
+      "category": "human_trafficking",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 0.25,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 0.43067655807339306
+      },
+      "retrieval_ms": 539.53,
+      "retrieved_passage_ids": [
+        "S21:L14-L14",
+        "S21:L2-L2",
+        "S21:L12-L12",
+        "S21:L10-L10",
+        "S21:L4-L4"
+      ]
+    },
+    {
+      "id": "DA04",
+      "question": "What are red flag indicators of convertible virtual currency mixing services?",
+      "relevant_passage_ids": [
+        "S22:L4-L4",
+        "S22:L8-L8",
+        "S22:L16-L16"
+      ],
+      "split": "development",
+      "category": "digital_assets",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.6666666666666666,
+        "ndcg_at_5": 0.7039180890341347
+      },
+      "retrieval_ms": 2.77,
+      "retrieved_passage_ids": [
+        "S22:L16-L16",
+        "S22:L14-L14",
+        "S22:L4-L4",
+        "S22:L22-L22",
+        "S22:L2-L2"
+      ]
+    },
+    {
+      "id": "DA04",
+      "question": "What are red flag indicators of convertible virtual currency mixing services?",
+      "relevant_passage_ids": [
+        "S22:L4-L4",
+        "S22:L8-L8",
+        "S22:L16-L16"
+      ],
+      "split": "development",
+      "category": "digital_assets",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.6666666666666666,
+        "ndcg_at_5": 0.7039180890341347
+      },
+      "retrieval_ms": 422.16,
+      "retrieved_passage_ids": [
+        "S22:L16-L16",
+        "S22:L2-L2",
+        "S22:L4-L4",
+        "S22:L18-L18",
+        "S22:L20-L20"
+      ]
+    },
+    {
+      "id": "DA04",
+      "question": "What are red flag indicators of convertible virtual currency mixing services?",
+      "relevant_passage_ids": [
+        "S22:L4-L4",
+        "S22:L8-L8",
+        "S22:L16-L16"
+      ],
+      "split": "development",
+      "category": "digital_assets",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.6666666666666666,
+        "ndcg_at_5": 0.7653606369886217
+      },
+      "retrieval_ms": 425.06,
+      "retrieved_passage_ids": [
+        "S22:L16-L16",
+        "S22:L4-L4",
+        "S22:L2-L2",
+        "S22:L14-L14",
+        "S22:L22-L22"
+      ]
+    },
+    {
+      "id": "DA05",
+      "question": "What virtual currency peer-to-peer exchanger transaction patterns should financial institutions review?",
+      "relevant_passage_ids": [
+        "S22:L2-L2",
+        "S22:L4-L4",
+        "S22:L8-L8",
+        "S22:L10-L10",
+        "S22:L12-L12",
+        "S22:L16-L16"
+      ],
+      "split": "development",
+      "category": "digital_assets",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.6666666666666666,
+        "ndcg_at_5": 0.8687949224876582
+      },
+      "retrieval_ms": 3.31,
+      "retrieved_passage_ids": [
+        "S22:L10-L10",
+        "S22:L8-L8",
+        "S22:L2-L2",
+        "S22:L16-L16",
+        "S19:L22-L22"
+      ]
+    },
+    {
+      "id": "DA05",
+      "question": "What virtual currency peer-to-peer exchanger transaction patterns should financial institutions review?",
+      "relevant_passage_ids": [
+        "S22:L2-L2",
+        "S22:L4-L4",
+        "S22:L8-L8",
+        "S22:L10-L10",
+        "S22:L12-L12",
+        "S22:L16-L16"
+      ],
+      "split": "development",
+      "category": "digital_assets",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.6666666666666666,
+        "ndcg_at_5": 0.8539316501572937
+      },
+      "retrieval_ms": 499.61,
+      "retrieved_passage_ids": [
+        "S22:L10-L10",
+        "S22:L16-L16",
+        "S22:L8-L8",
+        "S22:L18-L18",
+        "S22:L2-L2"
+      ]
+    },
+    {
+      "id": "DA05",
+      "question": "What virtual currency peer-to-peer exchanger transaction patterns should financial institutions review?",
+      "relevant_passage_ids": [
+        "S22:L2-L2",
+        "S22:L4-L4",
+        "S22:L8-L8",
+        "S22:L10-L10",
+        "S22:L12-L12",
+        "S22:L16-L16"
+      ],
+      "split": "development",
+      "category": "digital_assets",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.6666666666666666,
+        "ndcg_at_5": 0.8687949224876582
+      },
+      "retrieval_ms": 503.01,
+      "retrieved_passage_ids": [
+        "S22:L10-L10",
+        "S22:L8-L8",
+        "S22:L16-L16",
+        "S22:L2-L2",
+        "S19:L22-L22"
+      ]
+    },
+    {
+      "id": "CO04",
+      "question": "What domestic corruption risks are described in the 2026 money laundering risk assessment?",
+      "relevant_passage_ids": [
+        "S14:L62-L62"
+      ],
+      "split": "development",
+      "category": "corruption",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 0.3333333333333333,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 0.5
+      },
+      "retrieval_ms": 2.76,
+      "retrieved_passage_ids": [
+        "S14:L60-L60",
+        "S14:L140-L140",
+        "S14:L62-L62",
+        "S14:L126-L126",
+        "S14:L124-L124"
+      ]
+    },
+    {
+      "id": "CO04",
+      "question": "What domestic corruption risks are described in the 2026 money laundering risk assessment?",
+      "relevant_passage_ids": [
+        "S14:L62-L62"
+      ],
+      "split": "development",
+      "category": "corruption",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 0.5,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 0.6309297535714575
+      },
+      "retrieval_ms": 443.48,
+      "retrieved_passage_ids": [
+        "S14:L4-L4",
+        "S14:L62-L62",
+        "S14:L144-L144",
+        "S14:L60-L60",
+        "S20:L2-L2"
+      ]
+    },
+    {
+      "id": "CO04",
+      "question": "What domestic corruption risks are described in the 2026 money laundering risk assessment?",
+      "relevant_passage_ids": [
+        "S14:L62-L62"
+      ],
+      "split": "development",
+      "category": "corruption",
+      "label_status": "phrase-derived silver passage labels; not expert gold",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 0.5,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 0.6309297535714575
+      },
+      "retrieval_ms": 446.32,
+      "retrieved_passage_ids": [
+        "S14:L60-L60",
+        "S14:L62-L62",
+        "S14:L4-L4",
+        "S14:L140-L140",
+        "S14:L124-L124"
+      ]
+    },
+    {
+      "id": "C01",
+      "question": "A customer shows a passport, but how do we understand what they will actually use the account for?",
+      "relevant_passage_ids": [
+        "S12:L27-L28",
+        "S12:L38-L40",
+        "S06:L28-L40"
+      ],
+      "category": "identity_vs_relationship",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 0,
+        "mrr_at_5": 0,
+        "known_passage_recall_at_5": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "retrieval_ms": 4.48,
+      "retrieved_passage_ids": [
+        "S19:L20-L20",
+        "S14:L52-L52",
+        "S12:L79-L87",
+        "S10:L79-L80",
+        "S21:L12-L12"
+      ]
+    },
+    {
+      "id": "C01",
+      "question": "A customer shows a passport, but how do we understand what they will actually use the account for?",
+      "relevant_passage_ids": [
+        "S12:L27-L28",
+        "S12:L38-L40",
+        "S06:L28-L40"
+      ],
+      "category": "identity_vs_relationship",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 0.2,
+        "known_passage_recall_at_5": 0.3333333333333333,
+        "ndcg_at_5": 0.18154179253735267
+      },
+      "retrieval_ms": 427.36,
+      "retrieved_passage_ids": [
+        "S10:L72-L77",
+        "S06:L42-L48",
+        "S12:L79-L87",
+        "S10:L86-L86",
+        "S06:L28-L40"
+      ]
+    },
+    {
+      "id": "C01",
+      "question": "A customer shows a passport, but how do we understand what they will actually use the account for?",
+      "relevant_passage_ids": [
+        "S12:L27-L28",
+        "S12:L38-L40",
+        "S06:L28-L40"
+      ],
+      "category": "identity_vs_relationship",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 0.25,
+        "known_passage_recall_at_5": 0.6666666666666666,
+        "ndcg_at_5": 0.38364913903790027
+      },
+      "retrieval_ms": 431.96,
+      "retrieved_passage_ids": [
+        "S12:L79-L87",
+        "S10:L79-L80",
+        "S06:L42-L48",
+        "S06:L28-L40",
+        "S12:L38-L40"
+      ]
+    },
+    {
+      "id": "C02",
+      "question": "If someone cannot present photo identification, what independent checks can help establish who they are?",
+      "relevant_passage_ids": [
+        "S10:L82-L84"
+      ],
+      "category": "identity_methods",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 0,
+        "mrr_at_5": 0,
+        "known_passage_recall_at_5": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "retrieval_ms": 4.75,
+      "retrieved_passage_ids": [
+        "S21:L12-L12",
+        "S16:L18-L18",
+        "S14:L126-L126",
+        "S17:L2-L2",
+        "S19:L14-L14"
+      ]
+    },
+    {
+      "id": "C02",
+      "question": "If someone cannot present photo identification, what independent checks can help establish who they are?",
+      "relevant_passage_ids": [
+        "S10:L82-L84"
+      ],
+      "category": "identity_methods",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 436.18,
+      "retrieved_passage_ids": [
+        "S10:L82-L84",
+        "S10:L79-L80",
+        "S10:L86-L86",
+        "S10:L89-L93",
+        "S10:L72-L77"
+      ]
+    },
+    {
+      "id": "C02",
+      "question": "If someone cannot present photo identification, what independent checks can help establish who they are?",
+      "relevant_passage_ids": [
+        "S10:L82-L84"
+      ],
+      "category": "identity_methods",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 0.5,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 0.6309297535714575
+      },
+      "retrieval_ms": 441.02,
+      "retrieved_passage_ids": [
+        "S10:L79-L80",
+        "S10:L82-L84",
+        "S21:L12-L12",
+        "S16:L18-L18",
+        "S10:L86-L86"
+      ]
+    },
+    {
+      "id": "C03",
+      "question": "Does every customer need their details refreshed on a fixed monthly schedule?",
+      "relevant_passage_ids": [
+        "S12:L97-L113"
+      ],
+      "category": "qualification",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 0,
+        "mrr_at_5": 0,
+        "known_passage_recall_at_5": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "retrieval_ms": 4.11,
+      "retrieved_passage_ids": [
+        "S21:L12-L12",
+        "S05:L34-L37",
+        "S10:L72-L77",
+        "S04:L40-L48",
+        "S14:L38-L38"
+      ]
+    },
+    {
+      "id": "C03",
+      "question": "Does every customer need their details refreshed on a fixed monthly schedule?",
+      "relevant_passage_ids": [
+        "S12:L97-L113"
+      ],
+      "category": "qualification",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 473.09,
+      "retrieved_passage_ids": [
+        "S12:L97-L113",
+        "S05:L47-L48",
+        "S12:L88-L91",
+        "S12:L38-L40",
+        "S10:L72-L77"
+      ]
+    },
+    {
+      "id": "C03",
+      "question": "Does every customer need their details refreshed on a fixed monthly schedule?",
+      "relevant_passage_ids": [
+        "S12:L97-L113"
+      ],
+      "category": "qualification",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 0.3333333333333333,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 0.5
+      },
+      "retrieval_ms": 477.3,
+      "retrieved_passage_ids": [
+        "S10:L72-L77",
+        "S05:L47-L48",
+        "S12:L97-L113",
+        "S21:L12-L12",
+        "S05:L34-L37"
+      ]
+    },
+    {
+      "id": "C04",
+      "question": "A wealthy customer presents elevated risk. What extra financial background could we examine?",
+      "relevant_passage_ids": [
+        "S12:L79-L87"
+      ],
+      "category": "enhanced_diligence",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 0,
+        "mrr_at_5": 0,
+        "known_passage_recall_at_5": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "retrieval_ms": 4.81,
+      "retrieved_passage_ids": [
+        "S14:L4-L4",
+        "S14:L70-L70",
+        "S21:L12-L12",
+        "S14:L54-L54",
+        "S12:L27-L28"
+      ]
+    },
+    {
+      "id": "C04",
+      "question": "A wealthy customer presents elevated risk. What extra financial background could we examine?",
+      "relevant_passage_ids": [
+        "S12:L79-L87"
+      ],
+      "category": "enhanced_diligence",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 546.96,
+      "retrieved_passage_ids": [
+        "S12:L79-L87",
+        "S12:L88-L91",
+        "S12:L38-L40",
+        "S12:L97-L113",
+        "S20:L24-L24"
+      ]
+    },
+    {
+      "id": "C04",
+      "question": "A wealthy customer presents elevated risk. What extra financial background could we examine?",
+      "relevant_passage_ids": [
+        "S12:L79-L87"
+      ],
+      "category": "enhanced_diligence",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 551.87,
+      "retrieved_passage_ids": [
+        "S12:L79-L87",
+        "S14:L4-L4",
+        "S12:L88-L91",
+        "S14:L70-L70",
+        "S12:L38-L40"
+      ]
+    },
+    {
+      "id": "C05",
+      "question": "A trading business has shipping papers that disagree with its invoices. What concerns should we investigate?",
+      "relevant_passage_ids": [
+        "S17:L12-L12"
+      ],
+      "category": "trade_documents",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 0.25,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 0.43067655807339306
+      },
+      "retrieval_ms": 3.71,
+      "retrieved_passage_ids": [
+        "S16:L20-L20",
+        "S04:L83-L87",
+        "S14:L82-L82",
+        "S17:L12-L12",
+        "S17:L8-L8"
+      ]
+    },
+    {
+      "id": "C05",
+      "question": "A trading business has shipping papers that disagree with its invoices. What concerns should we investigate?",
+      "relevant_passage_ids": [
+        "S17:L12-L12"
+      ],
+      "category": "trade_documents",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 435.66,
+      "retrieved_passage_ids": [
+        "S17:L12-L12",
+        "S17:L10-L10",
+        "S16:L22-L22",
+        "S17:L6-L6",
+        "S17:L8-L8"
+      ]
+    },
+    {
+      "id": "C05",
+      "question": "A trading business has shipping papers that disagree with its invoices. What concerns should we investigate?",
+      "relevant_passage_ids": [
+        "S17:L12-L12"
+      ],
+      "category": "trade_documents",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 439.45,
+      "retrieved_passage_ids": [
+        "S17:L12-L12",
+        "S16:L20-L20",
+        "S17:L10-L10",
+        "S17:L8-L8",
+        "S04:L83-L87"
+      ]
+    },
+    {
+      "id": "C06",
+      "question": "Why would the amount of business activity be implausible for a trading company with hardly any employees?",
+      "relevant_passage_ids": [
+        "S17:L10-L10",
+        "S17:L8-L8"
+      ],
+      "category": "trade_profile",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.5,
+        "ndcg_at_5": 0.6131471927654584
+      },
+      "retrieval_ms": 4.64,
+      "retrieved_passage_ids": [
+        "S17:L8-L8",
+        "S16:L24-L24",
+        "S16:L22-L22",
+        "S14:L82-L82",
+        "S22:L10-L10"
+      ]
+    },
+    {
+      "id": "C06",
+      "question": "Why would the amount of business activity be implausible for a trading company with hardly any employees?",
+      "relevant_passage_ids": [
+        "S17:L10-L10",
+        "S17:L8-L8"
+      ],
+      "category": "trade_profile",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 425.26,
+      "retrieved_passage_ids": [
+        "S17:L8-L8",
+        "S17:L10-L10",
+        "S17:L14-L14",
+        "S17:L6-L6",
+        "S18:L22-L31"
+      ]
+    },
+    {
+      "id": "C06",
+      "question": "Why would the amount of business activity be implausible for a trading company with hardly any employees?",
+      "relevant_passage_ids": [
+        "S17:L10-L10",
+        "S17:L8-L8"
+      ],
+      "category": "trade_profile",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 0.5,
+        "ndcg_at_5": 0.6131471927654584
+      },
+      "retrieval_ms": 430.0,
+      "retrieved_passage_ids": [
+        "S17:L8-L8",
+        "S16:L20-L20",
+        "S16:L22-L22",
+        "S18:L22-L31",
+        "S16:L24-L24"
+      ]
+    },
+    {
+      "id": "C07",
+      "question": "What is concerning about a company transferring money without an apparent business purpose or with goods unrelated to its stated activity?",
+      "relevant_passage_ids": [
+        "S18:L22-L31"
+      ],
+      "category": "shell_company",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 4.63,
+      "retrieved_passage_ids": [
+        "S18:L22-L31",
+        "S16:L20-L20",
+        "S16:L18-L18",
+        "S17:L8-L8",
+        "S17:L10-L10"
+      ]
+    },
+    {
+      "id": "C07",
+      "question": "What is concerning about a company transferring money without an apparent business purpose or with goods unrelated to its stated activity?",
+      "relevant_passage_ids": [
+        "S18:L22-L31"
+      ],
+      "category": "shell_company",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 497.74,
+      "retrieved_passage_ids": [
+        "S18:L22-L31",
+        "S17:L14-L14",
+        "S16:L20-L20",
+        "S17:L10-L10",
+        "S17:L8-L8"
+      ]
+    },
+    {
+      "id": "C07",
+      "question": "What is concerning about a company transferring money without an apparent business purpose or with goods unrelated to its stated activity?",
+      "relevant_passage_ids": [
+        "S18:L22-L31"
+      ],
+      "category": "shell_company",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 502.42,
+      "retrieved_passage_ids": [
+        "S18:L22-L31",
+        "S16:L20-L20",
+        "S17:L14-L14",
+        "S17:L10-L10",
+        "S17:L8-L8"
+      ]
+    },
+    {
+      "id": "C08",
+      "question": "Can someone be exploited through forced work without ever crossing a national border?",
+      "relevant_passage_ids": [
+        "S21:L6-L6"
+      ],
+      "category": "trafficking_definition",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 0,
+        "mrr_at_5": 0,
+        "known_passage_recall_at_5": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "retrieval_ms": 3.03,
+      "retrieved_passage_ids": [
+        "S21:L8-L8",
+        "S21:L4-L4",
+        "S14:L56-L56",
+        "S14:L144-L144",
+        "S19:L6-L6"
+      ]
+    },
+    {
+      "id": "C08",
+      "question": "Can someone be exploited through forced work without ever crossing a national border?",
+      "relevant_passage_ids": [
+        "S21:L6-L6"
+      ],
+      "category": "trafficking_definition",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 0.25,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 0.43067655807339306
+      },
+      "retrieval_ms": 486.95,
+      "retrieved_passage_ids": [
+        "S14:L54-L54",
+        "S21:L2-L2",
+        "S21:L4-L4",
+        "S21:L6-L6",
+        "S21:L8-L8"
+      ]
+    },
+    {
+      "id": "C08",
+      "question": "Can someone be exploited through forced work without ever crossing a national border?",
+      "relevant_passage_ids": [
+        "S21:L6-L6"
+      ],
+      "category": "trafficking_definition",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 0,
+        "mrr_at_5": 0,
+        "known_passage_recall_at_5": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "retrieval_ms": 490.08,
+      "retrieved_passage_ids": [
+        "S21:L4-L4",
+        "S21:L8-L8",
+        "S14:L56-L56",
+        "S14:L54-L54",
+        "S21:L2-L2"
+      ]
+    },
+    {
+      "id": "C09",
+      "question": "Are warning signs of exploitation enough by themselves to conclude that a crime has occurred?",
+      "relevant_passage_ids": [
+        "S21:L10-L10"
+      ],
+      "category": "indicator_qualification",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 0,
+        "mrr_at_5": 0,
+        "known_passage_recall_at_5": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "retrieval_ms": 4.4,
+      "retrieved_passage_ids": [
+        "S14:L18-L18",
+        "S14:L100-L100",
+        "S14:L138-L138",
+        "S14:L26-L26",
+        "S14:L46-L46"
+      ]
+    },
+    {
+      "id": "C09",
+      "question": "Are warning signs of exploitation enough by themselves to conclude that a crime has occurred?",
+      "relevant_passage_ids": [
+        "S21:L10-L10"
+      ],
+      "category": "indicator_qualification",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 0,
+        "mrr_at_5": 0,
+        "known_passage_recall_at_5": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "retrieval_ms": 422.21,
+      "retrieved_passage_ids": [
+        "S21:L14-L14",
+        "S21:L12-L12",
+        "S21:L2-L2",
+        "S21:L20-L20",
+        "S21:L4-L4"
+      ]
+    },
+    {
+      "id": "C09",
+      "question": "Are warning signs of exploitation enough by themselves to conclude that a crime has occurred?",
+      "relevant_passage_ids": [
+        "S21:L10-L10"
+      ],
+      "category": "indicator_qualification",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 0,
+        "mrr_at_5": 0,
+        "known_passage_recall_at_5": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "retrieval_ms": 426.73,
+      "retrieved_passage_ids": [
+        "S21:L12-L12",
+        "S14:L54-L54",
+        "S14:L18-L18",
+        "S21:L14-L14",
+        "S14:L100-L100"
+      ]
+    },
+    {
+      "id": "C10",
+      "question": "Why is the purpose behind splitting cash payments important when considering reporting avoidance?",
+      "relevant_passage_ids": [
+        "S15:L1-L4"
+      ],
+      "category": "structuring_intent",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 0,
+        "mrr_at_5": 0,
+        "known_passage_recall_at_5": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "retrieval_ms": 6.67,
+      "retrieved_passage_ids": [
+        "S19:L26-L26",
+        "S05:L39-L43",
+        "S16:L24-L24",
+        "S14:L98-L98",
+        "S21:L12-L12"
+      ]
+    },
+    {
+      "id": "C10",
+      "question": "Why is the purpose behind splitting cash payments important when considering reporting avoidance?",
+      "relevant_passage_ids": [
+        "S15:L1-L4"
+      ],
+      "category": "structuring_intent",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 429.77,
+      "retrieved_passage_ids": [
+        "S15:L1-L4",
+        "S14:L94-L94",
+        "S14:L98-L98",
+        "S14:L134-L134",
+        "S16:L24-L24"
+      ]
+    },
+    {
+      "id": "C10",
+      "question": "Why is the purpose behind splitting cash payments important when considering reporting avoidance?",
+      "relevant_passage_ids": [
+        "S15:L1-L4"
+      ],
+      "category": "structuring_intent",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 0.25,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 0.43067655807339306
+      },
+      "retrieval_ms": 436.55,
+      "retrieved_passage_ids": [
+        "S14:L98-L98",
+        "S16:L24-L24",
+        "S14:L94-L94",
+        "S15:L1-L4",
+        "S16:L18-L18"
+      ]
+    },
+    {
+      "id": "C11",
+      "question": "Do different financial institutions need exactly the same suspicious cash activity monitoring design?",
+      "relevant_passage_ids": [
+        "S15:L5-L6"
+      ],
+      "category": "risk_based_monitoring",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 0,
+        "mrr_at_5": 0,
+        "known_passage_recall_at_5": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "retrieval_ms": 5.39,
+      "retrieved_passage_ids": [
+        "S15:L1-L4",
+        "S17:L6-L6",
+        "S05:L34-L37",
+        "S22:L18-L18",
+        "S14:L40-L40"
+      ]
+    },
+    {
+      "id": "C11",
+      "question": "Do different financial institutions need exactly the same suspicious cash activity monitoring design?",
+      "relevant_passage_ids": [
+        "S15:L5-L6"
+      ],
+      "category": "risk_based_monitoring",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 1.0
+      },
+      "retrieval_ms": 447.29,
+      "retrieved_passage_ids": [
+        "S15:L5-L6",
+        "S04:L88-L92",
+        "S15:L1-L4",
+        "S16:L22-L22",
+        "S18:L32-L33"
+      ]
+    },
+    {
+      "id": "C11",
+      "question": "Do different financial institutions need exactly the same suspicious cash activity monitoring design?",
+      "relevant_passage_ids": [
+        "S15:L5-L6"
+      ],
+      "category": "risk_based_monitoring",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 0.5,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 0.6309297535714575
+      },
+      "retrieval_ms": 452.78,
+      "retrieved_passage_ids": [
+        "S15:L1-L4",
+        "S15:L5-L6",
+        "S04:L88-L92",
+        "S17:L6-L6",
+        "S05:L34-L37"
+      ]
+    },
+    {
+      "id": "C12",
+      "question": "How could nominal directors or shareholders obscure the real people controlling an entity?",
+      "relevant_passage_ids": [
+        "S18:L10-L13",
+        "S18:L14-L21"
+      ],
+      "category": "ownership_opacity",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "bm25",
+      "scores": {
+        "hit_at_5": 0,
+        "mrr_at_5": 0,
+        "known_passage_recall_at_5": 0.0,
+        "ndcg_at_5": 0.0
+      },
+      "retrieval_ms": 4.13,
+      "retrieved_passage_ids": [
+        "S14:L142-L142",
+        "S20:L6-L6",
+        "S06:L42-L48",
+        "S04:L23-L26",
+        "S14:L30-L30"
+      ]
+    },
+    {
+      "id": "C12",
+      "question": "How could nominal directors or shareholders obscure the real people controlling an entity?",
+      "relevant_passage_ids": [
+        "S18:L10-L13",
+        "S18:L14-L21"
+      ],
+      "category": "ownership_opacity",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "dense",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 1.0,
+        "known_passage_recall_at_5": 1.0,
+        "ndcg_at_5": 0.8772153153380493
+      },
+      "retrieval_ms": 540.4,
+      "retrieved_passage_ids": [
+        "S18:L14-L21",
+        "S14:L124-L124",
+        "S17:L8-L8",
+        "S18:L10-L13",
+        "S18:L1-L5"
+      ]
+    },
+    {
+      "id": "C12",
+      "question": "How could nominal directors or shareholders obscure the real people controlling an entity?",
+      "relevant_passage_ids": [
+        "S18:L10-L13",
+        "S18:L14-L21"
+      ],
+      "category": "ownership_opacity",
+      "split": "challenge",
+      "label_status": "agent-curated from captured source passages; expert review pending",
+      "method": "hybrid",
+      "scores": {
+        "hit_at_5": 1,
+        "mrr_at_5": 0.3333333333333333,
+        "known_passage_recall_at_5": 0.5,
+        "ndcg_at_5": 0.3065735963827292
+      },
+      "retrieval_ms": 544.66,
+      "retrieved_passage_ids": [
+        "S18:L6-L9",
+        "S14:L142-L142",
+        "S18:L14-L21",
+        "S14:L124-L124",
+        "S20:L6-L6"
+      ]
+    }
+  ]
+}

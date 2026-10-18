@@ -1,0 +1,190 @@
+{
+  "evidence": [
+    {
+      "chunk_id": "S19:L14-L14",
+      "source_id": "S19",
+      "title": "Money Laundering Activity Associated with Digital Asset Investment Scam Centers",
+      "heading": "Money Laundering Activity Associated with Digital Asset Investment Scam Centers \u00b7 PDF page 7",
+      "issuer": "FinCEN",
+      "authority_type": "alert",
+      "url": "https://www.fincen.gov/system/files/2026-08/FinCEN-Alert-Scam-Centers.pdf",
+      "published_date": "2026-09-03",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 7 \u00b7 extracted text lines 14-14",
+      "pdf_page": 7,
+      "topics": [
+        "digital_assets",
+        "money_mules"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "FINCEN ALERT\n7\nFinCEN analysis and law enforcement information. 33  Based on FinCEN\u2019s analysis of BSA \nreporting,\tscammers\toften\tinstruct\ttheir\tvictims\tto\topen\taccounts\twith\tMSBs\toffering\tdigital\tasset \t\nservices\tto\tpurchase\tspecific\ttypes\tof\tdigital\tassets.\t\tThen,\tthe\tvictim\tis\ttold\tto\tsend\tthese\tfunds\tto\ta \t\ndigital asset address controlled by the scammers. 34   \nAnother\ttactic\tused\tby\tscammers\tis\tdirecting\tvictims\tto\tsend\tfiat\tcurrency-denominated\tfunds \t\nthrough\ta\twire\ttransfer\tor\t Automated\tClearing\tHouse\ttransaction\tto\tanother,\tfiat-denominated \t\nfinancial\taccount\tcontrolled\tby\tthe\tscammer.\t\tTo\tfacilitate\tthese\tfiat\tpayments,\tscammers\tand \t\nassociated PMLs have created infrastructure in the United States, including bank accounts \ncontrolled by the scammers and associated PMLs via money mules, 35 as well as shell companies. 36   \nAdditionally, in some cases, scammers and associated PMLs have created fraudulent MSBs used to \ncollect victims\u2019 funds.  Scammers have been known to register these fraudulent MSBs with FinCEN \nand use that self-registration to appear legitimate or otherwise gain credibility. 37   \nAfter\treceiving\tfiat-denominated\tfunds\tfrom\tvictims,\tscammers\tand\tassociated\tPMLs\twill\toften \t\nconvert those funds to digital assets. 38  For example, the scammers and associated PMLs may \ntransfer\tthose\tfunds\tto\tan\tMSB\tor\tother\tfinancial\tinstitution\toffering\tfiat-to-digital\tasset\tswaps\tand \t\nconvert the proceeds to stablecoins for further laundering. 39   \nScammers\tare\talso\tknown\tto\task\tvictims\tto\tconduct\tfiat-denominated\tinternational\tbank\ttransfers. \t\t\nAlthough scam center operations are concentrated in Southeast Asia, data collected through \nFinCEN\u2019s Rapid Response Program (RRP) 40  International Financial Fraud Kill Chain indicates \nthat bank accounts receiving proceeds from victims of cyber-enabled fraud are located in a wide \nrange of foreign jurisdictions.  Because fraud proceeds are typically laundered through multiple \ntransactions, the jurisdiction of these initial transactions does not necessarily correspond to the \nultimate destination of the proceeds.\n33. See FinCEN Pig Butchering Alert, supra note 7; FinCEN, FIN-2025-NTC1, \u201cFinCEN Notice on the Use of Convertible \nVirtual Currency Kiosks for Scam Payments and Other Illicit Activity\u201d (\u201cCVC Kiosk Notice\u201d) (Aug. 4, 2025).\n34. See FinCEN, Financial Trend Analysis, \u201cDigital\tAsset\tInvestment\tScams:\t2023-2025\tThreat\tPattern\t&\tTrend\t\nInformation\u201d (\u201cDigital Asset Investment Scams Financial Trend Analysis\u201d) (Sep. 3, 2026) \n35. A money mule is someone who transfers or moves illegally acquired money on behalf of someone else.  See FBI, \n\u201cMoney Mules\u201d (last accessed May 18, 2026)\n36. Shell companies are legal business entities that have no physical presence, have few or no employees, and generate \nlittle\tto\tno\tindependent\teconomic\tvalue.\t\tSee 2026 NMLRA, supra note 3, at p. 59.\n37. See FinCEN, FIN-2024-Alert005, \u201cFinCEN Alert on Fraud Schemes Abusing FinCEN\u2019s Name, Insignia, and Authorities \nfor Financial Gain\u201d (Dec. 18, 2024).\n38. See Digital Asset Investment Scams Financial Trend Analysis, supra note 34.\n39. See, e.g., DOJ, Press Release, \u201cFive Men Plead Guilty for Their Roles in Global Digital Asset Investment Scam \nConspiracy\tResulting\tin\tTheft\tof\tMore\tthan\t$36.9\tMillion\tfrom\tVictims\u201d (June 9, 2025).\n40. RRP is a partnership between FinCEN, U.S. law enforcement, and foreign partners working together to help victims \nand\ttheir\tfinancial\tinstitutions\trecover\tstolen\tfunds\tsent\tabroad\tas\tthe\tresult\tof\tcyber-enabled\tfraud.",
+      "retrieval_score": 27.25595
+    },
+    {
+      "chunk_id": "S19:L4-L4",
+      "source_id": "S19",
+      "title": "Money Laundering Activity Associated with Digital Asset Investment Scam Centers",
+      "heading": "Money Laundering Activity Associated with Digital Asset Investment Scam Centers \u00b7 PDF page 2",
+      "issuer": "FinCEN",
+      "authority_type": "alert",
+      "url": "https://www.fincen.gov/system/files/2026-08/FinCEN-Alert-Scam-Centers.pdf",
+      "published_date": "2026-09-03",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 2 \u00b7 extracted text lines 4-4",
+      "pdf_page": 2,
+      "topics": [
+        "digital_assets",
+        "money_mules"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "FINCEN ALERT\n2\nThis\tAlert\tbuilds\ton\tongoing\tefforts\tby\tTreasury,\tthe\tDepartment\tof\tJustice\u2019s\t(DOJ)\tinteragency \t\nScam Center Strike Force, law enforcement, and other interagency partners to combat the threat of \nTCO-operated scam centers.6  This Alert supplements FinCEN\u2019s September 2023 Alert that provided \nbehavioral,\tfinancial,\tand\ttechnical\tred\tflags\tassociated\twith\tdigital\tasset\tinvestment\tscams.7 \nThe information in this Alert is derived from FinCEN\u2019s analysis of Bank Secrecy Act (BSA) \nreporting, blockchain data, open-source reporting, and information provided by law enforcement.  \nThe Growing Scam Center Threat \nDigital asset investment scams are often perpetrated by TCOs based in Southeast Asia and constitute \none\tof\tthe\tmost\tsignificant\tfraud\tthreats\tto\tAmericans\ttoday.\t\tScam\tcenter\toperators\tuse\ta\tvariety\tof\t\nfraud schemes\u2014including investment, romance, and government impersonation scams\u2014to induce \nvictims to make payments.  Scammers commonly initiate contact with victims through social media or \ntext message, sometimes pretending to have mistyped a phone number.8   Investment scams frequently \nexploit\tenthusiasm\taround\tnew\ttechnologies,\tsuch\tas\tdigital\tassets\tand\tartificial\tintelligence,\tto\tsell\t\nvictims on the prospect of outsized returns.9  Scammers may also repeatedly target the same victim with \nnew\tscams,\tincluding\t\u201crecovery\tscams\u201d\tin\twhich\ta\tscammer\tposing\tas\ta\tgovernment\tagency,\tlaw\tfirm,\t\nor business promises to help the victim recover funds lost to a prior scam.10 \n6. See, e.g.,\tDOJ,\tU.S.\tAttorney\u2019s\tOffice\tfor\tthe\tDistrict\tof\tColumbia,\tPress\tRelease,\t\u201cNew Scam Center Strike Force \nBattles\tSoutheast\tAsian\tCrypto\tInvestment\tFraud\tTargeting\tAmericans\u201d\t(Nov.\t12,\t2025);\tDOJ,\tU.S.\tAttorney\u2019s\tOffice\t\nfor the District of Columbia, Press Release, \u201cScam Center Strike Force Announces Results of U.S. & Private Industry \n\u2018Disruption Week\u2019\u201d (June 3, 2026); Treasury, Press Release, \u201cTreasury Sanctions Southeast Asian Networks Targeting \nAmericans with Cyber Scams\u201d (Sept. 8, 2025); Treasury, Press Release, \u201cTreasury Further Dismantles Overseas Scam \nOperations Targeting Americans\u201d (June 23, 2026); DOJ, Press Release, \u201cCoordinated Takedown of Scam Centers Leads \nto at Least 276 Arrests; Alleged Managers and Recruiters Charged in San Diego\u201d (Apr. 29, 2026); U.S. Department of \nState (State), Press Release, \u201cReward\tOffer\tof\tUp\tto\t$10\tMillion\tfor\tInformation\tLeading\tto\tFinancial\tDisruption\tof\tTai\t\nChang Scam Centers in Burma\u201d (Apr. 23, 2026).\n7. See FinCEN, FIN-2023-Alert005, \u201cFinCEN Alert on Prevalent Virtual Currency Investment Scam Commonly Known \nas \u2018Pig Butchering\u2019\u201d (\u201cFinCEN Pig Butchering Alert\u201d) (Sept. 8, 2023).\n8. See FBI, \u201cCryptocurrency Investment Fraud\u201d (last accessed July 8, 2026).\n9. See U.S. Securities and Exchange Commission, \u201cArtificial\tIntelligence\t(AI)\tand\tInvestment\tFraud:\tInvestor\tAlert\u201d \n(Jan. 25, 2024).\n10. See Federal Trade Commission, \u201cRefund and Recovery Scams\u201d (Dec. 2023); FBI IC3, \u201cFBI Warns of Scammers \nImpersonating the IC3\u201d (Apr. 18, 2025); FBI IC3, \u201cFictitious Law Firms Targeting Cryptocurrency Scam Victims \nCombine\tMultiple\tExploitation\tTactics\tWhile\tOffering\tto\tRecover\tFunds\u201d (Aug. 18, 2025).",
+      "retrieval_score": 27.17319
+    },
+    {
+      "chunk_id": "S19:L22-L22",
+      "source_id": "S19",
+      "title": "Money Laundering Activity Associated with Digital Asset Investment Scam Centers",
+      "heading": "Money Laundering Activity Associated with Digital Asset Investment Scam Centers \u00b7 PDF page 11",
+      "issuer": "FinCEN",
+      "authority_type": "alert",
+      "url": "https://www.fincen.gov/system/files/2026-08/FinCEN-Alert-Scam-Centers.pdf",
+      "published_date": "2026-09-03",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 11 \u00b7 extracted text lines 22-22",
+      "pdf_page": 11,
+      "topics": [
+        "digital_assets",
+        "money_mules"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "FINCEN ALERT\n11\nRed Flags Related to Laundering Techniques Associated with Digital Asset Investment Scam Centers\n A customer of a digital asset exchange receives stablecoin transactions that originate from \ncentralized digital asset exchanges that operate in the United States and undergo transaction \npatterns\tassociated\twith\ton-chain\tlaundering\ttechniques.\n Open-source information indicates that a digital asset address used by a customer was posted on \na messaging platform in proximity to Chinese-language terms related to money laundering.\n A customer of a DeFi service receives deposits from a wallet that aggregates suspected \nscam\tproceeds\tand\tuses\tthe\tDeFi\tservice\tto\tmove\tthe\tproceeds\tinto\ta\tdifferent\tdigital\tasset \nor blockchain.\n A customer conducts substantial transactions using a stablecoin whose issuer advertises that it \ndoes not cooperate with law enforcement or that its stablecoin cannot be seized or frozen.\n A customer of a digital asset exchange appears to be using liquidity provided by the digital \nasset\texchange\tto\texecute\tlarge\tnumbers\tof\toffsetting\ttransactions\tconsistent\twith\toperation\tas \t\nan OTC broker or P2P exchanger.\n A customer receives stablecoin deposits from a DeFi service that lacks AML/CFT controls, \nconverts\tthe\tfunds\tto\tfiat\tcurrency,\tand\twithdraws\tthe\tproceeds.\nFinancial\tinstitutions\tfiling\tSuspicious\t Activity\tReports\t(SARs)\trelated\tto\tscam\tcenters\tshould \t\nreference\tthis\t Alert\tin\tSAR\tfield\t2\t(Filing\tInstitution\tNote\tto\tFinCEN)\tand\tthe\tnarrative\tby \t\nincluding the key term \u201c FIN-2026-SCAMCENTERS .\u201d \nWhen\tsubmitting\ta\treport\tpursuant\tto\tthis\t Alert,\tfinancial\tinstitutions\tshould\tinclude\tany\trelevant \t\ntechnical cyber indicators related to cyber events and associated transactions within the available \nstructured\tcyber\tevent\tindicator\tfields\ton\tthe\tSAR\tform\tor\tas\tpart\tof\tthe\tattachment\tfield.\t\t Any\t\ndata or information that helps identify the activity as suspicious can be included as an indicator.  \nExamples include chat logs, phone numbers, and social media usernames used by the scammer; \nsuspicious email addresses; type of virtual currency and digital assets involved; virtual currency \nand/or digital asset addresses and transaction hashes native to the blockchain(s) involved; apps \nused; and the URL, domain, and IP address of the service the victim was instructed to deposit into.  \nFinancial institutions should also include as much detail about the scam center activity as possible, \nincluding any suspected nexus to a politically exposed person, geographic region or location, or \ntransnational criminal organization.  Financial institutions should also include the names and \nidentifying information of any service providers connected to the suspected scam center activity, \nsuch\tas\tproviders\tof\tfinancial,\tinternet,\tor\tcorporate\tservices. \t\t\nIn\taddition\tto\tfiling\ta\tSAR,\tfinancial\tinstitutions\tare\tencouraged\tto\trefer\ttheir\tcustomers\twho\tmay \t\nbe victims of cyber-enabled scams to the FBI\u2019s IC3: https://www.ic3.gov/ , and/or contact the nearest \nU.S.\tSecret\tService\tfield\toffice\t( http://www.secretservice.gov/contact/field-offices ).",
+      "retrieval_score": 26.94092
+    },
+    {
+      "chunk_id": "S19:L12-L12",
+      "source_id": "S19",
+      "title": "Money Laundering Activity Associated with Digital Asset Investment Scam Centers",
+      "heading": "Money Laundering Activity Associated with Digital Asset Investment Scam Centers \u00b7 PDF page 6",
+      "issuer": "FinCEN",
+      "authority_type": "alert",
+      "url": "https://www.fincen.gov/system/files/2026-08/FinCEN-Alert-Scam-Centers.pdf",
+      "published_date": "2026-09-03",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 6 \u00b7 extracted text lines 12-12",
+      "pdf_page": 6,
+      "topics": [
+        "digital_assets",
+        "money_mules"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "FINCEN ALERT\n6\nThe risks presented by Huione Group\u2019s association with illicit actors and transactions linked to \nillicit\tactivity\twere\tcompounded\tby\teither\tthe\tabsence\tof,\tor\tineffective,\tAML/Know\tYour\tCustomer\t\n(KYC) policies and procedures among Huione Group\u2019s components.  In September 2024, Huione \nGroup launched a stablecoin, USDH, that it explicitly advertised as \u201cunfreezable\u201d and \u201cnot \nrestricted by traditional regulatory agencies.\u201d31 \nOn\tJune\t23,\t2026,\tFinCEN\tissued\ta\tproposed\trule\tto\tamend\tthe\tOctober\t2025\tfinal\trule\tto\tinclude\t\nCambodia-based H-Pay Service PLC (H-Pay) and other successor entities of Huione Group within \nthe\tscope\tof\tthe\tOctober\t2025\tfinal\trule.\t\tFinCEN\tassessed\tin\tits\tproposed\trule\tthat\tHuione\tGroup\t\ntransitioned\toperations\tfrom\tHuione\tPay\tPLC\tto\tH-Pay\tin\tan\teffort\tto\tevade\tpublic\tscrutiny\tand\t\ncircumvent\tthe\tspecial\tmeasure\timposed\tby\tthe\tfinal\trule.32\nHow Scam Center Operators Launder Scam Proceeds\nAccording to FinCEN analysis, scam proceeds move from victims to scam center operators in \nseveral broad stages: \n1. Scammers extract payments from victims, often in the form of digital assets.  \n2. Illicitly obtained digital assets undergo on-chain laundering (i.e. blockchain transactions that \nhave\tthe\teffect\tof\tobfuscating\tthe\tconnection\tbetween\tthe\tillicit\tproceeds\tand\ttheir\torigin).\n3. Money\tlaundering\toperations\tconvert\tproceeds\tinto\tfiat\tcurrency\tand\tintegrate\tthem\tinto\tthe \t\ntraditional\tfinancial\tsystem. \t\t\nScam center operations frequently only handle communication with the victim.  Operators \noutsource\tcreating\tthe\tinfrastructure\tnecessary\tto\tmove\tfunds\u2014including\testablishing\tfinancial \t\ninstitution accounts and front companies\u2014and the movement of funds to PMLs, relationships often \nfacilitated by guarantee marketplaces.   \nStage One: Victim Payments\nAs noted above, scammers use a variety of ruses to sway victims into making payments, including \npromising\tlarge\treturns\ton\tinvestments\tand\tpretending\tto\tbe\tgovernment\tofficials.\t\tRegardless\tof \t\nthe underlying fraud scheme, scammers often induce victims to make payments in digital assets, \nalthough\tpayments\tin\tfiat\tcurrency\tare\tcommon\tand\tpayments\tvia\tprecious\tmetals\thave\tbeen \t\nreported by law enforcement.  \nMost digital asset payments by victims to scam center operators originate from money services \nbusinesses\t(MSBs)\toffering\tdigital\tasset\tservices,\tincluding\tdigital\tasset\tkiosks,\taccording\tto \t\n31. See FinCEN, \u201cImposition of Special Measure Regarding Huione Group, as a Foreign Financial Institution of Primary \nMoney Laundering Concern,\u201d 90 Fed. Reg. 48295 (Oct. 16, 2025).\n32. See FinCEN, Notice of Proposed Rulemaking, \u201cDefinition\tof\tHuione\tGroup,\ta\tFinancial\tInstitution\tOperating\tOutside\t\nthe United States of Primary Money Laundering Concern,\u201d 91 Fed. Reg. 38340 (June 27, 2026).  DOJ concurrently \nannounced the seizure of a cloud computing account used by subsidiaries of the Huione Group to host backend \ninfrastructure.  See DOJ, Press Release, \u201cJustice Department Seizes Backend Infrastructure Used by the Huione Group \nfor Money Laundering Services\u201d (June 23, 2026).",
+      "retrieval_score": 26.73457
+    },
+    {
+      "chunk_id": "S19:L18-L18",
+      "source_id": "S19",
+      "title": "Money Laundering Activity Associated with Digital Asset Investment Scam Centers",
+      "heading": "Money Laundering Activity Associated with Digital Asset Investment Scam Centers \u00b7 PDF page 9",
+      "issuer": "FinCEN",
+      "authority_type": "alert",
+      "url": "https://www.fincen.gov/system/files/2026-08/FinCEN-Alert-Scam-Centers.pdf",
+      "published_date": "2026-09-03",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 9 \u00b7 extracted text lines 18-18",
+      "pdf_page": 9,
+      "topics": [
+        "digital_assets",
+        "money_mules"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "FINCEN ALERT\n9\nAccording to law enforcement and FinCEN analysis of blockchain data, PMLs frequently use \ndecentralized\tfinance\t(DeFi)\tprotocols\tto\ttransfer\tfraud\tproceeds\tacross\tblockchains,\tsuch\tas \t\nby swapping USDT tokens originating from scams from the Ethereum blockchain to the Tron \nblockchain.  PMLs also swap digital assets into stablecoins through DeFi protocols because \nstablecoins can be easily used on guarantee marketplaces due to their widespread global \nacceptance and perceived stability, among other reasons. 44 \nStage Three: Integration of Scam Proceeds into the Formal Financial System\nPMLs\tintegrate\tscam\tproceeds\tinto\tthe\tformal\tfinancial\tsystem\tthrough\tnetworks\tof\tmoney\tmules \t\nand through stablecoin transfers to digital asset exchanges outside of the United States.  Much of \nthis activity is facilitated by Chinese underground banking systems, which include peer-to-peer \nexchangers45 and over-the-counter (OTC) brokers 46\tthat\toperate\toutside\tof\tthe\tformal\tfinancial \t\nsystem and generally lack robust KYC and AML/CFT controls.  Guarantee marketplaces connect \ncybercriminal networks with these underground banking services. 47  According to FinCEN \nanalysis, these services typically rely on the liquidity provided by large MSBs in the digital asset \nsector to process transactions. 48\nRed Flag Indicators of Money Laundering Activity Related to \nDigital Asset Investment Scam Centers\nFinCEN\thas\tidentified\tthe\tfollowing\tred\tflag\tindicators\tto\thelp\tfinancial\tinstitutions\tdetect, \t\nprevent, and report potentially suspicious activity related to scam centers.  Because no single red \nflag\tis\tdeterminative\tof\tillicit\tor\tother\tsuspicious\tactivity,\tfinancial\tinstitutions\tshould\tconsider\tthe \t\nsurrounding\tfacts\tand\tcircumstances,\tsuch\tas\ta\tcustomer\u2019s\thistorical\tfinancial\tactivity,\twhether \t\nthe transactions are in line with prevailing business practices, and whether the customer exhibits \nmultiple\trelated\tred\tflags,\tbefore\tdetermining\tif\ta\ttransaction\tor\tattempted\ttransaction\tis\tindicative \t\nof money laundering activity associated with scam centers or is otherwise suspicious.  In addition \nto\tthe\tred\tflags\tbelow,\tfinancial\tinstitutions\tshould\talso\tbe\taware\tof\tthe\tred\tflags\tdiscussed\tin \t\nFinCEN\u2019s 2023 alert on digital asset investment scams and 2025 alert on the use of digital asset \nkiosks for scam payments. 49\n44. See Chainalysis 2026 Crypto Crime Report, supra note 14, at pp. 11\u201312; RUSI Report, supra note 24.\n45.\t P2P\texchangers\tare\tindividuals\tor\tentities\tthat\toffer\tto\texchange\tfiat\tcurrencies\tfor\tdigital\tassets\tand\ttypically\toperate\t\ninformally.  See FinCEN, FIN-2019-A003, \u201cAdvisory on Illicit Activity Involving Convertible Virtual Currency\u201d \n(May 9, 2019).\n46. For additional information on the use of OTC brokers by illicit actors, see 2026 NMLRA, supra note 3, at pp. 49\u201350.\n47. See Oct. 2024 UNODC Report, supra note 12, at pp. 80\u201387. \n48.\t Exchanges\tthat\toffer\ttrading\tservices\tand\tpool\tcustomer\tdeposits\tinto\tan\taccount\thosted\tby\ta\tlarger\texchange\t\nare referred to as \u201cnested exchanges.\u201d  Nested exchanges may operate fully or partially within the infrastructure \nof the host provider, rather than as a unique entity, potentially providing illicit actors with an additional layer of \nobfuscation.  See 2026 NMLRA, supra note 3, at p. 51.\n49. See FinCEN Pig Butchering Alert, supra note 7; FinCEN CVC Kiosk Notice, supra note 33.",
+      "retrieval_score": 26.65831
+    }
+  ],
+  "retrieval": "BM25 keyword",
+  "question": "Explain digital asset investment scam laundering and two financial indicators for bank analysts. Distinguish scam victim payments from laundering-network activity.",
+  "scope": "US banks",
+  "citation_check": "IDs and exact quotes checked; claim support needs review",
+  "cached": false,
+  "status": "supported",
+  "summary": "Digital asset investment scam laundering and financial indicators",
+  "claims": [
+    {
+      "text": "Digital asset investment scam laundering involves scammers extracting funds from victims via fraudulent investment schemes, then using layered financial transactions to obscure the origin of illicit proceeds, including converting fiat to digital assets, leveraging decentralized finance (DeFi) protocols, and integrating funds into the formal financial system through money mules and underground banking networks.",
+      "evidence": [
+        {
+          "id": "S19:L12-L12",
+          "quote": "FinCEN\tassessed\tin\tits\tproposed\trule\tthat\tHuione\tGroup\t\ntransitioned\toperations\tfrom\tHuione\tPay\tPLC\tto\tH-Pay\tin\tan\teffort\tto\tevade\tpublic\tscrutiny\tand\t\ncircumvent\tthe\tspecial\tmeasure\timposed\tby\tthe\tfinal\trule.32\nHow Scam Center Operators Launder Scam Proceeds\nAccording to FinCEN analysis, scam proceeds move from victims to scam center operators in \nseveral broad stages: \n1."
+        },
+        {
+          "id": "S19:L12-L12",
+          "quote": "Scammers extract payments from victims, often in the form of digital assets."
+        },
+        {
+          "id": "S19:L12-L12",
+          "quote": "Illicitly obtained digital assets undergo on-chain laundering (i.e."
+        },
+        {
+          "id": "S19:L12-L12",
+          "quote": "blockchain transactions that \nhave\tthe\teffect\tof\tobfuscating\tthe\tconnection\tbetween\tthe\tillicit\tproceeds\tand\ttheir\torigin)."
+        },
+        {
+          "id": "S19:L12-L12",
+          "quote": "Money\tlaundering\toperations\tconvert\tproceeds\tinto\tfiat\tcurrency\tand\tintegrate\tthem\tinto\tthe \t\ntraditional\tfinancial\tsystem."
+        },
+        {
+          "id": "S19:L12-L12",
+          "quote": "Scam center operations frequently only handle communication with the victim."
+        },
+        {
+          "id": "S19:L12-L12",
+          "quote": "Operators \noutsource\tcreating\tthe\tinfrastructure\tnecessary\tto\tmove\tfunds\u2014including\testablishing\tfinancial \t\ninstitution accounts and front companies\u2014and the movement of funds to PMLs, relationships often \nfacilitated by guarantee marketplaces."
+        },
+        {
+          "id": "S19:L18-L18",
+          "quote": "FINCEN ALERT\n9\nAccording to law enforcement and FinCEN analysis of blockchain data, PMLs frequently use \ndecentralized\tfinance\t(DeFi)\tprotocols\tto\ttransfer\tfraud\tproceeds\tacross\tblockchains,\tsuch\tas \t\nby swapping USDT tokens originating from scams from the Ethereum blockchain to the Tron \nblockchain."
+        },
+        {
+          "id": "S19:L18-L18",
+          "quote": "PMLs also swap digital assets into stablecoins through DeFi protocols because \nstablecoins can be easily used on guarantee marketplaces due to their widespread global \nacceptance and perceived stability, among other reasons."
+        },
+        {
+          "id": "S19:L18-L18",
+          "quote": "44 \nStage Three: Integration of Scam Proceeds into the Formal Financial System\nPMLs\tintegrate\tscam\tproceeds\tinto\tthe\tformal\tfinancial\tsystem\tthrough\tnetworks\tof\tmoney\tmules \t\nand through stablecoin transfers to digital asset exchanges outside of the United States."
+        },
+        {
+          "id": "S19:L18-L18",
+          "quote": "Much of \nthis activity is facilitated by Chinese underground banking systems, which include peer-to-peer \nexchangers45 and over-the-counter (OTC) brokers 46\tthat\toperate\toutside\tof\tthe\tformal\tfinancial \t\nsystem and generally lack robust KYC and AML/CFT controls."
+        },
+        {
+          "id": "S19:L18-L18",
+          "quote": "Guarantee marketplaces connect \ncybercriminal networks with these underground banking services."
+        },
+        {
+          "id": "S19:L18-L18",
+          "quote": "47  According to FinCEN \nanalysis, these services typically rely on the liquidity provided by large MSBs in the digital asset \nsector to process transactions."
+        }
+      ]
+    },
+    {
+      "text": "Two financial indicators for bank analysts are: (1) a customer receiving stablecoin deposits from a centralized exchange that exhibits on-chain laundering patterns, and (2) a customer conducting large transactions using a stablecoin that explicitly advertises it cannot be seized or frozen by law enforcement.",
+      "evidence": [
+        {
+          "id": "S19:L22-L22",
+          "quote": "FINCEN ALERT\n11\nRed Flags Related to Laundering Techniques Associated with Digital Asset Investment Scam Centers\n A customer of a digital asset exchange receives stablecoin transactions that originate from \ncentralized digital asset exchanges that operate in the United States and undergo transaction \npatterns\tassociated\twith\ton-chain\tlaundering\ttechniques."
+        },
+        {
+          "id": "S19:L22-L22",
+          "quote": "A customer conducts substantial transactions using a stablecoin whose issuer advertises that it \ndoes not cooperate with law enforcement or that its stablecoin cannot be seized or frozen."
+        }
+      ]
+    }
+  ],
+  "checklist": [],
+  "limitations": [
+    "The evidence does not specify thresholds for SAR filing based on transaction amounts or frequency, so a determination of mandatory SAR filing cannot be made without additional regulatory guidance.",
+    "A generated claim with an unsupported frequency or legal-currency assertion was omitted. Other claim support still requires review."
+  ],
+  "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "latency_seconds": 14.25
+}

@@ -1,0 +1,354 @@
+{
+  "configuration": "BM25 lexical only",
+  "measure": "all expected sources present in top 5, development cases only",
+  "limitation": "Provisional author-assigned source labels, not reviewed passage gold labels. No answer generation tested. No held-out cases run.",
+  "cases": 18,
+  "source_hits": 18,
+  "results": [
+    {
+      "id": "R01",
+      "question": "What does FinCEN do to implement administer and enforce the BSA?",
+      "expected_sources": [
+        "S01"
+      ],
+      "retrieved_sources": [
+        "S01",
+        "S04",
+        "S05",
+        "S11"
+      ],
+      "all_expected_sources_found": true,
+      "chunk_ids": [
+        "S01:L7-L11",
+        "S11:L26-L31",
+        "S04:L78-L82",
+        "S04:L83-L87",
+        "S05:L61-L62"
+      ]
+    },
+    {
+      "id": "R02",
+      "question": "Who examines banks for BSA compliance within their jurisdictions?",
+      "expected_sources": [
+        "S04"
+      ],
+      "retrieved_sources": [
+        "S04",
+        "S05"
+      ],
+      "all_expected_sources_found": true,
+      "chunk_ids": [
+        "S04:L75-L76",
+        "S04:L64-L67",
+        "S04:L83-L87",
+        "S04:L78-L82",
+        "S05:L29-L32"
+      ]
+    },
+    {
+      "id": "R03",
+      "question": "Are OFAC sanctions separate from the Bank Secrecy Act?",
+      "expected_sources": [
+        "S04"
+      ],
+      "retrieved_sources": [
+        "S01",
+        "S04"
+      ],
+      "all_expected_sources_found": true,
+      "chunk_ids": [
+        "S04:L94-L97",
+        "S04:L23-L26",
+        "S04:L40-L48",
+        "S04:L54-L58",
+        "S01:L7-L11"
+      ]
+    },
+    {
+      "id": "R04",
+      "question": "What risk categories should a bank consider in a BSA AML risk assessment?",
+      "expected_sources": [
+        "S05"
+      ],
+      "retrieved_sources": [
+        "S05"
+      ],
+      "all_expected_sources_found": true,
+      "chunk_ids": [
+        "S05:L50-L54",
+        "S05:L29-L32",
+        "S05:L57-L59",
+        "S05:L34-L37",
+        "S05:L26-L27"
+      ]
+    },
+    {
+      "id": "R05",
+      "question": "Does one risk indicator automatically establish a higher risk profile?",
+      "expected_sources": [
+        "S05"
+      ],
+      "retrieved_sources": [
+        "S05",
+        "S06"
+      ],
+      "all_expected_sources_found": true,
+      "chunk_ids": [
+        "S05:L50-L54",
+        "S06:L28-L40",
+        "S05:L34-L37",
+        "S05:L57-L59",
+        "S05:L61-L62"
+      ]
+    },
+    {
+      "id": "R06",
+      "question": "Is there an expectation for a particular method or format for the risk assessment?",
+      "expected_sources": [
+        "S05"
+      ],
+      "retrieved_sources": [
+        "S05"
+      ],
+      "all_expected_sources_found": true,
+      "chunk_ids": [
+        "S05:L44-L45",
+        "S05:L47-L48",
+        "S05:L57-L59",
+        "S05:L50-L54",
+        "S05:L29-L32"
+      ]
+    },
+    {
+      "id": "R07",
+      "question": "What changes may prompt a bank to update its risk assessment?",
+      "expected_sources": [
+        "S05"
+      ],
+      "retrieved_sources": [
+        "S05",
+        "S06"
+      ],
+      "all_expected_sources_found": true,
+      "chunk_ids": [
+        "S05:L47-L48",
+        "S05:L50-L54",
+        "S05:L55-L55",
+        "S06:L28-L40",
+        "S05:L61-L62"
+      ]
+    },
+    {
+      "id": "R08",
+      "question": "Does the manual require risk assessment updates on a specified periodic basis?",
+      "expected_sources": [
+        "S05"
+      ],
+      "retrieved_sources": [
+        "S05"
+      ],
+      "all_expected_sources_found": true,
+      "chunk_ids": [
+        "S05:L47-L48",
+        "S05:L57-L59",
+        "S05:L50-L54",
+        "S05:L29-L32",
+        "S05:L26-L27"
+      ]
+    },
+    {
+      "id": "R09",
+      "question": "What is the purpose of ongoing customer due diligence monitoring?",
+      "expected_sources": [
+        "S06"
+      ],
+      "retrieved_sources": [
+        "S04",
+        "S05",
+        "S06",
+        "S11"
+      ],
+      "all_expected_sources_found": true,
+      "chunk_ids": [
+        "S06:L28-L40",
+        "S06:L42-L48",
+        "S05:L39-L43",
+        "S04:L59-L63",
+        "S11:L36-L39"
+      ]
+    },
+    {
+      "id": "R10",
+      "question": "How should CDD procedures handle insufficient or inaccurate information?",
+      "expected_sources": [
+        "S06"
+      ],
+      "retrieved_sources": [
+        "S04",
+        "S06",
+        "S10"
+      ],
+      "all_expected_sources_found": true,
+      "chunk_ids": [
+        "S06:L42-L48",
+        "S06:L28-L40",
+        "S10:L72-L77",
+        "S04:L29-L39",
+        "S10:L95-L97"
+      ]
+    },
+    {
+      "id": "R11",
+      "question": "What evidence is relevant to reviewing customer risk profile changes and approvals?",
+      "expected_sources": [
+        "S06"
+      ],
+      "retrieved_sources": [
+        "S04",
+        "S05",
+        "S06",
+        "S10"
+      ],
+      "all_expected_sources_found": true,
+      "chunk_ids": [
+        "S06:L28-L40",
+        "S06:L42-L48",
+        "S05:L47-L48",
+        "S10:L67-L71",
+        "S04:L40-L48"
+      ]
+    },
+    {
+      "id": "R12",
+      "question": "What factors guide selecting a sample for CDD transaction testing?",
+      "expected_sources": [
+        "S06"
+      ],
+      "retrieved_sources": [
+        "S04",
+        "S05",
+        "S06"
+      ],
+      "all_expected_sources_found": true,
+      "chunk_ids": [
+        "S06:L42-L48",
+        "S04:L40-L48",
+        "S06:L28-L40",
+        "S05:L50-L54",
+        "S05:L57-L59"
+      ]
+    },
+    {
+      "id": "R13",
+      "question": "What risk factors guide CIP identity verification procedures?",
+      "expected_sources": [
+        "S10"
+      ],
+      "retrieved_sources": [
+        "S10"
+      ],
+      "all_expected_sources_found": true,
+      "chunk_ids": [
+        "S10:L42-L51",
+        "S10:L52-L59",
+        "S10:L60-L60",
+        "S10:L86-L86",
+        "S10:L72-L77"
+      ]
+    },
+    {
+      "id": "R14",
+      "question": "What do CIP procedures describe when customer identity cannot be verified?",
+      "expected_sources": [
+        "S10"
+      ],
+      "retrieved_sources": [
+        "S10"
+      ],
+      "all_expected_sources_found": true,
+      "chunk_ids": [
+        "S10:L89-L93",
+        "S10:L86-L86",
+        "S10:L72-L77",
+        "S10:L52-L59",
+        "S10:L42-L51"
+      ]
+    },
+    {
+      "id": "R15",
+      "question": "What do non-documentary customer identity verification methods include?",
+      "expected_sources": [
+        "S10"
+      ],
+      "retrieved_sources": [
+        "S10"
+      ],
+      "all_expected_sources_found": true,
+      "chunk_ids": [
+        "S10:L82-L84",
+        "S10:L86-L86",
+        "S10:L98-L101",
+        "S10:L72-L77",
+        "S10:L42-L51"
+      ]
+    },
+    {
+      "id": "R16",
+      "question": "Is appointing a BSA officer sufficient by itself?",
+      "expected_sources": [
+        "S11"
+      ],
+      "retrieved_sources": [
+        "S04",
+        "S11"
+      ],
+      "all_expected_sources_found": true,
+      "chunk_ids": [
+        "S11:L26-L31",
+        "S11:L32-L35",
+        "S11:L36-L39",
+        "S04:L88-L92",
+        "S04:L59-L63"
+      ]
+    },
+    {
+      "id": "R17",
+      "question": "What authority independence and resources does the BSA officer need?",
+      "expected_sources": [
+        "S11"
+      ],
+      "retrieved_sources": [
+        "S04",
+        "S05",
+        "S11"
+      ],
+      "all_expected_sources_found": true,
+      "chunk_ids": [
+        "S11:L36-L39",
+        "S11:L26-L31",
+        "S11:L32-L35",
+        "S05:L47-L48",
+        "S04:L29-L39"
+      ]
+    },
+    {
+      "id": "R18",
+      "question": "What should the board and senior management hear from the BSA compliance officer?",
+      "expected_sources": [
+        "S11"
+      ],
+      "retrieved_sources": [
+        "S05",
+        "S11"
+      ],
+      "all_expected_sources_found": true,
+      "chunk_ids": [
+        "S11:L36-L39",
+        "S11:L32-L35",
+        "S11:L26-L31",
+        "S05:L61-L62",
+        "S05:L29-L32"
+      ]
+    }
+  ]
+}

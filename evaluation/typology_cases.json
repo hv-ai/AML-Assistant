@@ -1,0 +1,362 @@
+[
+  {
+    "id": "ST01",
+    "topic": "structuring",
+    "question": "What is structuring and why does intent to evade reporting matter?",
+    "source_ids": [
+      "S15"
+    ],
+    "key_phrases": [
+      "purpose of evading"
+    ],
+    "answer_checks": [
+      "Purpose/intent to evade reporting or recordkeeping is material.",
+      "A small deposit alone does not prove structuring.",
+      "Date the 2005 ruling; do not assert its old CFR citations are current."
+    ]
+  },
+  {
+    "id": "ST02",
+    "topic": "structuring",
+    "question": "According to FinCEN's structuring ruling, should suspicious activity monitoring be one size fits all?",
+    "source_ids": [
+      "S15"
+    ],
+    "key_phrases": [
+      "one size fits all"
+    ],
+    "answer_checks": [
+      "Monitoring is risk based, institution specific."
+    ]
+  },
+  {
+    "id": "ST03",
+    "topic": "structuring",
+    "question": "What structuring patterns can involve multiple branches or multiple days of cash deposits?",
+    "source_ids": [
+      "S15",
+      "S16"
+    ],
+    "key_phrases": [
+      "structuring",
+      "smurfing"
+    ],
+    "answer_checks": [
+      "Patterns are investigative indicators, not automatic findings."
+    ]
+  },
+  {
+    "id": "MU01",
+    "topic": "money_mules",
+    "question": "What is a money mule and how can a mule account be used to move illicit proceeds?",
+    "source_ids": [
+      "S14",
+      "S16"
+    ],
+    "key_phrases": [
+      "money mule"
+    ],
+    "answer_checks": [
+      "Transfers or receives funds for another; explain proceeds movement."
+    ]
+  },
+  {
+    "id": "MU02",
+    "topic": "money_mules",
+    "question": "What financial red flags may indicate money mule account activity?",
+    "source_ids": [
+      "S16"
+    ],
+    "key_phrases": [
+      "money mule"
+    ],
+    "answer_checks": [
+      "Cite specific account/transaction indicators, not nationality or job title alone."
+    ]
+  },
+  {
+    "id": "MU03",
+    "topic": "money_mules",
+    "question": "Can money mules be unwitting rather than knowingly participating in money laundering?",
+    "source_ids": [
+      "S14",
+      "S16"
+    ],
+    "key_phrases": [
+      "unwitting",
+      "unwittingly",
+      "unaware"
+    ],
+    "answer_checks": [
+      "Do not assume all mule participants have the same knowledge."
+    ]
+  },
+  {
+    "id": "TB01",
+    "topic": "trade_based",
+    "question": "What is trade-based money laundering and how does it involve goods and trade transactions?",
+    "source_ids": [
+      "S14",
+      "S16",
+      "S17"
+    ],
+    "key_phrases": [
+      "trade-based money laundering",
+      "tbml"
+    ],
+    "answer_checks": [
+      "Explain movement/disguise of illicit value through trade, with source context."
+    ]
+  },
+  {
+    "id": "TB02",
+    "topic": "trade_based",
+    "question": "What trade-based money laundering indicators involve invoices, trade documents, commodity prices and payments?",
+    "source_ids": [
+      "S17"
+    ],
+    "key_phrases": [
+      "invoice",
+      "trade documents"
+    ],
+    "answer_checks": [
+      "Cite actual document/goods/payment irregularities.",
+      "FATF indicators are international guidance, not US regulations."
+    ]
+  },
+  {
+    "id": "TB03",
+    "topic": "trade_based",
+    "question": "Does a single trade-based money laundering risk indicator conclusively establish suspicious activity?",
+    "source_ids": [
+      "S17"
+    ],
+    "key_phrases": [
+      "single",
+      "conclusive"
+    ],
+    "answer_checks": [
+      "Preserve the report's handling notes and context."
+    ]
+  },
+  {
+    "id": "SH01",
+    "topic": "shell_companies",
+    "question": "How do shell companies and front companies differ in money laundering?",
+    "source_ids": [
+      "S14",
+      "S18"
+    ],
+    "key_phrases": [
+      "front compan",
+      "shell compan"
+    ],
+    "answer_checks": [
+      "Distinguish operating front businesses from shell entities."
+    ]
+  },
+  {
+    "id": "SH02",
+    "topic": "shell_companies",
+    "question": "What suspicious payment and ownership indicators can arise with shell companies?",
+    "source_ids": [
+      "S18"
+    ],
+    "key_phrases": [
+      "no apparent legitimate business purpose",
+      "ownership"
+    ],
+    "answer_checks": [
+      "Cite transaction/ownership opacity and inconsistent business activity."
+    ]
+  },
+  {
+    "id": "SH03",
+    "topic": "shell_companies",
+    "question": "Are all shell companies illegal or used for money laundering?",
+    "source_ids": [
+      "S18"
+    ],
+    "key_phrases": [
+      "legitimate"
+    ],
+    "answer_checks": [
+      "Most are created for legitimate purposes; assess context rather than blanket exclusion."
+    ]
+  },
+  {
+    "id": "DA01",
+    "topic": "digital_assets",
+    "question": "How are digital assets and stablecoins used to launder digital asset investment scam proceeds?",
+    "source_ids": [
+      "S19",
+      "S14"
+    ],
+    "key_phrases": [
+      "stablecoin",
+      "digital asset"
+    ],
+    "answer_checks": [
+      "Explain documented proceeds movement without implying all digital assets are illicit."
+    ]
+  },
+  {
+    "id": "DA02",
+    "topic": "digital_assets",
+    "question": "What bank payment red flags may indicate a customer is a victim of a digital asset investment scam?",
+    "source_ids": [
+      "S19"
+    ],
+    "key_phrases": [
+      "red flags related to victim payments"
+    ],
+    "answer_checks": [
+      "Separate victim payment indicators from laundering-network indicators."
+    ]
+  },
+  {
+    "id": "DA03",
+    "topic": "digital_assets",
+    "question": "What laundering indicators does the FinCEN digital asset investment scam centers alert describe?",
+    "source_ids": [
+      "S19"
+    ],
+    "key_phrases": [
+      "laundering techniques",
+      "money laundering"
+    ],
+    "answer_checks": [
+      "Date the alert; attribute indicators to it, not a new universal obligation."
+    ]
+  },
+  {
+    "id": "CO01",
+    "topic": "corruption",
+    "question": "How can foreign public corruption proceeds be laundered through companies and financial intermediaries?",
+    "source_ids": [
+      "S20"
+    ],
+    "key_phrases": [
+      "corruption"
+    ],
+    "answer_checks": [
+      "Describe source-supported concealment/integration, preserving attribution."
+    ]
+  },
+  {
+    "id": "CO02",
+    "topic": "corruption",
+    "question": "What financial red flags of foreign public corruption involve government contracts and unexplained wealth?",
+    "source_ids": [
+      "S20"
+    ],
+    "key_phrases": [
+      "government contracts",
+      "source of wealth"
+    ],
+    "answer_checks": [
+      "Identify contract opacity, beneficial ownership or wealth mismatch using source evidence."
+    ]
+  },
+  {
+    "id": "CO03",
+    "topic": "corruption",
+    "question": "Does a single corruption red flag determine that activity is illicit or suspicious?",
+    "source_ids": [
+      "S20"
+    ],
+    "key_phrases": [
+      "no single"
+    ],
+    "answer_checks": [
+      "No single financial indicator is determinative; consider facts and circumstances."
+    ]
+  },
+  {
+    "id": "HT01",
+    "topic": "human_trafficking",
+    "question": "What financial typologies does FinCEN describe for human trafficking proceeds?",
+    "source_ids": [
+      "S21"
+    ],
+    "key_phrases": [
+      "human trafficking"
+    ],
+    "answer_checks": [
+      "Explain documented flows, not a victim or offender determination."
+    ]
+  },
+  {
+    "id": "HT02",
+    "topic": "human_trafficking",
+    "question": "What financial red flags may indicate human trafficking-related payments and account activity?",
+    "source_ids": [
+      "S21"
+    ],
+    "key_phrases": [
+      "financial indicators",
+      "human trafficking"
+    ],
+    "answer_checks": [
+      "Use actual financial indicators; protect the distinction between potential victims and perpetrators."
+    ]
+  },
+  {
+    "id": "HT03",
+    "topic": "human_trafficking",
+    "question": "Why is a single human trafficking red flag insufficient to conclude trafficking is occurring?",
+    "source_ids": [
+      "S21"
+    ],
+    "key_phrases": [
+      "no single red flag"
+    ],
+    "answer_checks": [
+      "No single indicator proves trafficking; consider previous financial activity and additional context."
+    ]
+  },
+  {
+    "id": "DA04",
+    "topic": "digital_assets",
+    "question": "What are red flag indicators of convertible virtual currency mixing services?",
+    "source_ids": [
+      "S22"
+    ],
+    "key_phrases": [
+      "mixing",
+      "mixer"
+    ],
+    "answer_checks": [
+      "Preserve source date and focus on misuse indicators rather than equating all privacy tools with crime."
+    ]
+  },
+  {
+    "id": "DA05",
+    "topic": "digital_assets",
+    "question": "What virtual currency peer-to-peer exchanger transaction patterns should financial institutions review?",
+    "source_ids": [
+      "S22"
+    ],
+    "key_phrases": [
+      "peer-to-peer",
+      "p2p"
+    ],
+    "answer_checks": [
+      "Attribute the indicators to the advisory rather than making current licensing determinations."
+    ]
+  },
+  {
+    "id": "CO04",
+    "topic": "corruption",
+    "question": "What domestic corruption risks are described in the 2026 money laundering risk assessment?",
+    "source_ids": [
+      "S14"
+    ],
+    "key_phrases": [
+      "domestic corruption"
+    ],
+    "answer_checks": [
+      "Do not restrict all corruption risk to foreign officials."
+    ]
+  }
+]

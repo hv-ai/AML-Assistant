@@ -1,0 +1,35 @@
+{
+  "kind": "sequential public GET measurements, not cold-start guarantee",
+  "requests": [
+    {
+      "path": "/",
+      "status": 200,
+      "elapsed_ms": 186,
+      "bytes": 11612
+    },
+    {
+      "path": "/api/status",
+      "status": 200,
+      "elapsed_ms": 287,
+      "bytes": 7408,
+      "hosted": true,
+      "chunks": 207,
+      "hybrid_ready": true
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "elapsed_ms": 92,
+      "bytes": 11612
+    },
+    {
+      "path": "/api/status",
+      "status": 200,
+      "elapsed_ms": 289,
+      "bytes": 7408,
+      "hosted": true,
+      "chunks": 207,
+      "hybrid_ready": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "source_id": "S24",
+    "title": "Customer Due Diligence Rule \u2014 consolidated FAQs (updated May 2026)",
+    "issuer": "FinCEN",
+    "authority_type": "regulatory_guidance",
+    "url": "https://www.fincen.gov/system/files/2026-05/CDD-Rule-Consolidated-FAQs.pdf",
+    "published_date": "2026-05-06",
+    "topics": [
+      "customer_due_diligence",
+      "beneficial_ownership",
+      "customer_identification"
+    ],
+    "original_path": "data/originals/S24.pdf",
+    "original_sha256": "917c9fbf29d46b683a95ef61a0d0def71074e0932a91f32e286417399802f32b"
+  }
+]

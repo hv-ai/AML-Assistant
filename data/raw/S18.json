@@ -1,0 +1,151 @@
+{
+  "source_id": "S18",
+  "url": "https://www.fincen.gov/resources/statutes-regulations/guidance/potential-money-laundering-risks-related-shell-companies",
+  "captured_date": "2026-10-17",
+  "capture_method": "official_html_article_text_extract",
+  "coverage": "Main article body extracted from saved official HTML; navigation/footer excluded. Extract line numbers are local locators, not official paragraph numbers.",
+  "original_sha256": "201c93552cb992220f94c8ae1d4ff7b3ff9deddd5fabce8c0192a685a37fe05d",
+  "original_path": "data/originals/S18.html",
+  "extract_line_range": [
+    1,
+    34
+  ],
+  "lines": [
+    {
+      "line": 1,
+      "text": "This advisory is being issued to alert financial institutions to some of the potential money laundering risks associated with providing financial services to shell companies. Most shell companies are formed by individuals and businesses for legitimate reasons. However, these entities also have been used for illicit purposes.1"
+    },
+    {
+      "line": 2,
+      "text": "Lack of transparency in the formation and operation of shell companies may be a desired characteristic for certain legitimate business activity, but it is also a vulnerability that allows these companies to disguise their ownership and purpose. All financial institutions that are subject to the Bank Secrecy Act (BSA) should review their anti-money laundering programs to ensure that any money laundering risks are being assessed and managed appropriately."
+    },
+    {
+      "line": 3,
+      "text": "This advisory is not intended to encourage financial institutions to discontinue business or refuse particular accounts or relationships with shell companies. Rather, the purpose of this advisory is to remind financial institutions of the importance of managing the potential risks associated with providing financial services to shell companies."
+    },
+    {
+      "line": 4,
+      "text": "Shell Company Overview"
+    },
+    {
+      "line": 5,
+      "text": "The term “shell company,” as used herein, refers to non-publicly traded corporations, limited liability companies (LLCs), and trusts that typically have no physical presence (other than a mailing address) and generate little to no independent economic value.2 Most shell companies are formed by individuals and businesses for legitimate purposes, such as to hold stock or intangible assets of another business entity3 or to facilitate domestic and cross-border currency and asset transfers and corporate mergers."
+    },
+    {
+      "line": 6,
+      "text": "As noted in the 2005 U.S. Money Laundering Threat Assessment, shell companies have become common tools for money laundering and other financial crimes, primarily because they are easy and inexpensive to form and operate."
+    },
+    {
+      "line": 7,
+      "text": "According to a survey conducted by the U.S. Government Accountability Office, there were approximately 8.9 million corporations and 3.8 million LLCs registered nationwide in 2004. Although the corporation historically has been the dominant business structure over other forms of business entity, the LLC has become increasingly popular. More LLCs were formed nationwide in 2004 (1,068,989) than corporations (869,693).4"
+    },
+    {
+      "line": 8,
+      "text": "Ownership and transactional information on these entities can be concealed from regulatory and law enforcement authorities. All states have laws governing the formation of limited liability companies; however, most states do not collect or otherwise require the disclosure to state governments of ownership information at the formation stage or thereafter."
+    },
+    {
+      "line": 9,
+      "text": "Furthermore, there are several ways, consistent with state laws, in which organizers of shell companies may obscure company structure, ownership, and activities. For example, many states’ laws permit corporations, general partnerships, trusts, and other business entities to own and manage LLCs. This statutory feature enables an individual or business to further conceal involvement in the activities of a shell LLC. Layers of ownership can be devised which make it highly unlikely that relationships among various individuals and companies can be discerned, even if one or more of the owners is actually known or discovered."
+    },
+    {
+      "line": 10,
+      "text": "Agents and Nominee Incorporation Services"
+    },
+    {
+      "line": 11,
+      "text": "Agents, also known as intermediaries or nominee incorporation services (NIS), can play a central role in the creation and ongoing maintenance and support of shell companies. NIS firms are often used because they can legally and efficiently organize business entities in any state. Numerous agents and NIS firms advertise a wide range of services for shell companies, such as serving as a resident agent and providing mail-forwarding services. Organizers of shell companies also may purchase corporate office “service packages” in order to appear to have established a more significant local presence. These packages often include a state business license, a local street address, an office that is staffed during business hours, a local telephone listing with a receptionist, and 24-hour personalized voicemail."
+    },
+    {
+      "line": 12,
+      "text": "International NIS firms have entered into marketing and customer referral arrangements with U.S. banks to offer financial services such as Internet banking and funds transfer capabilities to shell companies and foreign citizens. U.S. banks that participate in these arrangements may be assuming increased levels of money laundering risk."
+    },
+    {
+      "line": 13,
+      "text": "Some agents and NIS firms also provide individuals and businesses in the United States and abroad a variety of nominee services that can be used to preserve a client’s anonymity in connection with the formation and operation of shell companies. Such features, while legal, may be attractive to those seeking to launder funds or finance terrorism. These services include, for example:"
+    },
+    {
+      "line": 14,
+      "text": "Nominee Officers and Directors: Incorporators provide the shell company with nominees for all offices that appear in public records."
+    },
+    {
+      "line": 15,
+      "text": "Nominee Stockholders: A beneficial owner may use nominee stockholders to further ensure privacy and anonymity while maintaining control through an irrevocable proxy agreement."
+    },
+    {
+      "line": 16,
+      "text": "Nominee Bank Signatory: A nominee appointed as the company fiduciary (such as a lawyer or accountant) can open bank accounts in the name of the shell company. The nominee accepts instructions from the beneficial owners and forwards these instructions to the bank without needing to disclose the names of the beneficial owners."
+    },
+    {
+      "line": 17,
+      "text": "Banks can serve as formation agents and, when so acting, are subject to all BSA requirements, including suspicious activity reporting."
+    },
+    {
+      "line": 18,
+      "text": "Potential Indicators of Money Laundering and Other Risk-Related Considerations"
+    },
+    {
+      "line": 19,
+      "text": "The use of shell companies provides an opportunity for foreign or domestic entities to move money by means of wire transfers or other methods, whether directly or through a correspondent banking relationship, without company owners having to disclose their true identities or the nature or purpose of transactions. A review of Suspicious Activity Report data reveals that shell companies in the United States have been used to move billions of dollars globally.5"
+    },
+    {
+      "line": 20,
+      "text": "Additionally, the following elements are cited repeatedly in Suspicious Activity Reports involving shell companies:"
+    },
+    {
+      "line": 21,
+      "text": "An inability to obtain – whether through the Internet, commercial database searches, or direct inquiries to the foreign correspondent bank whose customer is the originator or the beneficiary of the transfer – information necessary to identify originators or beneficiaries of wire transfers."
+    },
+    {
+      "line": 22,
+      "text": "A foreign correspondent bank exceeds the anticipated volume projected in its client profile for wire transfers in a given time period, or an individual company exhibits a high amount of sporadic activity that is inconsistent with normal business patterns."
+    },
+    {
+      "line": 23,
+      "text": "Payments have no stated purpose, do not reference goods or services, or identify only a contract or invoice number."
+    },
+    {
+      "line": 24,
+      "text": "Goods or services of the company do not match the company’s profile based on information previously provided to the financial institution."
+    },
+    {
+      "line": 25,
+      "text": "Transacting businesses share the same address, provide only a registered agent’s address, or raise other address-related inconsistencies."
+    },
+    {
+      "line": 26,
+      "text": "An unusually large number and variety of beneficiaries receive wire transfers from one company."
+    },
+    {
+      "line": 27,
+      "text": "Frequent involvement of beneficiaries located in high-risk, offshore financial centers."
+    },
+    {
+      "line": 28,
+      "text": "Multiple high-value payments or transfers between shell companies with no apparent legitimate business purpose."
+    },
+    {
+      "line": 29,
+      "text": "Managing the Risks of Providing Services to Shell Companies"
+    },
+    {
+      "line": 30,
+      "text": "Keeping in mind that most shell companies are created to serve legitimate business purposes, financial institutions should be aware of the unique characteristics of shell companies when providing them with financial services."
+    },
+    {
+      "line": 31,
+      "text": "Providing services to shell companies involves varying degrees of risk, depending on the ownership structure, nature of the customer, the services provided, purpose of the account, the location of services, and other associated factors. The potential to abuse shell companies for illicit activity must be recognized, and financial institutions must be vigilant in monitoring such companies on an ongoing basis. Financial institutions are expected to assess the risks involved in each shell company relationship and take steps to ensure that the risks are appropriately and effectively identified and managed in accordance with their BSA obligations."
+    },
+    {
+      "line": 32,
+      "text": "Accordingly, all financial institutions that are subject to the BSA should review their anti-money laundering and, as appropriate, suspicious activity reporting programs to ensure that internal policies, procedures, controls, systems and training programs are designed to prevent, detect, and report possible money laundering and other financial crime involving shell companies.6 For guidance on managing the risks of providing services to shell companies, financial institutions should refer to the Business Entities (Domestic and Foreign) section of the FFIEC BSA/AML Examination Manual, dated July 28, 2006.7"
+    },
+    {
+      "line": 33,
+      "text": "As previously stated in SAR Activity Review # 7, if a financial institution discovers suspicious activities such as those listed above and knows, suspects or has reason to suspect the transactions involve the use of United States or foreign-based shell business entities to launder illicit funds or to enable the furtherance of a crime, the institution must file a Suspicious Activity Report in accordance with the suspicious activity reporting regulations and use the narrative to completely and sufficiently describe the suspicious conduct. The narrative should use the term “shell,” as appropriate. The preparer should provide all required and relevant information about the conductor(s) and transactions, including, as applicable, the names and account numbers of all originators and beneficiaries of domestic and international wire transfers, the names and locations of shell entities involved in the transfers, and the names of and information regarding any registered agents or other third parties.8"
+    },
+    {
+      "line": 34,
+      "text": "We will continue to monitor and analyze the misuse of shell companies and similar business entities and may issue additional guidance in the future."
+    }
+  ]
+}

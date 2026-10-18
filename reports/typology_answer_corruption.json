@@ -1,0 +1,137 @@
+{
+  "evidence": [
+    {
+      "chunk_id": "S20:L16-L16",
+      "source_id": "S20",
+      "title": "Kleptocracy and Foreign Public Corruption: Typologies and Indicators",
+      "heading": "Kleptocracy and Foreign Public Corruption: Typologies and Indicators \u00b7 PDF page 8",
+      "issuer": "FinCEN",
+      "authority_type": "advisory",
+      "url": "https://www.fincen.gov/system/files/advisory/2022-04-14/FinCEN%20Advisory%20Corruption%20FINAL%20508.pdf",
+      "published_date": "2022-04-14",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 8 \u00b7 extracted text lines 16-16",
+      "pdf_page": 8,
+      "topics": [
+        "corruption"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "FINCEN ADVISORY\n8\n\u2022 Recently, the U.S. gov ernment announced it would work with allies and partners to block \nPresident Putin and certain Russian elites\u2019 assets in the United States and elsewhere, \nincluding their real estate, private jets, and mega yachts. 34  For example, OFAC recently \nsanctioned the family of Dmitriy Sergeevich Peskov, a close ally of President Putin and lead \npropagandist and spokesperson for the Russian Federation.  Peskov\u2019s family is reported to \nown real estate in Russia and elsewhere valued at more than $10 million, and to have access \nto a number of luxury vehicles, including private aircrafts and yachts, which they use for \ntravel across the world. 35\nFinancial Red Flag Indicators of Kleptocracy and  \nForeign Public Corruption \nFinCEN has identified the following financial red flag indicators to assist financial institutions \nin detecting, preventing, and reporting suspicious transactions associated with kleptocracy and \nforeign public corruption.  Because no single financial red flag indicator is determinative of illicit \nor suspicious activity, financial institutions should consider the relevant facts and circumstances of \neach transaction, in keeping with their risk-based approach to compliance.\n Transactions involving long-term gov ernment contracts consistently awarded, through an \nopaque selection process, to the same legal entity or entities that share similar beneficial \nownership structures.\n36\n Transactions involving services provided to state-owned compani es or public institutions by \ncompanies registered in high-risk jurisdictions. \n Transactions involving official embassy or foreign gov ernment business conducted through \npersonal accounts.\n Transactions involving public officials related to high-v alue assets, such as real estate or other \nluxury goods, that are not commensurate with the reported source of wealth for the public \nofficial or that fall outside that individual\u2019s normal pattern of activity or lifestyle. \n Transactions involving public officials and funds moving to and f rom countries with which \nthe public officials do not appear to have ties. 37\n34. See White House, \u201cFACT SHEET: The United States Continues to Target Russian Oligarchs Enabling Putin\u2019s War of \nChoice,\u201d (March 3, 2022).  See also, FinCEN Alert on Real Estate and High Value Assets involving Russian Elites.\n35. See Treasury Press Release, \u201cTreasury Sanctions Kremlin Elites, Leaders, Oligarchs, and Family for Enabling Putin\u2019s \nWar Against Ukraine,\u201d (March 11, 2022).\n36. See generally, Egmont Group Report, \u201cPublic Summary: FIU Tools and Practices for Investigations Laundering of the \nProceeds of Corruption,\u201d (July 2019), at p. 16.\n37. See FinCEN Advisory on Human Rights and Corruption, supra Note 7, at p. 6.",
+      "retrieval_score": 28.60703
+    },
+    {
+      "chunk_id": "S20:L2-L2",
+      "source_id": "S20",
+      "title": "Kleptocracy and Foreign Public Corruption: Typologies and Indicators",
+      "heading": "Kleptocracy and Foreign Public Corruption: Typologies and Indicators \u00b7 PDF page 1",
+      "issuer": "FinCEN",
+      "authority_type": "advisory",
+      "url": "https://www.fincen.gov/system/files/advisory/2022-04-14/FinCEN%20Advisory%20Corruption%20FINAL%20508.pdf",
+      "published_date": "2022-04-14",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 1 \u00b7 extracted text lines 2-2",
+      "pdf_page": 1,
+      "topics": [
+        "corruption"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "1\n FIN-2022-A001  April 14, 2022\nAdvisory on Kleptocracy and Foreign Public Corruption\nFinCEN urges financial institutions to focus efforts on detecting the proceeds of foreign \npublic corruption, a priority for the U.S. government.\nSAR Filing Request: \nFinCEN requests financial \ninstitutions reference this \nadvisory in SAR field 2 (Filing \nInstitution Note to FinCEN) and \nthe narrative by including the \nfollowing key term: \u201cCORRUPTION \nFIN-2022-A001\u201d and selecting \nSAR field 38(m).  Additional \nguidance on filing SARs appears \nnear the end of this advisory.\n1. See White House, \u201cMemorandum on Establishing the Fight Against Corruption as a Core United States National \nSecurity Interest,\u201d (June 3, 2021) (Memo on Establishing Fight Against Corruption).  The 2022 U.S. National Money \nLaundering Risk Assessment reiterates corruption as a primary money laundering threat and provides the financial \nsector information on risks related to foreign and domestic corruption. For more information, see Treasury, \n\u201cNational Money Laundering Risk Assessment,\u201d (February 2022).\n2. Id.\n3. On June 30, 2021, the Financial Crimes Enforcement Network (FinCEN) issued the first national anti-money \nlaundering and countering the financing of terrorism (AML/CFT) priorities (the \u201cPriorities\u201d), identifying corruption \nas one of the most significant AML/CFT threats currently facing the United States.  See FinCEN, \u201cAnti-Money \nLaundering and Countering the Financing of Terrorism National Priorities\u201d (June 30, 2021), at p. 3; see also, FinCEN \nPress Release, \u201cFinCEN Issues First National AML/CFT Priorities and Accompanying Statements,\u201d (June 30, 2021).  \n4. See, e.g., the Foreign Corrupt Practices Act of 1977, 15 USC \u00a7\u00a7 78dd-1, et seq.\n5. See Memo on Establishing Fight Against Corruption, supra Note 1.\nIntroduction\nLast year, President Biden established the fight against \ncorruption as a core national security interest. 1  The proceeds \nof foreign public corruption travel across national borders and \ncan affect economies and political systems far from the origin \nof the proceeds.2  Foreign public corruption disproportionately \nharms the most vulnerable in societies, often depriving these \npopulations of critical public services.  In the United States, \nthe proceeds of foreign public corruption can distort our \nmarkets, taint our financial system, and can erode public trust \nin government institutions.\n3  Foreign public corruption can also \nviolate U.S. law.4\nKleptocratic regimes and corrupt public officials may engage \nin bribery, embezzlement, extortion, or the misappropriation \nof public assets, among other forms of corrupt behavior, \nto advance their strategic, financial, and personal goals.  In \ndoing so, they may exploit the U.S. and international financial \nsystems to launder illicit gains, including through the use of \nshell companies, offshore financial centers, and professional \nservice providers who enable the movement and laundering \nCorruption includes the abuse \nof authority or official position \nto extract personal gain.  \nCorruption corrodes public trust; \nhobbles effective governance; \nundercuts development efforts; \ncontributes to national fragility, \nextremism, and migration; \nand provides authoritarian \nleaders a means to undermine \ndemocracies worldwide.\n5",
+      "retrieval_score": 21.55167
+    },
+    {
+      "chunk_id": "S20:L20-L20",
+      "source_id": "S20",
+      "title": "Kleptocracy and Foreign Public Corruption: Typologies and Indicators",
+      "heading": "Kleptocracy and Foreign Public Corruption: Typologies and Indicators \u00b7 PDF page 10",
+      "issuer": "FinCEN",
+      "authority_type": "advisory",
+      "url": "https://www.fincen.gov/system/files/advisory/2022-04-14/FinCEN%20Advisory%20Corruption%20FINAL%20508.pdf",
+      "published_date": "2022-04-14",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 10 \u00b7 extracted text lines 20-20",
+      "pdf_page": 10,
+      "topics": [
+        "corruption"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "FINCEN ADVISORY\n10\nWhen a financial institution files a SAR, it is required to maintain a copy of the SAR and the \noriginal or business record equivalent of any supporting documentation for a period of five \nyears from the date of filing the SAR. 41  Financial institutions must provide any requested \nSAR and all documentation supporting the filing of a SAR upon request by FinCEN or an \nappropriate law enforcement or supervisory agency.\n42  When requested to provide supporting \ndocumentation, financial institutions should take special care to verify that a requestor of \ninformation is, in fact, a representative of FinCEN or an appropriate law enforcement or \nsupervisory agency.  A financial institution should incorporate procedures for such verification \ninto its BSA compliance or AML/CFT program.  These procedures may include, for example, \nindependent employment verification with the requestor\u2019s field office or face-to-face review of \nthe requestor\u2019s credentials.  \nSARs and OFAC Sanctions\nLongstanding FinCEN guidance 43 provides clarity regarding when a financial institution must \nsatisfy its obligation to file a SAR on a transaction involving a designated person when also filing \na blocking report with OFAC.  Relatedly, ransomware attacks and payments on which financial \ninstitutions file SARs should also be reported to OFAC at OFAC_Feedback@treasury.gov if there \nis any reason to suspect a potential sanctions nexus with regard to a ransomware payment.\nSAR Filing Instructions\nFinCEN requests that financial institutions reference this alert by including the key term \n\u201cCORRUPTION FIN-2022-A001\u201d in SAR field 2 (Filing Institution Note to FinCEN) and the \nnarrative to indicate a connection between the suspicious activity being reported and the \nactivities highlighted in this alert.  Financial institutions may highlight additional advisory or \nalert keywords in the narrative, if applicable.\n44\n41. See 31 CFR \u00a7\u00a7 1020.320(d), 1021.320(d), 1022.320(c), 1023.320(d), 1024.320(c), 1025.320(d), 1026.320(d), 1029.320(d), and \n1030.320(d).\n42. Id.  See also, FinCEN, \u201cSuspicious Activity Report Supporting Documentation,\u201d (June 13, 2007).\n43. See FinCEN, The SAR Activity Review, Issue 8, Section 5 \u201cRevised Guidance on Filing Suspicious Activity Reports \nRelating to the Office of Foreign Assets Control List of Specially Designated Nationals and Blocked Persons,\u201d pp. \n38-40, (April 2005), which states, \u201c[t]o the extent that the financial institution is in possession of information not \nincluded on the blocking report filed with [OFAC], a separate [SAR] should be filed with FinCEN including that \ninformation. This guidance also does not affect a financial institution\u2019s obligation to file a [SAR] even if it has filed \na blocking report with [OFAC], to the extent that the facts and circumstances surrounding the [OFAC] match are \nindependently suspicious and are otherwise required to be reported under the existing FinCEN regulations. In those \ncases, the [OFAC] blocking report would not satisfy a financial institution\u2019s [SAR] filing obligation\u2026.When a financial \ninstitution files a reject report on a transaction, the financial institution is obligated to file a [SAR] to the extent that the \nfacts and circumstances surrounding the rejected funds transfer are suspicious.\u201d\n44. For activity involving possible violations of export and import restrictions and other controls related to Russia, as set \nby the U.S. Department of Commerce\u2019s BIS, financial institutions should include the key term \u201cFIN-2022-RUSSIABIS\u201d.  \nFor relevant actions related to Russia\u2019s invasion of Ukraine, see Bureau of Industry and Security | U.S. Department of \nCommerce.  See also, U.S. Commerce Department\u2019s BIS, Red Flag Indicators.",
+      "retrieval_score": 21.27928
+    },
+    {
+      "chunk_id": "S20:L6-L6",
+      "source_id": "S20",
+      "title": "Kleptocracy and Foreign Public Corruption: Typologies and Indicators",
+      "heading": "Kleptocracy and Foreign Public Corruption: Typologies and Indicators \u00b7 PDF page 3",
+      "issuer": "FinCEN",
+      "authority_type": "advisory",
+      "url": "https://www.fincen.gov/system/files/advisory/2022-04-14/FinCEN%20Advisory%20Corruption%20FINAL%20508.pdf",
+      "published_date": "2022-04-14",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 3 \u00b7 extracted text lines 6-6",
+      "pdf_page": 3,
+      "topics": [
+        "corruption"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "FINCEN ADVISORY\n3\ncontrol as part of U.S. efforts to hold President Putin and his supporters accountable for Russia\u2019s \nfurther invasion of Ukraine, and to restrict their access to assets to finance Russia\u2019s destabilizing \nactivities globally. 13\nThis advisory provides financial institutions with typologies and potential indicators associated \nwith kleptocracy and other forms of foreign public corruption, namely bribery, embezzlement, \nextortion, and the misappropriation of public assets.  \nThe information contained in this advisory is derived from FinCEN\u2019s analysis of Bank Secrecy Act \n(BSA) data, open-source reporting, and information from law enforcement partners.\nTypologies of Kleptocracy and Foreign Public Corruption \nWealth Extraction\nForeign public corruption can take many forms, including bribery, extortion, embezzlement, \nor misappropriation of public funds and assets.  This corruption can occur at every level of \ngovernment.  For instance, in Russia, President Putin has allowed the resources of the Russian \npeople to be siphoned off by oligarchs and elites, who amassed their fortunes through their \n13. See Treasury Press Releases, supra Note 10.  See also, FinCEN Alerts, \u201cFinCEN Advises Increased Vigilance for \nPotential Russian Sanctions Evasion Attempts,\u201d (March 7, 2022) (FinCEN Alert on Russian Sanction Evasion); and \n\u201cFinCEN Alert on Real Estate, Luxury Goods, and Other High Value Assets Involving Russian Elites, Oligarchs, and \ntheir Family Members,\u201d (March 16, 2022) (FinCEN Alert on Real Estate and High Value Assets involving Russian \nElites).  In addition to imposing financial sanctions against corrupt actors, the U.S. government has a number of \ntools to counter public corruption, kleptocracy, foreign malign influence, and foreign bribery across the globe.  The \nForeign Corrupt Practices Act (FCPA) makes it unlawful for certain classes of persons and entities to make payments \nto foreign government officials to assist in obtaining or retaining business.  See 15 U.S.C. \u00a7\u00a7 78dd-1, et seq. U.S. anti-\nmoney laundering laws prohibit transactions involving offenses against a foreign nation of extortion; bribery of \na public official; or the misappropriation, theft, or embezzlement of public funds by or for the benefit of a public \nofficial.  See 18 U.S.C. \u00a7 1956(c)(7)(B)(ii) and (iv).  Title 31 also prohibits, among other things, concealing, falsifying, \nor misrepresenting to a financial institution a material fact concerning a senior foreign political figure\u2019s control of \nassets in certain high-value transactions.  See 31 U.S.C. \u00a7 5335.  The Department of Justice (DOJ) and federal law \nenforcement, through specialized prosecutorial and investigative units, as well as through U.S. Attorneys\u2019 Offices, \ninvestigate and prosecute foreign corruption and related conduct, and seek recovery of foreign corruption proceeds \nfor the benefit of the people harmed by such acts.  For more information, see generally, DOJ, Foreign Corrupt Practices \nAct.  DOJ\u2019s Kleptocracy Asset Recovery Initiative facilitates the recovery and return of corruption proceeds to the \nbenefit of people harmed by corrupt acts.  For more information, see generally, DOJ, Money Laundering and Asset \nRecovery Section (MLARS).  Additionally, DOJ recently created Task Force KleptoCapture that focuses specifically \non enforcing recent economic actions against Russia.  For more information, see DOJ Press Release, \u201cAttorney General \nMerrick B. Garland Announces Launch of Task Force KleptoCapture,\u201d (March 2, 2022).  On March 16, 2022, Treasury \nand the DOJ launched the multinational Russian Elites, Proxies, and Oligarchs (REPO) Task Force with counterparts \nacross the globe.  For more information, see Treasury and DOJ Press Release, \u201cU.S. Departments of Treasury and \nJustice Launch Multilateral Russian Oligarch Task Force,\u201d (March 16, 2022).  The Department of Commerce\u2019s Bureau \nof Industry and Security (BIS) regulate the export and import of critical and sensitive technologies paramount to \nU.S. national security.  For more information, see generally, Bureau of Industry and Security | U.S. Department of \nCommerce.  Treasury recently created the Kleptocracy Asset Recovery Reward Program.  For more information, see \nTreasury, \u201cKleptocracy Asset Recovery Rewards Program,\u201d (March 16, 2022).",
+      "retrieval_score": 20.10064
+    },
+    {
+      "chunk_id": "S20:L26-L26",
+      "source_id": "S20",
+      "title": "Kleptocracy and Foreign Public Corruption: Typologies and Indicators",
+      "heading": "Kleptocracy and Foreign Public Corruption: Typologies and Indicators \u00b7 PDF page 13",
+      "issuer": "FinCEN",
+      "authority_type": "advisory",
+      "url": "https://www.fincen.gov/system/files/advisory/2022-04-14/FinCEN%20Advisory%20Corruption%20FINAL%20508.pdf",
+      "published_date": "2022-04-14",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 13 \u00b7 extracted text lines 26-26",
+      "pdf_page": 13,
+      "topics": [
+        "corruption"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "FINCEN ADVISORY\n13\nGeneral obligations for correspondent  \naccount due diligence and AML/CFT programs\nBanks, brokers or dealers in securities, mutual funds, and FCM/IBs also are reminded to \ncomply with their general due diligence obligations for correspondent accounts under 31 CFR \n\u00a7 1010.610(a), in addition to their general AML/CFT program obligations under 31 U.S.C. \u00a7 \n5318(h) and its implementing regulations (which apply to all U.S. financial institutions). 57  MSBs \nhave parallel requirements with respect to foreign agents or foreign counterparties, as described \nin FinCEN Interpretive Release 2004-1, which clarifies that the AML program regulation \nrequires MSBs to establish adequate and appropriate policies, procedures, and controls \ncommensurate with the risk of money laundering and the financing of terrorism posed by their \nrelationship with foreign agents or foreign counterparties.\n58\nInformation Sharing\nInformation sharing among financial institutions is critical to identifying, reporting, and \npreventing evolving sanctions evasion, ransomware/cyberattacks, and the laundering of the \nproceeds of corruption, among other illicit activity.  Financial institutions and associations of \nfinancial institutions sharing information under the safe harbor authorized by section 314(b) of \nthe USA PATRIOT Act are reminded that they may share information with one another regarding \nindividuals, entities, organizations, and countries suspected of possible terrorist financing or \nmoney laundering.\n59  FinCEN strongly encourages such voluntary information sharing.\nFor Further Information\nQuestions or comments regarding the contents of this advisory to the FinCEN Regulatory Support \nSection at frc@fincen.gov.57. See 31 CFR \u00a7\u00a7 1010.210, 1020.210, 1021.210, 1022.210, 1023.210, 1024.210, 1025.210, 1026.210, 1027.210, 1028.210, \n1029.210, and 1030.210.\n58. See FinCEN, \u201cAnti-Money Laundering Program Requirements for Money Services Businesses with Respect to Foreign \nAgents or Foreign Counterparties,\u201d Interpretive Release 2004-1, 69 FR 239, (December 14, 2004).  See also, FinCEN, \n\u201cGuidance on Existing AML Program Rule Compliance Obligations for MSB Principals with Respect to Agent \nMonitoring,\u201d (March 11, 2016).\n59. For further guidance related to the 314(b) Program, see FinCEN, \u201cSection 314(b) Fact Sheet,\u201d (December 20, 2020).",
+      "retrieval_score": 19.87029
+    }
+  ],
+  "retrieval": "BM25 keyword",
+  "question": "Explain laundering of foreign public corruption proceeds and two financial indicators for bank analysts. Why is one red flag not conclusive?",
+  "scope": "US banks",
+  "citation_check": "IDs and exact quotes checked; claim support needs review",
+  "cached": false,
+  "status": "supported",
+  "summary": "Laundering of foreign public corruption proceeds and financial indicators",
+  "claims": [
+    {
+      "text": "Laundering of foreign public corruption proceeds involves concealing the origins of illicit funds obtained through bribery, embezzlement, or misappropriation by corrupt officials, often using shell companies, offshore accounts, or luxury assets to integrate the funds into the legitimate financial system.",
+      "evidence": [
+        {
+          "id": "S20:L2-L2",
+          "quote": "and international financial \nsystems to launder illicit gains, including through the use of \nshell companies, offshore financial centers, and professional \nservice providers who enable the movement and laundering \nCorruption includes the abuse \nof authority or official position \nto extract personal gain."
+        }
+      ]
+    },
+    {
+      "text": "Two financial indicators for bank analysts include transactions involving public officials acquiring high-value assets like real estate or luxury vehicles not commensurate with their reported income, and transactions involving services provided to state-owned enterprises by companies registered in high-risk jurisdictions.",
+      "evidence": [
+        {
+          "id": "S20:L16-L16",
+          "quote": "Transactions involving public officials related to high-v alue assets, such as real estate or other \nluxury goods, that are not commensurate with the reported source of wealth for the public \nofficial or that fall outside that individual\u2019s normal pattern of activity or lifestyle."
+        },
+        {
+          "id": "S20:L16-L16",
+          "quote": "36\n Transactions involving services provided to state-owned compani es or public institutions by \ncompanies registered in high-risk jurisdictions."
+        }
+      ]
+    }
+  ],
+  "checklist": [],
+  "limitations": [
+    "The evidence does not specify additional red flags beyond those listed, nor does it define the threshold for 'not commensurate' or 'high-risk jurisdiction'.",
+    "A generated claim with an unsupported frequency, obligation or legal-currency assertion was omitted. Other claim support still requires review."
+  ],
+  "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "latency_seconds": 4.58
+}

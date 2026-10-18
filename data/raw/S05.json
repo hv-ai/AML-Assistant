@@ -1,0 +1,173 @@
+{
+  "source_id": "S05",
+  "url": "https://bsaaml.ffiec.gov/manual/BSAAMLRiskAssessment/01",
+  "capture_method": "web_tool_text_extract",
+  "captured_date": "2026-10-16",
+  "coverage": "selected section excerpt; not original HTML or complete regulatory corpus",
+  "extract_line_range": [
+    23,
+    62
+  ],
+  "lines": [
+    {
+      "line": 23,
+      "text": "### BSA/AML Risk Assessment"
+    },
+    {
+      "line": 24,
+      "text": "### BSA/AML RISK ASSESSMENT"
+    },
+    {
+      "line": 25,
+      "text": ""
+    },
+    {
+      "line": 26,
+      "text": "Objective: Review the bank’s BSA/AML risk assessment process, and determine whether the bank has adequately identified the ML/TF and other illicit financial activity risks within its banking operations."
+    },
+    {
+      "line": 27,
+      "text": "Examiners must develop an understanding of the bank’s ML/TF and other illicit financial activity risks to evaluate the bank’s BSA/AML compliance program. This is primarily achieved by reviewing the bank’s BSA/AML risk assessment during the scoping and planning process. This section is designed to provide standards for examiners to assess the adequacy of the bank’s BSA/AML risk assessment process."
+    },
+    {
+      "line": 28,
+      "text": "#### BSA/AML Risk Assessment Process"
+    },
+    {
+      "line": 29,
+      "text": "To assure that BSA/AML compliance programs are reasonably designed to meet BSA regulatory requirements, banks structure their compliance programs to be risk-based. While not a specific legal requirement, a well-developed BSA/AML risk assessment assists the bank in identifying ML/TF and other illicit financial activity risks and in developing appropriate internal controls (i.e., policies, procedures, and processes)."
+    },
+    {
+      "line": 30,
+      "text": "Understanding its risk profile enables the bank to better apply appropriate risk management processes to the BSA/AML compliance program to mitigate and manage risk and comply with BSA regulatory requirements. The BSA/AML risk assessment process also enables the bank to better identify and mitigate any gaps in controls. The BSA/AML risk assessment should provide a comprehensive analysis of the bank’s ML/TF and other illicit financial activity risks."
+    },
+    {
+      "line": 31,
+      "text": "Documenting the BSA/AML risk assessment in writing is a sound practice to effectively communicate ML/TF and other illicit financial activity risks to appropriate bank personnel. The BSA/AML risk assessment should be provided to all business lines across the bank, the board of directors, management, and appropriate staff."
+    },
+    {
+      "line": 32,
+      "text": "The development of the BSA/AML risk assessment generally involves the identification of specific risk categories (e.g., products, services, customers, and geographic locations) unique to the bank, and an analysis of the information identified to better assess the risks within these specific risk categories."
+    },
+    {
+      "line": 33,
+      "text": "##### Identification of Specific Risk Categories"
+    },
+    {
+      "line": 34,
+      "text": "Generally, the first step in developing the risk assessment is to identify the bank’s risk categories. Money laundering, terrorist financing, or other illicit financial activities can occur through any number of different methods or channels. A spectrum of risks may be identifiable even within the same risk category. The bank’s BSA/AML risk assessment process should address the varying degrees of risk associated with its products, services, customers, and geographic locations, as appropriate."
+    },
+    {
+      "line": 35,
+      "text": "Improper identification and assessment of risk can have a cascading effect, creating deficiencies in multiple areas of internal controls and resulting in an overall weakened BSA/AML compliance program."
+    },
+    {
+      "line": 36,
+      "text": "The identification of risk categories is bank-specific, and a conclusion regarding the risk categories should be based on a consideration of all pertinent information. There are no required risk categories, and the number and detail of these categories vary based on the bank’s size or complexity, and organizational structure. Any single indicator does not necessarily determine the existence of lower or higher risk."
+    },
+    {
+      "line": 37,
+      "text": "The subsections within Risks Associated with Money Laundering and Terrorist Financing provide information and discussions on certain products, services, customers, and geographic locations that may present unique challenges and exposures, which banks may need to address through specific policies, procedures, and processes."
+    },
+    {
+      "line": 38,
+      "text": "##### Analysis of Specific Risk Categories"
+    },
+    {
+      "line": 39,
+      "text": "Generally, the second step in developing the BSA/AML risk assessment entails an analysis of the information obtained when identifying specific risk categories. The purpose of this analysis is to assess ML/TF and other illicit financial activity risks in order to develop appropriate internal controls to mitigate overall risk. This step may involve evaluating transaction data pertaining to the bank’s activities relative to products, services, customers, and geographic locations."
+    },
+    {
+      "line": 40,
+      "text": "For example, it may be useful to quantify risk by assessing the number and dollar amount of domestic and international funds transfers, the nature of private banking customers or foreign correspondent accounts, the existence of payable through accounts, and the domestic and international geographic locations where the bank conducts or transacts business. A detailed analysis is important, because the risks associated with the bank’s activities vary."
+    },
+    {
+      "line": 41,
+      "text": "Additionally, the appropriate level and sophistication of the analysis varies by bank."
+    },
+    {
+      "line": 42,
+      "text": "The following example illustrates the value of the two-step risk assessment process. The information collected by two banks in the first step reflects that each sends 100 international funds transfers per day. Further analysis by the first bank shows that approximately 90 percent of its funds transfers are recurring well-documented transactions for long-term customers. Further analysis by the second bank shows that 90 percent of its funds transfers are nonrecurring or are processed for noncustomers."
+    },
+    {
+      "line": 43,
+      "text": "While these percentages appear to be the same, the risks may be different. This example illustrates that information collected for purposes of the bank’s customer identification program and developing the customer due diligence customer risk profile is important when conducting a detailed analysis. Refer to the Customer Identification Program , Customer Due Diligence , and Appendix J – Quantity of Risk Matrix sections for more information."
+    },
+    {
+      "line": 44,
+      "text": "Various methods and formats may be used to complete the BSA/AML risk assessment; therefore, there is no expectation for a particular method or format. Bank management designs the appropriate method or format and communicates the ML/TF and other illicit financial activity risks to all appropriate parties."
+    },
+    {
+      "line": 45,
+      "text": "When the bank has established an appropriate BSA/AML risk assessment process, and has followed existing policies, procedures, and processes, examiners should not criticize the bank for individual risk or process decisions unless those decisions impact the adequacy of some aspect of the bank’s BSA/AML compliance program or the bank’s compliance with BSA regulatory requirements."
+    },
+    {
+      "line": 46,
+      "text": "#### Updating the Risk Assessment"
+    },
+    {
+      "line": 47,
+      "text": "Generally, risk assessments are updated (in whole or in part) to include changes in the bank’s products, services, customers, and geographic locations and to remain an accurate reflection of the bank’s ML/TF and other illicit financial activity risks. For example, the bank may need to update its BSA/AML risk assessment when new products, services, and customer types are introduced or the bank expands through mergers and acquisitions."
+    },
+    {
+      "line": 48,
+      "text": "However, there is no requirement to update the BSA/AML risk assessment on a continuous or specified periodic basis."
+    },
+    {
+      "line": 49,
+      "text": "#### Assessing the Bank’s BSA/AML Risk Assessment"
+    },
+    {
+      "line": 50,
+      "text": "When evaluating the BSA/AML risk assessment, examiners should focus on whether the bank has effective processes resulting in a well-developed BSA/AML risk assessment. Examiners should not take any single indicator as determinative of the existence of a lower- or higher-risk profile for the bank. The assessment of risk factors is bank-specific, and a conclusion regarding the risk profile should be based on a consideration of all pertinent information."
+    },
+    {
+      "line": 51,
+      "text": "The bank may determine that some factors should be weighted more heavily than others. For example, the number of funds transfers may be one factor the bank considers when assessing risk. However, to identify and weigh the risks, the bank’s risk assessment process may need to consider other factors associated with those funds transfers, such as whether they are international or domestic, the dollar amounts involved, and the nature of the customer relationships."
+    },
+    {
+      "line": 52,
+      "text": "Regardless of the bank’s approach, sound practice would be to document the factors considered, including any weighting."
+    },
+    {
+      "line": 53,
+      "text": "Examiners should assess whether the bank has developed a BSA/AML risk assessment that identifies its ML/TF and other illicit financial activity risks. Examiners should also assess whether the bank has considered all products, services, customers, and geographic locations, and whether the bank analyzed the information relative to those risk categories."
+    },
+    {
+      "line": 54,
+      "text": "For the purposes of the examination, whenever the bank has not developed a BSA/AML risk assessment, or the BSA/AML risk assessment is inadequate, examiners must develop a BSA/AML risk assessment for the bank based on available information. An examiner-developed BSA/AML risk assessment generally is not as comprehensive as one developed by the bank. Examiners should have a general understanding of the bank’s ML/TF and other illicit financial activity risks from the examination scoping and planning process."
+    },
+    {
+      "line": 55,
+      "text": "This information should be evaluated using the two-step approach detailed in the BSA/AML Risk Assessment Process subsection above. Examiners may also refer to Appendix J - Quantity of Risk Matrix when completing this evaluation."
+    },
+    {
+      "line": 56,
+      "text": "#### Developing a BSA/AML Compliance Program Based on the BSA/AML Risk Assessment"
+    },
+    {
+      "line": 57,
+      "text": "The bank structures its BSA/AML compliance program to address its risk profile, based on the bank’s assessment of risks, as well as to comply with BSA regulatory requirements. Specifically, the bank should develop appropriate policies, procedures, and processes to monitor and control its ML/TF and other illicit financial activity risks."
+    },
+    {
+      "line": 58,
+      "text": "For example, the bank’s monitoring system to identify, research, and report suspicious activity should be risk-based to incorporate any necessary additional screening for higher-risk products, services, customers, and geographic locations as identified by the bank’s BSA/AML risk assessment. Independent testing (audit) should review the bank’s BSA/AML risk assessment, including how it is used to develop the BSA/AML compliance program."
+    },
+    {
+      "line": 59,
+      "text": "Refer to Appendix I - Risk Assessment Link to the BSA/AML Compliance Program for a chart depicting the expected link of the BSA/AML risk assessment to the BSA/AML compliance program."
+    },
+    {
+      "line": 60,
+      "text": "##### Consolidated BSA/AML Risk Assessment"
+    },
+    {
+      "line": 61,
+      "text": "Banks that choose to implement a consolidated or partially consolidated BSA/AML compliance program should assess risk within business lines and across activities and legal entities. Consolidating ML/TF and other illicit financial activity risks for larger or more complex banking organizations may assist senior management and the board of directors in identifying, understanding, and appropriately mitigating risks within and across the banking organization."
+    },
+    {
+      "line": 62,
+      "text": "To understand ML/TF and other illicit financial activity risk exposures, the banking organization should communicate across all business lines, activities, and legal entities. Identifying a vulnerability in one aspect of the banking organization may indicate vulnerabilities elsewhere. Refer to the BSA/AML Compliance Program Structures section for more information."
+    }
+  ]
+}

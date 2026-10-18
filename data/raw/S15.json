@@ -1,0 +1,67 @@
+{
+  "source_id": "S15",
+  "url": "https://www.fincen.gov/resources/statutes-regulations/administrative-rulings/suspicious-activity-reporting-structuring",
+  "captured_date": "2026-10-17",
+  "capture_method": "official_html_article_text_extract",
+  "coverage": "Main article body extracted from saved official HTML; navigation/footer excluded. Extract line numbers are local locators, not official paragraph numbers.",
+  "original_sha256": "8a4fbd695f2c354c77a2f03d4ce23e8c66eb39740afccde52f65dc5ee9e95468",
+  "original_path": "data/originals/S15.html",
+  "extract_line_range": [
+    1,
+    13
+  ],
+  "lines": [
+    {
+      "line": 1,
+      "text": "Dear [ ]:"
+    },
+    {
+      "line": 2,
+      "text": "Thank you for your letter requesting our views concerning the extent to which financial institutions must establish programs to review currency transactions to detect and report “structuring” when the conduct does not require the filing of a currency transaction report. You also request guidance regarding the extent and parameters under which multiple day monitoring for potentially suspicious activity should be positively initiated."
+    },
+    {
+      "line": 3,
+      "text": "As you note in your letter, 31 C.F.R. § 103.18 requires, in part, banks and credit unions to file a Suspicious Activity Report if a transaction involves or aggregates at least $5,000 in funds or other assets, and the bank knows, suspects, or has reason to suspect that the transaction is designed to evade any requirements of the Bank Secrecy Act, i.e., structuring. To comply with the suspicious activity reporting regulation, a bank or credit union must have in place systems to identify the kinds of transactions and accounts that may exhibit indicia of suspicious activity. Otherwise, a bank or credit union cannot assure that it is reporting suspicious transactions as required by the Bank Secrecy Act."
+    },
+    {
+      "line": 4,
+      "text": "Structuring is the breaking up of transactions for the purpose of evading the Bank Secrecy Act reporting and recordkeeping requirements and, if appropriate thresholds are met, should be reported as a suspicious transaction under 31 C.F.R. § 103.18. Structuring can take two basic forms. First, a customer might deposit currency on multiple days in amounts under $10,000 (e.g., $9,900.00) for the intended purpose of circumventing a financial institution’s obligation to report any cash deposit over $10,000 on a currency transaction report as described in 31 C.F.R. § 103.22. Although such deposits do not require aggregation for currency transaction reporting, since they occur on different business days, they nonetheless meet the definition of structuring under the Bank Secrecy Act, implementing regulations, and relevant case law. In another variation on basic structuring, a customer or customers may engage in multiple transactions during one day or over a period of several days or more, in one or more branches of a bank or credit union, in a manner intended to circumvent either the currency transaction reporting requirement, or some other Bank Secrecy Act requirement, such as the recordkeeping requirements for funds transfers of $3,000 or more appearing in 31 C.F.R. § 103.33(e). Structuring may be indicative of underlying illegal activity; further, structuring itself is unlawful under the Bank Secrecy Act.1"
+    },
+    {
+      "line": 5,
+      "text": "A financial institution’s anti-money laundering program should be designed to detect and report both categories of structuring to guard against use of the institution for money laundering and ensure the institution is compliant with the suspicious activity reporting requirements of the Bank Secrecy Act.2 The extent and specific parameters under which a financial institution must monitor accounts and transactions for suspicious activity should be commensurate with the level of money laundering and terrorist financing risk of the specific institution, considering the type of products and services it offers, the locations it serves, and the nature of its customers. In other words, suspicious activity monitoring and reporting systems cannot be “one size fits all.”"
+    },
+    {
+      "line": 6,
+      "text": "Over the past year, FinCEN has worked closer than ever before with the federal banking agencies to better ensure the consistent application of Bank Secrecy Act through the examination process. FinCEN collaborated with the federal banking agencies in the development of the Federal Financial Institutions Examination Counsel Bank Secrecy Act examination manual, which emphasizes a bank’s responsibility to establish and implement risk-based policies, procedures and processes to comply with the Bank Secrecy Act and safeguard its operations from money laundering and terrorist financing. Appendix G of the manual contains a discussion of structuring that you may find helpful. We expect the release of the examination manual to reinforce the importance of robust systems to identify and, where appropriate, report suspicious activity. In addition, we note that FinCEN and the federal banking agencies are participating in various outreach events in conjunction with the release of the examination manual, and we invite your participation in these events."
+    },
+    {
+      "line": 7,
+      "text": "Should you have any additional questions on this subject, please contact FinCEN’s Office of Compliance, at 202-354-6400."
+    },
+    {
+      "line": 8,
+      "text": "Sincerely,"
+    },
+    {
+      "line": 9,
+      "text": "/signed/"
+    },
+    {
+      "line": 10,
+      "text": "William D. Langford, Jr."
+    },
+    {
+      "line": 11,
+      "text": "Associate Director"
+    },
+    {
+      "line": 12,
+      "text": "Regulatory Policy & Programs Division"
+    },
+    {
+      "line": 13,
+      "text": "Financial Crimes Enforcement Network"
+    }
+  ]
+}

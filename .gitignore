@@ -1,0 +1,23 @@
+.env
+.venv/
+__pycache__/
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/S*.json
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/chunks.json
+.runtime/
+.env.*
+!.env.example
+dist/
+
+# Local exports, editor files and scratch artifacts
+.DS_Store
+tmp/
+*.log
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.zip

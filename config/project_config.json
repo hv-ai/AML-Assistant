@@ -1,0 +1,45 @@
+{
+  "status": "Hybrid retrieval implemented: Nebius Qwen3 embeddings, Pinecone dense search, routed BM25 and RRF. Retrieval evaluation complete; independent expert answer review pending.",
+  "retrieval": {
+    "baseline": "BM25 with topic routing",
+    "comparison": [
+      "Nebius/Pinecone dense",
+      "BM25 + dense with reciprocal rank fusion"
+    ],
+    "embedding_model": "Qwen/Qwen3-Embedding-8B",
+    "dimension": 1024,
+    "window_words": 450,
+    "overlap_words": 60,
+    "parent_evidence": "Original passage retained for source locators and generation",
+    "candidate_k": 12,
+    "context_k": 8,
+    "rrf_constant": 60,
+    "evaluation_k": 5
+  },
+  "generation": {
+    "provider": "Nebius",
+    "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+    "max_output_tokens": 1200,
+    "max_calls_per_question": 1,
+    "cdd_legal_gap_response": "labelled source-linked reference explanation when exact FFIEC passage retrieved; not a binding-law answer"
+  },
+  "scope": {
+    "jurisdiction": "US",
+    "institution_type": "bank",
+    "missing_scope_action": "clarify",
+    "no_evidence_action": "abstain",
+    "news_scope": "Seven official US agencies; institution applicability varies"
+  },
+  "budget": {
+    "incremental_development_target_usd": 10,
+    "status": "planning_ceiling_not_price_estimate",
+    "max_live_questions_per_session": 10,
+    "public_live_mode_default": false
+  },
+  "latency": {
+    "target_seconds": 8,
+    "kind": "acceptance target, not guaranteed SLA",
+    "provider_generation_timeout_seconds": 25,
+    "measured_cold_start": false
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "source_id": "S13",
+  "url": "https://www.federalreserve.gov/newsevents/testimony/alvarez20140715a.htm",
+  "capture_method": "web_tool_text_extract",
+  "captured_date": "2026-10-17",
+  "coverage": "Selected text-extract lines; citation footnote markers omitted. S13 retains only the KYC terminology sentence from line 19. Historical context, not a current-law determination.",
+  "extract_line_range": [
+    17,
+    19
+  ],
+  "lines": [
+    {
+      "line": 17,
+      "text": "### Know your customer terminology \u2014 selected sentence from testimony"
+    },
+    {
+      "line": 19,
+      "text": "Under the general rubric of \"know your customer\" laws and regulations, each banking organization is also required to maintain a customer identification program as part of the BSA compliance program and perform due diligence on its customers."
+    }
+  ]
+}

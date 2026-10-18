@@ -1,0 +1,114 @@
+{
+  "evidence": [
+    {
+      "chunk_id": "S05:L50-L54",
+      "source_id": "S05",
+      "title": "BSA AML Risk Assessment",
+      "heading": "Assessing the Bank\u2019s BSA/AML Risk Assessment",
+      "issuer": "FFIEC",
+      "authority_type": "examination_guidance",
+      "url": "https://bsaaml.ffiec.gov/manual/BSAAMLRiskAssessment/01",
+      "captured_date": "2026-10-16",
+      "locator": "Captured extract lines 50-54",
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "When evaluating the BSA/AML risk assessment, examiners should focus on whether the bank has effective processes resulting in a well-developed BSA/AML risk assessment. Examiners should not take any single indicator as determinative of the existence of a lower- or higher-risk profile for the bank. The assessment of risk factors is bank-specific, and a conclusion regarding the risk profile should be based on a consideration of all pertinent information.\nThe bank may determine that some factors should be weighted more heavily than others. For example, the number of funds transfers may be one factor the bank considers when assessing risk. However, to identify and weigh the risks, the bank\u2019s risk assessment process may need to consider other factors associated with those funds transfers, such as whether they are international or domestic, the dollar amounts involved, and the nature of the customer relationships.\nRegardless of the bank\u2019s approach, sound practice would be to document the factors considered, including any weighting.\nExaminers should assess whether the bank has developed a BSA/AML risk assessment that identifies its ML/TF and other illicit financial activity risks. Examiners should also assess whether the bank has considered all products, services, customers, and geographic locations, and whether the bank analyzed the information relative to those risk categories.\nFor the purposes of the examination, whenever the bank has not developed a BSA/AML risk assessment, or the BSA/AML risk assessment is inadequate, examiners must develop a BSA/AML risk assessment for the bank based on available information. An examiner-developed BSA/AML risk assessment generally is not as comprehensive as one developed by the bank. Examiners should have a general understanding of the bank\u2019s ML/TF and other illicit financial activity risks from the examination scoping and planning process.",
+      "retrieval_score": 13.94222
+    },
+    {
+      "chunk_id": "S05:L57-L59",
+      "source_id": "S05",
+      "title": "BSA AML Risk Assessment",
+      "heading": "Developing a BSA/AML Compliance Program Based on the BSA/AML Risk Assessment",
+      "issuer": "FFIEC",
+      "authority_type": "examination_guidance",
+      "url": "https://bsaaml.ffiec.gov/manual/BSAAMLRiskAssessment/01",
+      "captured_date": "2026-10-16",
+      "locator": "Captured extract lines 57-59",
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "The bank structures its BSA/AML compliance program to address its risk profile, based on the bank\u2019s assessment of risks, as well as to comply with BSA regulatory requirements. Specifically, the bank should develop appropriate policies, procedures, and processes to monitor and control its ML/TF and other illicit financial activity risks.\nFor example, the bank\u2019s monitoring system to identify, research, and report suspicious activity should be risk-based to incorporate any necessary additional screening for higher-risk products, services, customers, and geographic locations as identified by the bank\u2019s BSA/AML risk assessment. Independent testing (audit) should review the bank\u2019s BSA/AML risk assessment, including how it is used to develop the BSA/AML compliance program.\nRefer to Appendix I - Risk Assessment Link to the BSA/AML Compliance Program for a chart depicting the expected link of the BSA/AML risk assessment to the BSA/AML compliance program.",
+      "retrieval_score": 11.75429
+    },
+    {
+      "chunk_id": "S05:L26-L27",
+      "source_id": "S05",
+      "title": "BSA AML Risk Assessment",
+      "heading": "BSA/AML RISK ASSESSMENT",
+      "issuer": "FFIEC",
+      "authority_type": "examination_guidance",
+      "url": "https://bsaaml.ffiec.gov/manual/BSAAMLRiskAssessment/01",
+      "captured_date": "2026-10-16",
+      "locator": "Captured extract lines 26-27",
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "Objective: Review the bank\u2019s BSA/AML risk assessment process, and determine whether the bank has adequately identified the ML/TF and other illicit financial activity risks within its banking operations.\nExaminers must develop an understanding of the bank\u2019s ML/TF and other illicit financial activity risks to evaluate the bank\u2019s BSA/AML compliance program. This is primarily achieved by reviewing the bank\u2019s BSA/AML risk assessment during the scoping and planning process. This section is designed to provide standards for examiners to assess the adequacy of the bank\u2019s BSA/AML risk assessment process.",
+      "retrieval_score": 11.63619
+    },
+    {
+      "chunk_id": "S05:L29-L32",
+      "source_id": "S05",
+      "title": "BSA AML Risk Assessment",
+      "heading": "BSA/AML Risk Assessment Process",
+      "issuer": "FFIEC",
+      "authority_type": "examination_guidance",
+      "url": "https://bsaaml.ffiec.gov/manual/BSAAMLRiskAssessment/01",
+      "captured_date": "2026-10-16",
+      "locator": "Captured extract lines 29-32",
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "To assure that BSA/AML compliance programs are reasonably designed to meet BSA regulatory requirements, banks structure their compliance programs to be risk-based. While not a specific legal requirement, a well-developed BSA/AML risk assessment assists the bank in identifying ML/TF and other illicit financial activity risks and in developing appropriate internal controls (i.e., policies, procedures, and processes).\nUnderstanding its risk profile enables the bank to better apply appropriate risk management processes to the BSA/AML compliance program to mitigate and manage risk and comply with BSA regulatory requirements. The BSA/AML risk assessment process also enables the bank to better identify and mitigate any gaps in controls. The BSA/AML risk assessment should provide a comprehensive analysis of the bank\u2019s ML/TF and other illicit financial activity risks.\nDocumenting the BSA/AML risk assessment in writing is a sound practice to effectively communicate ML/TF and other illicit financial activity risks to appropriate bank personnel. The BSA/AML risk assessment should be provided to all business lines across the bank, the board of directors, management, and appropriate staff.\nThe development of the BSA/AML risk assessment generally involves the identification of specific risk categories (e.g., products, services, customers, and geographic locations) unique to the bank, and an analysis of the information identified to better assess the risks within these specific risk categories.",
+      "retrieval_score": 11.62641
+    },
+    {
+      "chunk_id": "S05:L55-L55",
+      "source_id": "S05",
+      "title": "BSA AML Risk Assessment",
+      "heading": "Assessing the Bank\u2019s BSA/AML Risk Assessment",
+      "issuer": "FFIEC",
+      "authority_type": "examination_guidance",
+      "url": "https://bsaaml.ffiec.gov/manual/BSAAMLRiskAssessment/01",
+      "captured_date": "2026-10-16",
+      "locator": "Captured extract lines 55-55",
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "This information should be evaluated using the two-step approach detailed in the BSA/AML Risk Assessment Process subsection above. Examiners may also refer to Appendix J - Quantity of Risk Matrix when completing this evaluation.",
+      "retrieval_score": 11.37111
+    }
+  ],
+  "retrieval": "BM25 keyword",
+  "question": "According to the captured FFIEC guidance, what should a bank consider in its BSA AML risk assessment?",
+  "scope": "US banks",
+  "citation_check": "IDs and exact quotes checked; claim support needs review",
+  "cached": false,
+  "status": "supported",
+  "summary": "BSA AML Risk Assessment Considerations",
+  "claims": [
+    {
+      "text": "A bank should consider products, services, customers, and geographic locations in its BSA AML risk assessment.",
+      "evidence": [
+        {
+          "id": "S05:L50-L54",
+          "quote": "Examiners should also assess whether the bank has considered all products, services, customers, and geographic locations, and whether the bank analyzed the information relative to those risk categories."
+        }
+      ]
+    },
+    {
+      "text": "The bank's risk assessment process should analyze information relative to risk categories such as products, services, customers, and geographic locations.",
+      "evidence": [
+        {
+          "id": "S05:L29-L32",
+          "quote": "The development of the BSA/AML risk assessment generally involves the identification of specific risk categories (e.g., products, services, customers, and geographic locations) unique to the bank, and an analysis of the information identified to better assess the risks within these specific risk categories."
+        }
+      ]
+    },
+    {
+      "text": "The bank may weight certain risk factors more heavily based on its specific circumstances.",
+      "evidence": [
+        {
+          "id": "S05:L50-L54",
+          "quote": "The bank may determine that some factors should be weighted more heavily than others."
+        }
+      ]
+    }
+  ],
+  "checklist": [],
+  "limitations": [],
+  "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "latency_seconds": 2.12
+}

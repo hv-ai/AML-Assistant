@@ -1,0 +1,122 @@
+[
+  {
+    "source_id": "S14",
+    "title": "2026 National Money Laundering Risk Assessment",
+    "issuer": "US Treasury",
+    "authority_type": "national_risk_assessment",
+    "url": "https://home.treasury.gov/system/files/246/2026-NMLRA.pdf",
+    "published_date": "2026-03",
+    "topics": [
+      "broad_typologies"
+    ],
+    "original_path": "data/originals/S14.pdf",
+    "original_sha256": "a66efabe3fbf657be470088e8cfa8d735d7c9a88b7a6b686891e518c6e676ba2"
+  },
+  {
+    "source_id": "S15",
+    "title": "Suspicious Activity Reporting: Structuring (Ruling 2005-6)",
+    "issuer": "FinCEN",
+    "authority_type": "administrative_ruling_historical",
+    "url": "https://www.fincen.gov/resources/statutes-regulations/administrative-rulings/suspicious-activity-reporting-structuring",
+    "published_date": "2005-07-15",
+    "topics": [
+      "structuring"
+    ],
+    "original_path": "data/originals/S15.html",
+    "original_sha256": "8a4fbd695f2c354c77a2f03d4ce23e8c66eb39740afccde52f65dc5ee9e95468"
+  },
+  {
+    "source_id": "S16",
+    "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+    "issuer": "FinCEN",
+    "authority_type": "advisory",
+    "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf",
+    "published_date": "2025-08-28",
+    "topics": [
+      "money_mules",
+      "trade_based",
+      "shell_companies"
+    ],
+    "original_path": "data/originals/S16.pdf",
+    "original_sha256": "5a2654b103437fdb3cfd83db51d77a3dd5f0f756dc467ba2cf365eff1ba766ee"
+  },
+  {
+    "source_id": "S17",
+    "title": "Trade-Based Money Laundering: Risk Indicators",
+    "issuer": "FATF / Egmont Group",
+    "authority_type": "international_risk_indicators",
+    "url": "https://menafatf.org/sites/default/files/Newsletter/English%20Trade-Based-Money-Laundering-Risk-Indicators%20%281%29.pdf",
+    "published_date": "2021-03",
+    "topics": [
+      "trade_based"
+    ],
+    "original_path": "data/originals/S17.pdf",
+    "original_sha256": "670b80270b33354b17263d44393cd65386a96bdb1a171365f217048e7cca6afb"
+  },
+  {
+    "source_id": "S18",
+    "title": "Potential Money Laundering Risks Related to Shell Companies",
+    "issuer": "FinCEN",
+    "authority_type": "guidance_historical",
+    "url": "https://www.fincen.gov/resources/statutes-regulations/guidance/potential-money-laundering-risks-related-shell-companies",
+    "published_date": "2006-11-09",
+    "topics": [
+      "shell_companies"
+    ],
+    "original_path": "data/originals/S18.html",
+    "original_sha256": "201c93552cb992220f94c8ae1d4ff7b3ff9deddd5fabce8c0192a685a37fe05d"
+  },
+  {
+    "source_id": "S19",
+    "title": "Money Laundering Activity Associated with Digital Asset Investment Scam Centers",
+    "issuer": "FinCEN",
+    "authority_type": "alert",
+    "url": "https://www.fincen.gov/system/files/2026-08/FinCEN-Alert-Scam-Centers.pdf",
+    "published_date": "2026-09-03",
+    "topics": [
+      "digital_assets",
+      "money_mules"
+    ],
+    "original_path": "data/originals/S19.pdf",
+    "original_sha256": "f4f28995f714476a454bc8e1235cc304b462ab830cc730aeff7dc75590e89e92"
+  },
+  {
+    "source_id": "S20",
+    "title": "Kleptocracy and Foreign Public Corruption: Typologies and Indicators",
+    "issuer": "FinCEN",
+    "authority_type": "advisory",
+    "url": "https://www.fincen.gov/system/files/advisory/2022-04-14/FinCEN%20Advisory%20Corruption%20FINAL%20508.pdf",
+    "published_date": "2022-04-14",
+    "topics": [
+      "corruption"
+    ],
+    "original_path": "data/originals/S20.pdf",
+    "original_sha256": "3e93619028f029dac2bc650049eac49a2b3550b6890be74ece90f52f9ddbd464"
+  },
+  {
+    "source_id": "S21",
+    "title": "Supplemental Advisory on Identifying and Reporting Human Trafficking and Related Activity",
+    "issuer": "FinCEN",
+    "authority_type": "advisory",
+    "url": "https://www.fincen.gov/sites/default/files/advisory/2020-10-15/Advisory%20Human%20Trafficking%20508%20FINAL_0.pdf",
+    "published_date": "2020-10-15",
+    "topics": [
+      "human_trafficking"
+    ],
+    "original_path": "data/originals/S21.pdf",
+    "original_sha256": "d3734a94233ec1198de0c2141dc4b988e23c06e3f42002641926b14e9e3651a4"
+  },
+  {
+    "source_id": "S22",
+    "title": "Illicit Activity Involving Convertible Virtual Currency",
+    "issuer": "FinCEN",
+    "authority_type": "advisory",
+    "url": "https://www.fincen.gov/sites/default/files/advisory/2019-05-10/FinCEN%20Advisory%20CVC%20FINAL%20508.pdf",
+    "published_date": "2019-05-09",
+    "topics": [
+      "digital_assets"
+    ],
+    "original_path": "data/originals/S22.pdf",
+    "original_sha256": "228e69fc0219ac2504fa5029e8bac88611e7832f4d2872ef013f0f49da61ba7b"
+  }
+]

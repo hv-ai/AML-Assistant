@@ -1,0 +1,165 @@
+{
+  "evidence": [
+    {
+      "chunk_id": "S14:L124-L124",
+      "source_id": "S14",
+      "title": "2026 National Money Laundering Risk Assessment",
+      "heading": "2026 National Money Laundering Risk Assessment \u00b7 PDF page 66",
+      "issuer": "US Treasury",
+      "authority_type": "national_risk_assessment",
+      "url": "https://home.treasury.gov/system/files/246/2026-NMLRA.pdf",
+      "published_date": "2026-03",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 66 \u00b7 extracted text lines 124-124",
+      "pdf_page": 66,
+      "topics": [
+        "broad_typologies"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "2026  \uf0ab\uf0ab  National Money Laundering Risk Assessment 2026  \uf0ab\uf0ab  National Money Laundering Risk Assessment\n62\neven the strictest of regulatory regimes, U.S. law enforcement in its follow-the-money approach has been, and \nwill continue to be, the global leader in unraveling nominee ownership including in cross-border cases for money \nlaundering.  \nFront Companies\nIn the context of illicit finance, front companies are legal entities that provide legitimate goods or services and use \nthat economic activity as a \u201cfront\u201d to disguise illicit activity.  As previously described, shell companies have several \nlegitimate uses, whereas front companies, by definition, are always involved in illicit activity.  Financial institutions \nand auditors are generally capable of identifying anomalous transactions indicative of money laundering in front \ncompanies, forcing money launderers to fabricate documents or make false statements to explain the transactions.  \nUnder FinCEN regulations implementing the CTA, front companies that meet the definition of a reporting company \nwould be required to report BOI.  Front companies can be used to evade sanctions and launder the illicit proceeds of \nfraud and drug trafficking, among other crimes.352\nIn one case, according to the allegations contained in the indictment, the CFO of a multinational media company \nconspired with others to participate in a sprawling, transnational scheme to launder at least approximately $67 \nmillion of illegally obtained funds to bank accounts in the names of the media company and related entities \n(collectively, the \u201cMedia Entities\u201d).  Scheme participants used digital assets to knowingly purchase tens of millions \nof dollars in crime proceeds, including proceeds of fraudulently obtained unemployment insurance benefits, \nthat had been loaded onto tens of thousands of prepaid debit cards.\u00a0 Once the crime proceeds were purchased, \nparticipants in the scheme used stolen PII to open accounts, including prepaid debit card accounts, digital asset \naccounts, and bank accounts, that were used to transfer the crime proceeds into bank accounts associated with \nthe Media Entities.  When banks, including two U.S.-based banks, asked the CFO about the increase in transactions \nentering the bank accounts of the Media Entities, the CFO lied, claiming that the increase in funds came from \ndonations.353 \nTrusts\nTrusts are relationships in which one person holds the title to property and is subject to an obligation to keep or \nuse the property for the benefit of another.354  Trusts are formed under state law, and are widely used for legitimate \npurposes, particularly estate and tax planning.  They allow families and businesses to manage assets discreetly, \nsafeguard the interests of minors or financially inexperienced beneficiaries, and, in the case of inheritances, avoid \nprobate and, in some circumstances, reduce tax liabilities.\nForeign-established trusts (foreign trusts) that connect to the U.S. financial system, particularly those used to hold \nassets like real estate, represent the greater money laundering risk.  Foreign trusts often limit law enforcement access \nto beneficial ownership and related information, heightening their vulnerability to sanctions evasion and allowing \nthe laundering of illicit proceeds of a predicate crime with a foreign nexus, such as corruption or fraud.355  While law \nenforcement has identified some misuse of trusts established in the United States (domestic trusts) related to fraud \n352       See, e.g., DOJ, \u201cVenezuelan National and U.S. Citizen Arrested for Sanctions Evasion and Smuggling in Scheme to Supply Venezuela\u2019s \nState-Owned Steel Industry, \u201d (June 16, 2025) https://www.justice.gov/opa/pr/venezuelan-national-and-us-citizen-arrested-sanctions-\nevasion-and-smuggling-scheme-supply;  DOJ, \u201cMichigan Business Owner Sentenced to Three Years in Prison for Money Laundering \nand Obstructing the IRS, \u201d (March 4, 2024) https://www.justice.gov/archives/opa/pr/michigan-business-owner-sentenced-three-years-\nprison-money-laundering-and-obstructing-irs; DOJ, \u201c Mexican National Sentenced to More Than Five Years in Prison for Conspiring to \nTraffic Cocaine and Money Laundering, \u201d (September 4, 2025) https://www.justice.gov/usao-ma/pr/mexican-national-sentenced-more-\nfive-years-prison-conspiring-traffic-cocaine-and-money. \n353       DOJ, \u201cChief Financial Officer Of Multinational Media Company Charged With Participating In Scheme To Launder At Least $67 Million In \nFraud Proceeds, \u201d (June 3, 2024) https://www.justice.gov/usao-sdny/pr/chief-financial-officer-multinational-media-company-charged-\nparticipating-scheme;\n354       IRS, \u201cDefinition of a trust, \u201d (updated January 30, 2025) https://www.irs.gov/charities-non-profits/definition-of-a-trust. \n355       See, e.g., DOJ, \u201cFederal Courts Authorize IRS \u2018John Doe\u2019 Summonses to Trident Trust Entities, \u201d (January 30, 2025) https://www.justice.\ngov/opa/pr/federal-courts-authorize-irs-john-doe-summonses-trident-trust-entities.",
+      "retrieval_score": 14.18945
+    },
+    {
+      "chunk_id": "S14:L120-L120",
+      "source_id": "S14",
+      "title": "2026 National Money Laundering Risk Assessment",
+      "heading": "2026 National Money Laundering Risk Assessment \u00b7 PDF page 64",
+      "issuer": "US Treasury",
+      "authority_type": "national_risk_assessment",
+      "url": "https://home.treasury.gov/system/files/246/2026-NMLRA.pdf",
+      "published_date": "2026-03",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 64 \u00b7 extracted text lines 120-120",
+      "pdf_page": 64,
+      "topics": [
+        "broad_typologies"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "2026  \uf0ab\uf0ab  National Money Laundering Risk Assessment 2026  \uf0ab\uf0ab  National Money Laundering Risk Assessment\n60\ncontrolled by the CMLN in order to conceal the nature of the illicit funds.344\nForeign shell companies present heightened national security and illicit finance risks because they are often used by \nthreat actors operating from sanctioned jurisdictions, such as Iran, and because their use may allow illicit actors to \nexpatriate illicit proceeds beyond the reach of U.S. law enforcement.345  U.S. law enforcement has a broad range of \ntools they can employ to identify the beneficial owners of U.S. legal entities, such as through state-level registries, \nIRS data, commercial databases, and records held by financial institutions or other companies, but identifying the \nbeneficial owners of foreign-based or foreign-owned shell companies through mutual legal assistance requests can \ntake years or even be prohibited by a foreign country\u2019s data privacy laws.  Under FinCEN regulations, certain foreign \nlegal entities are required to report beneficial ownership information (BOI).346\nThe following cases demonstrate how illicit actors use foreign shell companies to perpetrate several types of \nfinancial crimes, including proliferation financing, fraud, and bribery:\n \u008a Proliferation Financing: In April 2025, a complaint was unsealed charging two Iranian nationals and \nan Iranian company with conspiring to procure U.S. parts for Iranian Unmanned Aerial Vehicles (UAVs, \nalso known as drones), conspiring to provide material support to the Islamic Revolutionary Guard Corps \n(IRGC)\u2014a designated FTO\u2014and conspiring to commit money laundering.  According to court documents, \nthe defendants used various front or shell companies to pay for UAV parts and to obfuscate the true end \ndestination and the true identities of the sanctioned end users, including the IRGC, which were acquiring \nU.S.-made parts through the Iranian company.  The men used at least three shell companies, which were \nall based in the UAE, to pay a PRC-based company that sent invoices to the Iranian company for the sale \nof motors.  Those payments were processed through U.S.-based correspondent bank accounts.  The men \nalso used two of these shell companies to pay a separate PRC-based company for the sale of pneumatic \nmasts\u2014a drone operation component.347\n \u008a Digital Asset Investment Scams: In September 2025, a California man was sentenced to 51 months in \nfederal prison for his role in laundering more than $36.9 million from victims in an international digital \nasset investment scam conspiracy that was carried out from scam centers in Cambodia.  According to \ncourt documents, the man co-owned the Bahamas-based company Axis Digital Limited.  More than $36.9 \nmillion in victim funds were transferred from U.S. bank accounts controlled by the co-conspirators to a \nsingle account at Deltec Bank in the Bahamas, opened in the name of Axis Digital Limited.  The man and \nother co-conspirators directed Deltec Bank to convert victim funds to stablecoins and to transfer the \nconverted funds to a digital asset wallet controlled by individuals in Cambodia.348\n344       DOJ, \u201cFinal Three Members Charged in Prolific Chinese Money Laundering Scheme Plead Guilty to Laundering Tens of Millions in Drug \nProceeds, \u201d (July 7, 2025) https://www.justice.gov/opa/pr/final-three-members-charged-prolific-chinese-money-laundering-scheme-\nplead-guilty-laundering. \n345       As noted regarding domestic shell companies, many foreign shell companies are legitimate and are used because they can limit \nliability, facilitate mergers and acquisitions, aid in tax planning, and provide privacy.  For example, it is common for private fund \nstructures to have an offshore fund vehicle that facilitates tax-efficient investments by U.S. tax-exempt investors.\n346       FinCEN, \u201cBeneficial Ownership Information Reporting Requirement Revision and Deadline Extension, \u201d (Interim Final Rule, 90 FR 13688, \n13697 (March 26, 2025) https://www.federalregister.gov/documents/2025/03/26/2025-05199/beneficial-ownership-information-\nreporting-requirement-revision-and-deadline-extension. \n347       DOJ, \u201cIranian Company and Two Iranian Nationals Charged with Conspiring to Provide Material Support to Islamic Revolutionary \nGuard Corps (IRGC) and for Scheme to Procure U.S. Technology for Iranian Attack Drones, \u201d (April 1, 2025) https://www.justice.gov/opa/\npr/iranian-company-and-two-iranian-nationals-charged-conspiring-provide-material-support.  See also, Treasury, \u201cThe Departments \nof Treasury and Justice Take Action Against Iranian Weapons Procurement Network, \u201d (April 1, 2025) https://home.treasury.gov/news/\npress-releases/sb0066. \n348       DOJ, \u201cCalifornia Man Sentenced for Role in Global Digital Asset Investment Scam Conspiracy Resulting in Theft of More than $36.9M \nfrom Victims, \u201d (September 8, 2025) https://www.justice.gov/opa/pr/california-man-sentenced-role-global-digital-asset-investment-\nscam-conspiracy-resulting.",
+      "retrieval_score": 10.5518
+    },
+    {
+      "chunk_id": "S18:L14-L21",
+      "source_id": "S18",
+      "title": "Potential Money Laundering Risks Related to Shell Companies",
+      "heading": "Potential Money Laundering Risks Related to Shell Companies",
+      "issuer": "FinCEN",
+      "authority_type": "guidance_historical",
+      "url": "https://www.fincen.gov/resources/statutes-regulations/guidance/potential-money-laundering-risks-related-shell-companies",
+      "published_date": "2006-11-09",
+      "captured_date": "2026-10-17",
+      "locator": "Captured extract lines 14-21",
+      "pdf_page": null,
+      "topics": [
+        "shell_companies"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "Nominee Officers and Directors: Incorporators provide the shell company with nominees for all offices that appear in public records.\nNominee Stockholders: A beneficial owner may use nominee stockholders to further ensure privacy and anonymity while maintaining control through an irrevocable proxy agreement.\nNominee Bank Signatory: A nominee appointed as the company fiduciary (such as a lawyer or accountant) can open bank accounts in the name of the shell company. The nominee accepts instructions from the beneficial owners and forwards these instructions to the bank without needing to disclose the names of the beneficial owners.\nBanks can serve as formation agents and, when so acting, are subject to all BSA requirements, including suspicious activity reporting.\nPotential Indicators of Money Laundering and Other Risk-Related Considerations\nThe use of shell companies provides an opportunity for foreign or domestic entities to move money by means of wire transfers or other methods, whether directly or through a correspondent banking relationship, without company owners having to disclose their true identities or the nature or purpose of transactions. A review of Suspicious Activity Report data reveals that shell companies in the United States have been used to move billions of dollars globally.5\nAdditionally, the following elements are cited repeatedly in Suspicious Activity Reports involving shell companies:\nAn inability to obtain \u2013 whether through the Internet, commercial database searches, or direct inquiries to the foreign correspondent bank whose customer is the originator or the beneficiary of the transfer \u2013 information necessary to identify originators or beneficiaries of wire transfers.",
+      "retrieval_score": 10.50128
+    },
+    {
+      "chunk_id": "S18:L22-L31",
+      "source_id": "S18",
+      "title": "Potential Money Laundering Risks Related to Shell Companies",
+      "heading": "Potential Money Laundering Risks Related to Shell Companies",
+      "issuer": "FinCEN",
+      "authority_type": "guidance_historical",
+      "url": "https://www.fincen.gov/resources/statutes-regulations/guidance/potential-money-laundering-risks-related-shell-companies",
+      "published_date": "2006-11-09",
+      "captured_date": "2026-10-17",
+      "locator": "Captured extract lines 22-31",
+      "pdf_page": null,
+      "topics": [
+        "shell_companies"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "A foreign correspondent bank exceeds the anticipated volume projected in its client profile for wire transfers in a given time period, or an individual company exhibits a high amount of sporadic activity that is inconsistent with normal business patterns.\nPayments have no stated purpose, do not reference goods or services, or identify only a contract or invoice number.\nGoods or services of the company do not match the company\u2019s profile based on information previously provided to the financial institution.\nTransacting businesses share the same address, provide only a registered agent\u2019s address, or raise other address-related inconsistencies.\nAn unusually large number and variety of beneficiaries receive wire transfers from one company.\nFrequent involvement of beneficiaries located in high-risk, offshore financial centers.\nMultiple high-value payments or transfers between shell companies with no apparent legitimate business purpose.\nManaging the Risks of Providing Services to Shell Companies\nKeeping in mind that most shell companies are created to serve legitimate business purposes, financial institutions should be aware of the unique characteristics of shell companies when providing them with financial services.\nProviding services to shell companies involves varying degrees of risk, depending on the ownership structure, nature of the customer, the services provided, purpose of the account, the location of services, and other associated factors. The potential to abuse shell companies for illicit activity must be recognized, and financial institutions must be vigilant in monitoring such companies on an ongoing basis. Financial institutions are expected to assess the risks involved in each shell company relationship and take steps to ensure that the risks are appropriately and effectively identified and managed in accordance with their BSA obligations.",
+      "retrieval_score": 10.35253
+    },
+    {
+      "chunk_id": "S18:L1-L5",
+      "source_id": "S18",
+      "title": "Potential Money Laundering Risks Related to Shell Companies",
+      "heading": "Potential Money Laundering Risks Related to Shell Companies",
+      "issuer": "FinCEN",
+      "authority_type": "guidance_historical",
+      "url": "https://www.fincen.gov/resources/statutes-regulations/guidance/potential-money-laundering-risks-related-shell-companies",
+      "published_date": "2006-11-09",
+      "captured_date": "2026-10-17",
+      "locator": "Captured extract lines 1-5",
+      "pdf_page": null,
+      "topics": [
+        "shell_companies"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "This advisory is being issued to alert financial institutions to some of the potential money laundering risks associated with providing financial services to shell companies. Most shell companies are formed by individuals and businesses for legitimate reasons. However, these entities also have been used for illicit purposes.1\nLack of transparency in the formation and operation of shell companies may be a desired characteristic for certain legitimate business activity, but it is also a vulnerability that allows these companies to disguise their ownership and purpose. All financial institutions that are subject to the Bank Secrecy Act (BSA) should review their anti-money laundering programs to ensure that any money laundering risks are being assessed and managed appropriately.\nThis advisory is not intended to encourage financial institutions to discontinue business or refuse particular accounts or relationships with shell companies. Rather, the purpose of this advisory is to remind financial institutions of the importance of managing the potential risks associated with providing financial services to shell companies.\nShell Company Overview\nThe term \u201cshell company,\u201d as used herein, refers to non-publicly traded corporations, limited liability companies (LLCs), and trusts that typically have no physical presence (other than a mailing address) and generate little to no independent economic value.2 Most shell companies are formed by individuals and businesses for legitimate purposes, such as to hold stock or intangible assets of another business entity3 or to facilitate domestic and cross-border currency and asset transfers and corporate mergers.",
+      "retrieval_score": 10.13152
+    }
+  ],
+  "retrieval": "BM25 keyword",
+  "question": "Explain how shell and front companies can be misused and two warning indicators. Explain why shell companies are not automatically illicit.",
+  "scope": "US banks",
+  "citation_check": "IDs and exact quotes checked; claim support needs review",
+  "cached": false,
+  "status": "supported",
+  "summary": "Misuse of shell and front companies and indicators",
+  "claims": [
+    {
+      "text": "Shell companies can be misused to conceal ownership and facilitate illicit finance, such as money laundering and sanctions evasion, by enabling anonymous transactions and obfuscating the true beneficiaries of funds.",
+      "evidence": [
+        {
+          "id": "S14:L120-L120",
+          "quote": "Under FinCEN regulations, certain foreign \nlegal entities are required to report beneficial ownership information (BOI).346\nThe following cases demonstrate how illicit actors use foreign shell companies to perpetrate several types of \nfinancial crimes, including proliferation financing, fraud, and bribery:\n \u008a Proliferation Financing: In April 2025, a complaint was unsealed charging two Iranian nationals and \nan Iranian company with conspiring to procure U.S."
+        },
+        {
+          "id": "S14:L120-L120",
+          "quote": "According to court documents, \nthe defendants used various front or shell companies to pay for UAV parts and to obfuscate the true end \ndestination and the true identities of the sanctioned end users, including the IRGC, which were acquiring \nU.S.-made parts through the Iranian company."
+        },
+        {
+          "id": "S14:L120-L120",
+          "quote": "The men used at least three shell companies, which were \nall based in the UAE, to pay a PRC-based company that sent invoices to the Iranian company for the sale \nof motors."
+        }
+      ]
+    },
+    {
+      "text": "Front companies are used to disguise illicit activity by providing legitimate economic activity as a cover, such as in fraud or drug trafficking schemes, and are always involved in illicit activity by definition.",
+      "evidence": [
+        {
+          "id": "S14:L124-L124",
+          "quote": "Front Companies\nIn the context of illicit finance, front companies are legal entities that provide legitimate goods or services and use \nthat economic activity as a \u201cfront\u201d to disguise illicit activity."
+        },
+        {
+          "id": "S14:L124-L124",
+          "quote": "As previously described, shell companies have several \nlegitimate uses, whereas front companies, by definition, are always involved in illicit activity."
+        },
+        {
+          "id": "S14:L124-L124",
+          "quote": "Front companies can be used to evade sanctions and launder the illicit proceeds of \nfraud and drug trafficking, among other crimes.352\nIn one case, according to the allegations contained in the indictment, the CFO of a multinational media company \nconspired with others to participate in a sprawling, transnational scheme to launder at least approximately $67 \nmillion of illegally obtained funds to bank accounts in the names of the media company and related entities \n(collectively, the \u201cMedia Entities\u201d)."
+        }
+      ]
+    },
+    {
+      "text": "Shell companies are not automatically illicit because they have legitimate uses, including tax planning, facilitating mergers and acquisitions, and holding assets, as noted in the 2026 National Money Laundering Risk Assessment.",
+      "evidence": [
+        {
+          "id": "S14:L124-L124",
+          "quote": "As previously described, shell companies have several \nlegitimate uses, whereas front companies, by definition, are always involved in illicit activity."
+        },
+        {
+          "id": "S14:L120-L120",
+          "quote": "345       As noted regarding domestic shell companies, many foreign shell companies are legitimate and are used because they can limit \nliability, facilitate mergers and acquisitions, aid in tax planning, and provide privacy."
+        },
+        {
+          "id": "S14:L120-L120",
+          "quote": "For example, it is common for private fund \nstructures to have an offshore fund vehicle that facilitates tax-efficient investments by U.S."
+        }
+      ]
+    }
+  ],
+  "checklist": [],
+  "limitations": [
+    "The evidence does not provide a comprehensive list of all legitimate uses of shell companies beyond those mentioned in the 2026 National Money Laundering Risk Assessment."
+  ],
+  "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "latency_seconds": 4.22
+}

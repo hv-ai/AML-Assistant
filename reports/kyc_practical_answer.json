@@ -1,0 +1,272 @@
+{
+  "evidence": [
+    {
+      "chunk_id": "S13:L19-L19",
+      "source_id": "S13",
+      "title": "Know Your Customer (KYC): historical terminology context, 2014",
+      "heading": "Know your customer terminology \u2014 selected sentence from testimony",
+      "issuer": "Federal Reserve",
+      "authority_type": "historical_official_testimony",
+      "url": "https://www.federalreserve.gov/newsevents/testimony/alvarez20140715a.htm",
+      "published_date": "2014-07-15",
+      "captured_date": "2026-10-17",
+      "locator": "Captured extract lines 19-19",
+      "pdf_page": null,
+      "topics": [],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "Under the general rubric of \"know your customer\" laws and regulations, each banking organization is also required to maintain a customer identification program as part of the BSA compliance program and perform due diligence on its customers.",
+      "retrieval_score": 21.23491
+    },
+    {
+      "chunk_id": "S12:L27-L28",
+      "source_id": "S12",
+      "title": "Customer Due Diligence overview and higher-risk customers",
+      "heading": "Customer Due Diligence \u2014 Overview",
+      "issuer": "FFIEC",
+      "authority_type": "examination_guidance",
+      "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02",
+      "published_date": null,
+      "captured_date": "2026-10-17",
+      "locator": "Captured extract lines 27-28",
+      "pdf_page": null,
+      "topics": [],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "The cornerstone of a strong BSA/AML compliance program is the adoption and implementation of risk-based CDD policies, procedures, and processes for all customers, particularly those that present a higher risk for money laundering and terrorist financing. The objective of CDD is to enable the bank to understand the nature and purpose of customer relationships, which may include understanding the types of transactions in which a customer is likely to engage.\nThese processes assist the bank in determining when transactions are potentially suspicious.",
+      "retrieval_score": 25.45085
+    },
+    {
+      "chunk_id": "S12:L38-L40",
+      "source_id": "S12",
+      "title": "Customer Due Diligence overview and higher-risk customers",
+      "heading": "Customer Due Diligence",
+      "issuer": "FFIEC",
+      "authority_type": "examination_guidance",
+      "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02",
+      "published_date": null,
+      "captured_date": "2026-10-17",
+      "locator": "Captured extract lines 38-40",
+      "pdf_page": null,
+      "topics": [],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "In accordance with regulatory requirements, all banks must develop and implement appropriate risk-based procedures for conducting ongoing customer due diligence, including, but not limited to:\n* Obtaining and analyzing sufficient customer information to understand the nature and purpose of customer relationships for the purpose of developing a customer risk profile; and\n* Conducting ongoing monitoring to identify and report suspicious transactions and, on a risk basis, to maintain and update customer information, including information regarding the beneficial owner(s) of legal entity customers. Additional guidance can be found in the examination procedures \u201cBeneficial Ownership Requirements for Legal Entity Customers.\u201d",
+      "retrieval_score": 19.63145
+    },
+    {
+      "chunk_id": "S12:L79-L87",
+      "source_id": "S12",
+      "title": "Customer Due Diligence overview and higher-risk customers",
+      "heading": "Higher Risk Profile Customers",
+      "issuer": "FFIEC",
+      "authority_type": "examination_guidance",
+      "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02",
+      "published_date": null,
+      "captured_date": "2026-10-17",
+      "locator": "Captured extract lines 79-87",
+      "pdf_page": null,
+      "topics": [],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "Customers that pose higher money laundering or terrorist financing risks, (i.e.,higher risk profile customers), present increased risk exposure to banks. As a result, due diligence policies, procedures, and processes should define both when and what additional customer information will be collected based on the customer risk profile and the specific risks posed.\nCollecting additional information about customers that pose heightened risk, referred to as enhanced due diligence (EDD), for example, in the private and foreign correspondent banking context, is part of an effective due diligence program. Even within categories of customers with a higher risk profile, there can be a spectrum of risks and the extent to which additional ongoing due diligence measures are necessary may vary on a case-by-case basis.\nBased on the customer risk profile, the bank may consider obtaining, at account opening (and throughout the relationship), more customer information in order to understand the nature and purpose of the customer relationship, such as:\n* Source of funds and wealth.\n* Occupation or type of business (of customer or other individuals with ownership or control over the account).\n* Financial statements for business customers.\n* Location where the business customer is organized and where they maintain their principal place of business.\n* Proximity of the customer\u2019s residence, place of employment, or place of business to the bank.\n* Description of the business customer\u2019s primary trade area, whether transactions are expected to be domestic or international, and the expected volumes of such transactions.",
+      "retrieval_score": 27.99926
+    },
+    {
+      "chunk_id": "S10:L79-L80",
+      "source_id": "S10",
+      "title": "Customer Identification Program selected excerpt",
+      "heading": "Verification Through Documents",
+      "issuer": "FFIEC",
+      "authority_type": "examination_guidance",
+      "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/01",
+      "published_date": null,
+      "captured_date": "2026-10-16",
+      "locator": "Captured extract lines 79-80",
+      "pdf_page": null,
+      "topics": [],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "A bank relying on documents to verify a customer\u2019s identity must have procedures that set forth the documents that the bank will use.^{24} 31 CFR 1020.220(a)(2)(ii)(A). The CIP rule gives examples of the types of documents that may be used to verify a customer\u2019s identity.\u00a0 The rule reflects the federal banking agencies\u2019 expectations that, for most customers who are individuals, banks review an unexpired government-issued form of identification evidencing a customer\u2019s nationality or residence and bearing a photograph or similar safeguard; examples include a driver\u2019s license or passport.\u00a0 However, other forms of identification may be used if they enable the bank to form a reasonable belief that it knows the true identity of the customer.\u00a0 Given the availability of counterfeit and fraudulently obtained documents, a bank is encouraged to review more than a single document to ensure it can form a reasonable belief that it knows the true identity of the customer.\nFor a person other than an individual (such as a corporation, partnership, or trust), documents may include those showing the legal existence of the entity, such as certified articles of incorporation, an unexpired government-issued business license, a partnership agreement, or a trust instrument.^{25} 31 CFR 1020.220(a)(2)(ii)(A)(2) .",
+      "retrieval_score": 12.05565
+    },
+    {
+      "chunk_id": "S10:L82-L84",
+      "source_id": "S10",
+      "title": "Customer Identification Program selected excerpt",
+      "heading": "Verification Through Non-Documentary Methods",
+      "issuer": "FFIEC",
+      "authority_type": "examination_guidance",
+      "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/01",
+      "published_date": null,
+      "captured_date": "2026-10-16",
+      "locator": "Captured extract lines 82-84",
+      "pdf_page": null,
+      "topics": [],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "A bank using non-documentary methods to verify a customer\u2019s identity must have procedures that set forth the methods the bank uses.^{26} 31 CFR 1020.220(a)(2)(ii)(B) .\nNon-documentary methods may include contacting a customer; independently verifying the customer\u2019s identity through the comparison of information provided by the customer with information obtained from a consumer reporting agency, public database, or other source; checking references with other financial institutions; and obtaining a financial statement.^{27} 31 CFR 1020.220(a)(2)(ii)(B)(1) .\nIf the bank uses non-documentary methods to verify a customer\u2019s identity, the bank\u2019s procedures must address situations in which an individual is unable to present an unexpired government-issued identification document that bears a photograph or similar safeguard; the bank is not familiar with the documents presented; the account is opened without obtaining documents; the customer opens the account without appearing in person at the bank; and where the bank is otherwise presented with circumstances that increase the risk that the bank will be unable to verify the true identity of a customer through documents.^{28} 31 CFR 1020.220(a)(2)(ii)(B)(2) .",
+      "retrieval_score": 8.64605
+    },
+    {
+      "chunk_id": "S12:L97-L113",
+      "source_id": "S12",
+      "title": "Customer Due Diligence overview and higher-risk customers",
+      "heading": "Ongoing Monitoring of the Customer Relationship",
+      "issuer": "FFIEC",
+      "authority_type": "examination_guidance",
+      "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02",
+      "published_date": null,
+      "captured_date": "2026-10-17",
+      "locator": "Captured extract lines 97-113",
+      "pdf_page": null,
+      "topics": [],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "The requirement for ongoing monitoring of the customer relationship reflects existing practices established to identify and report suspicious transactions and, on a risk basis, to maintain and update customer information.\nThe requirement to update customer information is event-driven and occurs as a result of normal monitoring.\nShould the bank become aware as a result of its ongoing monitoring that customer information, including beneficial ownership information, has materially changed, it should update the customer information accordingly.\nAdditionally, if this customer information is material and relevant to assessing the risk of a customer relationship, then the bank should reassess the customer risk profile/rating and follow established bank policies, procedures, and processes for maintaining or changing the customer risk profile/rating.\nThe ongoing monitoring element does not impose a categorical requirement that the bank must update customer information on a continuous or periodic basis.\nHowever, the bank may establish policies, procedures, and processes for determining whether and when, on the basis of risk, periodic reviews to update customer information should be conducted to ensure that customer information is current and accurate.",
+      "retrieval_score": 11.14991
+    },
+    {
+      "chunk_id": "S06:L28-L40",
+      "source_id": "S06",
+      "title": "Customer Due Diligence examination procedures",
+      "heading": "Customer Due Diligence",
+      "issuer": "FFIEC",
+      "authority_type": "examination_procedures",
+      "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02_ep",
+      "published_date": null,
+      "captured_date": "2026-10-16",
+      "locator": "Captured extract lines 28-40",
+      "pdf_page": null,
+      "topics": [],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "Objective. Assess the bank\u2019s compliance with the regulatory requirements for customer due diligence (CDD).\n1. Determine whether the bank has developed and implemented appropriate written risk-based procedures for conducting ongoing CDD and that they:\n* Enable the bank to understand the nature and purpose of the customer relationship in order to develop a customer risk profile.\n* Enable the bank to conduct ongoing monitoring\n* for the purpose of identifying and reporting suspicious transactions and,\n* on a risk basis, to maintain and update customer information, including information regarding the beneficial owner(s) of legal entity customers.\n* Enable the bank to use customer information and the customer risk profile to understand the types of transactions a particular customer would be expected to engage in and as a baseline against which suspicious transactions are identified.\n2. Determine whether the bank, as part of the overall CDD program, has effective processes to develop customer risk profiles that identify the specific risks of individual customers or categories of customers.\n3. Determine whether the risk-based CDD policies, procedures, and processes are commensurate with the bank\u2019s BSA/AML risk profile with increased focus on higher risk customers.\n4. Determine whether policies, procedures, and processes contain a clear statement of management\u2019s and staff\u2019s responsibilities, including procedures, authority, and responsibility for reviewing and approving changes to a customer\u2019s risk profile, as applicable.\n5. Determine that the bank has policies, procedures, and processes to identify customers that may pose higher risk for money laundering or terrorist financing that include whether and/or when, on the basis of risk, it is appropriate to obtain and review additional customer information.",
+      "retrieval_score": 25.07815
+    }
+  ],
+  "retrieval": "BM25 keyword",
+  "question": "How does KYC helps with CDD and EDD. Top ways to do KYC",
+  "scope": "US banks",
+  "citation_check": "IDs and exact quotes checked; claim support needs review",
+  "cached": false,
+  "status": "supported",
+  "summary": "KYC, CDD, and EDD in US banking",
+  "claims": [
+    {
+      "title": "KYC",
+      "text": "KYC is an umbrella term for regulatory requirements that include maintaining a customer identification program and performing due diligence. It encompasses the foundational obligation for banks to verify customer identities and understand their relationships, forming the basis for risk-based CDD and EDD. The 2014 testimony confirms that KYC covers both identity verification and due diligence as part of BSA compliance.",
+      "evidence": [
+        {
+          "id": "S13:L19-L19",
+          "quote": "Under the general rubric of \"know your customer\" laws and regulations, each banking organization is also required to maintain a customer identification program as part of the BSA compliance program and perform due diligence on its customers."
+        }
+      ]
+    },
+    {
+      "title": "CDD",
+      "text": "CDD enables banks to understand the nature and purpose of customer relationships, including expected transaction types, to develop a risk profile. This understanding supports ongoing monitoring to identify suspicious activity. CDD requires collecting sufficient information to assess risk and maintain accurate customer data on a risk basis.",
+      "evidence": [
+        {
+          "id": "S12:L27-L28",
+          "quote": "The objective of CDD is to enable the bank to understand the nature and purpose of customer relationships, which may include understanding the types of transactions in which a customer is likely to engage."
+        },
+        {
+          "id": "S12:L38-L40",
+          "quote": "In accordance with regulatory requirements, all banks must develop and implement appropriate risk-based procedures for conducting ongoing customer due diligence, including, but not limited to:\n* Obtaining and analyzing sufficient customer information to understand the nature and purpose of customer relationships for the purpose of developing a customer risk profile; and\n* Conducting ongoing monitoring to identify and report suspicious transactions and, on a risk basis, to maintain and update customer information, including information regarding the beneficial owner(s) of legal entity customers."
+        },
+        {
+          "id": "S06:L28-L40",
+          "quote": "Determine whether the bank has developed and implemented appropriate written risk-based procedures for conducting ongoing CDD and that they:\n* Enable the bank to understand the nature and purpose of the customer relationship in order to develop a customer risk profile."
+        },
+        {
+          "id": "S06:L28-L40",
+          "quote": "* Enable the bank to use customer information and the customer risk profile to understand the types of transactions a particular customer would be expected to engage in and as a baseline against which suspicious transactions are identified."
+        }
+      ]
+    },
+    {
+      "title": "EDD",
+      "text": "EDD involves collecting additional information for higher-risk customers, such as source of funds, occupation, financial statements, and business location, to better understand their risk profile. The extent of EDD varies based on the specific risk level, and it is applied when the customer\u2019s risk profile warrants it, such as in private or foreign correspondent banking.",
+      "evidence": [
+        {
+          "id": "S12:L79-L87",
+          "quote": "Collecting additional information about customers that pose heightened risk, referred to as enhanced due diligence (EDD), for example, in the private and foreign correspondent banking context, is part of an effective due diligence program."
+        },
+        {
+          "id": "S12:L79-L87",
+          "quote": "Based on the customer risk profile, the bank may consider obtaining, at account opening (and throughout the relationship), more customer information in order to understand the nature and purpose of the customer relationship, such as:\n* Source of funds and wealth."
+        },
+        {
+          "id": "S12:L79-L87",
+          "quote": "* Occupation or type of business (of customer or other individuals with ownership or control over the account)."
+        },
+        {
+          "id": "S12:L79-L87",
+          "quote": "* Financial statements for business customers."
+        },
+        {
+          "id": "S12:L79-L87",
+          "quote": "* Location where the business customer is organized and where they maintain their principal place of business."
+        },
+        {
+          "id": "S12:L79-L87",
+          "quote": "* Proximity of the customer\u2019s residence, place of employment, or place of business to the bank."
+        },
+        {
+          "id": "S12:L79-L87",
+          "quote": "* Description of the business customer\u2019s primary trade area, whether transactions are expected to be domestic or international, and the expected volumes of such transactions."
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Review unexpired government-issued identification with a photograph, such as a driver\u2019s license or passport, to verify identity.",
+      "basis": "reviewer_suggestion",
+      "evidence": [
+        {
+          "id": "S10:L79-L80",
+          "quote": "The rule reflects the federal banking agencies\u2019 expectations that, for most customers who are individuals, banks review an unexpired government-issued form of identification evidencing a customer\u2019s nationality or residence and bearing a photograph or similar safeguard; examples include a driver\u2019s license or passport."
+        }
+      ]
+    },
+    {
+      "item": "Use independent sources like consumer reporting agencies, public databases, or financial statements to verify identity without relying solely on documents.",
+      "basis": "reviewer_suggestion",
+      "evidence": [
+        {
+          "id": "S10:L82-L84",
+          "quote": "Non-documentary methods may include contacting a customer; independently verifying the customer\u2019s identity through the comparison of information provided by the customer with information obtained from a consumer reporting agency, public database, or other source; checking references with other financial institutions; and obtaining a financial statement.^{27} 31 CFR 1020.220(a)(2)(ii)(B)(1) ."
+        }
+      ]
+    },
+    {
+      "item": "Collect information about the customer\u2019s occupation, business type, and source of funds to understand the nature and purpose of the relationship.",
+      "basis": "reviewer_suggestion",
+      "evidence": [
+        {
+          "id": "S12:L79-L87",
+          "quote": "Based on the customer risk profile, the bank may consider obtaining, at account opening (and throughout the relationship), more customer information in order to understand the nature and purpose of the customer relationship, such as:\n* Source of funds and wealth."
+        },
+        {
+          "id": "S12:L79-L87",
+          "quote": "* Occupation or type of business (of customer or other individuals with ownership or control over the account)."
+        }
+      ]
+    },
+    {
+      "item": "Obtain and review financial statements, business licenses, or trust instruments for legal entity customers to verify legal existence and support risk profiling.",
+      "basis": "reviewer_suggestion",
+      "evidence": [
+        {
+          "id": "S10:L79-L80",
+          "quote": "For a person other than an individual (such as a corporation, partnership, or trust), documents may include those showing the legal existence of the entity, such as certified articles of incorporation, an unexpired government-issued business license, a partnership agreement, or a trust instrument.^{25} 31 CFR 1020.220(a)(2)(ii)(A)(2) ."
+        },
+        {
+          "id": "S12:L79-L87",
+          "quote": "* Financial statements for business customers."
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "The 2014 testimony only provides historical context for KYC terminology; it does not establish current regulatory authority or date FFIEC guidance.",
+    "The evidence does not specify a ranked order or mandatory sequence for KYC, CDD, or EDD methods.",
+    "No evidence confirms that all customers must undergo both documentary and non-documentary checks; the choice depends on risk and bank policy."
+  ],
+  "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "latency_seconds": 29.93
+}

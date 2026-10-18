@@ -1,0 +1,153 @@
+{
+  "status": "supported",
+  "summary": "FinCEN penalty against Bank of America",
+  "claims": [
+    {
+      "text": "FinCEN imposed a $1.2 billion penalty on Bank of America for systemic failures in its BSA/AML program, specifically for failing to mitigate priority national security risks such as Chinese money laundering networks and illicit finance activities along the U.S. southwest border. The enforcement action stems from the bank\u2019s willful violations of the BSA and its failure to maintain an effective AML program, including inadequate due diligence on foreign correspondent accounts and insufficient Suspicious Activity Report filings.",
+      "evidence": [
+        {
+          "id": "NEWS:P1",
+          "quote": "Department of the Treasury\u2019s Financial Crimes Enforcement Network (FinCEN) announced that it has assessed a $1.2 billion penalty against Bank of America, N.A."
+        },
+        {
+          "id": "NEWS:P1",
+          "quote": "(Bank of America) for its failure to mitigate and report priority national security risks, including Chinese money laundering networks and illicit finance along the southwest border."
+        },
+        {
+          "id": "NEWS:P2",
+          "quote": "As part of its resolution with FinCEN, Bank of America admits that it willfully violated the BSA and failed to implement and maintain an AML program that met the minimum requirements of the BSA and FinCEN\u2019s implementing regulations, conduct due diligence for correspondent accounts for foreign financial institutions, and file Suspicious Activity Reports."
+        }
+      ]
+    },
+    {
+      "text": "Concurrently, the Office of the Comptroller of the Currency assessed a $750 million civil money penalty for the bank\u2019s deficient BSA/AML compliance program, while the Office of Foreign Assets Control reached an $11.6 million settlement over apparent violations of sanctions programs targeting Iran, Russia, narcotics trafficking, and global terrorism. These actions reflect multiple regulatory concerns across compliance, sanctions, and national security risk management.",
+      "evidence": [
+        {
+          "id": "NEWS:P1",
+          "quote": "Concurrently, the Office of the Comptroller of the Currency assessed a $750 million civil money penalty for the bank\u2019s deficient and ineffective Bank Secrecy Act/anti-money laundering (BSA/AML) compliance program."
+        },
+        {
+          "id": "NEWS:P1",
+          "quote": "In addition, the Office of Foreign Assets Control announced an $11.6 million settlement agreement with the bank over apparent violations of numerous sanctions programs, including on Iran, Russia, narcotics, and global terrorism."
+        }
+      ]
+    }
+  ],
+  "checklist": [],
+  "limitations": [],
+  "implications": [
+    {
+      "text": "The scale of the penalty and the admission of willful BSA violations may signal heightened regulatory scrutiny on large banks\u2019 ability to detect and report national security-related financial risks, particularly those involving foreign jurisdictions and cross-border correspondent relationships.",
+      "evidence": [
+        {
+          "id": "NEWS:P1",
+          "quote": "Department of the Treasury\u2019s Financial Crimes Enforcement Network (FinCEN) announced that it has assessed a $1.2 billion penalty against Bank of America, N.A."
+        },
+        {
+          "id": "NEWS:P1",
+          "quote": "(Bank of America) for its failure to mitigate and report priority national security risks, including Chinese money laundering networks and illicit finance along the southwest border."
+        },
+        {
+          "id": "NEWS:P2",
+          "quote": "As part of its resolution with FinCEN, Bank of America admits that it willfully violated the BSA and failed to implement and maintain an AML program that met the minimum requirements of the BSA and FinCEN\u2019s implementing regulations, conduct due diligence for correspondent accounts for foreign financial institutions, and file Suspicious Activity Reports."
+        }
+      ]
+    },
+    {
+      "text": "The concurrent enforcement actions by FinCEN, OCC, and OFAC underscore the interconnected nature of AML, sanctions, and national security compliance, suggesting that deficiencies in one area may trigger multi-agency enforcement and compounding penalties.",
+      "evidence": [
+        {
+          "id": "NEWS:P1",
+          "quote": "Concurrently, the Office of the Comptroller of the Currency assessed a $750 million civil money penalty for the bank\u2019s deficient and ineffective Bank Secrecy Act/anti-money laundering (BSA/AML) compliance program."
+        },
+        {
+          "id": "NEWS:P1",
+          "quote": "In addition, the Office of Foreign Assets Control announced an $11.6 million settlement agreement with the bank over apparent violations of numerous sanctions programs, including on Iran, Russia, narcotics, and global terrorism."
+        }
+      ]
+    }
+  ],
+  "suggested_actions": [
+    {
+      "text": "Compliance Officer: Review the scope and effectiveness of correspondent account due diligence processes, particularly for foreign financial institutions in high-risk jurisdictions, to assess alignment with BSA/AML obligations and FinCEN\u2019s enforcement expectations.",
+      "evidence": [
+        {
+          "id": "NEWS:P2",
+          "quote": "As part of its resolution with FinCEN, Bank of America admits that it willfully violated the BSA and failed to implement and maintain an AML program that met the minimum requirements of the BSA and FinCEN\u2019s implementing regulations, conduct due diligence for correspondent accounts for foreign financial institutions, and file Suspicious Activity Reports."
+        }
+      ]
+    },
+    {
+      "text": "AML Program Lead: Evaluate the current Suspicious Activity Report filing thresholds and workflows to ensure they are not impeding timely reporting of high-risk transactions, especially those involving national security concerns.",
+      "evidence": [
+        {
+          "id": "NEWS:P2",
+          "quote": "As part of its resolution with FinCEN, Bank of America admits that it willfully violated the BSA and failed to implement and maintain an AML program that met the minimum requirements of the BSA and FinCEN\u2019s implementing regulations, conduct due diligence for correspondent accounts for foreign financial institutions, and file Suspicious Activity Reports."
+        }
+      ]
+    }
+  ],
+  "executive_summary": {
+    "text": "FinCEN assessed a $1.2 billion penalty against Bank of America for willful BSA violations, including failure to mitigate national security risks like Chinese money laundering and illicit finance along the southwest border. The bank also admitted deficiencies in its BSA/AML compliance program, correspondent account due diligence, and Suspicious Activity Report filing, alongside separate penalties from OCC and OFAC.",
+    "evidence": [
+      {
+        "id": "NEWS:P1",
+        "quote": "Department of the Treasury\u2019s Financial Crimes Enforcement Network (FinCEN) announced that it has assessed a $1.2 billion penalty against Bank of America, N.A."
+      },
+      {
+        "id": "NEWS:P1",
+        "quote": "(Bank of America) for its failure to mitigate and report priority national security risks, including Chinese money laundering networks and illicit finance along the southwest border."
+      },
+      {
+        "id": "NEWS:P1",
+        "quote": "Concurrently, the Office of the Comptroller of the Currency assessed a $750 million civil money penalty for the bank\u2019s deficient and ineffective Bank Secrecy Act/anti-money laundering (BSA/AML) compliance program."
+      },
+      {
+        "id": "NEWS:P1",
+        "quote": "In addition, the Office of Foreign Assets Control announced an $11.6 million settlement agreement with the bank over apparent violations of numerous sanctions programs, including on Iran, Russia, narcotics, and global terrorism."
+      },
+      {
+        "id": "NEWS:P2",
+        "quote": "As part of its resolution with FinCEN, Bank of America admits that it willfully violated the BSA and failed to implement and maintain an AML program that met the minimum requirements of the BSA and FinCEN\u2019s implementing regulations, conduct due diligence for correspondent accounts for foreign financial institutions, and file Suspicious Activity Reports."
+      }
+    ]
+  },
+  "management_questions": [],
+  "item": {
+    "id": "01224e174c938d8f",
+    "title": "FinCEN Assesses $1.2 Billion Penalty against Bank of America",
+    "url": "https://www.fincen.gov/news/news-releases/fincen-assesses-12-billion-penalty-against-bank-america",
+    "published_date": "2026-10-13",
+    "publisher": "FinCEN",
+    "description": "Today, the U.S. Department of the Treasury\u2019s Financial Crimes Enforcement Network (FinCEN) announced that it has assessed a $1.2 billion penalty against Bank of America, N.A. (Bank of America) for its failure to mitigate and report priority national security risks, including Chinese money\u2026"
+  },
+  "evidence": [
+    {
+      "chunk_id": "NEWS:P1",
+      "source_id": "NEWS",
+      "heading": "FinCEN Assesses $1.2 Billion Penalty against Bank of America",
+      "title": "FinCEN Assesses $1.2 Billion Penalty against Bank of America",
+      "authority_type": "news_announcement",
+      "text": "Today, the U.S. Department of the Treasury\u2019s Financial Crimes Enforcement Network (FinCEN) announced that it has assessed a $1.2 billion penalty against Bank of America, N.A. (Bank of America) for its failure to mitigate and report priority national security risks, including Chinese money laundering networks and illicit finance along the southwest border. Concurrently, the Office of the Comptroller of the Currency assessed a $750 million civil money penalty for the bank\u2019s deficient and ineffective Bank Secrecy Act/anti-money laundering (BSA/AML) compliance program. In addition, the Office of Foreign Assets Control announced an $11.6 million settlement agreement with the bank over apparent violations of numerous sanctions programs, including on Iran, Russia, narcotics, and global terrorism.",
+      "url": "https://www.fincen.gov/news/news-releases/fincen-assesses-12-billion-penalty-against-bank-america",
+      "captured_date": "2026-10-18",
+      "locator": "Extracted announcement paragraph 1"
+    },
+    {
+      "chunk_id": "NEWS:P2",
+      "source_id": "NEWS",
+      "heading": "FinCEN Assesses $1.2 Billion Penalty against Bank of America",
+      "title": "FinCEN Assesses $1.2 Billion Penalty against Bank of America",
+      "authority_type": "news_announcement",
+      "text": "As part of its resolution with FinCEN, Bank of America admits that it willfully violated the BSA and failed to implement and maintain an AML program that met the minimum requirements of the BSA and FinCEN\u2019s implementing regulations, conduct due diligence for correspondent accounts for foreign financial institutions, and file Suspicious Activity Reports.",
+      "url": "https://www.fincen.gov/news/news-releases/fincen-assesses-12-billion-penalty-against-bank-america",
+      "captured_date": "2026-10-18",
+      "locator": "Extracted announcement paragraph 2"
+    }
+  ],
+  "cached": false,
+  "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "article_fetched_at": "2026-10-18T01:08:19.964243+00:00",
+  "coverage": "Announcement text only; linked alerts, rules and PDFs are not fetched. Up to the first 30 substantive announcement paragraphs.",
+  "citation_check": "IDs and exact quotes checked; factual support and analyst suggestions require review."
+}

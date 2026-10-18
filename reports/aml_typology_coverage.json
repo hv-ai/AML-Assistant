@@ -1,0 +1,292 @@
+{
+  "audit_date": "2026-10-18",
+  "scope": "Seven selected AML research topics (methods, channels and underlying crimes); not every possible AML risk, scenario, jurisdiction or legal obligation.",
+  "indexed_documents": 18,
+  "indexed_passages": 231,
+  "requested_topics_with_dedicated_sources": 7,
+  "development_retrieval_passed": 24,
+  "development_retrieval_total": 24,
+  "live_citation_checks_supported": 7,
+  "live_citation_checks_total": 7,
+  "answer_accuracy": "Not a held-out benchmark; citations resolve and quotes match, but semantic support and applicability still require expert review.",
+  "topics": [
+    {
+      "id": "structuring",
+      "label": "Structuring",
+      "question": "Explain structuring and two risk indicators an AML analyst should investigate. Distinguish suspicious patterns from proof and date any historical ruling.",
+      "source_ids": [
+        "S15",
+        "S14"
+      ],
+      "aliases": [
+        "structuring",
+        "smurfing"
+      ],
+      "source_status": "dedicated official source material indexed; historical tests predate latest corpus revision",
+      "retrieval_checks": 3,
+      "retrieval_passed": 3,
+      "live_citation_check": "supported",
+      "retained_sample_claims": 2,
+      "answer_accuracy": "not scored; expert review pending",
+      "source_details": [
+        {
+          "source_id": "S15",
+          "title": "Suspicious Activity Reporting: Structuring (Ruling 2005-6)",
+          "issuer": "FinCEN",
+          "published_date": "2005-07-15",
+          "authority_type": "administrative_ruling_historical",
+          "url": "https://www.fincen.gov/resources/statutes-regulations/administrative-rulings/suspicious-activity-reporting-structuring"
+        },
+        {
+          "source_id": "S14",
+          "title": "2026 National Money Laundering Risk Assessment",
+          "issuer": "US Treasury",
+          "published_date": "2026-03",
+          "authority_type": "national_risk_assessment",
+          "url": "https://home.treasury.gov/system/files/246/2026-NMLRA.pdf"
+        }
+      ]
+    },
+    {
+      "id": "money_mules",
+      "label": "Money mules",
+      "question": "Explain money mule accounts and two transaction indicators an AML analyst should investigate. Do not infer criminality from nationality or occupation alone.",
+      "source_ids": [
+        "S16",
+        "S14"
+      ],
+      "aliases": [
+        "money mule",
+        "mule account",
+        "funnel account"
+      ],
+      "source_status": "dedicated official source material indexed; historical tests predate latest corpus revision",
+      "retrieval_checks": 3,
+      "retrieval_passed": 3,
+      "live_citation_check": "supported",
+      "retained_sample_claims": 3,
+      "answer_accuracy": "not scored; expert review pending",
+      "source_details": [
+        {
+          "source_id": "S16",
+          "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+          "issuer": "FinCEN",
+          "published_date": "2025-08-28",
+          "authority_type": "advisory",
+          "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf"
+        },
+        {
+          "source_id": "S14",
+          "title": "2026 National Money Laundering Risk Assessment",
+          "issuer": "US Treasury",
+          "published_date": "2026-03",
+          "authority_type": "national_risk_assessment",
+          "url": "https://home.treasury.gov/system/files/246/2026-NMLRA.pdf"
+        }
+      ]
+    },
+    {
+      "id": "trade_based",
+      "label": "Trade-based laundering",
+      "question": "Explain trade-based money laundering and two invoice or payment indicators an AML analyst should investigate. Distinguish FATF indicators from US legal requirements.",
+      "source_ids": [
+        "S17",
+        "S16"
+      ],
+      "aliases": [
+        "trade based",
+        "tbml"
+      ],
+      "source_status": "dedicated official source material indexed; historical tests predate latest corpus revision",
+      "retrieval_checks": 3,
+      "retrieval_passed": 3,
+      "live_citation_check": "supported",
+      "retained_sample_claims": 2,
+      "answer_accuracy": "not scored; expert review pending",
+      "source_details": [
+        {
+          "source_id": "S17",
+          "title": "Trade-Based Money Laundering: Risk Indicators",
+          "issuer": "FATF / Egmont Group",
+          "published_date": "2021-03",
+          "authority_type": "international_risk_indicators",
+          "url": "https://menafatf.org/sites/default/files/Newsletter/English%20Trade-Based-Money-Laundering-Risk-Indicators%20%281%29.pdf"
+        },
+        {
+          "source_id": "S16",
+          "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+          "issuer": "FinCEN",
+          "published_date": "2025-08-28",
+          "authority_type": "advisory",
+          "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf"
+        }
+      ]
+    },
+    {
+      "id": "shell_companies",
+      "label": "Shell & front companies",
+      "question": "Explain how shell and front companies can be misused and two warning indicators. Explain why shell companies are not automatically illicit.",
+      "source_ids": [
+        "S18",
+        "S14"
+      ],
+      "aliases": [
+        "shell company",
+        "front company",
+        "nominee"
+      ],
+      "source_status": "dedicated official source material indexed; historical tests predate latest corpus revision",
+      "retrieval_checks": 3,
+      "retrieval_passed": 3,
+      "live_citation_check": "supported",
+      "retained_sample_claims": 3,
+      "answer_accuracy": "not scored; expert review pending",
+      "source_details": [
+        {
+          "source_id": "S18",
+          "title": "Potential Money Laundering Risks Related to Shell Companies",
+          "issuer": "FinCEN",
+          "published_date": "2006-11-09",
+          "authority_type": "guidance_historical",
+          "url": "https://www.fincen.gov/resources/statutes-regulations/guidance/potential-money-laundering-risks-related-shell-companies"
+        },
+        {
+          "source_id": "S14",
+          "title": "2026 National Money Laundering Risk Assessment",
+          "issuer": "US Treasury",
+          "published_date": "2026-03",
+          "authority_type": "national_risk_assessment",
+          "url": "https://home.treasury.gov/system/files/246/2026-NMLRA.pdf"
+        }
+      ]
+    },
+    {
+      "id": "digital_assets",
+      "label": "Digital assets",
+      "question": "Explain digital asset investment scam laundering and two financial indicators for bank analysts. Distinguish scam victim payments from laundering-network activity.",
+      "source_ids": [
+        "S19",
+        "S14",
+        "S22"
+      ],
+      "aliases": [
+        "digital asset",
+        "crypto",
+        "cryptocurrency",
+        "virtual currency",
+        "stablecoin"
+      ],
+      "source_status": "dedicated official source material indexed; historical tests predate latest corpus revision",
+      "retrieval_checks": 5,
+      "retrieval_passed": 5,
+      "live_citation_check": "supported",
+      "retained_sample_claims": 2,
+      "answer_accuracy": "not scored; expert review pending",
+      "source_details": [
+        {
+          "source_id": "S19",
+          "title": "Money Laundering Activity Associated with Digital Asset Investment Scam Centers",
+          "issuer": "FinCEN",
+          "published_date": "2026-09-03",
+          "authority_type": "alert",
+          "url": "https://www.fincen.gov/system/files/2026-08/FinCEN-Alert-Scam-Centers.pdf"
+        },
+        {
+          "source_id": "S14",
+          "title": "2026 National Money Laundering Risk Assessment",
+          "issuer": "US Treasury",
+          "published_date": "2026-03",
+          "authority_type": "national_risk_assessment",
+          "url": "https://home.treasury.gov/system/files/246/2026-NMLRA.pdf"
+        },
+        {
+          "source_id": "S22",
+          "title": "Illicit Activity Involving Convertible Virtual Currency",
+          "issuer": "FinCEN",
+          "published_date": "2019-05-09",
+          "authority_type": "advisory",
+          "url": "https://www.fincen.gov/sites/default/files/advisory/2019-05-10/FinCEN%20Advisory%20CVC%20FINAL%20508.pdf"
+        }
+      ]
+    },
+    {
+      "id": "corruption",
+      "label": "Corruption",
+      "question": "Explain laundering of foreign public corruption proceeds and two financial indicators for bank analysts. Why is one red flag not conclusive?",
+      "source_ids": [
+        "S20",
+        "S14"
+      ],
+      "aliases": [
+        "corruption",
+        "kleptocracy",
+        "bribery"
+      ],
+      "source_status": "dedicated official source material indexed; historical tests predate latest corpus revision",
+      "retrieval_checks": 4,
+      "retrieval_passed": 4,
+      "live_citation_check": "supported",
+      "retained_sample_claims": 2,
+      "answer_accuracy": "not scored; expert review pending",
+      "source_details": [
+        {
+          "source_id": "S20",
+          "title": "Kleptocracy and Foreign Public Corruption: Typologies and Indicators",
+          "issuer": "FinCEN",
+          "published_date": "2022-04-14",
+          "authority_type": "advisory",
+          "url": "https://www.fincen.gov/system/files/advisory/2022-04-14/FinCEN%20Advisory%20Corruption%20FINAL%20508.pdf"
+        },
+        {
+          "source_id": "S14",
+          "title": "2026 National Money Laundering Risk Assessment",
+          "issuer": "US Treasury",
+          "published_date": "2026-03",
+          "authority_type": "national_risk_assessment",
+          "url": "https://home.treasury.gov/system/files/246/2026-NMLRA.pdf"
+        }
+      ]
+    },
+    {
+      "id": "human_trafficking",
+      "label": "Human trafficking",
+      "question": "Explain human trafficking-related financial flows and two financial indicators for bank analysts. Why is a single red flag insufficient?",
+      "source_ids": [
+        "S21",
+        "S14"
+      ],
+      "aliases": [
+        "human trafficking",
+        "forced labor",
+        "forced labour",
+        "sex trafficking"
+      ],
+      "source_status": "dedicated official source material indexed; historical tests predate latest corpus revision",
+      "retrieval_checks": 3,
+      "retrieval_passed": 3,
+      "live_citation_check": "supported",
+      "retained_sample_claims": 2,
+      "answer_accuracy": "not scored; expert review pending",
+      "source_details": [
+        {
+          "source_id": "S21",
+          "title": "Supplemental Advisory on Identifying and Reporting Human Trafficking and Related Activity",
+          "issuer": "FinCEN",
+          "published_date": "2020-10-15",
+          "authority_type": "advisory",
+          "url": "https://www.fincen.gov/sites/default/files/advisory/2020-10-15/Advisory%20Human%20Trafficking%20508%20FINAL_0.pdf"
+        },
+        {
+          "source_id": "S14",
+          "title": "2026 National Money Laundering Risk Assessment",
+          "issuer": "US Treasury",
+          "published_date": "2026-03",
+          "authority_type": "national_risk_assessment",
+          "url": "https://home.treasury.gov/system/files/246/2026-NMLRA.pdf"
+        }
+      ]
+    }
+  ],
+  "broader_risks": "The Treasury assessment adds material on other areas, but the earlier 20-topic audit has not been re-validated beyond these seven areas.",
+  "generation_guards": "Unknown references rejected. Valid numeric selection formatting normalized. Some unsupported frequency, stronger-modality and legal-currency assertions omitted; this is not complete entailment checking."
+}

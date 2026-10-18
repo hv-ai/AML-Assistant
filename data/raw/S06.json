@@ -1,0 +1,109 @@
+{
+  "source_id": "S06",
+  "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02_ep",
+  "capture_method": "web_tool_text_extract",
+  "captured_date": "2026-10-16",
+  "coverage": "selected section excerpt; not original HTML or complete regulatory corpus",
+  "extract_line_range": [
+    25,
+    48
+  ],
+  "lines": [
+    {
+      "line": 25,
+      "text": "### EXAMINATION PROCEDURES"
+    },
+    {
+      "line": 26,
+      "text": "### Customer Due Diligence"
+    },
+    {
+      "line": 27,
+      "text": ""
+    },
+    {
+      "line": 28,
+      "text": "Objective. Assess the bank’s compliance with the regulatory requirements for customer due diligence (CDD)."
+    },
+    {
+      "line": 29,
+      "text": ""
+    },
+    {
+      "line": 30,
+      "text": "1. Determine whether the bank has developed and implemented appropriate written risk-based procedures for conducting ongoing CDD and that they:"
+    },
+    {
+      "line": 31,
+      "text": "  * Enable the bank to understand the nature and purpose of the customer relationship in order to develop a customer risk profile."
+    },
+    {
+      "line": 32,
+      "text": "  * Enable the bank to conduct ongoing monitoring"
+    },
+    {
+      "line": 33,
+      "text": "    * for the purpose of identifying and reporting suspicious transactions and,"
+    },
+    {
+      "line": 34,
+      "text": "    * on a risk basis, to maintain and update customer information, including information regarding the beneficial owner(s) of legal entity customers."
+    },
+    {
+      "line": 35,
+      "text": "  * Enable the bank to use customer information and the customer risk profile to understand the types of transactions a particular customer would be expected to engage in and as a baseline against which suspicious transactions are identified."
+    },
+    {
+      "line": 36,
+      "text": "2. Determine whether the bank, as part of the overall CDD program, has effective processes to develop customer risk profiles that identify the specific risks of individual customers or categories of customers."
+    },
+    {
+      "line": 37,
+      "text": ""
+    },
+    {
+      "line": 38,
+      "text": "3. Determine whether the risk-based CDD policies, procedures, and processes are commensurate with the bank’s BSA/AML risk profile with increased focus on higher risk customers."
+    },
+    {
+      "line": 39,
+      "text": "4. Determine whether policies, procedures, and processes contain a clear statement of management’s and staff’s responsibilities, including procedures, authority, and responsibility for reviewing and approving changes to a customer’s risk profile, as applicable."
+    },
+    {
+      "line": 40,
+      "text": "5. Determine that the bank has policies, procedures, and processes to identify customers that may pose higher risk for money laundering or terrorist financing that include whether and/or when, on the basis of risk, it is appropriate to obtain and review additional customer information."
+    },
+    {
+      "line": 41,
+      "text": ""
+    },
+    {
+      "line": 42,
+      "text": "6. Determine whether the bank provides guidance for documenting analysis associated with the due diligence process, including guidance for resolving issues when insufficient or inaccurate information is obtained."
+    },
+    {
+      "line": 43,
+      "text": "7. Determine whether the bank has defined in its policies, procedures, and processes how customer information, including beneficial ownership information for legal entity customers, is used to meet other relevant regulatory requirements, including but not limited to, identifying suspicious activity, identifying nominal and beneficial owners of private banking accounts, and determining OFAC sanctioned parties."
+    },
+    {
+      "line": 44,
+      "text": ""
+    },
+    {
+      "line": 45,
+      "text": "Transaction Testing"
+    },
+    {
+      "line": 46,
+      "text": "8. On the basis of a risk assessment, prior examination reports, and a review of the bank’s audit findings, select a sample of customer information. Determine whether the bank collects appropriate information sufficient to understand the nature and purpose of the customer relationship and effectively incorporates customer information, including beneficial ownership information for legal entity customers, into the customer risk profile."
+    },
+    {
+      "line": 47,
+      "text": "This sample can be performed when testing the bank’s compliance with its policies, procedures, and processes as well as when reviewing transactions or accounts for possible suspicious activity."
+    },
+    {
+      "line": 48,
+      "text": "9. On the basis of examination procedures completed, including transaction testing, form a conclusion about the adequacy of policies, procedures, and processes associated with CDD."
+    }
+  ]
+}

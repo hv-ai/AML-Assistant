@@ -1,0 +1,125 @@
+[
+  {
+    "id": "C01",
+    "question": "A customer shows a passport, but how do we understand what they will actually use the account for?",
+    "relevant_passage_ids": [
+      "S12:L27-L28",
+      "S12:L38-L40",
+      "S06:L28-L40"
+    ],
+    "category": "identity_vs_relationship",
+    "split": "challenge",
+    "label_status": "agent-curated from captured source passages; expert review pending"
+  },
+  {
+    "id": "C02",
+    "question": "If someone cannot present photo identification, what independent checks can help establish who they are?",
+    "relevant_passage_ids": [
+      "S10:L82-L84"
+    ],
+    "category": "identity_methods",
+    "split": "challenge",
+    "label_status": "agent-curated from captured source passages; expert review pending"
+  },
+  {
+    "id": "C03",
+    "question": "Does every customer need their details refreshed on a fixed monthly schedule?",
+    "relevant_passage_ids": [
+      "S12:L97-L113"
+    ],
+    "category": "qualification",
+    "split": "challenge",
+    "label_status": "agent-curated from captured source passages; expert review pending"
+  },
+  {
+    "id": "C04",
+    "question": "A wealthy customer presents elevated risk. What extra financial background could we examine?",
+    "relevant_passage_ids": [
+      "S12:L79-L87"
+    ],
+    "category": "enhanced_diligence",
+    "split": "challenge",
+    "label_status": "agent-curated from captured source passages; expert review pending"
+  },
+  {
+    "id": "C05",
+    "question": "A trading business has shipping papers that disagree with its invoices. What concerns should we investigate?",
+    "relevant_passage_ids": [
+      "S17:L12-L12"
+    ],
+    "category": "trade_documents",
+    "split": "challenge",
+    "label_status": "agent-curated from captured source passages; expert review pending"
+  },
+  {
+    "id": "C06",
+    "question": "Why would the amount of business activity be implausible for a trading company with hardly any employees?",
+    "relevant_passage_ids": [
+      "S17:L8-L8"
+    ],
+    "category": "trade_profile",
+    "split": "challenge",
+    "label_status": "agent-curated from captured source passages; expert review pending"
+  },
+  {
+    "id": "C07",
+    "question": "What is concerning about a company transferring money without an apparent business purpose or with goods unrelated to its stated activity?",
+    "relevant_passage_ids": [
+      "S18:L22-L31"
+    ],
+    "category": "shell_company",
+    "split": "challenge",
+    "label_status": "agent-curated from captured source passages; expert review pending"
+  },
+  {
+    "id": "C08",
+    "question": "Can someone be exploited through forced work without ever crossing a national border?",
+    "relevant_passage_ids": [
+      "S21:L6-L6"
+    ],
+    "category": "trafficking_definition",
+    "split": "challenge",
+    "label_status": "agent-curated from captured source passages; expert review pending"
+  },
+  {
+    "id": "C09",
+    "question": "Are warning signs of exploitation enough by themselves to conclude that a crime has occurred?",
+    "relevant_passage_ids": [
+      "S21:L10-L10"
+    ],
+    "category": "indicator_qualification",
+    "split": "challenge",
+    "label_status": "agent-curated from captured source passages; expert review pending"
+  },
+  {
+    "id": "C10",
+    "question": "Why is the purpose behind splitting cash payments important when considering reporting avoidance?",
+    "relevant_passage_ids": [
+      "S15:L1-L4"
+    ],
+    "category": "structuring_intent",
+    "split": "challenge",
+    "label_status": "agent-curated from captured source passages; expert review pending"
+  },
+  {
+    "id": "C11",
+    "question": "Do different financial institutions need exactly the same suspicious cash activity monitoring design?",
+    "relevant_passage_ids": [
+      "S15:L5-L6"
+    ],
+    "category": "risk_based_monitoring",
+    "split": "challenge",
+    "label_status": "agent-curated from captured source passages; expert review pending"
+  },
+  {
+    "id": "C12",
+    "question": "How could nominal directors or shareholders obscure the real people controlling an entity?",
+    "relevant_passage_ids": [
+      "S18:L10-L13",
+      "S18:L14-L21"
+    ],
+    "category": "ownership_opacity",
+    "split": "challenge",
+    "label_status": "agent-curated from captured source passages; expert review pending"
+  }
+]

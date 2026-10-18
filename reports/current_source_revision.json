@@ -1,0 +1,17 @@
+{
+  "revision": 2,
+  "date": "2026-10-18",
+  "source_added": "FinCEN consolidated CDD FAQs, updated May 6, 2026",
+  "source_id": "S24",
+  "authority_type": "regulatory_guidance",
+  "binding_rule_indexed": false,
+  "documents": 18,
+  "parent_passages": 231,
+  "semantic_windows": 356,
+  "hybrid_ready": true,
+  "tests": 93,
+  "routing_checks": "Ordinary controls prefer S24 and exclude S13; both keyword and dense routing include current FAQ.",
+  "taxonomy": "Seven selected research topics; methods, channels and underlying crimes are distinguished; additional areas named as gaps.",
+  "prior_benchmarks": "Historical corpus; not rerun as held-out answer benchmark.",
+  "deployment": "Local update and remote vector namespace ready; public Replit code still requires manual update and republish."
+}

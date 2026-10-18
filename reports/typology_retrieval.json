@@ -1,0 +1,669 @@
+{
+  "kind": "development passage-coverage checks; not held-out evaluation or semantic answer accuracy",
+  "total": 24,
+  "passed": 24,
+  "cases": [
+    {
+      "id": "ST01",
+      "topic": "structuring",
+      "question": "What is structuring and why does intent to evade reporting matter?",
+      "source_ids": [
+        "S15"
+      ],
+      "key_phrases": [
+        "purpose of evading"
+      ],
+      "answer_checks": [
+        "Purpose/intent to evade reporting or recordkeeping is material.",
+        "A small deposit alone does not prove structuring.",
+        "Date the 2005 ruling; do not assert its old CFR citations are current."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S15:L1-L4"
+      ],
+      "retrieved_passages": [
+        "S15:L1-L4",
+        "S15:L5-L6",
+        "S15:L7-L13",
+        "S14:L94-L94",
+        "S14:L116-L116"
+      ]
+    },
+    {
+      "id": "ST02",
+      "topic": "structuring",
+      "question": "According to FinCEN's structuring ruling, should suspicious activity monitoring be one size fits all?",
+      "source_ids": [
+        "S15"
+      ],
+      "key_phrases": [
+        "one size fits all"
+      ],
+      "answer_checks": [
+        "Monitoring is risk based, institution specific."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S15:L5-L6"
+      ],
+      "retrieved_passages": [
+        "S15:L5-L6",
+        "S15:L1-L4",
+        "S15:L7-L13",
+        "S14:L40-L40",
+        "S14:L130-L130"
+      ]
+    },
+    {
+      "id": "ST03",
+      "topic": "structuring",
+      "question": "What structuring patterns can involve multiple branches or multiple days of cash deposits?",
+      "source_ids": [
+        "S15",
+        "S16"
+      ],
+      "key_phrases": [
+        "structuring",
+        "smurfing"
+      ],
+      "answer_checks": [
+        "Patterns are investigative indicators, not automatic findings."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S15:L1-L4"
+      ],
+      "retrieved_passages": [
+        "S15:L1-L4",
+        "S14:L96-L96",
+        "S14:L52-L52",
+        "S14:L50-L50",
+        "S14:L34-L34"
+      ]
+    },
+    {
+      "id": "MU01",
+      "topic": "money_mules",
+      "question": "What is a money mule and how can a mule account be used to move illicit proceeds?",
+      "source_ids": [
+        "S14",
+        "S16"
+      ],
+      "key_phrases": [
+        "money mule"
+      ],
+      "answer_checks": [
+        "Transfers or receives funds for another; explain proceeds movement."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S16:L12-L12",
+        "S16:L10-L10",
+        "S16:L4-L4",
+        "S14:L52-L52"
+      ],
+      "retrieved_passages": [
+        "S16:L12-L12",
+        "S16:L10-L10",
+        "S16:L4-L4",
+        "S16:L16-L16",
+        "S14:L52-L52"
+      ]
+    },
+    {
+      "id": "MU02",
+      "topic": "money_mules",
+      "question": "What financial red flags may indicate money mule account activity?",
+      "source_ids": [
+        "S16"
+      ],
+      "key_phrases": [
+        "money mule"
+      ],
+      "answer_checks": [
+        "Cite specific account/transaction indicators, not nationality or job title alone."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S16:L18-L18",
+        "S16:L4-L4"
+      ],
+      "retrieved_passages": [
+        "S16:L16-L16",
+        "S16:L20-L20",
+        "S16:L18-L18",
+        "S16:L4-L4",
+        "S14:L50-L50"
+      ]
+    },
+    {
+      "id": "MU03",
+      "topic": "money_mules",
+      "question": "Can money mules be unwitting rather than knowingly participating in money laundering?",
+      "source_ids": [
+        "S14",
+        "S16"
+      ],
+      "key_phrases": [
+        "unwitting",
+        "unwittingly",
+        "unaware"
+      ],
+      "answer_checks": [
+        "Do not assume all mule participants have the same knowledge."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S16:L14-L14",
+        "S16:L4-L4",
+        "S14:L48-L48"
+      ],
+      "retrieved_passages": [
+        "S16:L6-L6",
+        "S16:L14-L14",
+        "S16:L4-L4",
+        "S14:L48-L48",
+        "S14:L52-L52"
+      ]
+    },
+    {
+      "id": "TB01",
+      "topic": "trade_based",
+      "question": "What is trade-based money laundering and how does it involve goods and trade transactions?",
+      "source_ids": [
+        "S14",
+        "S16",
+        "S17"
+      ],
+      "key_phrases": [
+        "trade-based money laundering",
+        "tbml"
+      ],
+      "answer_checks": [
+        "Explain movement/disguise of illicit value through trade, with source context."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S17:L4-L4",
+        "S17:L10-L10",
+        "S17:L14-L14",
+        "S17:L12-L12"
+      ],
+      "retrieved_passages": [
+        "S17:L4-L4",
+        "S16:L14-L14",
+        "S17:L10-L10",
+        "S17:L14-L14",
+        "S17:L12-L12"
+      ]
+    },
+    {
+      "id": "TB02",
+      "topic": "trade_based",
+      "question": "What trade-based money laundering indicators involve invoices, trade documents, commodity prices and payments?",
+      "source_ids": [
+        "S17"
+      ],
+      "key_phrases": [
+        "invoice",
+        "trade documents"
+      ],
+      "answer_checks": [
+        "Cite actual document/goods/payment irregularities.",
+        "FATF indicators are international guidance, not US regulations."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S17:L12-L12"
+      ],
+      "retrieved_passages": [
+        "S17:L12-L12",
+        "S17:L10-L10",
+        "S17:L14-L14",
+        "S17:L6-L6",
+        "S17:L4-L4"
+      ]
+    },
+    {
+      "id": "TB03",
+      "topic": "trade_based",
+      "question": "Does a single trade-based money laundering risk indicator conclusively establish suspicious activity?",
+      "source_ids": [
+        "S17"
+      ],
+      "key_phrases": [
+        "single",
+        "conclusive"
+      ],
+      "answer_checks": [
+        "Preserve the report's handling notes and context."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S17:L6-L6",
+        "S17:L4-L4"
+      ],
+      "retrieved_passages": [
+        "S17:L6-L6",
+        "S17:L16-L16",
+        "S17:L4-L4",
+        "S17:L10-L10",
+        "S17:L14-L14"
+      ]
+    },
+    {
+      "id": "SH01",
+      "topic": "shell_companies",
+      "question": "How do shell companies and front companies differ in money laundering?",
+      "source_ids": [
+        "S14",
+        "S18"
+      ],
+      "key_phrases": [
+        "front compan",
+        "shell compan"
+      ],
+      "answer_checks": [
+        "Distinguish operating front businesses from shell entities."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S14:L124-L124",
+        "S18:L1-L5",
+        "S18:L22-L31",
+        "S18:L14-L21",
+        "S18:L10-L13"
+      ],
+      "retrieved_passages": [
+        "S14:L124-L124",
+        "S18:L1-L5",
+        "S18:L22-L31",
+        "S18:L14-L21",
+        "S18:L10-L13"
+      ]
+    },
+    {
+      "id": "SH02",
+      "topic": "shell_companies",
+      "question": "What suspicious payment and ownership indicators can arise with shell companies?",
+      "source_ids": [
+        "S18"
+      ],
+      "key_phrases": [
+        "no apparent legitimate business purpose",
+        "ownership"
+      ],
+      "answer_checks": [
+        "Cite transaction/ownership opacity and inconsistent business activity."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S18:L22-L31",
+        "S18:L6-L9",
+        "S18:L1-L5"
+      ],
+      "retrieved_passages": [
+        "S18:L22-L31",
+        "S18:L6-L9",
+        "S18:L14-L21",
+        "S18:L1-L5",
+        "S18:L32-L33"
+      ]
+    },
+    {
+      "id": "SH03",
+      "topic": "shell_companies",
+      "question": "Are all shell companies illegal or used for money laundering?",
+      "source_ids": [
+        "S18"
+      ],
+      "key_phrases": [
+        "legitimate"
+      ],
+      "answer_checks": [
+        "Most are created for legitimate purposes; assess context rather than blanket exclusion."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S18:L1-L5"
+      ],
+      "retrieved_passages": [
+        "S18:L1-L5",
+        "S18:L14-L21",
+        "S18:L32-L33",
+        "S18:L10-L13",
+        "S18:L6-L9"
+      ]
+    },
+    {
+      "id": "DA01",
+      "topic": "digital_assets",
+      "question": "How are digital assets and stablecoins used to launder digital asset investment scam proceeds?",
+      "source_ids": [
+        "S19",
+        "S14"
+      ],
+      "key_phrases": [
+        "stablecoin",
+        "digital asset"
+      ],
+      "answer_checks": [
+        "Explain documented proceeds movement without implying all digital assets are illicit."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S19:L22-L22",
+        "S19:L18-L18",
+        "S19:L12-L12",
+        "S19:L14-L14",
+        "S19:L8-L8"
+      ],
+      "retrieved_passages": [
+        "S19:L22-L22",
+        "S19:L18-L18",
+        "S19:L12-L12",
+        "S19:L14-L14",
+        "S19:L8-L8"
+      ]
+    },
+    {
+      "id": "DA02",
+      "topic": "digital_assets",
+      "question": "What bank payment red flags may indicate a customer is a victim of a digital asset investment scam?",
+      "source_ids": [
+        "S19"
+      ],
+      "key_phrases": [
+        "red flags related to victim payments"
+      ],
+      "answer_checks": [
+        "Separate victim payment indicators from laundering-network indicators."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S19:L20-L20"
+      ],
+      "retrieved_passages": [
+        "S19:L20-L20",
+        "S19:L18-L18",
+        "S19:L22-L22",
+        "S19:L4-L4",
+        "S19:L14-L14"
+      ]
+    },
+    {
+      "id": "DA03",
+      "topic": "digital_assets",
+      "question": "What laundering indicators does the FinCEN digital asset investment scam centers alert describe?",
+      "source_ids": [
+        "S19"
+      ],
+      "key_phrases": [
+        "laundering techniques",
+        "money laundering"
+      ],
+      "answer_checks": [
+        "Date the alert; attribute indicators to it, not a new universal obligation."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S19:L22-L22",
+        "S19:L18-L18",
+        "S19:L2-L2"
+      ],
+      "retrieved_passages": [
+        "S19:L22-L22",
+        "S19:L18-L18",
+        "S19:L4-L4",
+        "S19:L6-L6",
+        "S19:L2-L2"
+      ]
+    },
+    {
+      "id": "CO01",
+      "topic": "corruption",
+      "question": "How can foreign public corruption proceeds be laundered through companies and financial intermediaries?",
+      "source_ids": [
+        "S20"
+      ],
+      "key_phrases": [
+        "corruption"
+      ],
+      "answer_checks": [
+        "Describe source-supported concealment/integration, preserving attribution."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S20:L2-L2",
+        "S20:L16-L16",
+        "S20:L12-L12",
+        "S20:L6-L6"
+      ],
+      "retrieved_passages": [
+        "S20:L2-L2",
+        "S20:L16-L16",
+        "S20:L8-L8",
+        "S20:L12-L12",
+        "S20:L6-L6"
+      ]
+    },
+    {
+      "id": "CO02",
+      "topic": "corruption",
+      "question": "What financial red flags of foreign public corruption involve government contracts and unexplained wealth?",
+      "source_ids": [
+        "S20"
+      ],
+      "key_phrases": [
+        "government contracts",
+        "source of wealth"
+      ],
+      "answer_checks": [
+        "Identify contract opacity, beneficial ownership or wealth mismatch using source evidence."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S20:L16-L16",
+        "S20:L12-L12"
+      ],
+      "retrieved_passages": [
+        "S20:L16-L16",
+        "S20:L4-L4",
+        "S20:L10-L10",
+        "S20:L6-L6",
+        "S20:L12-L12"
+      ]
+    },
+    {
+      "id": "CO03",
+      "topic": "corruption",
+      "question": "Does a single corruption red flag determine that activity is illicit or suspicious?",
+      "source_ids": [
+        "S20"
+      ],
+      "key_phrases": [
+        "no single"
+      ],
+      "answer_checks": [
+        "No single financial indicator is determinative; consider facts and circumstances."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S20:L16-L16"
+      ],
+      "retrieved_passages": [
+        "S20:L16-L16",
+        "S20:L20-L20",
+        "S20:L12-L12",
+        "S20:L24-L24",
+        "S20:L18-L18"
+      ]
+    },
+    {
+      "id": "HT01",
+      "topic": "human_trafficking",
+      "question": "What financial typologies does FinCEN describe for human trafficking proceeds?",
+      "source_ids": [
+        "S21"
+      ],
+      "key_phrases": [
+        "human trafficking"
+      ],
+      "answer_checks": [
+        "Explain documented flows, not a victim or offender determination."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S21:L6-L6",
+        "S21:L4-L4",
+        "S21:L10-L10",
+        "S21:L2-L2",
+        "S21:L8-L8"
+      ],
+      "retrieved_passages": [
+        "S21:L6-L6",
+        "S21:L4-L4",
+        "S21:L10-L10",
+        "S21:L2-L2",
+        "S21:L8-L8"
+      ]
+    },
+    {
+      "id": "HT02",
+      "topic": "human_trafficking",
+      "question": "What financial red flags may indicate human trafficking-related payments and account activity?",
+      "source_ids": [
+        "S21"
+      ],
+      "key_phrases": [
+        "financial indicators",
+        "human trafficking"
+      ],
+      "answer_checks": [
+        "Use actual financial indicators; protect the distinction between potential victims and perpetrators."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S21:L10-L10",
+        "S21:L14-L14",
+        "S21:L2-L2",
+        "S21:L4-L4",
+        "S21:L6-L6"
+      ],
+      "retrieved_passages": [
+        "S21:L10-L10",
+        "S21:L14-L14",
+        "S21:L2-L2",
+        "S21:L4-L4",
+        "S21:L6-L6"
+      ]
+    },
+    {
+      "id": "HT03",
+      "topic": "human_trafficking",
+      "question": "Why is a single human trafficking red flag insufficient to conclude trafficking is occurring?",
+      "source_ids": [
+        "S21"
+      ],
+      "key_phrases": [
+        "no single red flag"
+      ],
+      "answer_checks": [
+        "No single indicator proves trafficking; consider previous financial activity and additional context."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S21:L10-L10"
+      ],
+      "retrieved_passages": [
+        "S21:L10-L10",
+        "S21:L2-L2",
+        "S21:L14-L14",
+        "S21:L4-L4",
+        "S21:L6-L6"
+      ]
+    },
+    {
+      "id": "DA04",
+      "topic": "digital_assets",
+      "question": "What are red flag indicators of convertible virtual currency mixing services?",
+      "source_ids": [
+        "S22"
+      ],
+      "key_phrases": [
+        "mixing",
+        "mixer"
+      ],
+      "answer_checks": [
+        "Preserve source date and focus on misuse indicators rather than equating all privacy tools with crime."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S22:L16-L16",
+        "S22:L4-L4"
+      ],
+      "retrieved_passages": [
+        "S22:L16-L16",
+        "S22:L14-L14",
+        "S22:L4-L4",
+        "S22:L22-L22",
+        "S22:L2-L2"
+      ]
+    },
+    {
+      "id": "DA05",
+      "topic": "digital_assets",
+      "question": "What virtual currency peer-to-peer exchanger transaction patterns should financial institutions review?",
+      "source_ids": [
+        "S22"
+      ],
+      "key_phrases": [
+        "peer-to-peer",
+        "p2p"
+      ],
+      "answer_checks": [
+        "Attribute the indicators to the advisory rather than making current licensing determinations."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S22:L10-L10",
+        "S22:L8-L8",
+        "S22:L2-L2",
+        "S22:L16-L16"
+      ],
+      "retrieved_passages": [
+        "S22:L10-L10",
+        "S22:L8-L8",
+        "S22:L2-L2",
+        "S22:L16-L16",
+        "S19:L22-L22"
+      ]
+    },
+    {
+      "id": "CO04",
+      "topic": "corruption",
+      "question": "What domestic corruption risks are described in the 2026 money laundering risk assessment?",
+      "source_ids": [
+        "S14"
+      ],
+      "key_phrases": [
+        "domestic corruption"
+      ],
+      "answer_checks": [
+        "Do not restrict all corruption risk to foreign officials."
+      ],
+      "pass": true,
+      "matched_passages": [
+        "S14:L62-L62"
+      ],
+      "retrieved_passages": [
+        "S14:L60-L60",
+        "S14:L140-L140",
+        "S14:L62-L62",
+        "S14:L126-L126",
+        "S14:L124-L124"
+      ]
+    }
+  ]
+}

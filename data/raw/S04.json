@@ -1,0 +1,317 @@
+{
+  "source_id": "S04",
+  "url": "https://bsaaml.ffiec.gov/manual/Introduction/01",
+  "capture_method": "web_tool_text_extract",
+  "captured_date": "2026-10-16",
+  "coverage": "selected section excerpt; not original HTML or complete regulatory corpus",
+  "extract_line_range": [
+    22,
+    97
+  ],
+  "lines": [
+    {
+      "line": 22,
+      "text": "### Introduction"
+    },
+    {
+      "line": 23,
+      "text": "This Federal Financial Institutions Examination Council (FFIEC) Bank Secrecy Act (BSA) /Anti-Money Laundering (AML) Examination Manual provides guidance to examiners for carrying out BSA/AML and Office of Foreign Assets Control (OFAC) examinations. An effective BSA/AML compliance program requires sound risk management; therefore, the manual also provides guidance on identifying and controlling risks associated with money laundering and terrorist financing."
+    },
+    {
+      "line": 24,
+      "text": "The manual contains an overview of BSA/AML compliance program requirements, BSA/AML risks and risk management expectations, industry sound practices, and examination procedures. The development of this manual was a collaborative effort of the federal and state banking agencies ^{1}The FFIEC was established in March 1979 to prescribe uniform principles, standards, and report forms and to promote uniformity in the supervision of financial institutions."
+    },
+    {
+      "line": 25,
+      "text": "The Council has six voting members: the Board of Governors of the Federal Reserve System, the Federal Deposit Insurance Corporation, the National Credit Union Administration, the Office of the Comptroller of the Currency, the Consumer Financial Protection Bureau, and the State Liaison Committee. The Council's activities are supported by interagency task forces and by an advisory State Liaison Committee, composed of five representatives of state agencies that supervise financial institutions."
+    },
+    {
+      "line": 26,
+      "text": "and the Financial Crimes Enforcement Network (FinCEN), a bureau of the U.S. Department of the Treasury, to ensure consistency in the application of the BSA/AML requirements. In addition, OFAC assisted in the development of the sections of the manual that relate to OFAC reviews. Refer to Appendices A (“BSA Laws and Regulations”) , B (“BSA/AML Directives”) , and C (“BSA/AML References”) for guidance."
+    },
+    {
+      "line": 27,
+      "text": "### STRUCTURE OF MANUAL"
+    },
+    {
+      "line": 28,
+      "text": ""
+    },
+    {
+      "line": 29,
+      "text": "In order to effectively apply resources and ensure compliance with BSA requirements, the manual is structured to allow examiners to tailor the BSA/AML examination scope and procedures to the specific risk profile of the banking organization. The manual consists of the following sections:"
+    },
+    {
+      "line": 30,
+      "text": "  * Introduction."
+    },
+    {
+      "line": 31,
+      "text": "  * Core Examination Overview and Procedures for Assessing the BSA/AML Compliance Program."
+    },
+    {
+      "line": 32,
+      "text": "  * Core Examination Overview and Procedures for Regulatory Requirements and Related Topics."
+    },
+    {
+      "line": 33,
+      "text": "  * Expanded Examination Overview and Procedures for Consolidated and Other Types of BSA/AML Compliance Program Structures."
+    },
+    {
+      "line": 34,
+      "text": "  * Expanded Examination Overview and Procedures for Products and Services."
+    },
+    {
+      "line": 35,
+      "text": "  * Expanded Examination Overview and Procedures for Persons and Entities."
+    },
+    {
+      "line": 36,
+      "text": "  * Appendices."
+    },
+    {
+      "line": 37,
+      "text": "The core and expanded overview sections provide narrative guidance and background information on each topic; each overview is followed by examination procedures."
+    },
+    {
+      "line": 38,
+      "text": "The “Core Examination Overview and Procedures for Assessing the BSA/AML Compliance Program” and the “Core Examination Overview and Procedures for Regulatory Requirements and Related Topics” (core) sections serve as a platform for the BSA/AML examination and, for the most part, address legal and regulatory requirements of the BSA/AML compliance program."
+    },
+    {
+      "line": 39,
+      "text": "The “Scoping and Planning” and the “BSA/AML Risk Assessment” sections help the examiner develop an appropriate examination plan based on the risk profile of the bank. There may be instances where a topic is covered in both the core and expanded sections (e.g., funds transfers and foreign correspondent banking). In such instances, the core overview and examination procedures address the BSA requirements while the expanded overview and examination procedures address the AML risks of the specific activity."
+    },
+    {
+      "line": 40,
+      "text": "At a minimum, examiners should use the following examination procedures included within the “Core Examination Overview and Procedures for Assessing the BSA/AML Compliance Program” section of this manual to ensure that the bank has an adequate BSA/AML compliance program commensurate with its risk profile:"
+    },
+    {
+      "line": 41,
+      "text": ""
+    },
+    {
+      "line": 42,
+      "text": "  * Scoping and Planning ."
+    },
+    {
+      "line": 43,
+      "text": "  * BSA/AML Risk Assessment ."
+    },
+    {
+      "line": 44,
+      "text": "  * BSA/AML Compliance Program ."
+    },
+    {
+      "line": 45,
+      "text": "  * Developing Conclusions and Finalizing the Examination ."
+    },
+    {
+      "line": 46,
+      "text": "While OFAC regulations are not part of the BSA, the core sections include overview and examination procedures for examining a bank’s policies, procedures, and processes for ensuring compliance with OFAC sanctions.  As part of the scoping and planning procedures, examiners must review the bank’s OFAC risk assessment and independent testing to determine the extent to which a review of the bank’s OFAC compliance program should be conducted during the examination.  Refer to core examination procedures, “ Office of Foreign Assets Control ,” page 152, for further guidance."
+    },
+    {
+      "line": 47,
+      "text": "The expanded sections address specific lines of business, products, customers, or entities that may present unique challenges and exposures for which banks should institute appropriate policies, procedures, and processes. Absent appropriate controls, these lines of business, products, customers, or entities could elevate BSA/AML risks. In addition, the expanded section provides guidance on BSA/AML compliance program structures and risk management."
+    },
+    {
+      "line": 48,
+      "text": "Not all of the core and expanded examination procedures are likely be applicable to every banking organization. The specific examination procedures that will need to be performed depend on the BSA/AML risk profile of the banking organization, the quality and quantity of independent testing, the financial institution’s history of BSA/AML compliance, and other relevant factors."
+    },
+    {
+      "line": 49,
+      "text": "### BACKGROUND"
+    },
+    {
+      "line": 50,
+      "text": "In 1970, Congress passed the Currency and Foreign Transactions Reporting Act commonly known as the “Bank Secrecy Act, ^{2}31 USC 5311 et seq., 12 USC 1829b, and 1951 – 1959. Also refer to 12 USC 1818(s) (federally insured depository institutions) and 12 USC 1786(q) (federally insured credit unions)."
+    },
+    {
+      "line": 51,
+      "text": "which established requirements for recordkeeping and reporting by private individuals, banks ^{3}Under the BSA, as implemented by 31 CFR 1010.100 (formerly 31 CFR 103.11), the term \"bank\" includes each agent, agency, branch, or office within the United States of commercial banks, savings and loan associations, thrift institutions, credit unions, and foreign banks."
+    },
+    {
+      "line": 52,
+      "text": "The term \"bank\" is used throughout the manual generically to refer to the financial institution being examined., and other financial institutions. The BSA was designed to help identify the source, volume, and movement of currency and other monetary instruments transported or transmitted into or out of the United States or deposited in financial institutions. The statute sought to achieve that objective by requiring individuals, banks, and other financial institutions to file currency reports with the U.S."
+    },
+    {
+      "line": 53,
+      "text": "Department of the Treasury (U.S. Treasury), properly identify persons conducting transactions, and maintain a paper trail by keeping appropriate records of financial transactions. These records enable law enforcement and regulatory agencies to pursue investigations of criminal, tax, and regulatory violations, if warranted, and provide evidence useful in prosecuting money laundering and other financial crimes."
+    },
+    {
+      "line": 54,
+      "text": "The Money Laundering Control Act of 1986 augmented the BSA’s effectiveness by adding the interrelated sections 8(s) and 21 to the Federal Deposit Insurance Act (FDIA) and section 206(q) of the Federal Credit Union (FCUA), which sections apply equally to banks of all charters. ^{4} 12 USC 1818(s), 12 USC 1829(b), and 12 USC 1786(q), respectively."
+    },
+    {
+      "line": 55,
+      "text": "The Money Laundering Control Act of 1986 precludes circumvention of the BSA requirements by imposing criminal liability on a person or financial institution that knowingly assists in the laundering of money, or that structures transactions to avoid reporting them. The 1986 statute directed banks to establish and maintain procedures reasonably designed to ensure and monitor compliance with the reporting and recordkeeping requirements of the BSA."
+    },
+    {
+      "line": 56,
+      "text": "As a result, on January 27, 1987, all federal banking agencies issued essentially similar regulations requiring banks to develop programs for BSA compliance."
+    },
+    {
+      "line": 57,
+      "text": "The 1992 Annunzio–Wylie Anti-Money Laundering Act strengthened the sanctions for BSA violations and the role of the U.S. Treasury. Two years later, Congress passed the Money Laundering Suppression Act of 1994 (MLSA), which further addressed the U.S. Treasury’s role in combating money laundering."
+    },
+    {
+      "line": 58,
+      "text": "In April 1996, a Suspicious Activity Report (SAR) was developed to be used by all banking organizations in the United States. A banking organization is required to file a SAR whenever it detects a known or suspected criminal violation of federal law or a suspicious transaction related to money laundering activity or a violation of the BSA."
+    },
+    {
+      "line": 59,
+      "text": "In response to the September 11, 2001, terrorist attacks, Congress passed the Uniting and Strengthening America by Providing Appropriate Tools Required to Intercept and Obstruct Terrorism Act of 2001 (USA PATRIOT Act). Title III of the USA PATRIOT Act is the International Money Laundering Abatement and Anti-Terrorist Financing Act of 2001. The USA PATRIOT Act is arguably the single most significant AML law that Congress has enacted since the BSA itself."
+    },
+    {
+      "line": 60,
+      "text": "Among other things, the USA PATRIOT Act criminalized the financing of terrorism and augmented the existing BSA framework by strengthening customer identification procedures; prohibiting financial institutions from engaging in business with foreign shell banks; requiring financial institutions to have due diligence procedures and, in some cases, enhanced due diligence (EDD) procedures for foreign correspondent and private banking accounts; and improving information sharing between financial institutions and the U.S."
+    },
+    {
+      "line": 61,
+      "text": "government. The USA PATRIOT Act and its implementing regulations also:"
+    },
+    {
+      "line": 62,
+      "text": "  * Expanded the AML program requirements to all financial institutions. ^{5} The USA PATRIOT Act expanded the AML program requirement to all financial institutions as that term is defined in 31 USC 5312(a)(2). However, as of the publication of this manual, only certain types of financial institutions are subject to final rules implementing the AML program requirements of 31 USC 5318(h)(1) as established by the USA PATRIOT Act."
+    },
+    {
+      "line": 63,
+      "text": "Those financial institutions that are not currently subject to a final AML program rule are temporarily exempted from the USA PATRIOT Act requirements to establish an AML program, as set forth in 31 CFR 1010.205 (formerly 31 CFR 103.170). Refer to Appendix D (\"Statutory Definition of Financial Institution\") for further clarification."
+    },
+    {
+      "line": 64,
+      "text": "  * Increased the civil and criminal penalties for money laundering."
+    },
+    {
+      "line": 65,
+      "text": "  * Provided the Secretary of the Treasury with the authority to impose “special measures” on jurisdictions, institutions, or transactions that are of “primary money-laundering concern.”"
+    },
+    {
+      "line": 66,
+      "text": "  * Facilitated records access and required banks to respond to regulatory requests for information within 120 hours."
+    },
+    {
+      "line": 67,
+      "text": "  * Required federal banking agencies to consider a bank’s AML record when reviewing bank mergers, acquisitions, and other applications for business combinations."
+    },
+    {
+      "line": 68,
+      "text": "### ROLE OF GOVERNMENT AGENCIES IN THE BSA"
+    },
+    {
+      "line": 69,
+      "text": "Certain government agencies play a critical role in implementing BSA regulations, developing examination guidance, ensuring compliance with the BSA, and enforcing the BSA. These agencies include the U.S. Treasury, FinCEN, and the federal banking agencies (Board of Governors of the Federal Reserve System (Federal Reserve), Federal Deposit Insurance Corporation (FDIC), National Credit Union Administration (NCUA), and Office of the Comptroller of the Currency(OCC))."
+    },
+    {
+      "line": 70,
+      "text": "Internationally there are various multilateral government bodies that support the fight against money laundering and terrorist financing. Refer to Appendix E (\"International Organizations\") for additional information."
+    },
+    {
+      "line": 71,
+      "text": "###### U.S. Treasury"
+    },
+    {
+      "line": 72,
+      "text": "The BSA authorizes the Secretary of the Treasury to require financial institutions to establish AML programs, file certain reports, and keep certain records of transactions."
+    },
+    {
+      "line": 73,
+      "text": "Certain BSA provisions have been extended to cover not only traditional depository institutions, such as banks, savings associations, and credit unions, but also nonbank financial institutions, such as money services businesses, casinos, brokers/dealers in securities, futures commission merchants, mutual funds, insurance companies, and operators of credit card systems."
+    },
+    {
+      "line": 74,
+      "text": "###### FinCEN"
+    },
+    {
+      "line": 75,
+      "text": "FinCEN, a bureau of the U.S. Treasury, is the delegated administrator of the BSA. In this capacity, FinCEN issues regulations and interpretive guidance, provides outreach to regulated industries, supports the examination functions performed by federal banking agencies, and pursues civil enforcement actions when warranted. FinCEN relies on the federal banking agencies to examine banks within their respective jurisdictions for compliance with the BSA."
+    },
+    {
+      "line": 76,
+      "text": "FinCEN’s other significant responsibilities include providing investigative case support to law enforcement, identifying and communicating financial crime trends and patterns, and fostering international cooperation with its counterparts worldwide."
+    },
+    {
+      "line": 77,
+      "text": "###### Federal Banking Agencies"
+    },
+    {
+      "line": 78,
+      "text": "The federal banking agencies are responsible for the oversight of the various banking entities operating in the United States, including foreign branch offices of U.S. banks. The federal banking agencies are charged with chartering (NCUA, and OCC), insuring (FDIC and NCUA), regulating, and supervising banks. ^{6} The Federal Reserve and FDIC may collaborate with state banking agencies on the examination, oversight, and enforcement of BSA/AML for state-chartered banks."
+    },
+    {
+      "line": 79,
+      "text": "12 USC 1818(s)(2) and 1786(q) require that the appropriate federal banking agency include a review of the BSA compliance program at each examination of an insured depository institution. The federal banking agencies may use their authority, as granted under section 8 of the FDIA or section 206 of the FCUA, to enforce compliance with appropriate banking rules and regulations, including compliance with the BSA."
+    },
+    {
+      "line": 80,
+      "text": "The federal banking agencies require each bank under their supervision to establish and maintain a BSA compliance program. ^{7} Refer to 12 CFR 208.63, 12 CFR 211.5(m) and 12 CFR 211.24(j) (Federal Reserve); 12 CFR 326.8 (FDIC); 12 CFR 748.2 (NCUA); 12 CFR 21.21(OCC)."
+    },
+    {
+      "line": 81,
+      "text": "In accordance with the USA PATRIOT Act, FinCEN’s regulations require certain financial institutions to establish an AML compliance program that guards against money laundering and terrorist financing and ensures compliance with the BSA and its implementing regulations."
+    },
+    {
+      "line": 82,
+      "text": "When the USA PATRIOT Act was passed, banks under the supervision of a federal banking agency were already required by law to establish and maintain a BSA compliance program that, among other things, requires the bank to identify and report suspicious activity promptly."
+    },
+    {
+      "line": 83,
+      "text": "For this reason, 31 CFR 1020.210 states that a bank regulated by a federal banking agency is deemed to have satisfied the AML program requirements of the USA PATRIOT Act if the bank develops and maintains a BSA compliance program that complies with the regulation of its federal functional regulator ^{8} Federal functional regulator means: Federal Reserve, FDIC, NCUA, OCC, Securities and Exchange Commission or U.S. Commodity Futures Trading Commission. governing such programs."
+    },
+    {
+      "line": 84,
+      "text": "This manual will refer to the BSA compliance program requirements for each federal banking agency as the “BSA/AML compliance program.”"
+    },
+    {
+      "line": 85,
+      "text": "Banks should take reasonable and prudent steps to combat money laundering and terrorist financing and to minimize their vulnerability to the risk associated with such activities. Some banking organizations have been required to pay civil money penalties for failing to implement adequate controls within their organization resulting in noncompliance with the BSA."
+    },
+    {
+      "line": 86,
+      "text": "In addition, due to the AML assessment required as part of the application process, BSA/AML concerns can have an impact on the bank’s strategic plan. For this reason, the federal banking agencies’ and FinCEN’s commitment to provide guidance that assists banks in complying with the BSA remains a high supervisory priority."
+    },
+    {
+      "line": 87,
+      "text": "The federal banking agencies work to ensure that the organizations they supervise understand the importance of having an effective BSA/AML compliance program in place. Management must be vigilant in this area, especially as business grows and new products and services are introduced. An evaluation of the bank’s BSA/AML compliance program and its compliance with the regulatory requirements of the BSA has been an integral part of the supervision process for years."
+    },
+    {
+      "line": 88,
+      "text": "Refer to Appendix A (\"BSA Laws and Regulations\") for further information."
+    },
+    {
+      "line": 89,
+      "text": "As part of a strong BSA/AML compliance program, the federal banking agencies seek to ensure that a bank has policies, procedures, and processes to identify and report suspicious transactions to law enforcement."
+    },
+    {
+      "line": 90,
+      "text": "The agencies’ supervisory processes assess whether banks have established the appropriate policies, procedures, and processes based on their BSA/AML risk to identify and report suspicious activity and that they provide sufficient detail in reports to law enforcement agencies to make the reports useful for investigating suspicious transactions that are reported. Refer to Appendices B (\"BSA/AML Directives\") and C (\"BSA/AML References\") for guidance."
+    },
+    {
+      "line": 91,
+      "text": "On July 19, 2007, the federal banking agencies issued a statement setting forth the agencies’ policy for enforcing specific anti-money laundering requirements of the BSA. The purpose of the Interagency Statement on Enforcement of Bank Secrecy Act/Anti-Money Laundering Requirements (Interagency Enforcement Statement) is to provide greater consistency among the agencies in enforcement decisions in BSA matters and to offer insight into the considerations that form the basis of those decisions."
+    },
+    {
+      "line": 92,
+      "text": "^{9} Refer to Appendix R (\"Enforcement Guidance\") for additional information."
+    },
+    {
+      "line": 93,
+      "text": "###### OFAC"
+    },
+    {
+      "line": 94,
+      "text": "OFAC administers and enforces economic and trade sanctions based on U.S. foreign policy and national security goals against targeted foreign countries, terrorists, international narcotics traffickers, and those engaged in activities related to the proliferation of weapons of mass destruction. OFAC acts under the President’s wartime and national emergency powers, as well as under authority granted by specific legislation, to impose controls on transactions and freeze assets under U.S. jurisdiction."
+    },
+    {
+      "line": 95,
+      "text": "Many of the sanctions are based on United Nations and other international mandates, are multilateral in scope, and involve close cooperation with allied governments."
+    },
+    {
+      "line": 96,
+      "text": "OFAC requirements are separate and distinct from the BSA, but both OFAC and the BSA share a common national security goal. For this reason, many financial institutions view compliance with OFAC sanctions as related to BSA compliance obligations; supervisory examination for BSA compliance is logically connected to the examination of a financial institution’s compliance with OFAC sanctions."
+    },
+    {
+      "line": 97,
+      "text": "Refer to the core overview and examination procedures, “ Office of Foreign Assets Control ,” pages 142 and 152, respectively, for guidance."
+    }
+  ]
+}

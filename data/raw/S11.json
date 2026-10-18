@@ -1,0 +1,77 @@
+{
+  "source_id": "S11",
+  "url": "https://bsaaml.ffiec.gov/manual/AssessingTheBSAAMLComplianceProgram/04",
+  "capture_method": "web_tool_text_extract",
+  "captured_date": "2026-10-16",
+  "coverage": "selected section excerpt; not original HTML or complete regulatory corpus",
+  "extract_line_range": [
+    24,
+    39
+  ],
+  "lines": [
+    {
+      "line": 24,
+      "text": "### BSA COMPLIANCE OFFICER"
+    },
+    {
+      "line": 25,
+      "text": ""
+    },
+    {
+      "line": 26,
+      "text": "Objective: Confirm that the bank’s board of directors has designated a qualified individual or individuals (BSA compliance officer) responsible for coordinating and monitoring day-to-day compliance with BSA regulatory requirements. Assess whether the BSA compliance officer has the appropriate authority, independence, access to resources, and competence to effectively execute all duties."
+    },
+    {
+      "line": 27,
+      "text": "The bank’s board of directors must designate a qualified individual or individuals to serve as the BSA compliance officer.^{[18]}12 CFR 208.63(c)(3), (Federal Reserve); 12 CFR 326.8(c)(3) (FDIC); 12 CFR 748.2(c)(3) (NCUA); 12 CFR 21.21(d)(3) (OCC). The BSA compliance officer is responsible for coordinating and monitoring day-to-day BSA/AML compliance."
+    },
+    {
+      "line": 28,
+      "text": "The BSA compliance officer is also charged with managing all aspects of the BSA/AML compliance program, including managing the bank’s compliance with BSA regulatory requirements. The board of directors is ultimately responsible for the bank’s BSA/AML compliance and should provide oversight for senior management and the BSA compliance officer in the implementation of the bank’s board-approved BSA/AML compliance program.^{[19]}FinCEN (2014), “Advisory to U.S."
+    },
+    {
+      "line": 29,
+      "text": "Financial Institutions on Promoting a Culture of Compliance,” FIN-2014-A007."
+    },
+    {
+      "line": 30,
+      "text": "The act by the bank’s board of directors of appointing a BSA compliance officer is not, by itself, sufficient to meet the regulatory requirement to establish and maintain a BSA/AML compliance program reasonably designed to assure and monitor compliance with the BSA."
+    },
+    {
+      "line": 31,
+      "text": "The board of directors is responsible for ensuring that the BSA compliance officer has appropriate authority, independence, and access to resources to administer an adequate BSA/AML compliance program based on the bank’s ML/TF and other illicit financial activity risk profile."
+    },
+    {
+      "line": 32,
+      "text": "The BSA compliance officer should regularly report the status of ongoing compliance with the BSA to the board of directors and senior management so that they can make informed decisions about existing risk exposure and the overall BSA/AML compliance program. Reporting to the board of directors or a designated board committee about the status of ongoing compliance should include pertinent BSA-related information, including the required notification of suspicious activity report (SAR) filings."
+    },
+    {
+      "line": 33,
+      "text": "The BSA compliance officer is responsible for carrying out the board’s direction, including the implementation of the bank’s BSA/AML policies, procedures, and processes. The BSA compliance officer may delegate BSA/AML duties to staff, but the officer is responsible for overseeing the day-to-day BSA/AML compliance program."
+    },
+    {
+      "line": 34,
+      "text": "The BSA compliance officer should be competent, as demonstrated by knowledge of the BSA and related regulations, implementation of the bank’s BSA/AML compliance program, and understanding of the bank’s ML/TF and other illicit financial activity risk profile associated with its banking activities. The actual title of the individual responsible for overall BSA compliance is not important; however, the individual’s authority, independence, and access to resources within the bank is critical."
+    },
+    {
+      "line": 35,
+      "text": "Indicators of appropriate authority of the BSA compliance officer may include senior management seeking the BSA compliance officer’s input regarding: the ML/TF and other illicit financial activity risks related to expansion into new products, services, customer types and geographic locations; or operational changes, such as the implementation of, or adjustments to, systems that impact the BSA compliance function."
+    },
+    {
+      "line": 36,
+      "text": "Indicators of appropriate independence of the BSA compliance officer may include, but are not limited to: clear lines of reporting and communication ultimately up to the board of directors or a designated board committee that do not compromise the BSA compliance officer’s independence, the ability to undertake the BSA compliance officer’s role without undue influence from the bank’s business lines, and identification and reporting of issues to senior management and the board of directors."
+    },
+    {
+      "line": 37,
+      "text": "The BSA compliance officer should have access to suitable resources. This may include, but is not limited to: adequate staffing with the skills and expertise necessary for the bank’s overall risk level (based on products, services, customers, and geographic locations), size or complexity, and organizational structure; and systems to support the timely identification, measurement, monitoring, reporting, and management of the bank’s ML/TF and other illicit financial activity risks."
+    },
+    {
+      "line": 38,
+      "text": "Examiners should confirm that the bank’s board of directors has designated an individual or individuals responsible for the overall BSA/AML compliance program who are appropriately qualified. Examiners should review reports to the board of directors and senior management regarding the status of ongoing compliance and pertinent BSA-related information, including the required notification of SAR filings."
+    },
+    {
+      "line": 39,
+      "text": "Examiners should confirm that the BSA compliance officer has the appropriate authority, independence, and access to resources."
+    }
+  ]
+}

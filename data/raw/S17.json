@@ -1,0 +1,95 @@
+{
+  "source_id": "S17",
+  "url": "https://menafatf.org/sites/default/files/Newsletter/English%20Trade-Based-Money-Laundering-Risk-Indicators%20%281%29.pdf",
+  "captured_date": "2026-10-17",
+  "capture_method": "pypdf_page_text_extract",
+  "coverage": "Substantive PDF pages, preserved page by page. Extracted text includes footnotes; PDF page numbers are one-based physical pages, not printed page labels.",
+  "original_sha256": "670b80270b33354b17263d44393cd65386a96bdb1a171365f217048e7cca6afb",
+  "original_path": "data/originals/S17.pdf",
+  "extract_line_range": [
+    1,
+    16
+  ],
+  "lines": [
+    {
+      "line": 1,
+      "text": "### Trade-Based Money Laundering: Risk Indicators · PDF page 2",
+      "page": 2
+    },
+    {
+      "line": 2,
+      "text": "The Financial Action Task Force (FATF) is an independent inter -governmental body that develops and promotes \npolicies to protect the global financial system against money laundering, terrorist financing and the financing of \nproliferation of weapons of mass destruction.  The FATF Recommendations are recognised as the global anti -money \nlaundering (AML) and counter-terrorist financing (CFT) standard. \nFor more information about the FATF, please visit www.fatf-gafi.org \nThis document and/or any map included herein are without prejudice to the status of or sovereignty over any \nterritory, to the delimitation of international frontiers and boundaries and to the name of any territory, city or area. The goal of the Egmont Group of Financial Intelligence Units (Egmont Group) is to provide a forum for financial \nintelligence unites (FIUs) around the world to improve co -operation in the fight against money laundering and the \nfinancing of terrorism and to foster the implementation of domestic programs in this field.  \nFor more information about the Egmont Group, please visit the website: www.egmontgroup.org \nCit\ning reference:  \nFATF – Egmont Group (2020), Trade-Based Money Laundering: Risk Indicators, FATF, Paris, France,   \nwww.fatf-gafi.org/publications/methodandtrends/documents/trade-based-money-laundering-risk-\nindicators.html \n© 202\n1 FATF/OECD and Egmont Group of Financial Intelligence Units. All rights reserved. \nNo reproduction or translation of this publication may be made without prior written permission. \nApplications for such permission, for all or part of this publication, should be made to  \nthe FATF Secretariat, 2 rue André Pascal 75775 Paris Cedex 16, France (fax: +33 1 44 30 61 37 or e-mail: \ncontact@fatf-gafi.org)  \nPhoto credits cover photo ©Getty Images",
+      "page": 2
+    },
+    {
+      "line": 3,
+      "text": "### Trade-Based Money Laundering: Risk Indicators · PDF page 3",
+      "page": 3
+    },
+    {
+      "line": 4,
+      "text": "TRADE-BASED MONEY LAUNDERING: RISK INDICATORS  | 1 \n© 2021 | FATF– EGMONT GROUP \nTrade-Based Money Laundering: Risk Indicators \nThe risk indicators provided below are derived from a sampling of the data received \nby the FATF and the Egmont Group of FIUs in the course of the Trade -Based Money \nLaundering (TBML) project. The risk indicators are designed to enhance the ability of \npublic and private entities to identify suspicious activity associated with this form of \nmoney laundering. By no means is this a conclusive list. While several indicators \nidentified may not appear to have a direct or exclusive connection with TBML, and \nmay be indicative of other forms of money laundering or another illicit activity, they \nmay nonetheless be relevant when trying to identify TBML. \nBefore using the risk indicators, readers are encouraged to read the handling notes \nbelow and the 2020 FATF/Egmont TBML report, which provides a comprehensive \noverview of current TBML risks and outlines a number of best practices in mitigating \nthese risks.  \nRead\ners may also want to familiarise themselves with a suite of previous TBML \nstudies done within the FATF Global Network, such as a 2006 report on TBML,1 a 2008 \nbest-practices paper ,2 and a 2012 typologies report by the Asia Pacific Group on \nMoney Laundering.3 \n1  www.fatf-gafi.org/publications/methodsandtrends/documents/trade-basedmoneylaundering.html \n2  www.fatf-gafi.org/publications/fatfrecommendations/documents/bestpracticesontradebasedmoneylaundering.html \n3  www.fatf-gafi.org/publications/methodsandtrends/documents/trade-basedmoneylaunderingtypologies.html \nTrade-Based Money Laundering – Trends and Developments \nThis joint FATF-Egmont report aims to help public and private \nsector with the challenges of detecting trade-based money \nlaundering. Using numerous case studies from around the FATF’s \nGlobal Network, it explains the ways in which criminals exploit trade \ntransactions to move money, rather than goods. It highlights \nrecommendations to address the trade-based money laundering \nrisks. These include using national risk assessments and other risk -\nfocused material to raise awareness with the public and private \nsector entities involved in international trade, improving \ninformation-sharing of financial and trade data, and cooperation \nbetween authorities and private sector, including through public-\nprivate partnerships. FATF, Egmont Group (2020) \nwww.fatf-gafi.org/publications/methodsandtrends/documents/trade-based-money-\nlaundering-trends-and-developments.html",
+      "page": 3
+    },
+    {
+      "line": 5,
+      "text": "### Trade-Based Money Laundering: Risk Indicators · PDF page 4",
+      "page": 4
+    },
+    {
+      "line": 6,
+      "text": "2 | TRADE-BASED MONEY LAUNDERING: RISK INDICATORS  \n© 2021 | FATF-EGMONT GROUP \n      \nAudience and how risk indicators can be used \nA risk indicator demonstrates or suggests the likelihood of the occurrence of unusual \nor suspicious activity. The existence of a single indicator in relation to a customer or \ntransaction may not alone warrant suspicion of TBML, nor will the indicator \nnecessarily provide a clear indication of such activity, but it could prompt further \nmonitoring and examination, as appropriate. Similarly, the occurrence of several \nindicators could also warrant closer examination. Whether one or more of the \nindicators suggest s TBML is also dependent on the business lines, products or \nservices that an institution offers; how it interacts with its customers; and on the \ninstitution’s human and technological resources.  \nThe indicators listed below are relevant to both the public and private sectors. With \nrespect to the latter, the indicators are relevant to financial institutions, including \nbanks and money value transfer services; designated non -financial businesses and \nprofessions; and small and mid-size businesses and large conglomerates. Within the \nprivate sector, these indicators are intended to be used by personnel responsible for \ncompliance, transaction monitoring, in vestigative analysis, client on boarding and \nrelationship management, and other areas that work to prevent financial crime.  \nSome of the risk indicators require the cross- comparison of various data elements \n(e.g. financial transactions, customs data, and open market prices) often held in \nexternal sources. Due to this reliance on external data, the private sector will not \nobserve all of the indicators identified below. For some of the risk indicators, the \nprivate sector will need additional contextual information from competent \nauthorities, e.g. via engagement with law enforcement authorities or financial \nintelligence units. In using these indicators, private sector entities should also take \ninto consideration the totality of the customer profile, including information obtained \nfrom the customer during the due diligence process, trade financing methods \ninvolved in the transactions, and other relevant contextual risk factors.",
+      "page": 4
+    },
+    {
+      "line": 7,
+      "text": "### Trade-Based Money Laundering: Risk Indicators · PDF page 5",
+      "page": 5
+    },
+    {
+      "line": 8,
+      "text": "TRADE-BASED MONEY LAUNDERING: RISK INDICATORS  | 3 \n© 2021 | FATF– EGMONT GROUP \n      \n Structural risk indicators  \n The corporate structure of a trade entity appears unusually complex and illogical, such \nas the involvement of shell companies or companies registered in high -risk \njurisdictions. \n A trade entity is registered or has offices in a jurisdiction with weak AML/CFT \ncompliance.  \n A trade entity is registered at an address that is likely to be a mass registration address, \ne.g. high -density residential buildings, post -box addresses, commercial buildings or \nindustrial complexes, especially when there is no reference to a specific unit.4 \n The business activity of a trade entity does not appear to be appropriate for the stated \naddress, e.g. a trade entity appears to use residen tial properties, without having a \ncommercial or industrial space, with no reasonable explanation. \n A trade entity lacks an online presence or the online presence suggests business \nactivity inconsistent with the stated line of business, e.g. the website of a trade entity \ncontains mainly boilerplate material taken from other websites or the website \nindicates a lack of knowledge regarding the particular product or industry in which the \nentity is trading. \n A trade entity displays a notable lack of typical busines s activities, e.g. it lacks regular \npayroll transactions in line with the number of stated employees, transactions relating \nto operating costs, tax remittances. \n Owners or senior managers of a trade entity appear to be nominees acting to conceal \nthe actual beneficial owners, e.g. they lack experience in business management or lack \nknowledge of transaction details, or they manage multiple companies.  \n A trade entity, or its owners or senior managers, appear in negative news, e.g. past \nmoney laundering schemes, fraud, tax evasion, other criminal activities, or ongoing or \npast investigations or convictions. \n A trade entity maintains a minimal number of working staff, inconsistent with its \nvolume of traded commodities. \n The name of a trade entity appears to be a cop y of the name of a well -known \ncorporation or is very similar to it, potentially in an effort to appear as part of the \ncorporation, even though it is not actually connected to it. \n A trade entity has unexplained periods of dormancy. \n An entity is not compliant with regular business obligations, such as filing VAT returns. \n                                                             \n4  This may also include the address of a trust and company service provider that manages a number of shell companies on behalf of its \ncustomers.",
+      "page": 5
+    },
+    {
+      "line": 9,
+      "text": "### Trade-Based Money Laundering: Risk Indicators · PDF page 6",
+      "page": 6
+    },
+    {
+      "line": 10,
+      "text": "4 | TRADE-BASED MONEY LAUNDERING: RISK INDICATORS  \n© 2021 | FATF-EGMONT GROUP \n      \nTrade activity risk indicators  \n Trade activity is inconsistent with the stated line of business of the entities involved, \ne.g., a car dealer is exporting clothing or a precious metals dealer is importing seafood. \n A trade entity engages in complex trade deals involving numerous third -party \nintermediaries in incongruent lines of business. \n A trade entity engages in transactions and shipping routes or methods that are \ninconsistent with standard business practices.  \n A trade entity makes unconventional or overly complex use of financial products, e.g. \nuse of letters of credit for unusually long or frequently extended periods without any \napparent reason, intermingling of different types of trade finance products for different \nsegments of trade transactions. \n A trade entity consistently displays unreasonably low profit margins. 5 in its trade \ntransactions, e.g. importing wholesale commodities at or above retail value, or re-\nselling commodities at the same or below purchase price. \n A trade entity purchases commodities, allegedly on its own account, but the purchases \nclearly exceed the economic capabilities of the entity, e.g. the transactions are financed \nthrough sudden influxes of cash deposits or third -party transfers to the entity’s \naccounts. \n A newly formed or recently re-activated trade entity engages in high-volume and high-\nvalue trade activity, e.g. an unknown entity suddenly appears and engages in trade \nactivities in sectors with high barriers to market entry. \n \n  \n                                                             \n5  In some cases, determining the profit margin may require estimating the “fair price” of the traded commodity, which may be difficult \nfor certain types of commodities (e.g. commodities not traded on the open market).",
+      "page": 6
+    },
+    {
+      "line": 11,
+      "text": "### Trade-Based Money Laundering: Risk Indicators · PDF page 7",
+      "page": 7
+    },
+    {
+      "line": 12,
+      "text": "TRADE-BASED MONEY LAUNDERING: RISK INDICATORS  | 5 \n© 2021 | FATF– EGMONT GROUP \n      \nTrade document and commodity risk indicators \n Inconsistencies across contracts, invoices or other trade documents, e.g. contradictions \nbetween the name of the exporting entity and the name of the recipient of the payment; \ndiffering prices on invoices and underlying contracts; or discrepancies between the \nquantity, quality, volume, or value of the actual commodities and their descriptions. \n Contracts, invoices, or other trade documents display fees or prices that do not seem \nto be in line with commercial considerations, are inconsistent with market value, or \nsignificantly fluctuate from previous comparable transactions. \n Contracts, invoices, or other trade documents have vague descriptions of the traded \ncommodities, e.g. the subject of the contract is only described generically or non -\nspecifically. \n Trade or customs documents supporting the transaction are missing, appear to be \ncounterfeits, include false or misleading information, are a resubmission of previously \nrejected documents, or are frequently modified or amended. \n Contracts supporting complex or regular trade transactions appear to be unusually \nsimple, e.g. they follow a “sample contract” structure available on the Internet. \n The value of registered imports of an entity displays significant m ismatches to the \nentity’s volume of foreign bank transfers for imports. Conversely, the value of \nregistered exports shows a significant mismatch with incoming foreign bank transfers. \n Commodities imported into a country within the framework of temporary importation \nand inward processing regime are subsequently exported with falsified documents. \n Shipments of commodities are routed through a number of jurisdictions without \neconomic or commercial justification.",
+      "page": 7
+    },
+    {
+      "line": 13,
+      "text": "### Trade-Based Money Laundering: Risk Indicators · PDF page 8",
+      "page": 8
+    },
+    {
+      "line": 14,
+      "text": "6 | TRADE-BASED MONEY LAUNDERING: RISK INDICATORS  \n© 2021 | FATF-EGMONT GROUP \n      \nAccount and transaction activity risk indicators  \n A trade entity makes very late changes to payment arrangements for the transaction, \ne.g. the entity redirects payment to a previously unknown entity at the very last \nmoment, or the entity requests changes t o the scheduled payment date or payment \namount.  \n An account displays an unexpectedly high number or value of transactions that are \ninconsistent with the stated business activity of the client. \n An account of a trade entity appears to be a “pay -through” or “transit” account with a \nrapid movement of high-volume transactions and a small end -of-day balance without \nclear business reasons, including: \n‒ An account displays frequent deposits in cash which are subsequently transferred \nto persons or entities in free tra de zones or offshore jurisdictions without a \nbusiness relationship to the account holder. \n‒ Incoming wire transfers to a trade-related account are split and forwarded to non-\nrelated multiple accounts that have little or no connection to commercial activity. \n Payment for imported commodities is made by an entity other than the consignee of \nthe commodities with no clear economic reasons, e.g. by a shell or front company not \ninvolved in the trade transaction.  \n Cash deposits or other transactions of a trade entity  are consistently just below \nrelevant reporting thresholds.  \n Transaction activity associated with a trade entity increases in volume quickly and \nsignificantly, and then goes dormant after a short period of time.  \n Payments are sent or received in large roun d amounts for trade in sectors where this \nis deemed as unusual. \n Payments are routed in a circle – funds are sent out from one country and received \nback in the same country, after passing through another country or countries.",
+      "page": 8
+    },
+    {
+      "line": 15,
+      "text": "### Trade-Based Money Laundering: Risk Indicators · PDF page 10",
+      "page": 10
+    },
+    {
+      "line": 16,
+      "text": "Trade-Based Money Laundering\n Risk Indicators\nThese risk indicators are designed to help public and private entities \nidentify suspicious activity associated with trade based money \nlaundering.  The indicators are derived from a sampling of the data \nreceived by the FATF and the Egmont Group of FIUs in the course of \nthe Trade-Based Money Laundering project.\nwww.egmontgroup.org  |  www.fatf-gafi.org \n \nMarch 2021",
+      "page": 10
+    }
+  ]
+}

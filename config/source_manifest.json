@@ -1,0 +1,526 @@
+{
+  "project": "AML Research Assistant for US Banks",
+  "planned_snapshot_date": "2026-10-16",
+  "jurisdiction": "US",
+  "institution_type": "bank",
+  "status": "excerpt corpus indexed for prototype retrieval; legal currency review pending",
+  "sources": [
+    {
+      "source_id": "S01",
+      "title": "FinCEN role",
+      "issuer": "FinCEN",
+      "authority_type": "agency_overview",
+      "url": "https://www.fincen.gov/about-fincen/what-we-do",
+      "topic": "roles",
+      "review_status": "excerpt_boundary_and_attribution_checked; legal_currency_review_pending",
+      "ingested": true,
+      "retrieved_at": null,
+      "published_date": null,
+      "effective_date": null,
+      "sha256": "409c60c999730d66eebecfc2e77aa96de99ba838752428bac45f8f14f3a520a0",
+      "notes": "Selected browser text extract, not original HTML. Source text may describe historical publication conditions; not cleared for current-law answers. Follow linked rules and check amendments or relief before generation.",
+      "eligible_for_retrieval_prototype": true,
+      "captured_date": "2026-10-16",
+      "capture_method": "web_tool_text_extract",
+      "captured_extract_line_range": [
+        5,
+        29
+      ]
+    },
+    {
+      "source_id": "S02",
+      "title": "Bank Secrecy Act source gateway",
+      "issuer": "FinCEN",
+      "authority_type": "statute_gateway",
+      "url": "https://www.fincen.gov/resources/statutes-and-regulations/bank-secrecy-act",
+      "topic": "legal_sources",
+      "review_status": "pending_content_and_currency_review",
+      "ingested": false,
+      "retrieved_at": null,
+      "published_date": null,
+      "effective_date": null,
+      "sha256": null,
+      "notes": "Review amendments, exceptions, relief, applicability and linked primary material before indexing.",
+      "eligible_for_retrieval_prototype": false
+    },
+    {
+      "source_id": "S03",
+      "title": "Rules for Banks",
+      "issuer": "Treasury / FinCEN via eCFR",
+      "authority_type": "regulation",
+      "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020",
+      "topic": "bank_program_cip_sar",
+      "review_status": "pending_content_and_currency_review",
+      "ingested": false,
+      "retrieved_at": null,
+      "published_date": null,
+      "effective_date": null,
+      "sha256": null,
+      "notes": "Review amendments, exceptions, relief, applicability and linked primary material before indexing.",
+      "eligible_for_retrieval_prototype": false
+    },
+    {
+      "source_id": "S04",
+      "title": "Manual introduction",
+      "issuer": "FFIEC",
+      "authority_type": "examination_guidance",
+      "url": "https://bsaaml.ffiec.gov/manual/Introduction/01",
+      "topic": "roles",
+      "review_status": "excerpt_boundary_and_attribution_checked; legal_currency_review_pending",
+      "ingested": true,
+      "retrieved_at": null,
+      "published_date": null,
+      "effective_date": null,
+      "sha256": "58459314569b3702ee534530002a0b7d45c8fef1f86e45456b2f937d047e34e1",
+      "notes": "Selected browser text extract, not original HTML. Source text may describe historical publication conditions; not cleared for current-law answers. Follow linked rules and check amendments or relief before generation.",
+      "eligible_for_retrieval_prototype": true,
+      "captured_date": "2026-10-16",
+      "capture_method": "web_tool_text_extract",
+      "captured_extract_line_range": [
+        22,
+        97
+      ]
+    },
+    {
+      "source_id": "S05",
+      "title": "BSA AML Risk Assessment",
+      "issuer": "FFIEC",
+      "authority_type": "examination_guidance",
+      "url": "https://bsaaml.ffiec.gov/manual/BSAAMLRiskAssessment/01",
+      "topic": "risk_assessment",
+      "review_status": "excerpt_boundary_and_attribution_checked; legal_currency_review_pending",
+      "ingested": true,
+      "retrieved_at": null,
+      "published_date": null,
+      "effective_date": null,
+      "sha256": "b4c57c96b7b0c4eccfd718239ad31f64e65bc285d118d68f4b928951864ad793",
+      "notes": "Selected browser text extract, not original HTML. Source text may describe historical publication conditions; not cleared for current-law answers. Follow linked rules and check amendments or relief before generation.",
+      "eligible_for_retrieval_prototype": true,
+      "captured_date": "2026-10-16",
+      "capture_method": "web_tool_text_extract",
+      "captured_extract_line_range": [
+        23,
+        62
+      ]
+    },
+    {
+      "source_id": "S06",
+      "title": "Customer Due Diligence examination procedures",
+      "issuer": "FFIEC",
+      "authority_type": "examination_procedures",
+      "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02_ep",
+      "topic": "cdd",
+      "review_status": "excerpt_boundary_and_attribution_checked; legal_currency_review_pending",
+      "ingested": true,
+      "retrieved_at": null,
+      "published_date": null,
+      "effective_date": null,
+      "sha256": "f03fa5e10493235b55d87f7bec9e873a70130c536438e4f069bc1b7e52e8d22e",
+      "notes": "Selected browser text extract, not original HTML. Source text may describe historical publication conditions; not cleared for current-law answers. Follow linked rules and check amendments or relief before generation.",
+      "eligible_for_retrieval_prototype": true,
+      "captured_date": "2026-10-16",
+      "capture_method": "web_tool_text_extract",
+      "captured_extract_line_range": [
+        25,
+        48
+      ]
+    },
+    {
+      "source_id": "S07",
+      "title": "Manual section directory",
+      "issuer": "FFIEC",
+      "authority_type": "source_directory",
+      "url": "https://bsaaml.ffiec.gov/manual",
+      "topic": "source_discovery",
+      "review_status": "pending_content_and_currency_review",
+      "ingested": false,
+      "retrieved_at": null,
+      "published_date": null,
+      "effective_date": null,
+      "sha256": null,
+      "notes": "Review amendments, exceptions, relief, applicability and linked primary material before indexing.",
+      "eligible_for_retrieval_prototype": false
+    },
+    {
+      "source_id": "S08",
+      "title": "OFAC compliance framework publication",
+      "issuer": "OFAC",
+      "authority_type": "framework_gateway",
+      "url": "https://ofac.treasury.gov/recent-actions/20190502_33",
+      "topic": "sanctions_overview",
+      "review_status": "pending_content_and_currency_review",
+      "ingested": false,
+      "retrieved_at": null,
+      "published_date": null,
+      "effective_date": null,
+      "sha256": null,
+      "notes": "Review amendments, exceptions, relief, applicability and linked primary material before indexing.",
+      "eligible_for_retrieval_prototype": false
+    },
+    {
+      "source_id": "S09",
+      "title": "FATF Recommendations",
+      "issuer": "FATF",
+      "authority_type": "international_standard",
+      "url": "https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html",
+      "topic": "international_context",
+      "review_status": "pending_content_and_currency_review",
+      "ingested": false,
+      "retrieved_at": null,
+      "published_date": null,
+      "effective_date": null,
+      "sha256": null,
+      "notes": "Review amendments, exceptions, relief, applicability and linked primary material before indexing.",
+      "eligible_for_retrieval_prototype": false
+    },
+    {
+      "source_id": "S10",
+      "title": "Customer Identification Program selected excerpt",
+      "issuer": "FFIEC",
+      "authority_type": "examination_guidance",
+      "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/01",
+      "topic": "cip",
+      "ingested": true,
+      "published_date": null,
+      "effective_date": null,
+      "sha256": "35d83bcffa45a3fb04839b4608771f1a892b653d7b8c00d28c9c3186eeecb806",
+      "eligible_for_retrieval_prototype": true,
+      "review_status": "excerpt_boundary_and_attribution_checked; legal_currency_review_pending",
+      "notes": "Selected browser text extract, not original HTML. Source text may describe historical publication conditions; not cleared for current-law answers. Follow linked rules and check amendments or relief before generation.",
+      "captured_date": "2026-10-16",
+      "capture_method": "web_tool_text_extract",
+      "captured_extract_line_range": [
+        40,
+        101
+      ]
+    },
+    {
+      "source_id": "S11",
+      "title": "BSA Compliance Officer",
+      "issuer": "FFIEC",
+      "authority_type": "examination_guidance",
+      "url": "https://bsaaml.ffiec.gov/manual/AssessingTheBSAAMLComplianceProgram/04",
+      "topic": "governance",
+      "ingested": true,
+      "published_date": null,
+      "effective_date": null,
+      "sha256": "603045aa1f364dad5cb540d19f7ac90e44e46b003074a6fbb2f92e2867b661ff",
+      "eligible_for_retrieval_prototype": true,
+      "review_status": "excerpt_boundary_and_attribution_checked; legal_currency_review_pending",
+      "notes": "Selected browser text extract, not original HTML. Source text may describe historical publication conditions; not cleared for current-law answers. Follow linked rules and check amendments or relief before generation.",
+      "captured_date": "2026-10-16",
+      "capture_method": "web_tool_text_extract",
+      "captured_extract_line_range": [
+        24,
+        39
+      ]
+    },
+    {
+      "source_id": "S12",
+      "title": "Customer Due Diligence overview and higher-risk customers",
+      "issuer": "FFIEC",
+      "authority_type": "examination_guidance",
+      "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02",
+      "topic": "cdd_edd",
+      "ingested": true,
+      "eligible_for_retrieval_prototype": true,
+      "published_date": null,
+      "effective_date": null,
+      "review_status": "excerpt_boundary_and_attribution_checked; legal_currency_review_pending",
+      "notes": "Selected official explanatory material for terminology. Do not use historical testimony to assert current obligations; amendments and relief are not independently verified.",
+      "sha256": "599a5aa756902fe9f77f709af85ed9de603f9e46b68ba3c9824473e5233cb8b5",
+      "captured_date": "2026-10-17",
+      "capture_method": "web_tool_text_extract",
+      "captured_extract_line_range": [
+        24,
+        113
+      ]
+    },
+    {
+      "source_id": "S13",
+      "title": "Know Your Customer (KYC): historical terminology context, 2014",
+      "issuer": "Federal Reserve",
+      "authority_type": "historical_official_testimony",
+      "url": "https://www.federalreserve.gov/newsevents/testimony/alvarez20140715a.htm",
+      "topic": "kyc_terminology",
+      "ingested": true,
+      "eligible_for_retrieval_prototype": true,
+      "published_date": "2014-07-15",
+      "effective_date": null,
+      "review_status": "excerpt_boundary_and_attribution_checked; legal_currency_review_pending",
+      "notes": "Selected official explanatory material for terminology. Do not use historical testimony to assert current obligations; amendments and relief are not independently verified.",
+      "sha256": "fafb0b44a610a7aa16d4675e284b6da4fc734d63c3727fe8fc8c510be735aac2",
+      "captured_date": "2026-10-17",
+      "capture_method": "web_tool_text_extract",
+      "captured_extract_line_range": [
+        17,
+        19
+      ]
+    },
+    {
+      "source_id": "S14",
+      "title": "2026 National Money Laundering Risk Assessment",
+      "issuer": "US Treasury",
+      "authority_type": "national_risk_assessment",
+      "url": "https://home.treasury.gov/system/files/246/2026-NMLRA.pdf",
+      "published_date": "2026-03",
+      "topics": [
+        "broad_typologies"
+      ],
+      "original_path": "data/originals/S14.pdf",
+      "original_sha256": "a66efabe3fbf657be470088e8cfa8d735d7c9a88b7a6b686891e518c6e676ba2",
+      "topic": "broad_typologies",
+      "ingested": true,
+      "eligible_for_retrieval_prototype": true,
+      "review_status": "official_document_and_publication_checked; typology_research_only; legal_currency_review_pending",
+      "effective_date": null,
+      "notes": "Risk indicators support investigation, not a finding of criminality. Advisory/risk-assessment material is not a new legal obligation. Preserve publication date, geographic scope, historical context and source-specific qualifications. FATF/Egmont material is international context, not US law.",
+      "sha256": "f3904c8466caa208d28d30450f3cab8c7d506545dde5decaf1807ca0edbf9980",
+      "captured_date": "2026-10-17",
+      "capture_method": "pypdf_page_text_extract",
+      "captured_extract_line_range": [
+        1,
+        144
+      ]
+    },
+    {
+      "source_id": "S15",
+      "title": "Suspicious Activity Reporting: Structuring (Ruling 2005-6)",
+      "issuer": "FinCEN",
+      "authority_type": "administrative_ruling_historical",
+      "url": "https://www.fincen.gov/resources/statutes-regulations/administrative-rulings/suspicious-activity-reporting-structuring",
+      "published_date": "2005-07-15",
+      "topics": [
+        "structuring"
+      ],
+      "original_path": "data/originals/S15.html",
+      "original_sha256": "8a4fbd695f2c354c77a2f03d4ce23e8c66eb39740afccde52f65dc5ee9e95468",
+      "topic": "structuring",
+      "ingested": true,
+      "eligible_for_retrieval_prototype": true,
+      "review_status": "official_document_and_publication_checked; typology_research_only; legal_currency_review_pending",
+      "effective_date": null,
+      "notes": "Risk indicators support investigation, not a finding of criminality. Advisory/risk-assessment material is not a new legal obligation. Preserve publication date, geographic scope, historical context and source-specific qualifications. FATF/Egmont material is international context, not US law.",
+      "sha256": "a159a4d5e4a76cb1e2145380a5d46c5be4826a5003a496a752fec9776e89c974",
+      "captured_date": "2026-10-17",
+      "capture_method": "official_html_article_text_extract",
+      "captured_extract_line_range": [
+        1,
+        13
+      ]
+    },
+    {
+      "source_id": "S16",
+      "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+      "issuer": "FinCEN",
+      "authority_type": "advisory",
+      "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf",
+      "published_date": "2025-08-28",
+      "topics": [
+        "money_mules",
+        "trade_based",
+        "shell_companies"
+      ],
+      "original_path": "data/originals/S16.pdf",
+      "original_sha256": "5a2654b103437fdb3cfd83db51d77a3dd5f0f756dc467ba2cf365eff1ba766ee",
+      "topic": "money_mules,trade_based,shell_companies",
+      "ingested": true,
+      "eligible_for_retrieval_prototype": true,
+      "review_status": "official_document_and_publication_checked; typology_research_only; legal_currency_review_pending",
+      "effective_date": null,
+      "notes": "Risk indicators support investigation, not a finding of criminality. Advisory/risk-assessment material is not a new legal obligation. Preserve publication date, geographic scope, historical context and source-specific qualifications. FATF/Egmont material is international context, not US law.",
+      "sha256": "1a6ebebbcf045c47c732bb47da4e6c26bae5175b1213ad39c0aa53edea5bc20e",
+      "captured_date": "2026-10-17",
+      "capture_method": "pypdf_page_text_extract",
+      "captured_extract_line_range": [
+        1,
+        30
+      ]
+    },
+    {
+      "source_id": "S17",
+      "title": "Trade-Based Money Laundering: Risk Indicators",
+      "issuer": "FATF / Egmont Group",
+      "authority_type": "international_risk_indicators",
+      "url": "https://menafatf.org/sites/default/files/Newsletter/English%20Trade-Based-Money-Laundering-Risk-Indicators%20%281%29.pdf",
+      "published_date": "2021-03",
+      "topics": [
+        "trade_based"
+      ],
+      "original_path": "data/originals/S17.pdf",
+      "original_sha256": "670b80270b33354b17263d44393cd65386a96bdb1a171365f217048e7cca6afb",
+      "topic": "trade_based",
+      "ingested": true,
+      "eligible_for_retrieval_prototype": true,
+      "review_status": "official_document_and_publication_checked; typology_research_only; legal_currency_review_pending",
+      "effective_date": null,
+      "notes": "Risk indicators support investigation, not a finding of criminality. Advisory/risk-assessment material is not a new legal obligation. Preserve publication date, geographic scope, historical context and source-specific qualifications. FATF/Egmont material is international context, not US law.",
+      "sha256": "27c53ee070189c949f70c2514d38c05cf264bb800a3fe6a701234ec4a4fce34f",
+      "captured_date": "2026-10-17",
+      "capture_method": "pypdf_page_text_extract",
+      "captured_extract_line_range": [
+        1,
+        16
+      ]
+    },
+    {
+      "source_id": "S18",
+      "title": "Potential Money Laundering Risks Related to Shell Companies",
+      "issuer": "FinCEN",
+      "authority_type": "guidance_historical",
+      "url": "https://www.fincen.gov/resources/statutes-regulations/guidance/potential-money-laundering-risks-related-shell-companies",
+      "published_date": "2006-11-09",
+      "topics": [
+        "shell_companies"
+      ],
+      "original_path": "data/originals/S18.html",
+      "original_sha256": "201c93552cb992220f94c8ae1d4ff7b3ff9deddd5fabce8c0192a685a37fe05d",
+      "topic": "shell_companies",
+      "ingested": true,
+      "eligible_for_retrieval_prototype": true,
+      "review_status": "official_document_and_publication_checked; typology_research_only; legal_currency_review_pending",
+      "effective_date": null,
+      "notes": "Risk indicators support investigation, not a finding of criminality. Advisory/risk-assessment material is not a new legal obligation. Preserve publication date, geographic scope, historical context and source-specific qualifications. FATF/Egmont material is international context, not US law.",
+      "sha256": "5b9ce8bb7b27f47d212747bcb028f77aef4960caf10b202e3fb12c3b637f97d6",
+      "captured_date": "2026-10-17",
+      "capture_method": "official_html_article_text_extract",
+      "captured_extract_line_range": [
+        1,
+        34
+      ]
+    },
+    {
+      "source_id": "S19",
+      "title": "Money Laundering Activity Associated with Digital Asset Investment Scam Centers",
+      "issuer": "FinCEN",
+      "authority_type": "alert",
+      "url": "https://www.fincen.gov/system/files/2026-08/FinCEN-Alert-Scam-Centers.pdf",
+      "published_date": "2026-09-03",
+      "topics": [
+        "digital_assets",
+        "money_mules"
+      ],
+      "original_path": "data/originals/S19.pdf",
+      "original_sha256": "f4f28995f714476a454bc8e1235cc304b462ab830cc730aeff7dc75590e89e92",
+      "topic": "digital_assets,money_mules",
+      "ingested": true,
+      "eligible_for_retrieval_prototype": true,
+      "review_status": "official_document_and_publication_checked; typology_research_only; legal_currency_review_pending",
+      "effective_date": null,
+      "notes": "Risk indicators support investigation, not a finding of criminality. Advisory/risk-assessment material is not a new legal obligation. Preserve publication date, geographic scope, historical context and source-specific qualifications. FATF/Egmont material is international context, not US law.",
+      "sha256": "85634dc5940625d97d0668542cca724b53741d693b8da3c7d9df340200008b15",
+      "captured_date": "2026-10-17",
+      "capture_method": "pypdf_page_text_extract",
+      "captured_extract_line_range": [
+        1,
+        32
+      ]
+    },
+    {
+      "source_id": "S20",
+      "title": "Kleptocracy and Foreign Public Corruption: Typologies and Indicators",
+      "issuer": "FinCEN",
+      "authority_type": "advisory",
+      "url": "https://www.fincen.gov/system/files/advisory/2022-04-14/FinCEN%20Advisory%20Corruption%20FINAL%20508.pdf",
+      "published_date": "2022-04-14",
+      "topics": [
+        "corruption"
+      ],
+      "original_path": "data/originals/S20.pdf",
+      "original_sha256": "3e93619028f029dac2bc650049eac49a2b3550b6890be74ece90f52f9ddbd464",
+      "topic": "corruption",
+      "ingested": true,
+      "eligible_for_retrieval_prototype": true,
+      "review_status": "official_document_and_publication_checked; typology_research_only; legal_currency_review_pending",
+      "effective_date": null,
+      "notes": "Risk indicators support investigation, not a finding of criminality. Advisory/risk-assessment material is not a new legal obligation. Preserve publication date, geographic scope, historical context and source-specific qualifications. FATF/Egmont material is international context, not US law.",
+      "sha256": "65e479abbb1ec5edbe3fab276561b4a515d00c71dfb1119ed271e63cf9e60933",
+      "captured_date": "2026-10-17",
+      "capture_method": "pypdf_page_text_extract",
+      "captured_extract_line_range": [
+        1,
+        26
+      ]
+    },
+    {
+      "source_id": "S21",
+      "title": "Supplemental Advisory on Identifying and Reporting Human Trafficking and Related Activity",
+      "issuer": "FinCEN",
+      "authority_type": "advisory",
+      "url": "https://www.fincen.gov/sites/default/files/advisory/2020-10-15/Advisory%20Human%20Trafficking%20508%20FINAL_0.pdf",
+      "published_date": "2020-10-15",
+      "topics": [
+        "human_trafficking"
+      ],
+      "original_path": "data/originals/S21.pdf",
+      "original_sha256": "d3734a94233ec1198de0c2141dc4b988e23c06e3f42002641926b14e9e3651a4",
+      "topic": "human_trafficking",
+      "ingested": true,
+      "eligible_for_retrieval_prototype": true,
+      "review_status": "official_document_and_publication_checked; typology_research_only; legal_currency_review_pending",
+      "effective_date": null,
+      "notes": "Risk indicators support investigation, not a finding of criminality. Advisory/risk-assessment material is not a new legal obligation. Preserve publication date, geographic scope, historical context and source-specific qualifications. FATF/Egmont material is international context, not US law.",
+      "sha256": "c215fb77b8c6bd6a1eae97c20401a02f2a1f9d345e9b43080c23937da7d761ed",
+      "captured_date": "2026-10-17",
+      "capture_method": "pypdf_page_text_extract",
+      "captured_extract_line_range": [
+        1,
+        22
+      ]
+    },
+    {
+      "source_id": "S22",
+      "title": "Illicit Activity Involving Convertible Virtual Currency",
+      "issuer": "FinCEN",
+      "authority_type": "advisory",
+      "url": "https://www.fincen.gov/sites/default/files/advisory/2019-05-10/FinCEN%20Advisory%20CVC%20FINAL%20508.pdf",
+      "published_date": "2019-05-09",
+      "topics": [
+        "digital_assets"
+      ],
+      "original_path": "data/originals/S22.pdf",
+      "original_sha256": "228e69fc0219ac2504fa5029e8bac88611e7832f4d2872ef013f0f49da61ba7b",
+      "topic": "digital_assets",
+      "ingested": true,
+      "eligible_for_retrieval_prototype": true,
+      "review_status": "official_document_and_publication_checked; typology_research_only; legal_currency_review_pending",
+      "effective_date": null,
+      "notes": "Risk indicators support investigation, not a finding of criminality. Advisory/risk-assessment material is not a new legal obligation. Preserve publication date, geographic scope, historical context and source-specific qualifications. FATF/Egmont material is international context, not US law.",
+      "sha256": "cf651d1121b222369aea8de8f024e1580101aad4cdbfe5b93913e11122c46d20",
+      "captured_date": "2026-10-17",
+      "capture_method": "pypdf_page_text_extract",
+      "captured_extract_line_range": [
+        1,
+        24
+      ]
+    },
+    {
+      "source_id": "S24",
+      "title": "Customer Due Diligence Rule \u2014 consolidated FAQs (updated May 2026)",
+      "issuer": "FinCEN",
+      "authority_type": "regulatory_guidance",
+      "url": "https://www.fincen.gov/system/files/2026-05/CDD-Rule-Consolidated-FAQs.pdf",
+      "published_date": "2026-05-06",
+      "topics": [
+        "customer_due_diligence",
+        "beneficial_ownership",
+        "customer_identification"
+      ],
+      "original_path": "data/originals/S24.pdf",
+      "original_sha256": "917c9fbf29d46b683a95ef61a0d0def71074e0932a91f32e286417399802f32b",
+      "topic": "customer_controls",
+      "ingested": true,
+      "eligible_for_retrieval_prototype": true,
+      "review_status": "official_original_checksum_checked; FAQ_authority_not_binding_rule; applicability_review_required",
+      "effective_date": null,
+      "notes": "Substantive PDF pages, preserved page by page. Extracted text includes footnotes; PDF page numbers are one-based physical pages, not printed page labels. Consolidated FAQ includes older answers and individual May 2026 updates; document update does not mean every answer was newly issued. FAQs are guidance, not the binding CFR text or the relief order itself.",
+      "sha256": "a0b672fc2a67ae953cdbf0e25c7fe3d2b192f687b10c6837ba32fd3e6ce59429",
+      "captured_date": "2026-10-18",
+      "capture_method": "pypdf_page_text_extract",
+      "captured_extract_line_range": [
+        1,
+        48
+      ]
+    }
+  ]
+}

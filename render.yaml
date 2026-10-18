@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: aml-review-desk
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn -c gunicorn.conf.py --access-logfile /dev/null hosted:app
+    healthCheckPath: /healthz
+    envVars:
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: NEBIUS_API_KEY
+        sync: false
+      - key: PINECONE_API_KEY
+        sync: false
+      - key: NEBIUS_MODEL
+        value: Qwen/Qwen3-30B-A3B-Instruct-2507
+      - key: NEBIUS_EMBEDDING_MODEL
+        value: Qwen/Qwen3-Embedding-8B
+      - key: PINECONE_INDEX
+        value: aml-research

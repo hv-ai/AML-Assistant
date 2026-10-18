@@ -1,0 +1,1754 @@
+{
+  "latency_target_seconds": 8,
+  "kind": "live local backend, includes retrieval, embedding if cold, generation and validation; excludes Replit cold start/browser",
+  "samples": [
+    {
+      "id": "Q01",
+      "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "question": "What is KYC? Explain it in plain English.",
+      "elapsed_seconds": 5.999,
+      "answer": {
+        "evidence": [
+          {
+            "chunk_id": "S13:L19-L19",
+            "source_id": "S13",
+            "title": "Know Your Customer (KYC): historical terminology context, 2014",
+            "heading": "Know your customer terminology \u2014 selected sentence from testimony",
+            "issuer": "Federal Reserve",
+            "authority_type": "historical_official_testimony",
+            "url": "https://www.federalreserve.gov/newsevents/testimony/alvarez20140715a.htm",
+            "published_date": "2014-07-15",
+            "captured_date": "2026-10-17",
+            "locator": "Captured extract lines 19-19",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "Under the general rubric of \"know your customer\" laws and regulations, each banking organization is also required to maintain a customer identification program as part of the BSA compliance program and perform due diligence on its customers.",
+            "retrieval_score": 15.53003,
+            "fusion_score": 0.03278689,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 1,
+              "semantic": 1
+            }
+          },
+          {
+            "chunk_id": "S12:L38-L40",
+            "source_id": "S12",
+            "title": "Customer Due Diligence overview and higher-risk customers",
+            "heading": "Customer Due Diligence",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02",
+            "published_date": null,
+            "captured_date": "2026-10-17",
+            "locator": "Captured extract lines 38-40",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "In accordance with regulatory requirements, all banks must develop and implement appropriate risk-based procedures for conducting ongoing customer due diligence, including, but not limited to:\n* Obtaining and analyzing sufficient customer information to understand the nature and purpose of customer relationships for the purpose of developing a customer risk profile; and\n* Conducting ongoing monitoring to identify and report suspicious transactions and, on a risk basis, to maintain and update customer information, including information regarding the beneficial owner(s) of legal entity customers. Additional guidance can be found in the examination procedures \u201cBeneficial Ownership Requirements for Legal Entity Customers.\u201d",
+            "retrieval_score": 1.96114,
+            "fusion_score": 0.03149802,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 3,
+              "semantic": 4
+            }
+          },
+          {
+            "chunk_id": "S12:L27-L28",
+            "source_id": "S12",
+            "title": "Customer Due Diligence overview and higher-risk customers",
+            "heading": "Customer Due Diligence \u2014 Overview",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02",
+            "published_date": null,
+            "captured_date": "2026-10-17",
+            "locator": "Captured extract lines 27-28",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "The cornerstone of a strong BSA/AML compliance program is the adoption and implementation of risk-based CDD policies, procedures, and processes for all customers, particularly those that present a higher risk for money laundering and terrorist financing. The objective of CDD is to enable the bank to understand the nature and purpose of customer relationships, which may include understanding the types of transactions in which a customer is likely to engage.\nThese processes assist the bank in determining when transactions are potentially suspicious.",
+            "retrieval_score": 1.9027,
+            "fusion_score": 0.03105441,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 2,
+              "semantic": 7
+            }
+          },
+          {
+            "chunk_id": "S10:L52-L59",
+            "source_id": "S10",
+            "title": "Customer Identification Program selected excerpt",
+            "heading": "Identity Verification Procedures",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/01",
+            "published_date": null,
+            "captured_date": "2026-10-16",
+            "locator": "Captured extract lines 52-59",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "The CIP rule applies to a customer,^{9} 31 CFR 1020.100(b) . which means:\n* A person that opens a new account; and\n* An individual who opens a new account for:\n* An individual who lacks legal capacity, such as a minor; or\n* An entity that is not a legal person, such as a civic club.\nA customer does not include a person who does not receive banking services, such as a person whose loan application is denied^{10} FinCEN , Federal Reserve , FDIC , NCUA , OCC , OTS, Treasury (April 28, 2005), \u201cInteragency Interpretive Guidance on Customer Identification Program Requirements under Section 326 of the USA PATRIOT Act,\u201d Definition of \u201caccount\u201d FAQ #1.\u00a0 or a person that has an existing account with the bank, provided that the bank has a reasonable belief that it knows the true identity of the person.^{11} 31 CFR 1020.100(b)(2)(iii) .\nFinCEN , Federal Reserve , FDIC , NCUA , OCC , OTS, Treasury (April 28, 2005), \u201cInteragency Interpretive Guidance on Customer Identification Program Requirements under Section 326 of the USA PATRIOT Act,\u201d Person with an existing account FAQ #3.\u00a0 A bank can demonstrate that it has \u201ca reasonable belief\u201d by showing that prior to the issuance of the final CIP rule, it had comparable procedures in place to verify the identity of persons that had accounts with the bank as of October 1, 2003, though the bank may not have gathered the very same information about such persons as required by the final CIP rule.",
+            "retrieval_score": 13.57535,
+            "fusion_score": 0.0305789,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 8,
+              "semantic": 3
+            }
+          },
+          {
+            "chunk_id": "S10:L72-L77",
+            "source_id": "S10",
+            "title": "Customer Identification Program selected excerpt",
+            "heading": "Customer Information Required",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/01",
+            "published_date": null,
+            "captured_date": "2026-10-16",
+            "locator": "Captured extract lines 72-77",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "* For a credit card account, the bank may also obtain CIP identifying information about the customer by acquiring it from a third-party source prior to extending credit to the customer.^{17} 31 CFR 1020.220(a)(2)(i)(C) .\nBased on its BSA/AML risk assessment, a bank may require identifying information, in addition to the required information, for certain customers or product lines.^{18} FinCEN , Federal Reserve , FDIC , NCUA , OCC , OTS, Treasury (April 28, 2005), \u201cInteragency Interpretive Guidance on Customer Identification Program Requirements under Section 326 of the USA PATRIOT Act,\u201d Definition of \u201ccustomer\u201d FAQs #7, 9, 10.\nCustomer Verification\nThe CIP must contain risk-based^{19} 31 CFR 1020.220(a)(2) .\u00a0 procedures for verifying the identity of the customer within a reasonable period of time after the account is opened.^{20} 31 CFR 1020.220(a)(2)(ii) . The verification procedures must use the \u201cinformation obtained in accordance with [31 CFR 1020.220(a)(2)(i)],\u201d namely the identifying information obtained by the bank.^{21} Id.\nA bank need not establish the accuracy of every element of identifying information obtained, but it must verify enough information to form a reasonable belief that it knows the true identity of the customer.^{22} FinCEN , Federal Reserve , FDIC , NCUA , OCC , OTS, Treasury (April 28, 2005), \u201cInteragency Interpretive Guidance on Customer Identification Program Requirements under Section 326 of the USA PATRIOT Act,\u201d Customer verification FAQ #1.\nThe bank\u2019s procedures must describe when it uses documents, non-documentary methods, or a combination of both methods to verify the identity of its customers.^{23} 31 CFR 1020.220(a)(2)(ii) .",
+            "retrieval_score": 11.94712,
+            "fusion_score": 0.03041475,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 10,
+              "semantic": 2
+            }
+          },
+          {
+            "chunk_id": "S10:L86-L86",
+            "source_id": "S10",
+            "title": "Customer Identification Program selected excerpt",
+            "heading": "Additional Verification for Certain Customers",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/01",
+            "published_date": null,
+            "captured_date": "2026-10-16",
+            "locator": "Captured extract lines 86-86",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "The CIP must address situations in which, based on its risk assessment of a new account opened by a customer that is not an individual, the bank will obtain information about individuals with authority or control over such account, including signatories, in order to verify the customer\u2019s identity.\u00a0 This verification method applies only when the bank cannot verify the customer\u2019s true identity using documents or non-documentary methods.^{29} 31 CFR 1020.220(a)(2)(ii)(C) .",
+            "retrieval_score": 9.35572,
+            "fusion_score": 0.0292735,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 12,
+              "semantic": 5
+            }
+          },
+          {
+            "chunk_id": "S10:L42-L51",
+            "source_id": "S10",
+            "title": "Customer Identification Program selected excerpt",
+            "heading": "Identity Verification Procedures",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/01",
+            "published_date": null,
+            "captured_date": "2026-10-16",
+            "locator": "Captured extract lines 42-51",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "The CIP must include risk-based procedures for verifying the identity of each customer to the extent reasonable and practicable.^{5} 31 CFR 1020.220(a)(2) . The procedures must enable the bank to form a reasonable belief that it knows the true identity of each customer and be based on the bank\u2019s assessment of relevant risks, including:\n* The types of accounts maintained by the bank.\n* The bank\u2019s methods of opening accounts.\n* The types of identifying information available.\n* The bank\u2019s size, location, and customer base.^{6} Id.\nFor purposes of the CIP rule, an \u201caccount\u201d is a formal banking relationship established to provide or engage in services, dealings, or other financial transactions, including a deposit account, a transaction or asset account, a credit account, or other extension of credit.\u00a0 An account includes a relationship established to provide a safety deposit box or other safekeeping services, or cash management, custodian, and trust services.^{7} 31 CFR 1020.100(a)(1).\nAn account does not include:^{8} 31 CFR 1020.100(a)(2) .\n* A product or service where a formal banking relationship is not established with a person, such as check-cashing, wire transfer, or sale of a check or money order;\n* An account that the bank acquires through an acquisition, merger, purchase of assets, or assumption of liabilities; or\n* An account opened for the purpose of participating in an employee benefit plan established under the Employee Retirement Income Security Act of 1974.",
+            "retrieval_score": 13.6541,
+            "fusion_score": 0.02921109,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 7,
+              "semantic": 10
+            }
+          },
+          {
+            "chunk_id": "S10:L79-L80",
+            "source_id": "S10",
+            "title": "Customer Identification Program selected excerpt",
+            "heading": "Verification Through Documents",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/01",
+            "published_date": null,
+            "captured_date": "2026-10-16",
+            "locator": "Captured extract lines 79-80",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "A bank relying on documents to verify a customer\u2019s identity must have procedures that set forth the documents that the bank will use.^{24} 31 CFR 1020.220(a)(2)(ii)(A). The CIP rule gives examples of the types of documents that may be used to verify a customer\u2019s identity.\u00a0 The rule reflects the federal banking agencies\u2019 expectations that, for most customers who are individuals, banks review an unexpired government-issued form of identification evidencing a customer\u2019s nationality or residence and bearing a photograph or similar safeguard; examples include a driver\u2019s license or passport.\u00a0 However, other forms of identification may be used if they enable the bank to form a reasonable belief that it knows the true identity of the customer.\u00a0 Given the availability of counterfeit and fraudulently obtained documents, a bank is encouraged to review more than a single document to ensure it can form a reasonable belief that it knows the true identity of the customer.\nFor a person other than an individual (such as a corporation, partnership, or trust), documents may include those showing the legal existence of the entity, such as certified articles of incorporation, an unexpired government-issued business license, a partnership agreement, or a trust instrument.^{25} 31 CFR 1020.220(a)(2)(ii)(A)(2) .",
+            "retrieval_score": 12.05565,
+            "fusion_score": 0.015625,
+            "retrieval_channels": [
+              "keyword"
+            ],
+            "retrieval_ranks": {
+              "keyword": 4
+            }
+          }
+        ],
+        "retrieval": "Hybrid \u00b7 BM25 + Nebius embeddings + Pinecone \u00b7 RRF",
+        "retrieval_details": {
+          "method": "Hybrid \u00b7 BM25 + Nebius embeddings + Pinecone \u00b7 RRF",
+          "degraded": false
+        },
+        "question": "What is KYC? Explain it in plain English.",
+        "scope": "US banks",
+        "citation_check": "IDs and exact quotes checked; claim support needs review",
+        "cached": false,
+        "timings": {
+          "retrieval_seconds": 0.42,
+          "generation_seconds": 5.574,
+          "validation_seconds": 0.001
+        },
+        "status": "supported",
+        "summary": "Explanation of KYC",
+        "claims": [
+          {
+            "title": "KYC and Customer Identification",
+            "text": "KYC refers to laws and regulations requiring banks to maintain a customer identification program (CIP) as part of their BSA compliance, verifying customer identity to form a reasonable belief they know who the customer is (terminology context: 2014 testimony).",
+            "evidence": [
+              {
+                "id": "S13:L19-L19",
+                "quote": "Under the general rubric of \"know your customer\" laws and regulations, each banking organization is also required to maintain a customer identification program as part of the BSA compliance program and perform due diligence on its customers."
+              }
+            ]
+          },
+          {
+            "title": "Risk-Based Verification Procedures",
+            "text": "Banks must use risk-based procedures to verify customer identity, considering factors like account types and opening methods, using documents or non-documentary methods as appropriate.",
+            "evidence": [
+              {
+                "id": "S10:L42-L51",
+                "quote": "The procedures must enable the bank to form a reasonable belief that it knows the true identity of each customer and be based on the bank\u2019s assessment of relevant risks, including:\n* The types of accounts maintained by the bank."
+              },
+              {
+                "id": "S10:L42-L51",
+                "quote": "* The bank\u2019s methods of opening accounts."
+              },
+              {
+                "id": "S10:L42-L51",
+                "quote": "The CIP must include risk-based procedures for verifying the identity of each customer to the extent reasonable and practicable.^{5} 31 CFR 1020.220(a)(2) ."
+              }
+            ]
+          },
+          {
+            "title": "Ongoing Customer Understanding",
+            "text": "KYC supports ongoing customer due diligence, enabling banks to understand customer relationships and transaction patterns to detect suspicious activity.",
+            "evidence": [
+              {
+                "id": "S12:L38-L40",
+                "quote": "In accordance with regulatory requirements, all banks must develop and implement appropriate risk-based procedures for conducting ongoing customer due diligence, including, but not limited to:\n* Obtaining and analyzing sufficient customer information to understand the nature and purpose of customer relationships for the purpose of developing a customer risk profile; and\n* Conducting ongoing monitoring to identify and report suspicious transactions and, on a risk basis, to maintain and update customer information, including information regarding the beneficial owner(s) of legal entity customers."
+              },
+              {
+                "id": "S12:L27-L28",
+                "quote": "The objective of CDD is to enable the bank to understand the nature and purpose of customer relationships, which may include understanding the types of transactions in which a customer is likely to engage."
+              }
+            ]
+          }
+        ],
+        "checklist": [],
+        "limitations": [],
+        "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+        "latency_seconds": 5.999,
+        "latency_target_seconds": 8,
+        "latency_target_met": true
+      },
+      "review": "pending semantic review"
+    },
+    {
+      "id": "Q02",
+      "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "question": "What must a bank CDD program include?",
+      "elapsed_seconds": 11.079,
+      "answer": {
+        "evidence": [
+          {
+            "chunk_id": "S12:L27-L28",
+            "source_id": "S12",
+            "title": "Customer Due Diligence overview and higher-risk customers",
+            "heading": "Customer Due Diligence \u2014 Overview",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02",
+            "published_date": null,
+            "captured_date": "2026-10-17",
+            "locator": "Captured extract lines 27-28",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "The cornerstone of a strong BSA/AML compliance program is the adoption and implementation of risk-based CDD policies, procedures, and processes for all customers, particularly those that present a higher risk for money laundering and terrorist financing. The objective of CDD is to enable the bank to understand the nature and purpose of customer relationships, which may include understanding the types of transactions in which a customer is likely to engage.\nThese processes assist the bank in determining when transactions are potentially suspicious.",
+            "retrieval_score": 23.94314,
+            "fusion_score": 0.03278689,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 1,
+              "semantic": 1
+            }
+          },
+          {
+            "chunk_id": "S06:L28-L40",
+            "source_id": "S06",
+            "title": "Customer Due Diligence examination procedures",
+            "heading": "Customer Due Diligence",
+            "issuer": "FFIEC",
+            "authority_type": "examination_procedures",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02_ep",
+            "published_date": null,
+            "captured_date": "2026-10-16",
+            "locator": "Captured extract lines 28-40",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "Objective. Assess the bank\u2019s compliance with the regulatory requirements for customer due diligence (CDD).\n1. Determine whether the bank has developed and implemented appropriate written risk-based procedures for conducting ongoing CDD and that they:\n* Enable the bank to understand the nature and purpose of the customer relationship in order to develop a customer risk profile.\n* Enable the bank to conduct ongoing monitoring\n* for the purpose of identifying and reporting suspicious transactions and,\n* on a risk basis, to maintain and update customer information, including information regarding the beneficial owner(s) of legal entity customers.\n* Enable the bank to use customer information and the customer risk profile to understand the types of transactions a particular customer would be expected to engage in and as a baseline against which suspicious transactions are identified.\n2. Determine whether the bank, as part of the overall CDD program, has effective processes to develop customer risk profiles that identify the specific risks of individual customers or categories of customers.\n3. Determine whether the risk-based CDD policies, procedures, and processes are commensurate with the bank\u2019s BSA/AML risk profile with increased focus on higher risk customers.\n4. Determine whether policies, procedures, and processes contain a clear statement of management\u2019s and staff\u2019s responsibilities, including procedures, authority, and responsibility for reviewing and approving changes to a customer\u2019s risk profile, as applicable.\n5. Determine that the bank has policies, procedures, and processes to identify customers that may pose higher risk for money laundering or terrorist financing that include whether and/or when, on the basis of risk, it is appropriate to obtain and review additional customer information.",
+            "retrieval_score": 23.69504,
+            "fusion_score": 0.03175403,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 4,
+              "semantic": 2
+            }
+          },
+          {
+            "chunk_id": "S12:L38-L40",
+            "source_id": "S12",
+            "title": "Customer Due Diligence overview and higher-risk customers",
+            "heading": "Customer Due Diligence",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02",
+            "published_date": null,
+            "captured_date": "2026-10-17",
+            "locator": "Captured extract lines 38-40",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "In accordance with regulatory requirements, all banks must develop and implement appropriate risk-based procedures for conducting ongoing customer due diligence, including, but not limited to:\n* Obtaining and analyzing sufficient customer information to understand the nature and purpose of customer relationships for the purpose of developing a customer risk profile; and\n* Conducting ongoing monitoring to identify and report suspicious transactions and, on a risk basis, to maintain and update customer information, including information regarding the beneficial owner(s) of legal entity customers. Additional guidance can be found in the examination procedures \u201cBeneficial Ownership Requirements for Legal Entity Customers.\u201d",
+            "retrieval_score": 18.11261,
+            "fusion_score": 0.03151365,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 2,
+              "semantic": 5
+            }
+          },
+          {
+            "chunk_id": "S06:L42-L48",
+            "source_id": "S06",
+            "title": "Customer Due Diligence examination procedures",
+            "heading": "Customer Due Diligence",
+            "issuer": "FFIEC",
+            "authority_type": "examination_procedures",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02_ep",
+            "published_date": null,
+            "captured_date": "2026-10-16",
+            "locator": "Captured extract lines 42-48",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "6. Determine whether the bank provides guidance for documenting analysis associated with the due diligence process, including guidance for resolving issues when insufficient or inaccurate information is obtained.\n7. Determine whether the bank has defined in its policies, procedures, and processes how customer information, including beneficial ownership information for legal entity customers, is used to meet other relevant regulatory requirements, including but not limited to, identifying suspicious activity, identifying nominal and beneficial owners of private banking accounts, and determining OFAC sanctioned parties.\nTransaction Testing\n8. On the basis of a risk assessment, prior examination reports, and a review of the bank\u2019s audit findings, select a sample of customer information. Determine whether the bank collects appropriate information sufficient to understand the nature and purpose of the customer relationship and effectively incorporates customer information, including beneficial ownership information for legal entity customers, into the customer risk profile.\nThis sample can be performed when testing the bank\u2019s compliance with its policies, procedures, and processes as well as when reviewing transactions or accounts for possible suspicious activity.\n9. On the basis of examination procedures completed, including transaction testing, form a conclusion about the adequacy of policies, procedures, and processes associated with CDD.",
+            "retrieval_score": 19.55417,
+            "fusion_score": 0.03125763,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 5,
+              "semantic": 3
+            }
+          },
+          {
+            "chunk_id": "S12:L79-L87",
+            "source_id": "S12",
+            "title": "Customer Due Diligence overview and higher-risk customers",
+            "heading": "Higher Risk Profile Customers",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02",
+            "published_date": null,
+            "captured_date": "2026-10-17",
+            "locator": "Captured extract lines 79-87",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "Customers that pose higher money laundering or terrorist financing risks, (i.e.,higher risk profile customers), present increased risk exposure to banks. As a result, due diligence policies, procedures, and processes should define both when and what additional customer information will be collected based on the customer risk profile and the specific risks posed.\nCollecting additional information about customers that pose heightened risk, referred to as enhanced due diligence (EDD), for example, in the private and foreign correspondent banking context, is part of an effective due diligence program. Even within categories of customers with a higher risk profile, there can be a spectrum of risks and the extent to which additional ongoing due diligence measures are necessary may vary on a case-by-case basis.\nBased on the customer risk profile, the bank may consider obtaining, at account opening (and throughout the relationship), more customer information in order to understand the nature and purpose of the customer relationship, such as:\n* Source of funds and wealth.\n* Occupation or type of business (of customer or other individuals with ownership or control over the account).\n* Financial statements for business customers.\n* Location where the business customer is organized and where they maintain their principal place of business.\n* Proximity of the customer\u2019s residence, place of employment, or place of business to the bank.\n* Description of the business customer\u2019s primary trade area, whether transactions are expected to be domestic or international, and the expected volumes of such transactions.",
+            "retrieval_score": 11.37972,
+            "fusion_score": 0.03077652,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 6,
+              "semantic": 4
+            }
+          },
+          {
+            "chunk_id": "S12:L97-L113",
+            "source_id": "S12",
+            "title": "Customer Due Diligence overview and higher-risk customers",
+            "heading": "Ongoing Monitoring of the Customer Relationship",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02",
+            "published_date": null,
+            "captured_date": "2026-10-17",
+            "locator": "Captured extract lines 97-113",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "The requirement for ongoing monitoring of the customer relationship reflects existing practices established to identify and report suspicious transactions and, on a risk basis, to maintain and update customer information.\nThe requirement to update customer information is event-driven and occurs as a result of normal monitoring.\nShould the bank become aware as a result of its ongoing monitoring that customer information, including beneficial ownership information, has materially changed, it should update the customer information accordingly.\nAdditionally, if this customer information is material and relevant to assessing the risk of a customer relationship, then the bank should reassess the customer risk profile/rating and follow established bank policies, procedures, and processes for maintaining or changing the customer risk profile/rating.\nThe ongoing monitoring element does not impose a categorical requirement that the bank must update customer information on a continuous or periodic basis.\nHowever, the bank may establish policies, procedures, and processes for determining whether and when, on the basis of risk, periodic reviews to update customer information should be conducted to ensure that customer information is current and accurate.",
+            "retrieval_score": 10.09821,
+            "fusion_score": 0.02995752,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 3,
+              "semantic": 11
+            }
+          },
+          {
+            "chunk_id": "S12:L88-L91",
+            "source_id": "S12",
+            "title": "Customer Due Diligence overview and higher-risk customers",
+            "heading": "Higher Risk Profile Customers",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02",
+            "published_date": null,
+            "captured_date": "2026-10-17",
+            "locator": "Captured extract lines 88-91",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "* Description of the business operations, such as total sales, the volume of currency transactions, and information about major customers and suppliers.\nPerforming an appropriate level of ongoing due diligence that is commensurate with the customer\u2019s risk profile is especially critical in understanding the customer\u2019s transactions in order to assist the bank in determining when transactions are potentially suspicious. This determination is necessary for a suspicious activity monitoring system that helps to mitigate the bank\u2019s compliance and money laundering risks.\nConsistent with the risk-based approach, the bank should do more in circumstances of heightened risk, as well as to mitigate risks generally. Information provided by higher risk profile customers and their transactions should be reviewed more closely at account opening and more frequently throughout the term of their relationship with the bank.\nThe bank should establish policies and procedures for determining whether and/or when, on the basis of risk, obtaining and reviewing additional customer information, for example through negative media search programs, would be appropriate.",
+            "retrieval_score": 10.59904,
+            "fusion_score": 0.02941813,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 7,
+              "semantic": 9
+            }
+          },
+          {
+            "chunk_id": "S10:L42-L51",
+            "source_id": "S10",
+            "title": "Customer Identification Program selected excerpt",
+            "heading": "Identity Verification Procedures",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/01",
+            "published_date": null,
+            "captured_date": "2026-10-16",
+            "locator": "Captured extract lines 42-51",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "The CIP must include risk-based procedures for verifying the identity of each customer to the extent reasonable and practicable.^{5} 31 CFR 1020.220(a)(2) . The procedures must enable the bank to form a reasonable belief that it knows the true identity of each customer and be based on the bank\u2019s assessment of relevant risks, including:\n* The types of accounts maintained by the bank.\n* The bank\u2019s methods of opening accounts.\n* The types of identifying information available.\n* The bank\u2019s size, location, and customer base.^{6} Id.\nFor purposes of the CIP rule, an \u201caccount\u201d is a formal banking relationship established to provide or engage in services, dealings, or other financial transactions, including a deposit account, a transaction or asset account, a credit account, or other extension of credit.\u00a0 An account includes a relationship established to provide a safety deposit box or other safekeeping services, or cash management, custodian, and trust services.^{7} 31 CFR 1020.100(a)(1).\nAn account does not include:^{8} 31 CFR 1020.100(a)(2) .\n* A product or service where a formal banking relationship is not established with a person, such as check-cashing, wire transfer, or sale of a check or money order;\n* An account that the bank acquires through an acquisition, merger, purchase of assets, or assumption of liabilities; or\n* An account opened for the purpose of participating in an employee benefit plan established under the Employee Retirement Income Security Act of 1974.",
+            "retrieval_score": 8.57694,
+            "fusion_score": 0.02921109,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 10,
+              "semantic": 7
+            }
+          }
+        ],
+        "retrieval": "Hybrid \u00b7 BM25 + Nebius embeddings + Pinecone \u00b7 RRF",
+        "retrieval_details": {
+          "method": "Hybrid \u00b7 BM25 + Nebius embeddings + Pinecone \u00b7 RRF",
+          "degraded": false
+        },
+        "question": "What must a bank CDD program include?",
+        "scope": "US banks",
+        "citation_check": "IDs and exact quotes checked; claim support needs review",
+        "cached": false,
+        "timings": {
+          "retrieval_seconds": 0.416,
+          "generation_seconds": 10.656,
+          "validation_seconds": 0.003
+        },
+        "authority_notice": "Binding rule text was not retrieved from this library. The answer below describes captured guidance, not a complete statement of legal requirements.",
+        "status": "supported",
+        "summary": "Bank CDD Program Requirements",
+        "claims": [
+          {
+            "title": "Customer Information and Beneficial Ownership Updates",
+            "text": "Banks must obtain and analyze customer information, including beneficial ownership, and update it when material changes are detected through monitoring, on a risk basis.",
+            "evidence": [
+              {
+                "id": "S12:L38-L40",
+                "quote": "In accordance with regulatory requirements, all banks must develop and implement appropriate risk-based procedures for conducting ongoing customer due diligence, including, but not limited to:\n* Obtaining and analyzing sufficient customer information to understand the nature and purpose of customer relationships for the purpose of developing a customer risk profile; and\n* Conducting ongoing monitoring to identify and report suspicious transactions and, on a risk basis, to maintain and update customer information, including information regarding the beneficial owner(s) of legal entity customers."
+              },
+              {
+                "id": "S12:L97-L113",
+                "quote": "Should the bank become aware as a result of its ongoing monitoring that customer information, including beneficial ownership information, has materially changed, it should update the customer information accordingly."
+              },
+              {
+                "id": "S12:L97-L113",
+                "quote": "Additionally, if this customer information is material and relevant to assessing the risk of a customer relationship, then the bank should reassess the customer risk profile/rating and follow established bank policies, procedures, and processes for maintaining or changing the customer risk profile/rating."
+              }
+            ]
+          }
+        ],
+        "checklist": [],
+        "limitations": [
+          "Binding rule text was not retrieved from this library. The answer below describes captured guidance, not a complete statement of legal requirements.",
+          "Binding regulatory rules were not retrieved; content reflects examination guidance and expectations rather than codified legal requirements.",
+          "A generated claim with an unsupported frequency, obligation or legal-currency assertion was omitted. Other claim support still requires review."
+        ],
+        "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+        "latency_seconds": 11.079,
+        "latency_target_seconds": 8,
+        "latency_target_met": false
+      },
+      "review": "pending semantic review"
+    },
+    {
+      "id": "Q03",
+      "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "question": "What financial indicators can suggest a money mule account, and why is one indicator not proof?",
+      "elapsed_seconds": 9.446,
+      "answer": {
+        "evidence": [
+          {
+            "chunk_id": "S16:L18-L18",
+            "source_id": "S16",
+            "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+            "heading": "Money laundering networks: money mules, trade-based laundering and shell companies \u00b7 PDF page 9",
+            "issuer": "FinCEN",
+            "authority_type": "advisory",
+            "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf",
+            "published_date": "2025-08-28",
+            "captured_date": "2026-10-17",
+            "locator": "PDF page 9 \u00b7 extracted text lines 18-18",
+            "pdf_page": 9,
+            "topics": [
+              "money_mules",
+              "trade_based",
+              "shell_companies"
+            ],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "FINCEN ADVISORY\n9\nRed Flags Potentially Indicative of CMLN-Affiliated Money Mules\n A customer, especially a customer who presented a Chinese passport as identification during \nthe onboarding process, regularly receives funds that are not commensurate with the reported \noccupation or income, and the source of the funds cannot be attributed to payroll or other \nlegitimate sources of income ( i.e., unexplained wealth). 43\n During the onboarding process, a customer presents a Chinese passport and a visa that \ncontain the same photograph despite being allegedly issued years apart. 44  \n A customer, especially a Chinese national, creates an account at a financial institution and \nreports their occupation as a student during the onboarding process.  This customer then \nregularly deposits cash into their account or receives wire transfers notated as \u201ctuition\u201d or \n\u201cliving expenses\u201d that are not commensurate with the reported information.  After receiving \nthe funds, the customer may subsequently initiate wire transfers or P2P transactions to \nunknown individuals who are unrelated to the purpose of the wire transfers or may make \ncredit or debit card payments. \n A customer, especially a Chinese national, reports their occupation during customer \nonboarding as a student, retiree, housewife, or other low-income occupation but has \nunexplained wealth.\n A customer, especially a Chinese national with unexplained wealth, initiates a wire transfer \nrelated to a real estate purchase or purchases cashier\u2019s checks made payable to a real estate \ncompany.  The customer may be accompanied by a real estate agent at the time of purchasing \nthe cashier\u2019s checks.\n A customer, especially a Chinese national, regularly deposits large volumes of cash or \ncashier\u2019s checks, or receives multiple wire, ACH, or P2P transfers for no business or apparent \nlawful purpose.  The customer then subsequently uses the funds to purchase a cashier\u2019s check \nor disperses the funds to other individuals using P2P and wire transfers, often to other high-\nrisk jurisdictions.  \n A customer\u2019s account, especially a Chinese national, receives numerous transfers or deposits, \nand has a significant number of withdrawals or transfers, none of which appear to be related \nto routine payroll, living expenses, or customer\u2019s stated expected activity. \n A customer, especially a Chinese national, has large amounts of cash funding cashier\u2019s checks, \nwhich are then deposited at another financial institution. \n A customer, especially a Chinese national, is reluctant or refuses to provide information \nregarding the source of funds deposited or transferred into their account or acts evasive when \nquestioned about the purpose of a transaction or may explain it as repayment of a loan.  \n43. See Counterfeit Chinese Passports, supra note 10.\n44. Id.",
+            "retrieval_score": 9.39141,
+            "fusion_score": 0.03226646,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 3,
+              "semantic": 1
+            }
+          },
+          {
+            "chunk_id": "S16:L12-L12",
+            "source_id": "S16",
+            "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+            "heading": "Money laundering networks: money mules, trade-based laundering and shell companies \u00b7 PDF page 6",
+            "issuer": "FinCEN",
+            "authority_type": "advisory",
+            "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf",
+            "published_date": "2025-08-28",
+            "captured_date": "2026-10-17",
+            "locator": "PDF page 6 \u00b7 extracted text lines 12-12",
+            "pdf_page": 6,
+            "topics": [
+              "money_mules",
+              "trade_based",
+              "shell_companies"
+            ],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "FINCEN ADVISORY\n6\nthese money mules may report their occupation during the account onboarding process as \n\u201cstudent,\u201d \u201chousewife,\u201d \u201cretired,\u201d \u201claborer,\u201d or other occupations that typically do not engage in \nlarge volumes of transactions.  CMLNs may also provide money mules with counterfeit Chinese \npassports to facilitate account opening and engage in other illicit financial behavior. 33  CMLNs may \nalso recruit financial institution employees to act as complicit insiders or infiltrate and place CMLN \nmembers within a financial institution to assist in CMLN operations. 34   \nCMLN money mules may also engage in \u201csmurfing\u201d operations 35 across multiple depository \ninstitution branches to deposit illicit funds into money mule accounts, or into accounts held by \nU.S.-based Chinese nationals and businesses.  CMLN money mules have also been observed \ndepositing large sums of cash during a visit, irrespective of Currency Transaction Reporting \nrequirements. 36  The money mules may also purchase cashier\u2019s checks from depository institutions \nwith U.S.-based Chinese nationals and businesses listed as the payee directly.  Alternatively, \nCMLNs may purchase cashier\u2019s checks listing the payee as a shell company the CMLNs beneficially \nown or listing the payee as a U.S.-based company or individual in the real estate industry.  \nCMLNs may use money mules or shell companies to purchase real estate, which may serve as an \ninvestment for the CMLN or a wealthy China-based client of the CMLN. 37  They may also deposit \nthe illicit funds into existing money mule accounts ( i.e., personal or shell company accounts) and \nthen use wire, automated clearing house (ACH), or peer-to-peer (P2P) transfers to send the money \nto separate accounts held by U.S.-based Chinese nationals and businesses. 38  These actions are \nintended to launder the illicit funds and make them available to the Chinese citizens, businesses, or \nnationals who purchased them from the CMLN.  According to BSA reporting, financial institutions \nthat have questioned customers, who are the ultimate beneficiaries or recipients of these funds, \nhave been told that the customer was unable to move their money out of China due to currency \ncontrol laws, and the customer paid for a service to circumvent these restrictions.  While that is \npartially true, the reality is that the CMLNs keep the beneficiaries\u2019 funds in China, and pay them \nwith laundered, illicit funds in the United States.\nTrade-Based Money Laundering\nCMLNs may also use complex TBML schemes to launder the Cartels\u2019 illicit funds.  According to \nlaw enforcement, CMLNs may use money mules and other recruits to purchase U.S. electronics \nand other luxury goods ( e.g., cell phones, automobiles, clothing, designer handbags, etc.) at various \n33. See Counterfeit Chinese Passports, supra note 10; see also FinCEN, FIN-2024-NTC1, \u201cFinCEN Notice on the Use of \nCounterfeit U.S. Passport Cards to Perpetrate Identity Theft and Fraud Schemes at Financial Institutions\u201d (Apr. 15, 2024).\n34. See U.S. Department of Homeland Security, Homeland Security Investigations Assistant Director Ricardo Mayoral, \n\u201cWritten Testimony for Senate Caucus on International Narcotics Control Hearing Entitled \u2018Chinese Money \nLaundering Organizations: Cleaning Cartel Cash\u2019\u201d (\u201cHSI Testimony\u201d) (Apr. 30, 2024), at p. 5; see also DOJ, \u201cQueens \nMan Admits Orchestrating $653 Million Money Laundering Conspiracy, Operating Unlicensed Money Transmitting \nBusiness, and Bribing Bank Employees\u201d (Feb. 22, 2022).\n35. \u201cSmurfs\u201d are teams of persons who, acting in conjunction with or on behalf of other persons, structure financial \ntransactions for the purpose of evading the requirement to file a Currency Transaction Report. \n36. See Bags of Cash, supra note 32.\n37. See FinCEN CMLN FTA, supra note 13, at pp. 18-19; see also 2024 NMLRA, supra note 3, at p. 30.\n38. See DOJ, \u201cThree Members of a Prolific Chinese Money Laundering Organization Plead Guilty to Laundering Tens of \nMillions of Dollars in Drug Proceeds\u201d (May 1, 2025).",
+            "retrieval_score": 9.90351,
+            "fusion_score": 0.03177806,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 1,
+              "semantic": 5
+            }
+          },
+          {
+            "chunk_id": "S16:L4-L4",
+            "source_id": "S16",
+            "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+            "heading": "Money laundering networks: money mules, trade-based laundering and shell companies \u00b7 PDF page 2",
+            "issuer": "FinCEN",
+            "authority_type": "advisory",
+            "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf",
+            "published_date": "2025-08-28",
+            "captured_date": "2026-10-17",
+            "locator": "PDF page 2 \u00b7 extracted text lines 4-4",
+            "pdf_page": 2,
+            "topics": [
+              "money_mules",
+              "trade_based",
+              "shell_companies"
+            ],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "FINCEN ADVISORY\n2\nThis Advisory supports FinCEN\u2019s work to bring awareness to, and counter, TCO-related revenue \nstreams7 and is consistent with two of the eight national anti-money laundering and countering \nthe financing of terrorism (AML/CFT) priorities (i.e., drug trafficking organization (DTO) activity \nand TCO activity).8  Further, on January 20, 2025, the President issued Executive Order (E.O.) 14157 \ndesignating certain international cartels and other TCOs as Foreign Terrorist Organizations (FTOs) \nand Specially Designated Global Terrorists (SDGTs).9  The Cartels functionally control nearly all \nillegal traffic across the southwest border of the United States, and their activities threaten the safety \nof the American people, the security of the United States, and the stability of the international order \nin the Western Hemisphere.  Treasury is committed to countering the activity of the Cartels and \nrelated actors. \nThis Advisory: (i) provides an overview of CMLNs and their connection to the Cartels, (ii) discusses \nfinancial typologies associated with CMLNs laundering the Cartels\u2019 illicit proceeds, (iii) highlights \nred flag indicators, and (iv) reminds financial institutions of their reporting requirements under \nthe Bank Secrecy Act (BSA).  The information contained in this Advisory is derived from FinCEN\u2019s \nanalysis of open-source reporting, BSA reporting, and information from law enforcement partners.\nOverview of Chinese Money Laundering Networks\nCMLNs operate in a compartmentalized fashion, leveraging relationships built on trust rather than \nworking through a hierarchical structure to launder money.  CMLNs often launder illicit proceeds \nfor a number of TCOs and may engage in some form of additional criminal activity as part of \ntheir money laundering operations, such as the provision of fake identification documents to \nindividuals opening bank accounts on their behalf. 10  CMLNs typically comprise both current and \nformer U.S.- and foreign-based Chinese passport holders ( i.e., Chinese nationals).  CMLNs often \nrecruit members of Chinese or other diaspora populations to participate in their money laundering \noperations to act as money mules, 11 money brokers, and cash couriers. 12  In the United States, \nCMLNs appear to have increasingly recruited Chinese students studying at U.S. universities, and \n7. See FinCEN, FIN-2025-A002, \u201cFinCEN Alert on Oil Smuggling Schemes on the U.S. Southwest Border Associated \nwith Mexico-Based Cartels\u201d (May 1, 2025); FinCEN, FIN-2025-A001, \u201cFinCEN Alert on Bulk Cash Smuggling and \nRepatriation by Mexico-Based Transnational Criminal Organizations\u201d (Mar. 31, 2025); FinCEN, FIN-2024-A002, \n\u201cSupplemental Advisory on the Procurement of Precursor Chemicals and Manufacturing Equipment Used for the \nSynthesis of Illicit Fentanyl and Other Synthetic Opioids\u201d (June 20, 2024); FinCEN, OFAC, and FBI, FIN-2024-NTC2, \n\u201cFinCEN, OFAC, and FBI Joint Notice on Timeshare Fraud Associated with Mexico-Based Transnational Criminal \nOrganizations\u201d (July 16, 2024).\n8. See FinCEN, \u201cAnti-Money Laundering and Countering the Financing of Terrorism National Priorities\u201d (June 30, 2021).\n9. See White House, \u201cDesignating Cartels and Other Organizations as Foreign Terrorist Organizations and Specially \nDesignated Global Terrorists\u201d (Jan. 20, 2025); U.S. Department of State, \u201cDesignation of International Cartels\u201d \n(Feb. 20, 2025).\n10. Id.; see also U.S. Immigration and Customs Enforcement, Cornerstone Report Issue #48, \u201cChinese Money Laundering \nOrganizations (CMLOs) - Use of Counterfeit Chinese Passports\u201d (\u201cCounterfeit Chinese Passports\u201d) (Jan. 2, 2024).\n11. Money mules are people who are used, wittingly or unwittingly, to transfer value, either by laundering stolen money \nor physically transporting goods or other merchandise.  See FATF, \u201cProfessional Money Laundering\u201d (July 2018), at \np. 22.  According to law enforcement, criminal organizations often target students as potential money mules. \nSee generally Federal Bureau of Investigation (FBI), \u201cMoney Mules\u201d (as of Aug. 27, 2025).\n12. See DOJ, \u201cFinal Three Members Charged in Prolific Chinese Money Laundering Scheme Plead Guilty to Laundering \nTens of Millions in Drug Proceeds\u201d (July 7, 2025).",
+            "retrieval_score": 9.43786,
+            "fusion_score": 0.03105441,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 2,
+              "semantic": 7
+            }
+          },
+          {
+            "chunk_id": "S14:L50-L50",
+            "source_id": "S14",
+            "title": "2026 National Money Laundering Risk Assessment",
+            "heading": "2026 National Money Laundering Risk Assessment \u00b7 PDF page 29",
+            "issuer": "US Treasury",
+            "authority_type": "national_risk_assessment",
+            "url": "https://home.treasury.gov/system/files/246/2026-NMLRA.pdf",
+            "published_date": "2026-03",
+            "captured_date": "2026-10-17",
+            "locator": "PDF page 29 \u00b7 extracted text lines 50-50",
+            "pdf_page": 29,
+            "topics": [
+              "broad_typologies"
+            ],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "2026  \uf0ab\uf0ab  National Money Laundering Risk Assessment\n25\n \u0083 Witting money mules ignore obvious red flags and may have been alerted by financial institutions or law \nenforcement that their activities are illegal.  They may have been unwitting to start but continue working as a \nmoney mule after becoming aware of the illegality due to the prospect of financial gain.\n \u0083 Complicit money mules understand they are part of a money laundering network.  They may advertise their \nservices to multiple criminal groups, negotiate their own fees, or recruit and train other money mules.  Their \nmoney laundering methods are more complex, often involving fake or stolen identities and using bank accounts \nheld in the name of shell companies.\nMany money mules are part of diaspora communities in the United States with connections to the foreign countries \nwhere TCOs or PML networks are based.  They may be U.S. citizens, authorized immigrants, or illegal aliens.  \nAccording to law enforcement, recent migrants with tenuous financial circumstances, such as those on student visas \nthat do not allow for work authorization, are particularly vulnerable to being recruited as money mules.146\nMoney mule activity varies depending on how the predicate crime generates illicit proceeds.  For drug trafficking \nand human trafficking, money mules are frequently used to collect bulk cash proceeds.  After collection, they may \ndeposit the cash into funnel accounts, transport the cash to consolidation points for co-conspirators to launder, or \nsmuggle the cash outside of the United States, most often to Mexico.  In one case, nine money mules were indicted \nfor allegedly conspiring to launder bulk cash into digital assets on behalf of drug cartels in Mexico and Colombia.  \nAccording to the superseding indictment, the defendants and co-conspirators worked together to pick up bulk cash \nderived from drug sales around the United States and exchange the cash for digital assets using black market digital \nasset launderers.  The digital assets were then converted back to cash in Mexico or Colombia and delivered to cartel \nleaders.147\nFor fraud and cybercrime, money mules may receive wire transfers from victims in bank accounts they control; \ndeposit cash, checks, or money orders they receive in the mail from victims in the same accounts; or pick up cash or \ngold bars from victims in person.  From there, they can transmit the proceeds to the perpetrators via wire transfer or \ndigital assets and ship any cash and gold bars to PML brokers coordinating the operation.  In one case, a Maryland \nman was sentenced to 42 months in prison for serving as an unlicensed money transmitter in connection with \nvarious romance, business email compromise, and investment schemes.  His fee for receiving and transmitting \nvictim funds was usually 20 percent or more.  After receiving victim funds in personal and business bank accounts he \ncontrolled, he would transfer the funds to scheme participants overseas.148\nChinese Money Laundering Networks (CMLNs)\nOver the past decade, Chinese money laundering networks (CMLNs) have become the dominant PMLs for DTOs and \nother TCOs around the world.  The rise of CMLNs was originally driven, in part, by Chinese nationals\u2019 increased demand \nfor foreign currency needed to circumvent Chinese currency controls.149  This sustained, global demand allows CMLN \nbrokers to charge Chinese nationals high fees to purchase currency while charging criminals supplying the illicit \ncash lower fees than other money launderers.  According to FinCEN, over the five-year period from January 1, 2020 \nto December 31, 2024, financial institutions filed over 137,000 reports in connection with $312 billion in suspicious \nactivity associated with suspected CMLN activity.150\n146       See also, FinCEN, \u201cFinCEN Advisory on the Use of Chinese Money Laundering Networks by Mexico-Based Transnational Criminal \nOrganizations to Launder Illicit Proceeds, \u201d (August 28, 2025), pp. 2-3, https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-\nCMLN-508.pdf. \n147       DOJ, \u201cFifteen Defendants Charged in Operation Targeting Conversion of Bulk U.S. Cash Proceeds from Drug Sales into Cryptocurrency \nfor Mexican Cartels, \u201d (November 20, 2024) https://www.justice.gov/usao-sdfl/pr/fifteen-defendants-charged-operation-targeting-\nconversion-bulk-us-cash-proceeds-drug. \n148       DOJ, \u201cBaltimore County Man Sentenced to Federal Prison for Role in Elder Fraud Schemes, \u201d (March 4, 2025) https://www.justice.gov/\nusao-md/pr/baltimore-county-man-sentenced-federal-prison-role-elder-fraud-schemes. \n149       FinCEN, \u201cFinCEN Advisory on the Use of Chinese Money Laundering Networks by Mexico-Based Transnational Criminal Organizations to \nLaunder Illicit Proceeds, \u201d (August 28, 2025), p. 5, https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf.\n150       FinCEN, \u201cChinese Money Laundering Networks: 2020 - 2024 Threat Pattern & Trend Information, \u201d (August 2025), p. 1, https://www.\nfincen.gov/sites/default/files/shared/4000-10-INV-144549-S3F6L-FTA-CMLN-508.pdf.",
+            "retrieval_score": 7.5579,
+            "fusion_score": 0.03041475,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 10,
+              "semantic": 2
+            }
+          },
+          {
+            "chunk_id": "S16:L24-L24",
+            "source_id": "S16",
+            "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+            "heading": "Money laundering networks: money mules, trade-based laundering and shell companies \u00b7 PDF page 12",
+            "issuer": "FinCEN",
+            "authority_type": "advisory",
+            "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf",
+            "published_date": "2025-08-28",
+            "captured_date": "2026-10-17",
+            "locator": "PDF page 12 \u00b7 extracted text lines 24-24",
+            "pdf_page": 12,
+            "topics": [
+              "money_mules",
+              "trade_based",
+              "shell_companies"
+            ],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "FINCEN ADVISORY\n12\ninstitutions also should select all other relevant suspicious activity fields, such as those in SAR fields \n36 (Money Laundering) and 38 (Other Suspicious Activities), if applicable. \nFinancial institutions should include all available information relating to the account and \nlocations involved in the reported activity, identifying information related to other entities and \npersons involved in the activity and the status of their accounts with the institution.  Financial \ninstitutions also should provide all available information regarding other domestic and foreign \nfinancial institutions involved in the activity; where appropriate, financial institutions should \nconsider filing a SAR jointly on shared suspicious activity. 50 \nFinancial institutions are required to file complete and accurate reports that incorporate all \nrelevant information available.  In situations involving violations requiring immediate attention, \nsuch as ongoing money laundering schemes, a financial institution should also immediately \nnotify, by telephone, an appropriate law enforcement authority, in addition to filing a timely \nSAR.51  Immediate notification to law enforcement is especially important in situations involving \nsuspected terrorist activity, as terrorists and terrorist organizations often rely on the international \nfinancial system to acquire funding to sustain and finance their operations and engage in acts \nof terrorism.  Additionally, FinCEN emphasizes that any financial institution and any director, \nofficer, employee, or agent of such institution who makes, or requires another to make any \nvoluntary disclosure of any possible violation of law or regulation to a government agency under \nthe BSA or its implementing regulations is protected from liability for any such disclosure.52\nFinancial institutions wanting to report suspicious transactions that may potentially relate to \nterrorist activity should call the Financial Institutions Toll-Free Hotline at (866) 556-3974  \n(7 days a week, 24 hours a day).53\nOther Relevant BSA Reporting Requirements\nFinancial institutions and other entities or persons may also have other relevant BSA reporting \nrequirements to provide information in connection with the subject of this Advisory.  These \ninclude obligations related to the Currency Transaction Report (CTR), 54  Report of Cash \nPayments Over $10,000 Received in a Trade or Business (Form 8300), 55  Report of Foreign \n50. See 31 CFR \u00a7\u00a7 1020.320(e)(1)(ii)(A)(2))(i), 1021.320(e)(1)(ii)(A)(2)), 1022.320(d)(1)(ii)(A)(2), 1023.320(e)(1)(ii)(A)(2)(i), \n1024.320(d)(1)(ii)(A)(2), 1025.320(e)(1)(ii)(A)(2), 1026.320(e)(1)(ii)(A)(2)(i), 1029.320(d)(1)(ii)(A)(2), 1030.320(d)(1)(ii)(A)(2).\n51. See, e.g., 31 CFR \u00a7\u00a7 1020.320(b)(3), 1022.320(b)(3), 1023.320(b)(3).\n52. 31 U.S.C. \u00a7 5318(g)(3); see, e.g., 31 CFR 1020.320(f). \n53. The purpose of the hotline is to expedite the delivery of this information to law enforcement.  Financial institutions \nshould immediately report any imminent threat to local-area law enforcement officials.\n54. A report of each deposit, withdrawal, exchange of currency, or other payment or transfer, by, through, or to a \nfinancial institution that involves a transaction in currency of more than $10,000.  Multiple transactions may be \naggregated when determining whether the reporting threshold has been met.  See 31 CFR \u00a7\u00a7 1010.310-313, 1020.310-\n313, 1021.310-313, 1022.310-313, 1023.310-313, 1024.310-313, and 1026.310-313.\n55. A report filed by a trade or business that receives currency in excess of $10,000 in one transaction or two or more \nrelated transactions.  The transactions are required to be reported on a joint FinCEN/Internal Revenue Service form \nwhen not otherwise required to be reported on a CTR.  See 31 CFR \u00a7\u00a7 1010.330-331.  A Form 8300 also may be filed \nvoluntarily for any suspicious transaction, even if the total amount does not exceed $10,000.",
+            "retrieval_score": 9.0042,
+            "fusion_score": 0.03033088,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 4,
+              "semantic": 8
+            }
+          },
+          {
+            "chunk_id": "S16:L20-L20",
+            "source_id": "S16",
+            "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+            "heading": "Money laundering networks: money mules, trade-based laundering and shell companies \u00b7 PDF page 10",
+            "issuer": "FinCEN",
+            "authority_type": "advisory",
+            "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf",
+            "published_date": "2025-08-28",
+            "captured_date": "2026-10-17",
+            "locator": "PDF page 10 \u00b7 extracted text lines 20-20",
+            "pdf_page": 10,
+            "topics": [
+              "money_mules",
+              "trade_based",
+              "shell_companies"
+            ],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "FINCEN ADVISORY\n10\n A customer that is a U.S.-based escrow company receives funds from an unaffiliated, foreign-\nbased shell company or entity in a disparate line of business that are used to purchase real \nestate in the United States.\nRed Flags Potentially Indicative of CMLN-Affiliated TBML Schemes\n A business45 owned by a Chinese national regularly receives deposits from online \nmarketplaces, but rarely, or never, engages in transactions that indicate the purchase of goods \nto maintain inventory.  \n A business owned by a Chinese national regularly receives wire transfers indicating the export \nof goods to foreign countries including Mexico, China, Hong Kong, and the United Arab \nEmirates, but rarely, or never, engages in transactions that indicate the purchase of goods to \nmaintain inventory. \n A small U.S.-based business in the electronics or real estate industry receives wires from \nMexico, China, Hong Kong, and the United Arab Emirates and has no known nexus to these \ncountries.\n A customer, especially a Chinese national, regularly receives P2P or wire transfers from \nunknown individuals and subsequently uses those funds to make a substantial credit \ncard payment.  If questioned about the source of the funds, the customer may state that \nthe transfers are from U.S.-based family members of Chinese citizens who are sending the \ncustomer funds to purchase goods. \n A customer, especially a Chinese national, regularly uses a credit card to purchase large \nvolumes of electronics or other luxury goods. \n A business that sells electronics or other luxury goods has income that is not commensurate \nwith the size and scale of the business. \n A business that sells electronics or other luxury goods makes payments for multiple credit \ncards associated with various individuals, who are seemingly unrelated to the business. \n Hong Kong registered trading companies with shell-like characteristics send funds to Chinese \nnationals residing in the United States, real estate escrow or title insurance companies, and \nother international destinations with no apparent business or economic purpose. \nReminder of Relevant BSA Obligations and Tools  \nfor U.S. Financial Institutions  \n45. According to BSA reporting, businesses are commonly reported to be in shipping, transportation, freight, logistics, \nindustrial supplies, food, and technology sectors.",
+            "retrieval_score": 7.48887,
+            "fusion_score": 0.02970951,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 11,
+              "semantic": 4
+            }
+          },
+          {
+            "chunk_id": "S16:L10-L10",
+            "source_id": "S16",
+            "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+            "heading": "Money laundering networks: money mules, trade-based laundering and shell companies \u00b7 PDF page 5",
+            "issuer": "FinCEN",
+            "authority_type": "advisory",
+            "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf",
+            "published_date": "2025-08-28",
+            "captured_date": "2026-10-17",
+            "locator": "PDF page 5 \u00b7 extracted text lines 10-10",
+            "pdf_page": 5,
+            "topics": [
+              "money_mules",
+              "trade_based",
+              "shell_companies"
+            ],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "FINCEN ADVISORY\n5\nFinancial Typologies Associated with CMLNs Laundering  \nIllicit Cartel Proceeds\nCMLNs\u2019 Use of Mirror Transactions\nTo launder funds, CMLNs transfer value globally and sometimes simultaneously using a form \nof IVTS.  For example, once a U.S.-based CMLN receives USD from a Cartel for laundering, \nit coordinates with Mexico-based CMLN counterparts who conduct a reciprocal or \u201cmirror \ntransaction,\u201d 28 in which an equivalent amount of pesos is transferred to the Cartels\u2019 Mexico-based \naccounts, minus a nominal fee.  Through this informal value transfer, CMLNs \u201cpurchase\u201d the value \nof the Cartels\u2019 illicit USD proceeds in pesos.  This mirror transaction occurs nearly instantly and \navoids many of the risks involved with cross-border bulk cash smuggling or with depositing large \nsums of USD in Mexico-based financial institutions and thereby circumvents Mexico\u2019s USD deposit \nrestrictions.  CMLNs may also use convertible virtual currency (CVC) as an alternative means to \nconduct mirror transactions with the Cartels. 29  Similar to other mirror transactions, use of CVC \navoids the risks associated with physical transportation of cash or depositing bulk USD. \nThe U.S.-based CMLNs then sell the USD purchased from the Cartels, by advertising it on social \nmedia or leveraging personal networks, to Chinese citizens or businesses seeking to evade the \nPRC\u2019s currency control laws.30  Once identified, the buyer is connected by the U.S.-based CMLN \nto a China-based operator, who instructs the buyer to transfer an equivalent amount of RMB, \nplus a significant fee, from their bank account in China to an account controlled by the China-\nbased operator. 31  This RMB transfer internal to China avoids the PRC\u2019s currency control laws \nand effectively \u201cpurchases\u201d the control of the USD from the CMLN.  Once the transfer is made \nin China, the U.S.-based CMLN makes the purchased USD available to the Chinese buyers in the \nUnited States, typically by laundering the cash through the U.S. financial system. \nUse of Money Mules\nAs part of the laundering process, CMLNs may use money mules to deposit the illicit USD into \naccounts they are directed to open at U.S. depository institutions, or at accounts held by U.S.-based \nChinese nationals or businesses. 32  In situations where the money mules are opening accounts, \n28. The term \u201cmirror transactions\u201d or \u201cmirror transfer\u201d is used by U.S. law enforcement to describe a money laundering \ntypology involving foreign currency exchange.  The process typically happens within Chinese underground banking \nand black market peso exchange schemes and usually involves a money broker or an accountant who conducts two \nequal, but separate, transactions involving at least two parties who often are unaware of each other.  In this scheme, \nthe broker or accountant makes payments to each party using the other parties\u2019 currency, \u201cmirroring\u201d or balancing \nthe transactions.  See 2024 NMLRA, supra note 3, at pp. 29-30.\n29. See 2024 NDTA, supra note 17, at p. 47.\n30. See 2024 NMLRA, supra note 3, at pp. 29-30.\n31. The China-based CMLN operator will typically sell the RMB obtained from this transaction to Mexican or Chinese \nimporters in Mexico with business in China through a mirror transfer via the Mexico-based CMLN operator to obtain \nmore pesos.  This cycle replenishes the Mexico-based CMLN operator\u2019s supply of pesos for future transactions. \nSee 2024 NMLRA, supra note 3, at p. 30.\n32. See FinCEN CMLN FTA, supra note 13, at pp. 19-20; see also Wall Street Journal, \u201cBags of Cash From Drug Cartels \nFlood Teller Windows at U.S. Banks\u201d (\u201cBags of Cash\u201d) (May 14, 2025).",
+            "retrieval_score": 8.61303,
+            "fusion_score": 0.02941813,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 7,
+              "semantic": 9
+            }
+          },
+          {
+            "chunk_id": "S16:L26-L26",
+            "source_id": "S16",
+            "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+            "heading": "Money laundering networks: money mules, trade-based laundering and shell companies \u00b7 PDF page 13",
+            "issuer": "FinCEN",
+            "authority_type": "advisory",
+            "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf",
+            "published_date": "2025-08-28",
+            "captured_date": "2026-10-17",
+            "locator": "PDF page 13 \u00b7 extracted text lines 26-26",
+            "pdf_page": 13,
+            "topics": [
+              "money_mules",
+              "trade_based",
+              "shell_companies"
+            ],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "FINCEN ADVISORY\n13\nBank and Financial Accounts (FBAR), 56  Report of International Transportation of Currency \nor Monetary Instruments (CMIR), 57  Registration of Money Services Business (RMSB), 58  and \nDesignation of Exempt Person (DOEP). 59\nDue Diligence\nBanks, brokers or dealers in securities, mutual funds, and futures commission merchants \nand introducing brokers in commodities (FCM/IBs) are required to have appropriate risk-\nbased procedures for conducting ongoing customer due diligence that include, but are not \nlimited to: (i) understanding the nature and purpose of customer relationships for the purpose \nof developing a customer risk profile; and (ii) conducting ongoing monitoring to identify \nand report suspicious transactions and, on a risk basis, to maintain and update customer \ninformation.60  Covered financial institutions are required to identify and verify the identity \nof beneficial owners of legal entity customers, subject to certain exclusions and exemptions. 61   \nAmong other things, this facilitates the identification of legal entities that may be owned or \ncontrolled by foreign politically exposed persons (PEPs).\nSenior foreign political figures and due diligence obligations for private banking accounts\nIn addition to these due diligence obligations, under section 312 of the USA PATRIOT Act \n(31 U.S.C. \u00a7 5318(i)) and its implementing regulations, covered financial institutions must \nimplement due diligence programs for private banking accounts held for non-U.S. persons that \nare designed to detect and report any known or suspected money laundering or suspicious \nactivity conducted through or involving such accounts. 62  Covered financial institutions must \nestablish risk-based controls and procedures for ascertaining the identities of nominal and \nbeneficial owners of such accounts and ascertaining whether any of these owners are senior \nforeign political figures, and for conducting enhanced scrutiny on accounts held by senior \nforeign political figures that is reasonably designed to detect and report transactions that may \ninvolve the proceeds of foreign corruption. 63   \n56. A report filed by a U.S. person that has a financial interest in, or signature or other authority over, foreign financial \naccounts with an aggregate value exceeding $10,000 at any time during the calendar year.  See 31 CFR \u00a7 1010.350; \nFinCEN Form 114.\n57. A form filed to report the transportation of more than $10,000 in currency or other monetary instruments into or out \nof the United States.  See 31 CFR \u00a7 1010.340. \n58. A form filed to register a money services business (MSB with FinCEN, or to renew such a registration. \nSee 31 CFR \u00a7 1022.380.\n59. A report filed by banks to exempt certain customers from currency transaction reporting requirements. \nSee 31 CFR \u00a7 1010.311.\n60. See 31 CFR \u00a7\u00a7 1020.210(a)(2)(v), 1023.210(b)(5), 1024.210(b)(6), 1026.210(b)(5).\n61. See 31 CFR \u00a7\u00a7 1010.230, 1010.650(e)(1) (defining \u201ccovered financial institution\u201d).\n62. See 31 CFR \u00a7 1010.620.  The definition of \u201ccovered financial institution\u201d is found in 31 CFR \u00a7 1010.605(e)(1).  The \ndefinition of \u201cprivate banking account\u201d is found in 31 CFR \u00a7 1010.605(m).  The definition of \u201cnon-U.S. person\u201d is \nfound in 31 CFR \u00a7 1010.605(h).\n63. See 31 CFR \u00a7 1010.620(c).",
+            "retrieval_score": 8.62268,
+            "fusion_score": 0.0290404,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 6,
+              "semantic": 12
+            }
+          }
+        ],
+        "retrieval": "Hybrid \u00b7 BM25 + Nebius embeddings + Pinecone \u00b7 RRF",
+        "retrieval_details": {
+          "method": "Hybrid \u00b7 BM25 + Nebius embeddings + Pinecone \u00b7 RRF",
+          "degraded": false
+        },
+        "question": "What financial indicators can suggest a money mule account, and why is one indicator not proof?",
+        "scope": "US banks",
+        "citation_check": "IDs and exact quotes checked; claim support needs review",
+        "cached": false,
+        "timings": {
+          "retrieval_seconds": 0.441,
+          "generation_seconds": 8.995,
+          "validation_seconds": 0.002
+        },
+        "status": "supported",
+        "summary": "Money mule account indicators and limitations",
+        "claims": [
+          {
+            "title": "Disproportionate deposits with unexplained sources",
+            "text": "Regular deposits or wire transfers that are not consistent with the customer's reported occupation or income, such as a student receiving large sums labeled as 'tuition' or 'living expenses,' may indicate money mule activity when the funds lack legitimate explanation.",
+            "evidence": [
+              {
+                "id": "S16:L18-L18",
+                "quote": "FINCEN ADVISORY\n9\nRed Flags Potentially Indicative of CMLN-Affiliated Money Mules\n A customer, especially a customer who presented a Chinese passport as identification during \nthe onboarding process, regularly receives funds that are not commensurate with the reported \noccupation or income, and the source of the funds cannot be attributed to payroll or other \nlegitimate sources of income ( i.e., unexplained wealth)."
+              },
+              {
+                "id": "S16:L18-L18",
+                "quote": "This customer then \nregularly deposits cash into their account or receives wire transfers notated as \u201ctuition\u201d or \n\u201cliving expenses\u201d that are not commensurate with the reported information."
+              }
+            ]
+          },
+          {
+            "title": "Use of high-risk identification or occupation profiles",
+            "text": "Presenting a Chinese passport during onboarding, especially with suspicious document features, or reporting low-income occupations like student or housewife while engaging in high-volume transactions, are red flags associated with money mules.",
+            "evidence": [
+              {
+                "id": "S16:L18-L18",
+                "quote": "FINCEN ADVISORY\n9\nRed Flags Potentially Indicative of CMLN-Affiliated Money Mules\n A customer, especially a customer who presented a Chinese passport as identification during \nthe onboarding process, regularly receives funds that are not commensurate with the reported \noccupation or income, and the source of the funds cannot be attributed to payroll or other \nlegitimate sources of income ( i.e., unexplained wealth)."
+              },
+              {
+                "id": "S16:L18-L18",
+                "quote": "43\n During the onboarding process, a customer presents a Chinese passport and a visa that \ncontain the same photograph despite being allegedly issued years apart."
+              },
+              {
+                "id": "S16:L12-L12",
+                "quote": "FINCEN ADVISORY\n6\nthese money mules may report their occupation during the account onboarding process as \n\u201cstudent,\u201d \u201chousewife,\u201d \u201cretired,\u201d \u201claborer,\u201d or other occupations that typically do not engage in \nlarge volumes of transactions."
+              }
+            ]
+          },
+          {
+            "title": "One indicator is not conclusive",
+            "text": "A single red flag, such as a student receiving large transfers, is not proof of money mule activity because legitimate circumstances may explain it; multiple indicators and context are needed to assess suspicious behavior.",
+            "evidence": [
+              {
+                "id": "S16:L18-L18",
+                "quote": "FINCEN ADVISORY\n9\nRed Flags Potentially Indicative of CMLN-Affiliated Money Mules\n A customer, especially a customer who presented a Chinese passport as identification during \nthe onboarding process, regularly receives funds that are not commensurate with the reported \noccupation or income, and the source of the funds cannot be attributed to payroll or other \nlegitimate sources of income ( i.e., unexplained wealth)."
+              },
+              {
+                "id": "S16:L18-L18",
+                "quote": "This customer then \nregularly deposits cash into their account or receives wire transfers notated as \u201ctuition\u201d or \n\u201cliving expenses\u201d that are not commensurate with the reported information."
+              }
+            ]
+          }
+        ],
+        "checklist": [],
+        "limitations": [],
+        "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+        "latency_seconds": 9.446,
+        "latency_target_seconds": 8,
+        "latency_target_met": false
+      },
+      "review": "pending semantic review"
+    },
+    {
+      "id": "Q01",
+      "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+      "question": "What is KYC? Explain it in plain English.",
+      "elapsed_seconds": 6.271,
+      "answer": {
+        "evidence": [
+          {
+            "chunk_id": "S13:L19-L19",
+            "source_id": "S13",
+            "title": "Know Your Customer (KYC): historical terminology context, 2014",
+            "heading": "Know your customer terminology \u2014 selected sentence from testimony",
+            "issuer": "Federal Reserve",
+            "authority_type": "historical_official_testimony",
+            "url": "https://www.federalreserve.gov/newsevents/testimony/alvarez20140715a.htm",
+            "published_date": "2014-07-15",
+            "captured_date": "2026-10-17",
+            "locator": "Captured extract lines 19-19",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "Under the general rubric of \"know your customer\" laws and regulations, each banking organization is also required to maintain a customer identification program as part of the BSA compliance program and perform due diligence on its customers.",
+            "retrieval_score": 15.53003,
+            "fusion_score": 0.03278689,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 1,
+              "semantic": 1
+            }
+          },
+          {
+            "chunk_id": "S12:L38-L40",
+            "source_id": "S12",
+            "title": "Customer Due Diligence overview and higher-risk customers",
+            "heading": "Customer Due Diligence",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02",
+            "published_date": null,
+            "captured_date": "2026-10-17",
+            "locator": "Captured extract lines 38-40",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "In accordance with regulatory requirements, all banks must develop and implement appropriate risk-based procedures for conducting ongoing customer due diligence, including, but not limited to:\n* Obtaining and analyzing sufficient customer information to understand the nature and purpose of customer relationships for the purpose of developing a customer risk profile; and\n* Conducting ongoing monitoring to identify and report suspicious transactions and, on a risk basis, to maintain and update customer information, including information regarding the beneficial owner(s) of legal entity customers. Additional guidance can be found in the examination procedures \u201cBeneficial Ownership Requirements for Legal Entity Customers.\u201d",
+            "retrieval_score": 1.96114,
+            "fusion_score": 0.03149802,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 3,
+              "semantic": 4
+            }
+          },
+          {
+            "chunk_id": "S12:L27-L28",
+            "source_id": "S12",
+            "title": "Customer Due Diligence overview and higher-risk customers",
+            "heading": "Customer Due Diligence \u2014 Overview",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02",
+            "published_date": null,
+            "captured_date": "2026-10-17",
+            "locator": "Captured extract lines 27-28",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "The cornerstone of a strong BSA/AML compliance program is the adoption and implementation of risk-based CDD policies, procedures, and processes for all customers, particularly those that present a higher risk for money laundering and terrorist financing. The objective of CDD is to enable the bank to understand the nature and purpose of customer relationships, which may include understanding the types of transactions in which a customer is likely to engage.\nThese processes assist the bank in determining when transactions are potentially suspicious.",
+            "retrieval_score": 1.9027,
+            "fusion_score": 0.03105441,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 2,
+              "semantic": 7
+            }
+          },
+          {
+            "chunk_id": "S10:L52-L59",
+            "source_id": "S10",
+            "title": "Customer Identification Program selected excerpt",
+            "heading": "Identity Verification Procedures",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/01",
+            "published_date": null,
+            "captured_date": "2026-10-16",
+            "locator": "Captured extract lines 52-59",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "The CIP rule applies to a customer,^{9} 31 CFR 1020.100(b) . which means:\n* A person that opens a new account; and\n* An individual who opens a new account for:\n* An individual who lacks legal capacity, such as a minor; or\n* An entity that is not a legal person, such as a civic club.\nA customer does not include a person who does not receive banking services, such as a person whose loan application is denied^{10} FinCEN , Federal Reserve , FDIC , NCUA , OCC , OTS, Treasury (April 28, 2005), \u201cInteragency Interpretive Guidance on Customer Identification Program Requirements under Section 326 of the USA PATRIOT Act,\u201d Definition of \u201caccount\u201d FAQ #1.\u00a0 or a person that has an existing account with the bank, provided that the bank has a reasonable belief that it knows the true identity of the person.^{11} 31 CFR 1020.100(b)(2)(iii) .\nFinCEN , Federal Reserve , FDIC , NCUA , OCC , OTS, Treasury (April 28, 2005), \u201cInteragency Interpretive Guidance on Customer Identification Program Requirements under Section 326 of the USA PATRIOT Act,\u201d Person with an existing account FAQ #3.\u00a0 A bank can demonstrate that it has \u201ca reasonable belief\u201d by showing that prior to the issuance of the final CIP rule, it had comparable procedures in place to verify the identity of persons that had accounts with the bank as of October 1, 2003, though the bank may not have gathered the very same information about such persons as required by the final CIP rule.",
+            "retrieval_score": 13.57535,
+            "fusion_score": 0.0305789,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 8,
+              "semantic": 3
+            }
+          },
+          {
+            "chunk_id": "S10:L72-L77",
+            "source_id": "S10",
+            "title": "Customer Identification Program selected excerpt",
+            "heading": "Customer Information Required",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/01",
+            "published_date": null,
+            "captured_date": "2026-10-16",
+            "locator": "Captured extract lines 72-77",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "* For a credit card account, the bank may also obtain CIP identifying information about the customer by acquiring it from a third-party source prior to extending credit to the customer.^{17} 31 CFR 1020.220(a)(2)(i)(C) .\nBased on its BSA/AML risk assessment, a bank may require identifying information, in addition to the required information, for certain customers or product lines.^{18} FinCEN , Federal Reserve , FDIC , NCUA , OCC , OTS, Treasury (April 28, 2005), \u201cInteragency Interpretive Guidance on Customer Identification Program Requirements under Section 326 of the USA PATRIOT Act,\u201d Definition of \u201ccustomer\u201d FAQs #7, 9, 10.\nCustomer Verification\nThe CIP must contain risk-based^{19} 31 CFR 1020.220(a)(2) .\u00a0 procedures for verifying the identity of the customer within a reasonable period of time after the account is opened.^{20} 31 CFR 1020.220(a)(2)(ii) . The verification procedures must use the \u201cinformation obtained in accordance with [31 CFR 1020.220(a)(2)(i)],\u201d namely the identifying information obtained by the bank.^{21} Id.\nA bank need not establish the accuracy of every element of identifying information obtained, but it must verify enough information to form a reasonable belief that it knows the true identity of the customer.^{22} FinCEN , Federal Reserve , FDIC , NCUA , OCC , OTS, Treasury (April 28, 2005), \u201cInteragency Interpretive Guidance on Customer Identification Program Requirements under Section 326 of the USA PATRIOT Act,\u201d Customer verification FAQ #1.\nThe bank\u2019s procedures must describe when it uses documents, non-documentary methods, or a combination of both methods to verify the identity of its customers.^{23} 31 CFR 1020.220(a)(2)(ii) .",
+            "retrieval_score": 11.94712,
+            "fusion_score": 0.03041475,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 10,
+              "semantic": 2
+            }
+          },
+          {
+            "chunk_id": "S10:L86-L86",
+            "source_id": "S10",
+            "title": "Customer Identification Program selected excerpt",
+            "heading": "Additional Verification for Certain Customers",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/01",
+            "published_date": null,
+            "captured_date": "2026-10-16",
+            "locator": "Captured extract lines 86-86",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "The CIP must address situations in which, based on its risk assessment of a new account opened by a customer that is not an individual, the bank will obtain information about individuals with authority or control over such account, including signatories, in order to verify the customer\u2019s identity.\u00a0 This verification method applies only when the bank cannot verify the customer\u2019s true identity using documents or non-documentary methods.^{29} 31 CFR 1020.220(a)(2)(ii)(C) .",
+            "retrieval_score": 9.35572,
+            "fusion_score": 0.0292735,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 12,
+              "semantic": 5
+            }
+          },
+          {
+            "chunk_id": "S10:L42-L51",
+            "source_id": "S10",
+            "title": "Customer Identification Program selected excerpt",
+            "heading": "Identity Verification Procedures",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/01",
+            "published_date": null,
+            "captured_date": "2026-10-16",
+            "locator": "Captured extract lines 42-51",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "The CIP must include risk-based procedures for verifying the identity of each customer to the extent reasonable and practicable.^{5} 31 CFR 1020.220(a)(2) . The procedures must enable the bank to form a reasonable belief that it knows the true identity of each customer and be based on the bank\u2019s assessment of relevant risks, including:\n* The types of accounts maintained by the bank.\n* The bank\u2019s methods of opening accounts.\n* The types of identifying information available.\n* The bank\u2019s size, location, and customer base.^{6} Id.\nFor purposes of the CIP rule, an \u201caccount\u201d is a formal banking relationship established to provide or engage in services, dealings, or other financial transactions, including a deposit account, a transaction or asset account, a credit account, or other extension of credit.\u00a0 An account includes a relationship established to provide a safety deposit box or other safekeeping services, or cash management, custodian, and trust services.^{7} 31 CFR 1020.100(a)(1).\nAn account does not include:^{8} 31 CFR 1020.100(a)(2) .\n* A product or service where a formal banking relationship is not established with a person, such as check-cashing, wire transfer, or sale of a check or money order;\n* An account that the bank acquires through an acquisition, merger, purchase of assets, or assumption of liabilities; or\n* An account opened for the purpose of participating in an employee benefit plan established under the Employee Retirement Income Security Act of 1974.",
+            "retrieval_score": 13.6541,
+            "fusion_score": 0.02921109,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 7,
+              "semantic": 10
+            }
+          },
+          {
+            "chunk_id": "S10:L79-L80",
+            "source_id": "S10",
+            "title": "Customer Identification Program selected excerpt",
+            "heading": "Verification Through Documents",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/01",
+            "published_date": null,
+            "captured_date": "2026-10-16",
+            "locator": "Captured extract lines 79-80",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "A bank relying on documents to verify a customer\u2019s identity must have procedures that set forth the documents that the bank will use.^{24} 31 CFR 1020.220(a)(2)(ii)(A). The CIP rule gives examples of the types of documents that may be used to verify a customer\u2019s identity.\u00a0 The rule reflects the federal banking agencies\u2019 expectations that, for most customers who are individuals, banks review an unexpired government-issued form of identification evidencing a customer\u2019s nationality or residence and bearing a photograph or similar safeguard; examples include a driver\u2019s license or passport.\u00a0 However, other forms of identification may be used if they enable the bank to form a reasonable belief that it knows the true identity of the customer.\u00a0 Given the availability of counterfeit and fraudulently obtained documents, a bank is encouraged to review more than a single document to ensure it can form a reasonable belief that it knows the true identity of the customer.\nFor a person other than an individual (such as a corporation, partnership, or trust), documents may include those showing the legal existence of the entity, such as certified articles of incorporation, an unexpired government-issued business license, a partnership agreement, or a trust instrument.^{25} 31 CFR 1020.220(a)(2)(ii)(A)(2) .",
+            "retrieval_score": 12.05565,
+            "fusion_score": 0.015625,
+            "retrieval_channels": [
+              "keyword"
+            ],
+            "retrieval_ranks": {
+              "keyword": 4
+            }
+          }
+        ],
+        "retrieval": "Hybrid \u00b7 BM25 + Nebius embeddings + Pinecone \u00b7 RRF",
+        "retrieval_details": {
+          "method": "Hybrid \u00b7 BM25 + Nebius embeddings + Pinecone \u00b7 RRF",
+          "degraded": false
+        },
+        "question": "What is KYC? Explain it in plain English.",
+        "scope": "US banks",
+        "citation_check": "IDs and exact quotes checked; claim support needs review",
+        "cached": false,
+        "timings": {
+          "retrieval_seconds": 0.381,
+          "generation_seconds": 5.886,
+          "validation_seconds": 0.001
+        },
+        "status": "supported",
+        "summary": "KYC in plain English",
+        "claims": [
+          {
+            "title": "KYC means knowing your customer",
+            "text": "KYC, or 'Know Your Customer,' is a process banks use to verify the identity of their customers and understand the nature of their financial activities to prevent money laundering and terrorist financing. It's part of a broader compliance program under anti-money laundering (AML) rules.",
+            "evidence": [
+              {
+                "id": "S13:L19-L19",
+                "quote": "Under the general rubric of \"know your customer\" laws and regulations, each banking organization is also required to maintain a customer identification program as part of the BSA compliance program and perform due diligence on its customers."
+              }
+            ]
+          },
+          {
+            "title": "KYC includes identity verification and ongoing monitoring",
+            "text": "Banks must verify a customer's identity using documents or other methods, especially when opening new accounts. They also need to keep checking customer activity over time to spot unusual or suspicious behavior and update customer information as needed.",
+            "evidence": [
+              {
+                "id": "S12:L38-L40",
+                "quote": "In accordance with regulatory requirements, all banks must develop and implement appropriate risk-based procedures for conducting ongoing customer due diligence, including, but not limited to:\n* Obtaining and analyzing sufficient customer information to understand the nature and purpose of customer relationships for the purpose of developing a customer risk profile; and\n* Conducting ongoing monitoring to identify and report suspicious transactions and, on a risk basis, to maintain and update customer information, including information regarding the beneficial owner(s) of legal entity customers."
+              },
+              {
+                "id": "S10:L72-L77",
+                "quote": "procedures for verifying the identity of the customer within a reasonable period of time after the account is opened.^{20} 31 CFR 1020.220(a)(2)(ii) ."
+              },
+              {
+                "id": "S10:L42-L51",
+                "quote": "The CIP must include risk-based procedures for verifying the identity of each customer to the extent reasonable and practicable.^{5} 31 CFR 1020.220(a)(2) ."
+              }
+            ]
+          },
+          {
+            "title": "KYC uses risk-based approaches",
+            "text": "The level of verification depends on the risk of the customer. Higher-risk customers, like businesses or those from high-risk countries, require more detailed checks. Banks must use procedures that are reasonable and practical based on their risk assessment.",
+            "evidence": [
+              {
+                "id": "S12:L27-L28",
+                "quote": "The cornerstone of a strong BSA/AML compliance program is the adoption and implementation of risk-based CDD policies, procedures, and processes for all customers, particularly those that present a higher risk for money laundering and terrorist financing."
+              },
+              {
+                "id": "S10:L42-L51",
+                "quote": "The procedures must enable the bank to form a reasonable belief that it knows the true identity of each customer and be based on the bank\u2019s assessment of relevant risks, including:\n* The types of accounts maintained by the bank."
+              },
+              {
+                "id": "S10:L42-L51",
+                "quote": "* The bank\u2019s methods of opening accounts."
+              }
+            ]
+          }
+        ],
+        "checklist": [],
+        "limitations": [],
+        "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+        "latency_seconds": 6.271,
+        "latency_target_seconds": 8,
+        "latency_target_met": true
+      },
+      "review": "pending semantic review"
+    },
+    {
+      "id": "Q02",
+      "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+      "question": "What must a bank CDD program include?",
+      "elapsed_seconds": 5.772,
+      "answer": {
+        "evidence": [
+          {
+            "chunk_id": "S12:L27-L28",
+            "source_id": "S12",
+            "title": "Customer Due Diligence overview and higher-risk customers",
+            "heading": "Customer Due Diligence \u2014 Overview",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02",
+            "published_date": null,
+            "captured_date": "2026-10-17",
+            "locator": "Captured extract lines 27-28",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "The cornerstone of a strong BSA/AML compliance program is the adoption and implementation of risk-based CDD policies, procedures, and processes for all customers, particularly those that present a higher risk for money laundering and terrorist financing. The objective of CDD is to enable the bank to understand the nature and purpose of customer relationships, which may include understanding the types of transactions in which a customer is likely to engage.\nThese processes assist the bank in determining when transactions are potentially suspicious.",
+            "retrieval_score": 23.94314,
+            "fusion_score": 0.03278689,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 1,
+              "semantic": 1
+            }
+          },
+          {
+            "chunk_id": "S06:L28-L40",
+            "source_id": "S06",
+            "title": "Customer Due Diligence examination procedures",
+            "heading": "Customer Due Diligence",
+            "issuer": "FFIEC",
+            "authority_type": "examination_procedures",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02_ep",
+            "published_date": null,
+            "captured_date": "2026-10-16",
+            "locator": "Captured extract lines 28-40",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "Objective. Assess the bank\u2019s compliance with the regulatory requirements for customer due diligence (CDD).\n1. Determine whether the bank has developed and implemented appropriate written risk-based procedures for conducting ongoing CDD and that they:\n* Enable the bank to understand the nature and purpose of the customer relationship in order to develop a customer risk profile.\n* Enable the bank to conduct ongoing monitoring\n* for the purpose of identifying and reporting suspicious transactions and,\n* on a risk basis, to maintain and update customer information, including information regarding the beneficial owner(s) of legal entity customers.\n* Enable the bank to use customer information and the customer risk profile to understand the types of transactions a particular customer would be expected to engage in and as a baseline against which suspicious transactions are identified.\n2. Determine whether the bank, as part of the overall CDD program, has effective processes to develop customer risk profiles that identify the specific risks of individual customers or categories of customers.\n3. Determine whether the risk-based CDD policies, procedures, and processes are commensurate with the bank\u2019s BSA/AML risk profile with increased focus on higher risk customers.\n4. Determine whether policies, procedures, and processes contain a clear statement of management\u2019s and staff\u2019s responsibilities, including procedures, authority, and responsibility for reviewing and approving changes to a customer\u2019s risk profile, as applicable.\n5. Determine that the bank has policies, procedures, and processes to identify customers that may pose higher risk for money laundering or terrorist financing that include whether and/or when, on the basis of risk, it is appropriate to obtain and review additional customer information.",
+            "retrieval_score": 23.69504,
+            "fusion_score": 0.03175403,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 4,
+              "semantic": 2
+            }
+          },
+          {
+            "chunk_id": "S12:L38-L40",
+            "source_id": "S12",
+            "title": "Customer Due Diligence overview and higher-risk customers",
+            "heading": "Customer Due Diligence",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02",
+            "published_date": null,
+            "captured_date": "2026-10-17",
+            "locator": "Captured extract lines 38-40",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "In accordance with regulatory requirements, all banks must develop and implement appropriate risk-based procedures for conducting ongoing customer due diligence, including, but not limited to:\n* Obtaining and analyzing sufficient customer information to understand the nature and purpose of customer relationships for the purpose of developing a customer risk profile; and\n* Conducting ongoing monitoring to identify and report suspicious transactions and, on a risk basis, to maintain and update customer information, including information regarding the beneficial owner(s) of legal entity customers. Additional guidance can be found in the examination procedures \u201cBeneficial Ownership Requirements for Legal Entity Customers.\u201d",
+            "retrieval_score": 18.11261,
+            "fusion_score": 0.03151365,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 2,
+              "semantic": 5
+            }
+          },
+          {
+            "chunk_id": "S06:L42-L48",
+            "source_id": "S06",
+            "title": "Customer Due Diligence examination procedures",
+            "heading": "Customer Due Diligence",
+            "issuer": "FFIEC",
+            "authority_type": "examination_procedures",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02_ep",
+            "published_date": null,
+            "captured_date": "2026-10-16",
+            "locator": "Captured extract lines 42-48",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "6. Determine whether the bank provides guidance for documenting analysis associated with the due diligence process, including guidance for resolving issues when insufficient or inaccurate information is obtained.\n7. Determine whether the bank has defined in its policies, procedures, and processes how customer information, including beneficial ownership information for legal entity customers, is used to meet other relevant regulatory requirements, including but not limited to, identifying suspicious activity, identifying nominal and beneficial owners of private banking accounts, and determining OFAC sanctioned parties.\nTransaction Testing\n8. On the basis of a risk assessment, prior examination reports, and a review of the bank\u2019s audit findings, select a sample of customer information. Determine whether the bank collects appropriate information sufficient to understand the nature and purpose of the customer relationship and effectively incorporates customer information, including beneficial ownership information for legal entity customers, into the customer risk profile.\nThis sample can be performed when testing the bank\u2019s compliance with its policies, procedures, and processes as well as when reviewing transactions or accounts for possible suspicious activity.\n9. On the basis of examination procedures completed, including transaction testing, form a conclusion about the adequacy of policies, procedures, and processes associated with CDD.",
+            "retrieval_score": 19.55417,
+            "fusion_score": 0.03125763,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 5,
+              "semantic": 3
+            }
+          },
+          {
+            "chunk_id": "S12:L79-L87",
+            "source_id": "S12",
+            "title": "Customer Due Diligence overview and higher-risk customers",
+            "heading": "Higher Risk Profile Customers",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02",
+            "published_date": null,
+            "captured_date": "2026-10-17",
+            "locator": "Captured extract lines 79-87",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "Customers that pose higher money laundering or terrorist financing risks, (i.e.,higher risk profile customers), present increased risk exposure to banks. As a result, due diligence policies, procedures, and processes should define both when and what additional customer information will be collected based on the customer risk profile and the specific risks posed.\nCollecting additional information about customers that pose heightened risk, referred to as enhanced due diligence (EDD), for example, in the private and foreign correspondent banking context, is part of an effective due diligence program. Even within categories of customers with a higher risk profile, there can be a spectrum of risks and the extent to which additional ongoing due diligence measures are necessary may vary on a case-by-case basis.\nBased on the customer risk profile, the bank may consider obtaining, at account opening (and throughout the relationship), more customer information in order to understand the nature and purpose of the customer relationship, such as:\n* Source of funds and wealth.\n* Occupation or type of business (of customer or other individuals with ownership or control over the account).\n* Financial statements for business customers.\n* Location where the business customer is organized and where they maintain their principal place of business.\n* Proximity of the customer\u2019s residence, place of employment, or place of business to the bank.\n* Description of the business customer\u2019s primary trade area, whether transactions are expected to be domestic or international, and the expected volumes of such transactions.",
+            "retrieval_score": 11.37972,
+            "fusion_score": 0.03077652,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 6,
+              "semantic": 4
+            }
+          },
+          {
+            "chunk_id": "S12:L97-L113",
+            "source_id": "S12",
+            "title": "Customer Due Diligence overview and higher-risk customers",
+            "heading": "Ongoing Monitoring of the Customer Relationship",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02",
+            "published_date": null,
+            "captured_date": "2026-10-17",
+            "locator": "Captured extract lines 97-113",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "The requirement for ongoing monitoring of the customer relationship reflects existing practices established to identify and report suspicious transactions and, on a risk basis, to maintain and update customer information.\nThe requirement to update customer information is event-driven and occurs as a result of normal monitoring.\nShould the bank become aware as a result of its ongoing monitoring that customer information, including beneficial ownership information, has materially changed, it should update the customer information accordingly.\nAdditionally, if this customer information is material and relevant to assessing the risk of a customer relationship, then the bank should reassess the customer risk profile/rating and follow established bank policies, procedures, and processes for maintaining or changing the customer risk profile/rating.\nThe ongoing monitoring element does not impose a categorical requirement that the bank must update customer information on a continuous or periodic basis.\nHowever, the bank may establish policies, procedures, and processes for determining whether and when, on the basis of risk, periodic reviews to update customer information should be conducted to ensure that customer information is current and accurate.",
+            "retrieval_score": 10.09821,
+            "fusion_score": 0.02995752,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 3,
+              "semantic": 11
+            }
+          },
+          {
+            "chunk_id": "S12:L88-L91",
+            "source_id": "S12",
+            "title": "Customer Due Diligence overview and higher-risk customers",
+            "heading": "Higher Risk Profile Customers",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02",
+            "published_date": null,
+            "captured_date": "2026-10-17",
+            "locator": "Captured extract lines 88-91",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "* Description of the business operations, such as total sales, the volume of currency transactions, and information about major customers and suppliers.\nPerforming an appropriate level of ongoing due diligence that is commensurate with the customer\u2019s risk profile is especially critical in understanding the customer\u2019s transactions in order to assist the bank in determining when transactions are potentially suspicious. This determination is necessary for a suspicious activity monitoring system that helps to mitigate the bank\u2019s compliance and money laundering risks.\nConsistent with the risk-based approach, the bank should do more in circumstances of heightened risk, as well as to mitigate risks generally. Information provided by higher risk profile customers and their transactions should be reviewed more closely at account opening and more frequently throughout the term of their relationship with the bank.\nThe bank should establish policies and procedures for determining whether and/or when, on the basis of risk, obtaining and reviewing additional customer information, for example through negative media search programs, would be appropriate.",
+            "retrieval_score": 10.59904,
+            "fusion_score": 0.02941813,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 7,
+              "semantic": 9
+            }
+          },
+          {
+            "chunk_id": "S10:L42-L51",
+            "source_id": "S10",
+            "title": "Customer Identification Program selected excerpt",
+            "heading": "Identity Verification Procedures",
+            "issuer": "FFIEC",
+            "authority_type": "examination_guidance",
+            "url": "https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/01",
+            "published_date": null,
+            "captured_date": "2026-10-16",
+            "locator": "Captured extract lines 42-51",
+            "pdf_page": null,
+            "topics": [],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "The CIP must include risk-based procedures for verifying the identity of each customer to the extent reasonable and practicable.^{5} 31 CFR 1020.220(a)(2) . The procedures must enable the bank to form a reasonable belief that it knows the true identity of each customer and be based on the bank\u2019s assessment of relevant risks, including:\n* The types of accounts maintained by the bank.\n* The bank\u2019s methods of opening accounts.\n* The types of identifying information available.\n* The bank\u2019s size, location, and customer base.^{6} Id.\nFor purposes of the CIP rule, an \u201caccount\u201d is a formal banking relationship established to provide or engage in services, dealings, or other financial transactions, including a deposit account, a transaction or asset account, a credit account, or other extension of credit.\u00a0 An account includes a relationship established to provide a safety deposit box or other safekeeping services, or cash management, custodian, and trust services.^{7} 31 CFR 1020.100(a)(1).\nAn account does not include:^{8} 31 CFR 1020.100(a)(2) .\n* A product or service where a formal banking relationship is not established with a person, such as check-cashing, wire transfer, or sale of a check or money order;\n* An account that the bank acquires through an acquisition, merger, purchase of assets, or assumption of liabilities; or\n* An account opened for the purpose of participating in an employee benefit plan established under the Employee Retirement Income Security Act of 1974.",
+            "retrieval_score": 8.57694,
+            "fusion_score": 0.02921109,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 10,
+              "semantic": 7
+            }
+          }
+        ],
+        "retrieval": "Hybrid \u00b7 BM25 + Nebius embeddings + Pinecone \u00b7 RRF",
+        "retrieval_details": {
+          "method": "Hybrid \u00b7 BM25 + Nebius embeddings + Pinecone \u00b7 RRF",
+          "degraded": false
+        },
+        "question": "What must a bank CDD program include?",
+        "scope": "US banks",
+        "citation_check": "IDs and exact quotes checked; claim support needs review",
+        "cached": false,
+        "timings": {
+          "retrieval_seconds": 0.377,
+          "generation_seconds": 5.387,
+          "validation_seconds": 0.002
+        },
+        "authority_notice": "Binding rule text was not retrieved from this library. The answer below describes captured guidance, not a complete statement of legal requirements.",
+        "status": "supported",
+        "summary": "Bank CDD Program Requirements",
+        "claims": [
+          {
+            "title": "Risk-Based CDD Policies and Procedures",
+            "text": "A bank's CDD program must include risk-based policies and procedures to understand the nature and purpose of customer relationships, enabling the development of customer risk profiles and identifying expected transaction patterns.",
+            "evidence": [
+              {
+                "id": "S12:L27-L28",
+                "quote": "The cornerstone of a strong BSA/AML compliance program is the adoption and implementation of risk-based CDD policies, procedures, and processes for all customers, particularly those that present a higher risk for money laundering and terrorist financing."
+              },
+              {
+                "id": "S06:L28-L40",
+                "quote": "Determine whether the bank has developed and implemented appropriate written risk-based procedures for conducting ongoing CDD and that they:\n* Enable the bank to understand the nature and purpose of the customer relationship in order to develop a customer risk profile."
+              },
+              {
+                "id": "S12:L38-L40",
+                "quote": "In accordance with regulatory requirements, all banks must develop and implement appropriate risk-based procedures for conducting ongoing customer due diligence, including, but not limited to:\n* Obtaining and analyzing sufficient customer information to understand the nature and purpose of customer relationships for the purpose of developing a customer risk profile; and\n* Conducting ongoing monitoring to identify and report suspicious transactions and, on a risk basis, to maintain and update customer information, including information regarding the beneficial owner(s) of legal entity customers."
+              }
+            ]
+          },
+          {
+            "title": "Customer Information and Beneficial Ownership",
+            "text": "The CDD program must obtain and analyze sufficient customer information, including beneficial ownership for legal entities, to support risk profiling and compliance with other regulatory requirements.",
+            "evidence": [
+              {
+                "id": "S12:L38-L40",
+                "quote": "In accordance with regulatory requirements, all banks must develop and implement appropriate risk-based procedures for conducting ongoing customer due diligence, including, but not limited to:\n* Obtaining and analyzing sufficient customer information to understand the nature and purpose of customer relationships for the purpose of developing a customer risk profile; and\n* Conducting ongoing monitoring to identify and report suspicious transactions and, on a risk basis, to maintain and update customer information, including information regarding the beneficial owner(s) of legal entity customers."
+              },
+              {
+                "id": "S06:L42-L48",
+                "quote": "Determine whether the bank has defined in its policies, procedures, and processes how customer information, including beneficial ownership information for legal entity customers, is used to meet other relevant regulatory requirements, including but not limited to, identifying suspicious activity, identifying nominal and beneficial owners of private banking accounts, and determining OFAC sanctioned parties."
+              },
+              {
+                "id": "S12:L88-L91",
+                "quote": "* Description of the business operations, such as total sales, the volume of currency transactions, and information about major customers and suppliers."
+              }
+            ]
+          }
+        ],
+        "checklist": [],
+        "limitations": [
+          "Binding rule text was not retrieved from this library. The answer below describes captured guidance, not a complete statement of legal requirements.",
+          "A generated claim with an unsupported frequency, obligation or legal-currency assertion was omitted. Other claim support still requires review."
+        ],
+        "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+        "latency_seconds": 5.772,
+        "latency_target_seconds": 8,
+        "latency_target_met": true
+      },
+      "review": "pending semantic review"
+    },
+    {
+      "id": "Q03",
+      "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+      "question": "What financial indicators can suggest a money mule account, and why is one indicator not proof?",
+      "elapsed_seconds": 6.099,
+      "answer": {
+        "evidence": [
+          {
+            "chunk_id": "S16:L18-L18",
+            "source_id": "S16",
+            "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+            "heading": "Money laundering networks: money mules, trade-based laundering and shell companies \u00b7 PDF page 9",
+            "issuer": "FinCEN",
+            "authority_type": "advisory",
+            "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf",
+            "published_date": "2025-08-28",
+            "captured_date": "2026-10-17",
+            "locator": "PDF page 9 \u00b7 extracted text lines 18-18",
+            "pdf_page": 9,
+            "topics": [
+              "money_mules",
+              "trade_based",
+              "shell_companies"
+            ],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "FINCEN ADVISORY\n9\nRed Flags Potentially Indicative of CMLN-Affiliated Money Mules\n A customer, especially a customer who presented a Chinese passport as identification during \nthe onboarding process, regularly receives funds that are not commensurate with the reported \noccupation or income, and the source of the funds cannot be attributed to payroll or other \nlegitimate sources of income ( i.e., unexplained wealth). 43\n During the onboarding process, a customer presents a Chinese passport and a visa that \ncontain the same photograph despite being allegedly issued years apart. 44  \n A customer, especially a Chinese national, creates an account at a financial institution and \nreports their occupation as a student during the onboarding process.  This customer then \nregularly deposits cash into their account or receives wire transfers notated as \u201ctuition\u201d or \n\u201cliving expenses\u201d that are not commensurate with the reported information.  After receiving \nthe funds, the customer may subsequently initiate wire transfers or P2P transactions to \nunknown individuals who are unrelated to the purpose of the wire transfers or may make \ncredit or debit card payments. \n A customer, especially a Chinese national, reports their occupation during customer \nonboarding as a student, retiree, housewife, or other low-income occupation but has \nunexplained wealth.\n A customer, especially a Chinese national with unexplained wealth, initiates a wire transfer \nrelated to a real estate purchase or purchases cashier\u2019s checks made payable to a real estate \ncompany.  The customer may be accompanied by a real estate agent at the time of purchasing \nthe cashier\u2019s checks.\n A customer, especially a Chinese national, regularly deposits large volumes of cash or \ncashier\u2019s checks, or receives multiple wire, ACH, or P2P transfers for no business or apparent \nlawful purpose.  The customer then subsequently uses the funds to purchase a cashier\u2019s check \nor disperses the funds to other individuals using P2P and wire transfers, often to other high-\nrisk jurisdictions.  \n A customer\u2019s account, especially a Chinese national, receives numerous transfers or deposits, \nand has a significant number of withdrawals or transfers, none of which appear to be related \nto routine payroll, living expenses, or customer\u2019s stated expected activity. \n A customer, especially a Chinese national, has large amounts of cash funding cashier\u2019s checks, \nwhich are then deposited at another financial institution. \n A customer, especially a Chinese national, is reluctant or refuses to provide information \nregarding the source of funds deposited or transferred into their account or acts evasive when \nquestioned about the purpose of a transaction or may explain it as repayment of a loan.  \n43. See Counterfeit Chinese Passports, supra note 10.\n44. Id.",
+            "retrieval_score": 9.39141,
+            "fusion_score": 0.03226646,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 3,
+              "semantic": 1
+            }
+          },
+          {
+            "chunk_id": "S16:L12-L12",
+            "source_id": "S16",
+            "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+            "heading": "Money laundering networks: money mules, trade-based laundering and shell companies \u00b7 PDF page 6",
+            "issuer": "FinCEN",
+            "authority_type": "advisory",
+            "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf",
+            "published_date": "2025-08-28",
+            "captured_date": "2026-10-17",
+            "locator": "PDF page 6 \u00b7 extracted text lines 12-12",
+            "pdf_page": 6,
+            "topics": [
+              "money_mules",
+              "trade_based",
+              "shell_companies"
+            ],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "FINCEN ADVISORY\n6\nthese money mules may report their occupation during the account onboarding process as \n\u201cstudent,\u201d \u201chousewife,\u201d \u201cretired,\u201d \u201claborer,\u201d or other occupations that typically do not engage in \nlarge volumes of transactions.  CMLNs may also provide money mules with counterfeit Chinese \npassports to facilitate account opening and engage in other illicit financial behavior. 33  CMLNs may \nalso recruit financial institution employees to act as complicit insiders or infiltrate and place CMLN \nmembers within a financial institution to assist in CMLN operations. 34   \nCMLN money mules may also engage in \u201csmurfing\u201d operations 35 across multiple depository \ninstitution branches to deposit illicit funds into money mule accounts, or into accounts held by \nU.S.-based Chinese nationals and businesses.  CMLN money mules have also been observed \ndepositing large sums of cash during a visit, irrespective of Currency Transaction Reporting \nrequirements. 36  The money mules may also purchase cashier\u2019s checks from depository institutions \nwith U.S.-based Chinese nationals and businesses listed as the payee directly.  Alternatively, \nCMLNs may purchase cashier\u2019s checks listing the payee as a shell company the CMLNs beneficially \nown or listing the payee as a U.S.-based company or individual in the real estate industry.  \nCMLNs may use money mules or shell companies to purchase real estate, which may serve as an \ninvestment for the CMLN or a wealthy China-based client of the CMLN. 37  They may also deposit \nthe illicit funds into existing money mule accounts ( i.e., personal or shell company accounts) and \nthen use wire, automated clearing house (ACH), or peer-to-peer (P2P) transfers to send the money \nto separate accounts held by U.S.-based Chinese nationals and businesses. 38  These actions are \nintended to launder the illicit funds and make them available to the Chinese citizens, businesses, or \nnationals who purchased them from the CMLN.  According to BSA reporting, financial institutions \nthat have questioned customers, who are the ultimate beneficiaries or recipients of these funds, \nhave been told that the customer was unable to move their money out of China due to currency \ncontrol laws, and the customer paid for a service to circumvent these restrictions.  While that is \npartially true, the reality is that the CMLNs keep the beneficiaries\u2019 funds in China, and pay them \nwith laundered, illicit funds in the United States.\nTrade-Based Money Laundering\nCMLNs may also use complex TBML schemes to launder the Cartels\u2019 illicit funds.  According to \nlaw enforcement, CMLNs may use money mules and other recruits to purchase U.S. electronics \nand other luxury goods ( e.g., cell phones, automobiles, clothing, designer handbags, etc.) at various \n33. See Counterfeit Chinese Passports, supra note 10; see also FinCEN, FIN-2024-NTC1, \u201cFinCEN Notice on the Use of \nCounterfeit U.S. Passport Cards to Perpetrate Identity Theft and Fraud Schemes at Financial Institutions\u201d (Apr. 15, 2024).\n34. See U.S. Department of Homeland Security, Homeland Security Investigations Assistant Director Ricardo Mayoral, \n\u201cWritten Testimony for Senate Caucus on International Narcotics Control Hearing Entitled \u2018Chinese Money \nLaundering Organizations: Cleaning Cartel Cash\u2019\u201d (\u201cHSI Testimony\u201d) (Apr. 30, 2024), at p. 5; see also DOJ, \u201cQueens \nMan Admits Orchestrating $653 Million Money Laundering Conspiracy, Operating Unlicensed Money Transmitting \nBusiness, and Bribing Bank Employees\u201d (Feb. 22, 2022).\n35. \u201cSmurfs\u201d are teams of persons who, acting in conjunction with or on behalf of other persons, structure financial \ntransactions for the purpose of evading the requirement to file a Currency Transaction Report. \n36. See Bags of Cash, supra note 32.\n37. See FinCEN CMLN FTA, supra note 13, at pp. 18-19; see also 2024 NMLRA, supra note 3, at p. 30.\n38. See DOJ, \u201cThree Members of a Prolific Chinese Money Laundering Organization Plead Guilty to Laundering Tens of \nMillions of Dollars in Drug Proceeds\u201d (May 1, 2025).",
+            "retrieval_score": 9.90351,
+            "fusion_score": 0.03177806,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 1,
+              "semantic": 5
+            }
+          },
+          {
+            "chunk_id": "S16:L4-L4",
+            "source_id": "S16",
+            "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+            "heading": "Money laundering networks: money mules, trade-based laundering and shell companies \u00b7 PDF page 2",
+            "issuer": "FinCEN",
+            "authority_type": "advisory",
+            "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf",
+            "published_date": "2025-08-28",
+            "captured_date": "2026-10-17",
+            "locator": "PDF page 2 \u00b7 extracted text lines 4-4",
+            "pdf_page": 2,
+            "topics": [
+              "money_mules",
+              "trade_based",
+              "shell_companies"
+            ],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "FINCEN ADVISORY\n2\nThis Advisory supports FinCEN\u2019s work to bring awareness to, and counter, TCO-related revenue \nstreams7 and is consistent with two of the eight national anti-money laundering and countering \nthe financing of terrorism (AML/CFT) priorities (i.e., drug trafficking organization (DTO) activity \nand TCO activity).8  Further, on January 20, 2025, the President issued Executive Order (E.O.) 14157 \ndesignating certain international cartels and other TCOs as Foreign Terrorist Organizations (FTOs) \nand Specially Designated Global Terrorists (SDGTs).9  The Cartels functionally control nearly all \nillegal traffic across the southwest border of the United States, and their activities threaten the safety \nof the American people, the security of the United States, and the stability of the international order \nin the Western Hemisphere.  Treasury is committed to countering the activity of the Cartels and \nrelated actors. \nThis Advisory: (i) provides an overview of CMLNs and their connection to the Cartels, (ii) discusses \nfinancial typologies associated with CMLNs laundering the Cartels\u2019 illicit proceeds, (iii) highlights \nred flag indicators, and (iv) reminds financial institutions of their reporting requirements under \nthe Bank Secrecy Act (BSA).  The information contained in this Advisory is derived from FinCEN\u2019s \nanalysis of open-source reporting, BSA reporting, and information from law enforcement partners.\nOverview of Chinese Money Laundering Networks\nCMLNs operate in a compartmentalized fashion, leveraging relationships built on trust rather than \nworking through a hierarchical structure to launder money.  CMLNs often launder illicit proceeds \nfor a number of TCOs and may engage in some form of additional criminal activity as part of \ntheir money laundering operations, such as the provision of fake identification documents to \nindividuals opening bank accounts on their behalf. 10  CMLNs typically comprise both current and \nformer U.S.- and foreign-based Chinese passport holders ( i.e., Chinese nationals).  CMLNs often \nrecruit members of Chinese or other diaspora populations to participate in their money laundering \noperations to act as money mules, 11 money brokers, and cash couriers. 12  In the United States, \nCMLNs appear to have increasingly recruited Chinese students studying at U.S. universities, and \n7. See FinCEN, FIN-2025-A002, \u201cFinCEN Alert on Oil Smuggling Schemes on the U.S. Southwest Border Associated \nwith Mexico-Based Cartels\u201d (May 1, 2025); FinCEN, FIN-2025-A001, \u201cFinCEN Alert on Bulk Cash Smuggling and \nRepatriation by Mexico-Based Transnational Criminal Organizations\u201d (Mar. 31, 2025); FinCEN, FIN-2024-A002, \n\u201cSupplemental Advisory on the Procurement of Precursor Chemicals and Manufacturing Equipment Used for the \nSynthesis of Illicit Fentanyl and Other Synthetic Opioids\u201d (June 20, 2024); FinCEN, OFAC, and FBI, FIN-2024-NTC2, \n\u201cFinCEN, OFAC, and FBI Joint Notice on Timeshare Fraud Associated with Mexico-Based Transnational Criminal \nOrganizations\u201d (July 16, 2024).\n8. See FinCEN, \u201cAnti-Money Laundering and Countering the Financing of Terrorism National Priorities\u201d (June 30, 2021).\n9. See White House, \u201cDesignating Cartels and Other Organizations as Foreign Terrorist Organizations and Specially \nDesignated Global Terrorists\u201d (Jan. 20, 2025); U.S. Department of State, \u201cDesignation of International Cartels\u201d \n(Feb. 20, 2025).\n10. Id.; see also U.S. Immigration and Customs Enforcement, Cornerstone Report Issue #48, \u201cChinese Money Laundering \nOrganizations (CMLOs) - Use of Counterfeit Chinese Passports\u201d (\u201cCounterfeit Chinese Passports\u201d) (Jan. 2, 2024).\n11. Money mules are people who are used, wittingly or unwittingly, to transfer value, either by laundering stolen money \nor physically transporting goods or other merchandise.  See FATF, \u201cProfessional Money Laundering\u201d (July 2018), at \np. 22.  According to law enforcement, criminal organizations often target students as potential money mules. \nSee generally Federal Bureau of Investigation (FBI), \u201cMoney Mules\u201d (as of Aug. 27, 2025).\n12. See DOJ, \u201cFinal Three Members Charged in Prolific Chinese Money Laundering Scheme Plead Guilty to Laundering \nTens of Millions in Drug Proceeds\u201d (July 7, 2025).",
+            "retrieval_score": 9.43786,
+            "fusion_score": 0.03105441,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 2,
+              "semantic": 7
+            }
+          },
+          {
+            "chunk_id": "S14:L50-L50",
+            "source_id": "S14",
+            "title": "2026 National Money Laundering Risk Assessment",
+            "heading": "2026 National Money Laundering Risk Assessment \u00b7 PDF page 29",
+            "issuer": "US Treasury",
+            "authority_type": "national_risk_assessment",
+            "url": "https://home.treasury.gov/system/files/246/2026-NMLRA.pdf",
+            "published_date": "2026-03",
+            "captured_date": "2026-10-17",
+            "locator": "PDF page 29 \u00b7 extracted text lines 50-50",
+            "pdf_page": 29,
+            "topics": [
+              "broad_typologies"
+            ],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "2026  \uf0ab\uf0ab  National Money Laundering Risk Assessment\n25\n \u0083 Witting money mules ignore obvious red flags and may have been alerted by financial institutions or law \nenforcement that their activities are illegal.  They may have been unwitting to start but continue working as a \nmoney mule after becoming aware of the illegality due to the prospect of financial gain.\n \u0083 Complicit money mules understand they are part of a money laundering network.  They may advertise their \nservices to multiple criminal groups, negotiate their own fees, or recruit and train other money mules.  Their \nmoney laundering methods are more complex, often involving fake or stolen identities and using bank accounts \nheld in the name of shell companies.\nMany money mules are part of diaspora communities in the United States with connections to the foreign countries \nwhere TCOs or PML networks are based.  They may be U.S. citizens, authorized immigrants, or illegal aliens.  \nAccording to law enforcement, recent migrants with tenuous financial circumstances, such as those on student visas \nthat do not allow for work authorization, are particularly vulnerable to being recruited as money mules.146\nMoney mule activity varies depending on how the predicate crime generates illicit proceeds.  For drug trafficking \nand human trafficking, money mules are frequently used to collect bulk cash proceeds.  After collection, they may \ndeposit the cash into funnel accounts, transport the cash to consolidation points for co-conspirators to launder, or \nsmuggle the cash outside of the United States, most often to Mexico.  In one case, nine money mules were indicted \nfor allegedly conspiring to launder bulk cash into digital assets on behalf of drug cartels in Mexico and Colombia.  \nAccording to the superseding indictment, the defendants and co-conspirators worked together to pick up bulk cash \nderived from drug sales around the United States and exchange the cash for digital assets using black market digital \nasset launderers.  The digital assets were then converted back to cash in Mexico or Colombia and delivered to cartel \nleaders.147\nFor fraud and cybercrime, money mules may receive wire transfers from victims in bank accounts they control; \ndeposit cash, checks, or money orders they receive in the mail from victims in the same accounts; or pick up cash or \ngold bars from victims in person.  From there, they can transmit the proceeds to the perpetrators via wire transfer or \ndigital assets and ship any cash and gold bars to PML brokers coordinating the operation.  In one case, a Maryland \nman was sentenced to 42 months in prison for serving as an unlicensed money transmitter in connection with \nvarious romance, business email compromise, and investment schemes.  His fee for receiving and transmitting \nvictim funds was usually 20 percent or more.  After receiving victim funds in personal and business bank accounts he \ncontrolled, he would transfer the funds to scheme participants overseas.148\nChinese Money Laundering Networks (CMLNs)\nOver the past decade, Chinese money laundering networks (CMLNs) have become the dominant PMLs for DTOs and \nother TCOs around the world.  The rise of CMLNs was originally driven, in part, by Chinese nationals\u2019 increased demand \nfor foreign currency needed to circumvent Chinese currency controls.149  This sustained, global demand allows CMLN \nbrokers to charge Chinese nationals high fees to purchase currency while charging criminals supplying the illicit \ncash lower fees than other money launderers.  According to FinCEN, over the five-year period from January 1, 2020 \nto December 31, 2024, financial institutions filed over 137,000 reports in connection with $312 billion in suspicious \nactivity associated with suspected CMLN activity.150\n146       See also, FinCEN, \u201cFinCEN Advisory on the Use of Chinese Money Laundering Networks by Mexico-Based Transnational Criminal \nOrganizations to Launder Illicit Proceeds, \u201d (August 28, 2025), pp. 2-3, https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-\nCMLN-508.pdf. \n147       DOJ, \u201cFifteen Defendants Charged in Operation Targeting Conversion of Bulk U.S. Cash Proceeds from Drug Sales into Cryptocurrency \nfor Mexican Cartels, \u201d (November 20, 2024) https://www.justice.gov/usao-sdfl/pr/fifteen-defendants-charged-operation-targeting-\nconversion-bulk-us-cash-proceeds-drug. \n148       DOJ, \u201cBaltimore County Man Sentenced to Federal Prison for Role in Elder Fraud Schemes, \u201d (March 4, 2025) https://www.justice.gov/\nusao-md/pr/baltimore-county-man-sentenced-federal-prison-role-elder-fraud-schemes. \n149       FinCEN, \u201cFinCEN Advisory on the Use of Chinese Money Laundering Networks by Mexico-Based Transnational Criminal Organizations to \nLaunder Illicit Proceeds, \u201d (August 28, 2025), p. 5, https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf.\n150       FinCEN, \u201cChinese Money Laundering Networks: 2020 - 2024 Threat Pattern & Trend Information, \u201d (August 2025), p. 1, https://www.\nfincen.gov/sites/default/files/shared/4000-10-INV-144549-S3F6L-FTA-CMLN-508.pdf.",
+            "retrieval_score": 7.5579,
+            "fusion_score": 0.03041475,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 10,
+              "semantic": 2
+            }
+          },
+          {
+            "chunk_id": "S16:L24-L24",
+            "source_id": "S16",
+            "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+            "heading": "Money laundering networks: money mules, trade-based laundering and shell companies \u00b7 PDF page 12",
+            "issuer": "FinCEN",
+            "authority_type": "advisory",
+            "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf",
+            "published_date": "2025-08-28",
+            "captured_date": "2026-10-17",
+            "locator": "PDF page 12 \u00b7 extracted text lines 24-24",
+            "pdf_page": 12,
+            "topics": [
+              "money_mules",
+              "trade_based",
+              "shell_companies"
+            ],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "FINCEN ADVISORY\n12\ninstitutions also should select all other relevant suspicious activity fields, such as those in SAR fields \n36 (Money Laundering) and 38 (Other Suspicious Activities), if applicable. \nFinancial institutions should include all available information relating to the account and \nlocations involved in the reported activity, identifying information related to other entities and \npersons involved in the activity and the status of their accounts with the institution.  Financial \ninstitutions also should provide all available information regarding other domestic and foreign \nfinancial institutions involved in the activity; where appropriate, financial institutions should \nconsider filing a SAR jointly on shared suspicious activity. 50 \nFinancial institutions are required to file complete and accurate reports that incorporate all \nrelevant information available.  In situations involving violations requiring immediate attention, \nsuch as ongoing money laundering schemes, a financial institution should also immediately \nnotify, by telephone, an appropriate law enforcement authority, in addition to filing a timely \nSAR.51  Immediate notification to law enforcement is especially important in situations involving \nsuspected terrorist activity, as terrorists and terrorist organizations often rely on the international \nfinancial system to acquire funding to sustain and finance their operations and engage in acts \nof terrorism.  Additionally, FinCEN emphasizes that any financial institution and any director, \nofficer, employee, or agent of such institution who makes, or requires another to make any \nvoluntary disclosure of any possible violation of law or regulation to a government agency under \nthe BSA or its implementing regulations is protected from liability for any such disclosure.52\nFinancial institutions wanting to report suspicious transactions that may potentially relate to \nterrorist activity should call the Financial Institutions Toll-Free Hotline at (866) 556-3974  \n(7 days a week, 24 hours a day).53\nOther Relevant BSA Reporting Requirements\nFinancial institutions and other entities or persons may also have other relevant BSA reporting \nrequirements to provide information in connection with the subject of this Advisory.  These \ninclude obligations related to the Currency Transaction Report (CTR), 54  Report of Cash \nPayments Over $10,000 Received in a Trade or Business (Form 8300), 55  Report of Foreign \n50. See 31 CFR \u00a7\u00a7 1020.320(e)(1)(ii)(A)(2))(i), 1021.320(e)(1)(ii)(A)(2)), 1022.320(d)(1)(ii)(A)(2), 1023.320(e)(1)(ii)(A)(2)(i), \n1024.320(d)(1)(ii)(A)(2), 1025.320(e)(1)(ii)(A)(2), 1026.320(e)(1)(ii)(A)(2)(i), 1029.320(d)(1)(ii)(A)(2), 1030.320(d)(1)(ii)(A)(2).\n51. See, e.g., 31 CFR \u00a7\u00a7 1020.320(b)(3), 1022.320(b)(3), 1023.320(b)(3).\n52. 31 U.S.C. \u00a7 5318(g)(3); see, e.g., 31 CFR 1020.320(f). \n53. The purpose of the hotline is to expedite the delivery of this information to law enforcement.  Financial institutions \nshould immediately report any imminent threat to local-area law enforcement officials.\n54. A report of each deposit, withdrawal, exchange of currency, or other payment or transfer, by, through, or to a \nfinancial institution that involves a transaction in currency of more than $10,000.  Multiple transactions may be \naggregated when determining whether the reporting threshold has been met.  See 31 CFR \u00a7\u00a7 1010.310-313, 1020.310-\n313, 1021.310-313, 1022.310-313, 1023.310-313, 1024.310-313, and 1026.310-313.\n55. A report filed by a trade or business that receives currency in excess of $10,000 in one transaction or two or more \nrelated transactions.  The transactions are required to be reported on a joint FinCEN/Internal Revenue Service form \nwhen not otherwise required to be reported on a CTR.  See 31 CFR \u00a7\u00a7 1010.330-331.  A Form 8300 also may be filed \nvoluntarily for any suspicious transaction, even if the total amount does not exceed $10,000.",
+            "retrieval_score": 9.0042,
+            "fusion_score": 0.03033088,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 4,
+              "semantic": 8
+            }
+          },
+          {
+            "chunk_id": "S16:L20-L20",
+            "source_id": "S16",
+            "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+            "heading": "Money laundering networks: money mules, trade-based laundering and shell companies \u00b7 PDF page 10",
+            "issuer": "FinCEN",
+            "authority_type": "advisory",
+            "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf",
+            "published_date": "2025-08-28",
+            "captured_date": "2026-10-17",
+            "locator": "PDF page 10 \u00b7 extracted text lines 20-20",
+            "pdf_page": 10,
+            "topics": [
+              "money_mules",
+              "trade_based",
+              "shell_companies"
+            ],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "FINCEN ADVISORY\n10\n A customer that is a U.S.-based escrow company receives funds from an unaffiliated, foreign-\nbased shell company or entity in a disparate line of business that are used to purchase real \nestate in the United States.\nRed Flags Potentially Indicative of CMLN-Affiliated TBML Schemes\n A business45 owned by a Chinese national regularly receives deposits from online \nmarketplaces, but rarely, or never, engages in transactions that indicate the purchase of goods \nto maintain inventory.  \n A business owned by a Chinese national regularly receives wire transfers indicating the export \nof goods to foreign countries including Mexico, China, Hong Kong, and the United Arab \nEmirates, but rarely, or never, engages in transactions that indicate the purchase of goods to \nmaintain inventory. \n A small U.S.-based business in the electronics or real estate industry receives wires from \nMexico, China, Hong Kong, and the United Arab Emirates and has no known nexus to these \ncountries.\n A customer, especially a Chinese national, regularly receives P2P or wire transfers from \nunknown individuals and subsequently uses those funds to make a substantial credit \ncard payment.  If questioned about the source of the funds, the customer may state that \nthe transfers are from U.S.-based family members of Chinese citizens who are sending the \ncustomer funds to purchase goods. \n A customer, especially a Chinese national, regularly uses a credit card to purchase large \nvolumes of electronics or other luxury goods. \n A business that sells electronics or other luxury goods has income that is not commensurate \nwith the size and scale of the business. \n A business that sells electronics or other luxury goods makes payments for multiple credit \ncards associated with various individuals, who are seemingly unrelated to the business. \n Hong Kong registered trading companies with shell-like characteristics send funds to Chinese \nnationals residing in the United States, real estate escrow or title insurance companies, and \nother international destinations with no apparent business or economic purpose. \nReminder of Relevant BSA Obligations and Tools  \nfor U.S. Financial Institutions  \n45. According to BSA reporting, businesses are commonly reported to be in shipping, transportation, freight, logistics, \nindustrial supplies, food, and technology sectors.",
+            "retrieval_score": 7.48887,
+            "fusion_score": 0.02970951,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 11,
+              "semantic": 4
+            }
+          },
+          {
+            "chunk_id": "S16:L10-L10",
+            "source_id": "S16",
+            "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+            "heading": "Money laundering networks: money mules, trade-based laundering and shell companies \u00b7 PDF page 5",
+            "issuer": "FinCEN",
+            "authority_type": "advisory",
+            "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf",
+            "published_date": "2025-08-28",
+            "captured_date": "2026-10-17",
+            "locator": "PDF page 5 \u00b7 extracted text lines 10-10",
+            "pdf_page": 5,
+            "topics": [
+              "money_mules",
+              "trade_based",
+              "shell_companies"
+            ],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "FINCEN ADVISORY\n5\nFinancial Typologies Associated with CMLNs Laundering  \nIllicit Cartel Proceeds\nCMLNs\u2019 Use of Mirror Transactions\nTo launder funds, CMLNs transfer value globally and sometimes simultaneously using a form \nof IVTS.  For example, once a U.S.-based CMLN receives USD from a Cartel for laundering, \nit coordinates with Mexico-based CMLN counterparts who conduct a reciprocal or \u201cmirror \ntransaction,\u201d 28 in which an equivalent amount of pesos is transferred to the Cartels\u2019 Mexico-based \naccounts, minus a nominal fee.  Through this informal value transfer, CMLNs \u201cpurchase\u201d the value \nof the Cartels\u2019 illicit USD proceeds in pesos.  This mirror transaction occurs nearly instantly and \navoids many of the risks involved with cross-border bulk cash smuggling or with depositing large \nsums of USD in Mexico-based financial institutions and thereby circumvents Mexico\u2019s USD deposit \nrestrictions.  CMLNs may also use convertible virtual currency (CVC) as an alternative means to \nconduct mirror transactions with the Cartels. 29  Similar to other mirror transactions, use of CVC \navoids the risks associated with physical transportation of cash or depositing bulk USD. \nThe U.S.-based CMLNs then sell the USD purchased from the Cartels, by advertising it on social \nmedia or leveraging personal networks, to Chinese citizens or businesses seeking to evade the \nPRC\u2019s currency control laws.30  Once identified, the buyer is connected by the U.S.-based CMLN \nto a China-based operator, who instructs the buyer to transfer an equivalent amount of RMB, \nplus a significant fee, from their bank account in China to an account controlled by the China-\nbased operator. 31  This RMB transfer internal to China avoids the PRC\u2019s currency control laws \nand effectively \u201cpurchases\u201d the control of the USD from the CMLN.  Once the transfer is made \nin China, the U.S.-based CMLN makes the purchased USD available to the Chinese buyers in the \nUnited States, typically by laundering the cash through the U.S. financial system. \nUse of Money Mules\nAs part of the laundering process, CMLNs may use money mules to deposit the illicit USD into \naccounts they are directed to open at U.S. depository institutions, or at accounts held by U.S.-based \nChinese nationals or businesses. 32  In situations where the money mules are opening accounts, \n28. The term \u201cmirror transactions\u201d or \u201cmirror transfer\u201d is used by U.S. law enforcement to describe a money laundering \ntypology involving foreign currency exchange.  The process typically happens within Chinese underground banking \nand black market peso exchange schemes and usually involves a money broker or an accountant who conducts two \nequal, but separate, transactions involving at least two parties who often are unaware of each other.  In this scheme, \nthe broker or accountant makes payments to each party using the other parties\u2019 currency, \u201cmirroring\u201d or balancing \nthe transactions.  See 2024 NMLRA, supra note 3, at pp. 29-30.\n29. See 2024 NDTA, supra note 17, at p. 47.\n30. See 2024 NMLRA, supra note 3, at pp. 29-30.\n31. The China-based CMLN operator will typically sell the RMB obtained from this transaction to Mexican or Chinese \nimporters in Mexico with business in China through a mirror transfer via the Mexico-based CMLN operator to obtain \nmore pesos.  This cycle replenishes the Mexico-based CMLN operator\u2019s supply of pesos for future transactions. \nSee 2024 NMLRA, supra note 3, at p. 30.\n32. See FinCEN CMLN FTA, supra note 13, at pp. 19-20; see also Wall Street Journal, \u201cBags of Cash From Drug Cartels \nFlood Teller Windows at U.S. Banks\u201d (\u201cBags of Cash\u201d) (May 14, 2025).",
+            "retrieval_score": 8.61303,
+            "fusion_score": 0.02941813,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 7,
+              "semantic": 9
+            }
+          },
+          {
+            "chunk_id": "S16:L26-L26",
+            "source_id": "S16",
+            "title": "Money laundering networks: money mules, trade-based laundering and shell companies",
+            "heading": "Money laundering networks: money mules, trade-based laundering and shell companies \u00b7 PDF page 13",
+            "issuer": "FinCEN",
+            "authority_type": "advisory",
+            "url": "https://www.fincen.gov/system/files/2025-08/FinCEN-Advisory-CMLN-508.pdf",
+            "published_date": "2025-08-28",
+            "captured_date": "2026-10-17",
+            "locator": "PDF page 13 \u00b7 extracted text lines 26-26",
+            "pdf_page": 13,
+            "topics": [
+              "money_mules",
+              "trade_based",
+              "shell_companies"
+            ],
+            "currency_status": "not independently checked for amendments or relief",
+            "text": "FINCEN ADVISORY\n13\nBank and Financial Accounts (FBAR), 56  Report of International Transportation of Currency \nor Monetary Instruments (CMIR), 57  Registration of Money Services Business (RMSB), 58  and \nDesignation of Exempt Person (DOEP). 59\nDue Diligence\nBanks, brokers or dealers in securities, mutual funds, and futures commission merchants \nand introducing brokers in commodities (FCM/IBs) are required to have appropriate risk-\nbased procedures for conducting ongoing customer due diligence that include, but are not \nlimited to: (i) understanding the nature and purpose of customer relationships for the purpose \nof developing a customer risk profile; and (ii) conducting ongoing monitoring to identify \nand report suspicious transactions and, on a risk basis, to maintain and update customer \ninformation.60  Covered financial institutions are required to identify and verify the identity \nof beneficial owners of legal entity customers, subject to certain exclusions and exemptions. 61   \nAmong other things, this facilitates the identification of legal entities that may be owned or \ncontrolled by foreign politically exposed persons (PEPs).\nSenior foreign political figures and due diligence obligations for private banking accounts\nIn addition to these due diligence obligations, under section 312 of the USA PATRIOT Act \n(31 U.S.C. \u00a7 5318(i)) and its implementing regulations, covered financial institutions must \nimplement due diligence programs for private banking accounts held for non-U.S. persons that \nare designed to detect and report any known or suspected money laundering or suspicious \nactivity conducted through or involving such accounts. 62  Covered financial institutions must \nestablish risk-based controls and procedures for ascertaining the identities of nominal and \nbeneficial owners of such accounts and ascertaining whether any of these owners are senior \nforeign political figures, and for conducting enhanced scrutiny on accounts held by senior \nforeign political figures that is reasonably designed to detect and report transactions that may \ninvolve the proceeds of foreign corruption. 63   \n56. A report filed by a U.S. person that has a financial interest in, or signature or other authority over, foreign financial \naccounts with an aggregate value exceeding $10,000 at any time during the calendar year.  See 31 CFR \u00a7 1010.350; \nFinCEN Form 114.\n57. A form filed to report the transportation of more than $10,000 in currency or other monetary instruments into or out \nof the United States.  See 31 CFR \u00a7 1010.340. \n58. A form filed to register a money services business (MSB with FinCEN, or to renew such a registration. \nSee 31 CFR \u00a7 1022.380.\n59. A report filed by banks to exempt certain customers from currency transaction reporting requirements. \nSee 31 CFR \u00a7 1010.311.\n60. See 31 CFR \u00a7\u00a7 1020.210(a)(2)(v), 1023.210(b)(5), 1024.210(b)(6), 1026.210(b)(5).\n61. See 31 CFR \u00a7\u00a7 1010.230, 1010.650(e)(1) (defining \u201ccovered financial institution\u201d).\n62. See 31 CFR \u00a7 1010.620.  The definition of \u201ccovered financial institution\u201d is found in 31 CFR \u00a7 1010.605(e)(1).  The \ndefinition of \u201cprivate banking account\u201d is found in 31 CFR \u00a7 1010.605(m).  The definition of \u201cnon-U.S. person\u201d is \nfound in 31 CFR \u00a7 1010.605(h).\n63. See 31 CFR \u00a7 1010.620(c).",
+            "retrieval_score": 8.62268,
+            "fusion_score": 0.0290404,
+            "retrieval_channels": [
+              "keyword",
+              "semantic"
+            ],
+            "retrieval_ranks": {
+              "keyword": 6,
+              "semantic": 12
+            }
+          }
+        ],
+        "retrieval": "Hybrid \u00b7 BM25 + Nebius embeddings + Pinecone \u00b7 RRF",
+        "retrieval_details": {
+          "method": "Hybrid \u00b7 BM25 + Nebius embeddings + Pinecone \u00b7 RRF",
+          "degraded": false
+        },
+        "question": "What financial indicators can suggest a money mule account, and why is one indicator not proof?",
+        "scope": "US banks",
+        "citation_check": "IDs and exact quotes checked; claim support needs review",
+        "cached": false,
+        "timings": {
+          "retrieval_seconds": 0.443,
+          "generation_seconds": 5.642,
+          "validation_seconds": 0.004
+        },
+        "status": "supported",
+        "summary": "Financial indicators of money mule accounts",
+        "claims": [
+          {
+            "title": "Unexplained wealth",
+            "text": "A customer receiving funds not commensurate with their reported occupation or income, especially if the source is unattributed to payroll or legitimate income, may indicate a money mule account (E001).",
+            "evidence": [
+              {
+                "id": "S16:L18-L18",
+                "quote": "FINCEN ADVISORY\n9\nRed Flags Potentially Indicative of CMLN-Affiliated Money Mules\n A customer, especially a customer who presented a Chinese passport as identification during \nthe onboarding process, regularly receives funds that are not commensurate with the reported \noccupation or income, and the source of the funds cannot be attributed to payroll or other \nlegitimate sources of income ( i.e., unexplained wealth)."
+              }
+            ]
+          },
+          {
+            "title": "Inconsistent occupation reporting",
+            "text": "Reporting occupations like student, housewife, or retired\u2014typically not associated with large transactions\u2014while receiving large, unexplained deposits raises suspicion (E015, E003).",
+            "evidence": [
+              {
+                "id": "S16:L12-L12",
+                "quote": "FINCEN ADVISORY\n6\nthese money mules may report their occupation during the account onboarding process as \n\u201cstudent,\u201d \u201chousewife,\u201d \u201cretired,\u201d \u201claborer,\u201d or other occupations that typically do not engage in \nlarge volumes of transactions."
+              },
+              {
+                "id": "S16:L18-L18",
+                "quote": "44  \n A customer, especially a Chinese national, creates an account at a financial institution and \nreports their occupation as a student during the onboarding process."
+              }
+            ]
+          },
+          {
+            "title": "Suspicious transaction patterns",
+            "text": "Regular cash deposits or wire transfers labeled as 'tuition' or 'living expenses' that exceed typical student income levels can signal money mule activity (E004).",
+            "evidence": [
+              {
+                "id": "S16:L18-L18",
+                "quote": "This customer then \nregularly deposits cash into their account or receives wire transfers notated as \u201ctuition\u201d or \n\u201cliving expenses\u201d that are not commensurate with the reported information."
+              }
+            ]
+          }
+        ],
+        "checklist": [],
+        "limitations": [
+          "One indicator alone does not prove money mule activity; multiple red flags must be considered together.",
+          "The evidence does not establish binding legal standards, only advisory guidance for risk assessment."
+        ],
+        "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+        "latency_seconds": 6.099,
+        "latency_target_seconds": 8,
+        "latency_target_met": true
+      },
+      "review": "pending semantic review"
+    }
+  ]
+}
