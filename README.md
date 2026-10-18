@@ -90,16 +90,6 @@ The evidence is available to inspect:
 - [Generated-answer spot checks](reports/revision_final_answers.json) and [adversarial probes](reports/adversarial_checks.json)
 - [Latest source update](reports/current_source_revision.json) and [source coverage](reports/aml_typology_coverage.json)
 
-## What still needs work
-
-The most important gap is **binding rule coverage**. The library includes FinCEN's consolidated CDD FAQs, updated May 2026, and FFIEC guidance, but it does not yet include direct CFR rule text. The app discloses that gap when answering requirements questions. FAQs, examination guidance and historical testimony are not interchangeable with the underlying law.
-
-The seven topic shortcuts are selected research areas, not a complete AML taxonomy. They mix laundering methods, channels and underlying crimes. Other areas—including underground banking, real estate and gambling—still need dedicated source and answer validation. Historical documents remain dated; ordinary customer-control searches no longer prioritize the 2014 KYC testimony.
-
-News coverage is also incomplete. The app starts with saved entries and checks official feeds in the background, using a shared one-hour cache. It does not collect news overnight while nobody is using it, and an empty month does not mean no AML news was published. Linked PDF reading is limited to two documents, 6 MB each and the first 50 pages; scanned PDFs need OCR.
-
-Independent answer review, broader adversarial testing and multi-user load testing remain open. The app supports research and reviewer judgment; it does not certify compliance, determine that a customer is laundering money, or make SAR-filing decisions.
-
 ## Run it locally
 
 Use Python 3.10 or newer. From the project folder:
