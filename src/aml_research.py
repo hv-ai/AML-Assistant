@@ -116,6 +116,8 @@ class BM25:
         topics_file=ROOT/'config/typology_topics.json'
         if not source_id and topics_file.exists():
             topic_specs=json.loads(topics_file.read_text())
+            additional=ROOT/'config/additional_research_topics.json'
+            if additional.exists():topic_specs+=json.loads(additional.read_text())
             query_text=' '+' '.join(query_terms)+' '
             matched=[t for t in topic_specs if any(' '+' '.join(tokens(a))+' ' in query_text for a in t.get('aliases',[]))]
             if matched:

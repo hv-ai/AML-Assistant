@@ -10,7 +10,7 @@ This is a portfolio project and a working research prototype, focused on US bank
 
 ## What you can do
 
-**Research an AML question.** Ask about customer controls or a laundering pattern, read the answer, and select a numbered citation to inspect the supporting passage. You can also search sources without generating an AI answer, add your assessment, and export your notes.
+**Research an AML question.** Ask about customer controls or a laundering pattern, read the answer, and select a numbered citation to inspect the supporting passage. Use **Red flags & review** to explore source-supported patterns and follow-up evidence requests. You can also search sources without generating an AI answer, add your assessment, and export your notes.
 
 Questions to try:
 
@@ -22,7 +22,7 @@ Questions to try:
 
 There is no sign-up. Research and notes stay in the browser tab across refreshes. Export anything you want to keep beyond that session.
 
-![A CDD answer with the supporting FinCEN passage open](reports/current-fincen-source-preview.png)
+![AML research workspace with guided questions and red flag research](reports/ui-research-20261020.png)
 
 ## How it works
 
@@ -78,7 +78,7 @@ Hit @ 5 means at least one labelled relevant passage appeared in the first five 
 
 These results come from an earlier corpus version. They have not been rerun as a benchmark for the latest FAQ and routing update. The relevance labels were prepared during development, with AI assistance, and have not been independently reviewed by an AML expert. These are retrieval results, not answer-accuracy percentages.
 
-The repository also has **93 passing software tests**, covering retrieval, citation handling, source checksums, public routes, request limits and other application behavior. GitHub Actions runs the tests on pushes and pull requests.
+The repository also has **97 passing software tests**, covering retrieval, citation handling, source checksums, public routes, request limits and other application behavior. GitHub Actions runs the tests on pushes and pull requests.
 
 Latency was a real problem during testing. After reducing the model context and switching the answer model, four live generated-answer checks took **2.9–6.4 seconds server-side**. That is a small sample; it excludes hosting startup and browser overhead. The app shows retrieval, drafting and checking progress against an eight-second target. Slow first visits still need a controlled cold-start investigation.
 

@@ -14,7 +14,7 @@ for pattern in ['src/*.py','web/*','config/*.json','evaluation/*','tests/*.py','
 FILES.extend('reports/'+name for name in ['retrieval_comparison.json','retrieval_comparison.csv',
     'retrieval_comparison_initial_labels.json','answer_comparison.json','answer_comparison_small_model.json',
     'aml_typology_coverage.html','aml_typology_coverage.json','revision_final_answers.json',
-    'revision_answer_checks.json','adversarial_checks.json','public_latency_before.json','revision_acceptance.json','current_source_revision.json'])
+    'revision_answer_checks.json','adversarial_checks.json','public_latency_before.json','revision_acceptance.json','current_source_revision.json','redflag_ui_check.json'])
 FILES.extend(str(p.relative_to(ROOT)) for p in (ROOT/'data/raw').glob('S*.json'))
 # Checksum tests and provenance verification need the captured originals too.
 for catalog in ('typology_sources.json','customer_control_sources.json'):

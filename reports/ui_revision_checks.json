@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-20",
+  "scope": "Local UI redesign and source-based red-flag review, not transaction detection",
+  "software_tests": 97,
+  "browser_checks": [
+    "research and news navigation",
+    "saved example and selecting different citations",
+    "review notes and assessment retained on refresh",
+    "month and publisher filters combined",
+    "news brief reading view",
+    "390px mobile research and news: no horizontal overflow",
+    "advanced-topic prompt population",
+    "live red-flag generation and cached response"
+  ],
+  "live_review_findings": [
+    "First hawala trial imported nationality-based context from a geographically specific advisory; narrowed source routing and added identity-context validation.",
+    "Second trial used incorrect FFIEC attribution for Treasury material; included issuer metadata and tightened attribution instructions and checks.",
+    "Final live trial returned two patterns and two follow-up checks without those observed wording problems. No expert accuracy score is claimed."
+  ],
+  "final_live_generation_seconds": 10.883,
+  "source_scope": "Six deeper topics use national risk assessment context; coverage depth varies. Existing corpus and Pinecone namespace unchanged.",
+  "deployment": "Local review only; Replit not updated."
+}

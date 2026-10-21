@@ -158,6 +158,8 @@ def status():
 def eligible_sources(question):
     terms=set(tokens(question));text=' '+' '.join(tokens(question))+' '
     topics=json.loads((ROOT/'config/typology_topics.json').read_text())
+    additional=ROOT/'config/additional_research_topics.json'
+    if additional.exists():topics+=json.loads(additional.read_text())
     matched=[t for t in topics if any(' '+' '.join(tokens(a))+' ' in text for a in t.get('aliases',[]))]
     allowed={sid for topic in matched for sid in topic['source_ids']} if matched else None
     controls=bool(terms&{'kyc','cdd','edd','cip'}) or any(t in question.lower() for t in ('know your customer','customer due diligence','identity verification'))
