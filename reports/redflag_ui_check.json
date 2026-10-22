@@ -1,0 +1,289 @@
+{
+  "evidence": [
+    {
+      "chunk_id": "S14:L78-L78",
+      "source_id": "S14",
+      "title": "2026 National Money Laundering Risk Assessment",
+      "heading": "2026 National Money Laundering Risk Assessment \u00b7 PDF page 43",
+      "issuer": "US Treasury",
+      "authority_type": "national_risk_assessment",
+      "url": "https://home.treasury.gov/system/files/246/2026-NMLRA.pdf",
+      "published_date": "2026-03",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 43 \u00b7 extracted text lines 78-78",
+      "pdf_page": 43,
+      "topics": [
+        "broad_typologies"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "2026  \uf0ab\uf0ab  National Money Laundering Risk Assessment\n39\nthe drug proceeds.223  Similar methods were used in two separate cases related to CJNG and LNFM filed in Atlanta, \nGeorgia in April 2025.224 \nIn December 2025, FinCEN announced a multi-tiered operation targeting more than 100 U.S. MSBs operating along \nthe southwest border to examine the MSBs for potential non-compliance with regulations designed to detect money \nlaundering and combat illicit finance.  FinCEN\u2019s operation resulted in the issuance of six notices of investigation, \ndozens of examination referrals to the IRS Small Business/Self-Employed (SBSE) division, and over 50 compliance \noutreach letters.  This data-driven operation is based on a review of, among other things, over one million CTRs and \n87,000 SARs.\nAnother typology, first highlighted in the 2024 NMLRA, involves complicit MSBs cashing checks for shell construction \ncompanies to facilitate under-the-table payments to construction workers who are often not legally authorized \nto work in the United States with no taxes being withheld or reported to the IRS.  In one case, according to court \ndocuments and trial testimony, construction companies would notify the president of a check cashing company \nwhen they planned to bring checks into one of his check cashing locations so that he could ensure he had enough \ncash on hand to complete the transaction.  Hundreds of thousands of dollars of payroll checks were cashed daily, \nand the man was aware that at least one of his co-conspirators used a false name and Social Security number.  \nActing as a compliance officer, the man allowed hundreds of false regulatory reports to be filed knowing they \ncontained the fake identity.  Over the course of their conspiracy, the man and his co-conspirators prevented the IRS \nfrom collecting more than $44 million in payroll and income taxes due on the cash wages.225 \nUnregistered MSBs\nFailing to register an MSB, at the federal or state level, is not simply an administrative omission.  Entities that \noperate as unregistered MSBs pose an outsized risk within the MSB sector because they are unlikely to follow other \nBSA requirements, such as developing and implementing an AML/CFT program or filing CTRs and SARs.  In February \n2025, FinCEN assessed a $37 million civil money penalty against Brink\u2019s Global Services USA, Inc. (Brink\u2019s) for willful \nviolations of the BSA.  As a result of Brink\u2019s failures, hundreds of millions of dollars in bulk currency shipments were \ntransmitted across the Southwest Border on behalf of high-risk entities\u2014including a Mexican currency exchanger \nthat later pleaded guilty to violating the BSA.226  As part of a non-prosecution agreement with the DOJ, Brink\u2019s also \nadmitted that it illegally transported money domestically and internationally between third parties and outside \nthe limited regulatory protections for currency transporters.  During this illegal conduct, Brink\u2019s failed to have \ncompliance controls in place to ensure its business activities remained within the regulatory safe harbor provided to \nthe armored car industry.227\nUnregistered MSBs can also include individuals operating as part of IVTS, or underground banking, as well as \nindividuals who misuse their personal or business bank accounts to independently offer money transmission \n223       DOJ, \u201cOwner of Money Service Business Unlawfully Residing in the United States Pleads Guilty to Conspiracy to Launder Drug \nProceeds, \u201d (October 24, 2025) https://www.justice.gov/usao-or/pr/owner-money-service-business-unlawfully-residing-united-states-\npleads-guilty-conspiracy. \n224       DOJ, \u201cLeaders of La Nueva Familia Michoacana and Atlanta-Based Money Launderer Indicted, \u201d (April 15, 2025) https://www.justice.gov/\nopa/pr/leaders-la-nueva-familia-michoacana-and-atlanta-based-money-launderer-indicted; DOJ, \u201cMembers of a Massive International \nDrug Trafficking and Money Laundering Ring Indicted in Atlanta, \u201d (April 15, 2025) https://www.justice.gov/usao-ndga/pr/members-\nmassive-international-drug-trafficking-and-money-laundering-ring-indicted.  \n225       DOJ, \u201cOregon Check Casher Sentenced to Federal Prison for Payroll Tax Scheme Involving $177 Million, \u201d (February 4, 2025) https://www.\njustice.gov/usao-or/pr/oregon-check-casher-sentenced-federal-prison-payroll-tax-scheme-involving-177-million. \n226       FinCEN, \u201cFinCEN Announces $37,000,000 Civil Money Penalty Against Brink\u2019s Global Services USA, Inc. for Violations of the Bank Secrecy \nAct, \u201d (February 6, 2025) https://www.fincen.gov/news/news-releases/fincen-announces-37000000-civil-money-penalty-against-brinks-\nglobal-services-usa. \n227       DOJ, \u201cBrink\u2019s Forfeits $50 Million for Failing to Register as a Money Transmitting Business, \u201d (February 6, 2025) https://www.justice.gov/\nusao-sdca/pr/brinks-forfeits-50-million-failing-register-money-transmitting-business.",
+      "retrieval_score": 7.71794,
+      "fusion_score": 0.03131882,
+      "retrieval_channels": [
+        "keyword",
+        "semantic"
+      ],
+      "retrieval_ranks": {
+        "keyword": 7,
+        "semantic": 1
+      }
+    },
+    {
+      "chunk_id": "S14:L80-L80",
+      "source_id": "S14",
+      "title": "2026 National Money Laundering Risk Assessment",
+      "heading": "2026 National Money Laundering Risk Assessment \u00b7 PDF page 44",
+      "issuer": "US Treasury",
+      "authority_type": "national_risk_assessment",
+      "url": "https://home.treasury.gov/system/files/246/2026-NMLRA.pdf",
+      "published_date": "2026-03",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 44 \u00b7 extracted text lines 80-80",
+      "pdf_page": 44,
+      "topics": [
+        "broad_typologies"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "2026  \uf0ab\uf0ab  National Money Laundering Risk Assessment 2026  \uf0ab\uf0ab  National Money Laundering Risk Assessment\n40\nservices.228  In one case, an Iraqi citizen residing in the United States was sentenced to 54 months in prison following \nhis conviction of unlicensed money remitting.  At the hearing, the court heard how the man provided money \nservices to criminal organizations in the tens of thousands of dollars.  During the trial, the jury heard evidence about \nthe man\u2019s money transmitting business, which he operated at his residence.  Since 2020, he transferred and wired \nmillions of dollars from U.S. bank accounts to ones all over the world, including in China, Indonesia, and India.229\nBroker-Dealers and Investment Advisers \nBroker-dealers and investment advisers are two different types of securities firms, which help clients grow and \nmanage their assets by providing a wide variety of services ranging from one-off transactions to long-term wealth \nmanagement.  These entities have varying AML/CFT obligations and exposure to money laundering risks.\nBroker-Dealers\nBroker-dealers buy or sell securities either for their own account or on behalf of customers and generally handle \nlower volumes of cash-based transactions than banks.   According to the Securities and Exchange Commission \n(SEC), as of 2024, there were approximately 3,300 broker-dealers with total assets of approximately $6.4 trillion.230  \nAssets within the broker-dealer industry are highly concentrated.  Most broker-dealers (67 percent) have less than \n$5 million in assets, and about two percent of total broker-dealers account for 94 percent of total assets.  While the \nnumber of broker-dealers has decreased over the past 15 years, their assets have grown by $1.7 trillion\u2014a sign of \nindustry consolidation.231 \nGiven the large sums of funds and other assets they could move through customer accounts, broker-dealers have \nexposure from customers seeking to disguise illicit proceeds within otherwise legitimate trades or engage in \nfraudulent trading activity (e.g., pump-and-dump schemes involving low-priced securities).  Customers based in \nhigh-risk jurisdictions impose other AML/CFT-related risks on broker-dealers, such as those associated with their \nsource of wealth or the counterparties with which they may transact.  Broker-dealers have comprehensive and \nlongstanding BSA obligations.  They are subject to oversight by multiple federal and state regulators, including the \nSEC, in addition to self-regulatory organizations (SROs), such as the Financial Industry Regulatory Authority (FINRA).\nThe SEC\u2019s examination priorities for FY2026 note that the Division of Examinations will continue to focus on AML \nprograms and review whether broker-dealers and certain registered investment companies (RICs), including mutual \nfunds232, are: 1) appropriately tailoring and updating their AML program to their business model and associated \nmoney laundering risks, including accounting for risks associated with omnibus accounts maintained for foreign \nfinancial institutions; 2) adequately conducting independent testing; 3) establishing an adequate customer \nidentification program, including for beneficial owners of legal entity customers; and 4) meeting their SAR filing \nobligations.  Examinations of certain RICs will also review policies and procedures for oversight of applicable \nfinancial intermediaries.  Lastly, examinations will review whether broker-dealers, advisers, and RICs are monitoring \n228       See, e.g., DOJ, \u201cTwo Men Responsible For Running Hawala Scheme Involving More Than $65 Million Sentenced To Three Years In Prison, \u201d \n(April 23, 2025) https://www.justice.gov/usao-sdny/pr/two-men-responsible-running-hawala-scheme-involving-more-65-million-\nsentenced-three; DOJ, \u201cFour Honduran Nationals Indicted in Florida for Years-Long Off-the-Books Payroll Scheme, \u201d (May 6, 2025) \nhttps://www.justice.gov/opa/pr/four-honduran-nationals-indicted-florida-years-long-books-payroll-scheme; DOJ, \u201cBrooklyn Business \nOwner Sentenced to 15 Years in Prison for $55 Million Illegal Check Cashing, Bank Fraud, and Tax Evasion Scheme, \u201d (November 19, 2025) \nhttps://www.justice.gov/usao-edny/pr/brooklyn-business-owner-sentenced-15-years-prison-55-million-illegal-check-cashing.  \n229       DOJ, \u201cMultimillion-dollar unlicensed money transmitter sent to prison, \u201d (October 16, 2025) https://www.justice.gov/usao-sdtx/pr/\nmultimillion-dollar-unlicensed-money-transmitter-sent-prison. \n230       SEC, \u201cSEC Publishes Data on Broker-Dealers, Mergers & Acquisitions, and Business Development Companies, \u201d (June 26,2025) https://\nwww.sec.gov/newsroom/press-releases/2025-96-sec-publishes-data-broker-dealers-mergers-acquisitions-business-development-\ncompanies. \n231       Diana Knyazeva and Daniel Bresler, \u201cBroker-Dealer Activity in the United States, \u201d (June 2025), p. 4,  \nhttps://www.sec.gov/files/dera-broker-dealer-activity-2506.pdf.\n232       Under FinCEN regulations, \u201cmutual funds\u201d (as defined at 31 CFR 1010.100(gg)) are \u201cfinancial institutions\u201d and, accordingly, subject to \nseveral BSA/AML obligations, including establishing an AML compliance program, establishing a customer identification program, and \nmonitoring, detecting, and filing reports of suspicious activity.",
+      "retrieval_score": 12.89944,
+      "fusion_score": 0.03047795,
+      "retrieval_channels": [
+        "keyword",
+        "semantic"
+      ],
+      "retrieval_ranks": {
+        "keyword": 1,
+        "semantic": 11
+      }
+    },
+    {
+      "chunk_id": "S14:L102-L102",
+      "source_id": "S14",
+      "title": "2026 National Money Laundering Risk Assessment",
+      "heading": "2026 National Money Laundering Risk Assessment \u00b7 PDF page 55",
+      "issuer": "US Treasury",
+      "authority_type": "national_risk_assessment",
+      "url": "https://home.treasury.gov/system/files/246/2026-NMLRA.pdf",
+      "published_date": "2026-03",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 55 \u00b7 extracted text lines 102-102",
+      "pdf_page": 55,
+      "topics": [
+        "broad_typologies"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "2026  \uf0ab\uf0ab  National Money Laundering Risk Assessment\n51\nnetwork to conceal their U.S. presence when establishing accounts at onboarding to conceal their base of U.S. \ncustomers in attempts to appear as if the firm were exempt from U.S. regulatory requirements. 287\nSome digital asset service providers, including purportedly decentralized finance (DeFi) services or P2P platforms, \nmay claim not to be regulated financial institutions subject to the BSA.  Determining whether an entity, including \npurported DeFi services, is a covered financial institution will depend on specific facts and circumstances \nsurrounding its financial activities.288   In other instances, covered digital asset service providers have failed to \nmeet AML program requirements or other requirements under the BSA and its implementing regulations, thereby \nallowing illicit actors to launder their illicit proceeds.  In some instances, BSA-obliged digital asset service providers \nfail to collect customer identification information or, when subsequently introducing customer information \nrequirements, only implement them when onboarding new customers.289\nIn one case unsealed in June 2025, a Russian citizen was charged with various offenses related to using his digital \nasset company Evita to funnel more than $500 million of overseas payments through U.S. banks and digital asset \nexchanges while hiding the source and purpose of the transactions.  As alleged in the indictment, the man used \nhis companies to enable foreign customers\u2014many of whom held funds at sanctioned Russian banks\u2014to provide \nhim with digital assets, which he then laundered through digital asset wallets and U.S. bank accounts.  The man \nultimately converted the funds into U.S. dollars or other fiat currencies and then made payments through bank \naccounts in Manhattan on behalf of his foreign customers.  In the process, the sources of the funds were obscured, \ndisguising the audit trail and hiding the true counterparties to the transactions.290\nDigital asset service providers should have adequate controls in place to mitigate risks associated with \u201cnested\u201d \nexchanges, which refers to digital asset service providers that offer trading services and pool customer deposits into \nan account hosted by a larger exchange to offer expanded services to their own customers.  Nested exchanges may \nserve legitimate purposes, such as providing enhanced liquidity for their customers, but they can also present illicit \nfinance risks.291  For example, nested exchanges may operate fully or partially within the infrastructure of the host \nprovider, rather than as a unique entity, potentially providing illicit actors with an additional layer of obfuscation.  In \nsuch cases, the nested exchange transactions may appear to be conducted by the host provider, which can delay or \nimpede law enforcement efforts to investigate suspicious activity.  Moreover, this obfuscation may be compounded \nif the nested exchange lacks AML/CFT controls, which could allow illicit actors to access the host provider\u2019s services \nwithout providing identifying information and likely without detection.  To mitigate this risk, digital asset service \nproviders subject to the BSA (e.g., those registered as MSBs) are expected to ensure that their AML program has \nappropriate policies, procedures, and internal controls to identify \u201cnested\u201d activity and comply with applicable BSA \nrequirements. \n287       See, e.g., DOJ, \u201cOKX Pleads Guilty To Violating U.S. Anti-Money Laundering Laws And Agrees To Pay Penalties Totaling More Than $500 \nMillion, \u201d (February 24, 2025) https://www.justice.gov/usao-sdny/pr/okx-pleads-guilty-violating-us-anti-money-laundering-laws-and-\nagrees-pay-penalties. \n288       Treasury, \u201cIllicit Finance Risk Assessment of Decentralized Finance, \u201d (April 2023), p. 2, https://home.treasury.gov/system/files/136/DeFi-\nRisk-Full-Review.pdf. \n289       See, e.g., DOJ, \u201cOKX Pleads Guilty To Violating U.S. Anti-Money Laundering Laws And Agrees To Pay Penalties Totaling More Than $500 \nMillion, \u201d (February 24, 2025) https://www.justice.gov/usao-sdny/pr/okx-pleads-guilty-violating-us-anti-money-laundering-laws-and-\nagrees-pay-penalties; DOJ, \u201cKucoin Pleads Guilty To Unlicensed Money Transmission Charge And Agrees To Pay Penalties Totaling \nNearly $300 Million, \u201d (January 27, 2025) https://www.justice.gov/usao-sdny/pr/kucoin-pleads-guilty-unlicensed-money-transmission-\ncharge-and-agrees-pay-penalties; DOJ, \u201cPaxful Inc. Co-Founder Pleads Guilty to Conspiracy to Fail to Maintain Effective Anti-Money \nLaundering Program, \u201d (July 8, 2024) https://www.justice.gov/usao-edca/pr/paxful-inc-co-founder-pleads-guilty-conspiracy-fail-\nmaintain-effective-anti-money.\n290       DOJ, \u201cFounder of Cryptocurrency Payment Company Charged with Evading Sanctions and Export Controls, Defrauding Financial \nInstitutions, and Violating the Bank Secrecy Act, \u201d (June 9, 2025) https://www.justice.gov/opa/pr/founder-cryptocurrency-payment-\ncompany-charged-evading-sanctions-and-export-controls. \n291       See, e.g., FinCEN, \u201cConsent Order Number 2023-04, \u201d (November 2023), p. 34, https://www.fincen.gov/system/files?file=enforcement_\naction/2023-11-21/FinCEN_Consent_Order_2023-04_FINAL508.pdf.",
+      "retrieval_score": 6.27942,
+      "fusion_score": 0.03041475,
+      "retrieval_channels": [
+        "keyword",
+        "semantic"
+      ],
+      "retrieval_ranks": {
+        "keyword": 10,
+        "semantic": 2
+      }
+    },
+    {
+      "chunk_id": "S14:L126-L126",
+      "source_id": "S14",
+      "title": "2026 National Money Laundering Risk Assessment",
+      "heading": "2026 National Money Laundering Risk Assessment \u00b7 PDF page 67",
+      "issuer": "US Treasury",
+      "authority_type": "national_risk_assessment",
+      "url": "https://home.treasury.gov/system/files/246/2026-NMLRA.pdf",
+      "published_date": "2026-03",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 67 \u00b7 extracted text lines 126-126",
+      "pdf_page": 67,
+      "topics": [
+        "broad_typologies"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "2026  \uf0ab\uf0ab  National Money Laundering Risk Assessment\n63\nagainst a beneficiary or tax-related offenses, domestic trusts have an overall lower risk profile for money laundering \nand sanctions evasion as they require specialized knowledge to establish and administer.  Illicit finance actors are \nmore likely to choose less complex and time-consuming methods as trusts often involve multiple parties, such as the \nsettlor, trustee, and beneficiaries.  Unlike foreign trusts, law enforcement can seek information about domestic trusts, \nsuch as information about settlors or beneficiaries, through judicial or administrative channels.\nMoreover, due to the CDD Rule, covered financial institutions are required to have risk-based CDD policies and \nprocedures that consider trusts and trustees.  For example, trustees are generally expected to inform covered \nfinancial institutions of their status as trustees during the account opening process.  Additionally, regardless of \nwhere a trust is formed, if there are U.S. persons who may be settlors or beneficiaries, or who conduct transactions \nwith both U.S.-source and certain foreign-source income, the trust could remain subject to federal tax filing \nobligations with the IRS.356  These requirements create additional transparency for any trust with a U.S. nexus. Trust \nadministration also remains subject to state or territorial statutes and court supervision. Many states also require \ntax filings or probate disclosures for trusts with local ties. Common law fiduciary obligations, such as the duties of \nloyalty, prudence, impartiality, recordkeeping, and disclosure, apply to trustees. These legal obligations provide \nrecourse against abuse and enhance accountability. Treasury\u2019s rule on non-financed residential real estate transfers \nby trusts or legal entities, which takes effect on March 1, 2026, will require reporting of beneficial ownership \ninformation in most non-financed residential real estate transactions across the United States.357  The rule \nsignificantly reduces the ability of illicit actors to launder proceeds through U.S. real estate held in trust structures.\nThe creation and administration of trusts is often connected to gatekeepers described in the next section.  For \nexample, in December 2025, a natural U.S. person agreed to pay $1,092,000 to settle potential civil liability to OFAC \nfor apparent violations of Ukraine-/Russia-related sanctions. The person is an attorney and former U.S. government \nofficial.  The conduct giving rise to the apparent violations took place between 2018 and 2022 when the person \nserved as the fiduciary of the family trust of a sanctioned Russian oligarch.  Over the course of the person\u2019s time \nas fiduciary, they authorized the transfer of trust assets, paid various service providers on behalf of the trust, and \nauthorized various substantive actions taken by the trust, which resulted in a total of 122 apparent violations of the \nUkraine-/Russia-Related Sanctions Regulations.358\nXIII. Gatekeepers\nGatekeepers are trusted professionals and entities that can help their clients access the financial system.  Although \nthese entities may have some federal or state AML/CFT obligations, they are not subject to comprehensive AML/CFT \nrequirements and may be exploited by illicit actors in money laundering schemes, inadvertently or willingly.  Certain \ngatekeepers face a wide range of money laundering risks that are influenced by their customer base, services offered, \nand geographic footprint, among several other factors.  This risk assessment looks at the risk posed by four of the \nlargest gatekeeper sectors in the United States that may be exploited for financial crime.359\n356       Generally, the fiduciary of the domestic non-grantor trust is required to file Form 1041 (U.S. Income Tax Return for Estates and Trusts) to \nreport trust income, if any.  Specific tax forms that identify the trust's beneficiaries and report their share of income are required for a \ntax year if distributions are made. The trustee of a foreign non-grantor trust generally is required to file Form 1040-NR (U.S. Nonresident \nAlien Income Tax Return) to report U.S.-source and certain foreign-source income, if any.  A foreign trust with a U.S. owner also must file \nForm 3520-A (Annual Information Return of Foreign Trust with a U.S. Owner).\n357       FinCEN, \u201cResidential Real Estate Rule Frequently Asked Questions, \u201d (updated December 18, 2025) https://www.fincen.gov/rre-faqs.  \n358       OFAC, \u201cOFAC Settles with an Individual for $1,092,000 Related to Apparent Violations of Ukraine-/Russia-Related Sanctions, \u201d (December \n9, 2025) https://ofac.treasury.gov/media/934806/download?inline. \n359       FATF\u2019s July 2024 \u201cHorizontal Review of Gatekeepers\u2019 Technical Compliance Related to Corruption\u201d report defines gatekeepers by sector, \nspecifically 1) lawyers, notaries and other independent legal professionals, 2) accountants, 3) trust and company service providers, and \n4) real estate agents, which are specific designated non-financial businesses and professions that can perform specific financial tasks \nfor clients (See \u201cThe FATF Recommendations, \u201d (updated October 2025), pp. 19-21, https://www.fatf-gafi.org/content/dam/fatf-gafi/\nrecommendations/FATF%20Recommendations%202012.pdf.coredownload.inline.pdf).",
+      "retrieval_score": 11.10481,
+      "fusion_score": 0.01612903,
+      "retrieval_channels": [
+        "keyword"
+      ],
+      "retrieval_ranks": {
+        "keyword": 2
+      }
+    },
+    {
+      "chunk_id": "S14:L46-L46",
+      "source_id": "S14",
+      "title": "2026 National Money Laundering Risk Assessment",
+      "heading": "2026 National Money Laundering Risk Assessment \u00b7 PDF page 27",
+      "issuer": "US Treasury",
+      "authority_type": "national_risk_assessment",
+      "url": "https://home.treasury.gov/system/files/246/2026-NMLRA.pdf",
+      "published_date": "2026-03",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 27 \u00b7 extracted text lines 46-46",
+      "pdf_page": 27,
+      "topics": [
+        "broad_typologies"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "2026  \uf0ab\uf0ab  National Money Laundering Risk Assessment\n23\nSpecial Focus: Financial Sextortion\nFinancially motivated sexual extortion (financial sextortion) occurs when individuals, increasingly children and \nteens, are coerced into sending explicit images online and are subsequently extorted for money.137   The FBI and \nDepartment of Homeland Security (DHS) have identified an exponential increase in financial sextortion offenses \ntargeting minors since 2022, particularly boys between 14 and 17 years old.  Between October 2021 and March 2023, \nthey received over 13,000 reports of online financial sextortion of minors.  The sextortion involved at least 12,600 \nvictims and led to at least 20 suicides.138  In September 2025, FinCEN published a Notice on financial sextortion with \nred flag indicators to help financial institutions identify and report suspicious activity.139\nThe perpetrators of financial sextortion are organized and deliberate, often stealing or taking images, such as \nprofile pictures of another person similar in age to the potential victim and of differing gender to communicate \nwith the victim through fake accounts.  They may also send explicit images to the victim to gain the victim\u2019s trust \nand use the threat of releasing the victim\u2019s explicit content to forcibly take over the victim\u2019s account to further \nsextort the victim\u2019s online friends.  According to the FBI, financial sextortion is often a transnational crime with \nperpetrators operating in West Africa and Southeast Asia targeting U.S. victims. 140  Once the perpetrator obtains \nan explicit video or photo, they threaten to release the compromising material unless the victim sends money or \ngift cards.  Frequently the perpetrators demand payment with digital assets and P2P payment platforms.  These \npayments may be received by an unwitting money mule who may also be a victim of certain criminal activity and \nremitted via MSBs. 141 \nIn one case , five U.S.-based defendants pleaded guilty to conspiring to launder proceeds for Nigerian sextortionists.  \nAccording to the indictment, the conspirators used online payment systems to collect sextortion proceeds and \nsend them to a Nigerian individual they referred to as \u201cThe Plug. \u201d  The sextortionists had boys and young men \ncreate nude images.  After the sextortionists received those images, they allegedly had the victims send funds to \nthe U.S.-based money launderers through online payment systems like Apple Pay, Cash App, and Zelle.  The money \nlaunderers would keep about 20 percent of the money, convert the rest to Bitcoin, and send the Bitcoin to The Plug \nin Nigeria, who kept a portion and then sent the remainder to the sextortionists.142  In another case, two defendants \nand others attempted to extort approximately $6 million from thousands of potential victims and successfully \nextorted approximately $1.7 million from those victims, using Cash App and Apple Pay accounts alone.143\n137       FBI, \u201cSextortion, \u201d https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/sextortion; FBI, \u201cFBI and \nPartners Issue National Public Safety Alert on Financial Sextortion Schemes, \u201d (December 19, 2022) https://www.fbi.gov/news/press-\nreleases/fbi-and-partners-issue-national-public-safety-alert-on-financial-sextortion-schemes; ICE, \u201cSextortion: It\u2019s more common than \nyou think, \u201d (updated September 18, 2025); https://www.ice.gov/features/sextortion; FBI, \u201cFBI Issues Warning About the Increase of \nFinancial Sextortion Scheme Targeting Minors, \u201d (October 27, 2023) https://www.fbi.gov/contact-us/field-offices/losangeles/news/fbi-\nissues-warning-about-the-increase-of-financial-sextortion-schemes-targeting-minors.\n138       FBI, \u201cSextortion: A Growing Threat Targeting Minors\u201d (January 23, 2024), https://www.fbi.gov/contact-us/field-offices/nashville/news/\nsextortion-a-growing-threat-targeting-minors. \n139       FinCEN, \u201cNotice on Financially Motivated Sextortion\u201d (September 8, 2025) https://www.fincen.gov/system/files/2025-09/FinCEN-Notice-\nFMS-508C.pdf \n140       FBI, \u201cSextortion: A Growing Threat Targeting Minors\u201d (January 23, 2024), https://www.fbi.gov/contact-us/field-offices/nashville/news/\nsextortion-a-growing-threat-targeting-minors.\n141       Ibid.\n142       DOJ, \u201cAll Charged Money Launderers Tied to Nigerian Sextortion Scheme Plead Guilty, \u201d (April 3, 2025) https://www.justice.gov/usao-\nwdmi/pr/2025_0403_Nigerian_Sextortion_Scheme_Plea.  \n143       DOJ, \u201cDelaware Woman Arrested for International Sextortion and Money Laundering Scheme\u201d (April 12, 2024), https://www.justice.gov/\narchives/opa/pr/delaware-woman-arrested-international-sextortion-and-money-laundering-scheme.",
+      "retrieval_score": 10.60069,
+      "fusion_score": 0.01587302,
+      "retrieval_channels": [
+        "keyword"
+      ],
+      "retrieval_ranks": {
+        "keyword": 3
+      }
+    },
+    {
+      "chunk_id": "S14:L52-L52",
+      "source_id": "S14",
+      "title": "2026 National Money Laundering Risk Assessment",
+      "heading": "2026 National Money Laundering Risk Assessment \u00b7 PDF page 30",
+      "issuer": "US Treasury",
+      "authority_type": "national_risk_assessment",
+      "url": "https://home.treasury.gov/system/files/246/2026-NMLRA.pdf",
+      "published_date": "2026-03",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 30 \u00b7 extracted text lines 52-52",
+      "pdf_page": 30,
+      "topics": [
+        "broad_typologies"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "2026  \uf0ab\uf0ab  National Money Laundering Risk Assessment 2026  \uf0ab\uf0ab  National Money Laundering Risk Assessment\n26\nFor drug trafficking and other cash-generating crimes, CMLN brokers will use networks of money mules across \nthe United States to collect illicit U.S. dollar (USD) proceeds and offer it for sale to Chinese buyers on WeChat or \nother messaging applications.  Chinese buyers generally purchase the USD by transferring an equivalent amount \nof renminbi, plus fees, to the CMLN broker\u2019s bank account in China.  The CMLN broker then provides the USD to the \npurchaser in the United States via cash, checks, or wire transfers from U.S. bank accounts funded by cash deposits \nmade by money mules.151  These CMLN-controlled U.S. bank accounts may be opened using fraudulent Chinese \npassports and held in the name of shell companies.152  According to law enforcement, CMLNs are also increasingly \nexchanging USD for digital assets, particularly stablecoins, in part to avoid large intra-China bank transfers that may \nraise capital flight suspicions. \nIn June 2024, the United States unsealed a superseding indictment charging Los Angeles-based associates of \nMexico\u2019s Sinaloa drug cartel with conspiring with money-laundering groups to launder drug trafficking proceeds.  \nAccording to the indictment, members of the CMLN allegedly laundered the illicit drug proceeds by either delivering \nUSD directly to their money exchange customers or by purchasing real or personal property, including luxury \ngoods and cars to be shipped to China.  They also allegedly used a variety of traditional methods to place the funds \ninto the traditional banking system such as purchasing cashier\u2019s checks, or structuring small amounts at a time \ninto funnel bank accounts opened for this purpose to avoid banks from reporting large cash deposits to the U.S. \ngovernment.153\nAccording to law enforcement, CMLNs continue to adapt their techniques.  CMLN brokers use several different \nencrypted messaging platforms to advertise their services and communicate with money mules, USD buyers, and \nTCO clients. They will silo different conversations on certain encrypted messaging platforms to increase operational \nsecurity.  Some CMLN money mules will now collect cash from DTOs in bank parking lots and immediately deposit \nthe funds to limit opportunities for law enforcement interdiction.  When some CMLN money mules are alerted \nby banks that their accounts may be closed due to suspicious activity, they will surge illicit cash deposits into \nthe account knowing that when the bank closes the account, they will receive the balance via check, effectively \nlaundering the funds.  CMLN money mules can operate dozens of accounts at several different banks under different \nfake identities and may not actively try to avoid account closures or BSA reporting thresholds.  \nCMLNs are increasingly laundering the proceeds of various fraud schemes by using wire transfers and digital assets \nto move illicit proceeds for foreign-based fraudsters.154  In February 2025, three individuals, including two Chinese \nnationals that entered the U.S. on student visas, were arrested for allegedly setting up shell companies that \nlaundered more than $13 million stolen from victims of digital asset investment scams.  After receiving victim funds \nvia wire transfer, the defendants allegedly transferred those funds to overseas bank accounts and other domestic \nbusinesses and used the ill-gotten gains for personal expenses.155\nCMLNs continue to launder gift card funds obtained through fraud to purchase high-value goods, as was highlighted \nin the 2024 NMLRA.  In April 2025, three Chinese nationals were sentenced for laundering the proceeds of various gift \ncard fraud schemes.  According to court documents, China-based TCOs acquired well over $100 million in gift cards \nby hacking U.S. companies, tampering with physical gift cards, and targeting U.S. citizens through romance and \nelder fraud schemes.  They then sent the gift card data to multiple cells of Chinese nationals operating in the United \n151       FinCEN, \u201cFinCEN Advisory on the Use of Chinese Money Laundering Networks by Mexico-Based Transnational Criminal Organizations to \nLaunder Illicit Proceeds, \u201d (August 28, 2025) https://www.fincen.gov/sites/default/files/advisory/2025-08-28/FinCEN-Advisory-CMLN-508.\npdf. \n152       HSI Cornerstone, \u201cChinese Money Laundering Organizations (CMLOs) - Use of Counterfeit Chinese Passports, \u201d (January 2024) https://\ncontent.govdelivery.com/bulletins/gd/USDHSICE-37fff16?wgt_ref=USDHSICE_WIDGET_217 \n153       DOJ, \u201cFederal Indictment Alleges Alliance Between Sinaloa Cartel and Money Launderers Linked to Chinese Underground Banking, \u201d \n(June 18, 2024) https://www.justice.gov/archives/opa/pr/federal-indictment-alleges-alliance-between-sinaloa-cartel-and-money-\nlaunderers-linked. \n154       See \u201cDigital Assets Investment Scams\u201d section for digital assets case example.\n155       DOJ, \u201cThree Defendants Arrested on Federal Complaints Alleging They Knowingly Received More Than $13 Million in Scam Victims\u2019 \nMoney, \u201d (February 25, 2025) https://www.justice.gov/usao-cdca/pr/three-defendants-arrested-federal-complaints-alleging-they-\nknowingly-received-more-13.",
+      "dense_score": 0.518771052,
+      "fusion_score": 0.01587302,
+      "retrieval_channels": [
+        "semantic"
+      ],
+      "retrieval_ranks": {
+        "semantic": 3
+      }
+    },
+    {
+      "chunk_id": "S14:L128-L128",
+      "source_id": "S14",
+      "title": "2026 National Money Laundering Risk Assessment",
+      "heading": "2026 National Money Laundering Risk Assessment \u00b7 PDF page 68",
+      "issuer": "US Treasury",
+      "authority_type": "national_risk_assessment",
+      "url": "https://home.treasury.gov/system/files/246/2026-NMLRA.pdf",
+      "published_date": "2026-03",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 68 \u00b7 extracted text lines 128-128",
+      "pdf_page": 68,
+      "topics": [
+        "broad_typologies"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "2026  \uf0ab\uf0ab  National Money Laundering Risk Assessment 2026  \uf0ab\uf0ab  National Money Laundering Risk Assessment\n64\nAttorneys\nAttorneys in the United States can pose a money laundering risk when they serve as an intermediary between \nclients and the financial system, such as by managing client funds; creating, operating, or managing client legal \nentities; or buying and selling real estate.  In performing these services, attorneys may help clients launder money \nby obscuring the origin of illicit proceeds.  Compared to other professionals that offer similar services, attorneys \nmay facilitate this laundering more easily due to the opacity afforded by attorney-client privilege and an attorney\u2019s \nduty of confidentiality.  While the furtherance of criminal acts by attorneys is not covered under this privilege (the \n\u201ccrime-fraud exception\u201d), this limitation is narrowly applied by courts and the existence of the exception does not, \nby itself, result in the disclosure of instances of illicit finance facilitated by attorneys to law enforcement.\nWhile attorneys in the United States are not subject to comprehensive AML/CFT regulations, they are bound to \ncertain ethics practices meant to deter illicit finance in the legal sector, and due to the reliance on the highly \nregulated financial services sector to conduct transactions, there are measures in place, such as CDD and suspicious \nactivity reporting, at covered financial institutions that help to mitigate illicit finance risks in the legal sector.  In \nparticular, the American Bar Association (ABA)\u2014which is a voluntary organization led by its members\u2014maintains \na series of Model Rules of Professional Conduct (the Model Rules).  Many state bar associations model their rules \nof professional conduct on the Model Rules.  As discussed in the 2024 NMLRA, in 2023, the Model Rules were \namended to include money laundering risks among the factors an attorney must consider in determining whether \nto decline or withdraw from a client representation.  In August 2024, the ABA issued its first guidance on the 2023 \namendments, noting an implicit \u201cobligation to conduct a reasonable risk-based inquiry, not a perfunctory one and \nnot one that involves a dragnet-style operation to uncover every fact about every client. \u201d360\nOne particular area of risk is \u201cInterest on Lawyers\u2019 Trust Accounts\u201d (IOL TAs),361 which are interest-bearing, pooled accounts \nheld by an attorney on behalf of their clients.  Attorneys and law firms use IOL TAs, which are required by most state laws \nand professional responsibility rules, to manage client trust funds.  Financial institutions that hold IOL TAs typically only \nknow the identity of the lawyer in whose name the IOL TA is titled and do not know the identity of the underlying clients \nwho are the actual owners of the funds.  Given banks\u2019 limited visibility into the actual owner and source of the funds, an \nattorney who allows clients to use their account to move illicit proceeds may avoid or delay raising red flags at the bank.  \nIn one case, an attorney was sentenced to nine months in federal prison for knowingly transferring, and aiding and \nabetting the transfer of, $3 million to prevent the lawful seizure of the funds.  Evidence obtained in the investigation \nrevealed that the attorney directed and aided and abetted the transfer of $3 million for his clients following the \nexecution of federal search and seizure warrants in California.  The attorney directed the transfer from an account in \nthe Bahamas to his trust account, thereafter, combining the funds for his personal use.362\nAlthough state bar association rules govern IOL TAs, the rules are generally meant to protect clients and impose obligations \non lawyers not to misuse the funds in the IOL TA.  Notwithstanding these rules of professional conduct, some attorneys have \nabused IOL TAs to defraud their clients.  For example, in March 2025, an attorney was sentenced to more than five years in \nfederal prison for money laundering and wire fraud.  According to the guilty plea, the defendant served as an attorney licensed \nto practice law in New York, Pennsylvania, and New Jersey, and was a named partner at a law firm.  Over several years, \nthe defendant led clients to believe that they had immediate access to the money in two law firm IOL TA accounts, but the \nattorney was directing employees to transfer the clients\u2019 money into other accounts that he controlled.  The scheme caused \nmore than $2.4 million in losses to the law firm\u2019s clients. The attorney used the stolen funds to pay for personal expenses.363\n360       ABA, \u201cFormal Opinion 513: Duty to Inquire Into and Assess the Facts and Circumstances of Each Representation, \u201d (August 23, 2024), p. 7, \nhttps://www.americanbar.org/content/dam/aba/administrative/professional_responsibility/ethics-opinions/aba-formal-opinion-513.\npdf.  Emphasis in original. \n361       See ABA, \u201cIOL TA Overview, \u201d (accessed December 17, 2025) https://www.americanbar.org/groups/interest_lawyers_trust_accounts/overview/. \n362       DOJ, \u201cHilton Head Lawyer Sentenced for Knowingly Transferring $3M to Prevent the Lawful Seizure of the Funds, \u201d (February 21, 2025) \nhttps://www.justice.gov/usao-sc/pr/hilton-head-lawyer-sentenced-knowingly-transferring-3m-prevent-lawful-seizure-funds. \n363       DOJ, \u201cCalifornia Lawyer Sentenced to More Than Five Years in Federal Prison for Wire Fraud and Money Laundering, \u201d (March 7, 2025) \nhttps://www.justice.gov/usao-md/pr/california-lawyer-sentenced-more-five-years-federal-prison-wire-fraud-and-money.",
+      "retrieval_score": 10.32924,
+      "fusion_score": 0.015625,
+      "retrieval_channels": [
+        "keyword"
+      ],
+      "retrieval_ranks": {
+        "keyword": 4
+      }
+    },
+    {
+      "chunk_id": "S14:L76-L76",
+      "source_id": "S14",
+      "title": "2026 National Money Laundering Risk Assessment",
+      "heading": "2026 National Money Laundering Risk Assessment \u00b7 PDF page 42",
+      "issuer": "US Treasury",
+      "authority_type": "national_risk_assessment",
+      "url": "https://home.treasury.gov/system/files/246/2026-NMLRA.pdf",
+      "published_date": "2026-03",
+      "captured_date": "2026-10-17",
+      "locator": "PDF page 42 \u00b7 extracted text lines 76-76",
+      "pdf_page": 42,
+      "topics": [
+        "broad_typologies"
+      ],
+      "currency_status": "not independently checked for amendments or relief",
+      "text": "2026  \uf0ab\uf0ab  National Money Laundering Risk Assessment 2026  \uf0ab\uf0ab  National Money Laundering Risk Assessment\n38\norders, or stored value; (5) money transmitters; and (6) the U.S. Postal Service.214  As of December 15, 2025, there \nare 29,514 principal MSBs registered with FinCEN pursuant to the BSA regulations.215  There are over 200,000 MSB \nagents, which may not be required to register with FinCEN, but are subject to state banking authorities\u2019 licensing \nand supervision requirements, including for AML/CFT requirements.  In general, MSBs, including agents and their \nprincipals, are required to develop and implement an AML/CFT program, file CTRs and SARs, and maintain records \nof certain other transactions and currency exchanges.216  \nLike banks, MSBs face a range of money laundering risks influenced by their user base, services offered, and \ngeographic footprint, among several other factors.  MSBs employ a transaction-based business model with risks \nemanating from cross-border transfers, cash prevalence, and more flexible customer identification requirements \ncompared to other types of financial institutions.  Given the large number of principal and agent MSBs throughout \nthe United States, illicit actors may also spread money laundering transactions across several providers, structure \ncash activities below certain BSA reporting thresholds, and register for services using fake or stolen identities, \nmaking it more difficult for law enforcement track illicit financial flows.  During the assessment period, the United \nStates found that MSBs were exploited by illicit actors in connection with several different predicate crimes, \nincluding domestic fraud,217 transnational fraud and sextortion,218 drug trafficking,219 and weapons smuggling,220 as \nwell as terrorist and proliferation financing schemes.221\nIllicit actors are also able to exploit complicit MSBs that willfully neglect AML/CFT obligations, most often by failing \nto file SARs and CTRs, structuring transactions, or allowing the use of fake identities.222  Several recent cases have \ndemonstrated how foreign-based TCOs use complicit MSBs to launder illicit drug trafficking proceeds to Mexico.  In \none case, the owner and operator of an MSB with locations in Oregon and Washington pleaded guilty to conspiring \nto launder drug trafficking proceeds.  According to court documents, the woman\u2019s stores sent over $4.2 million \ndollars in wire transfers to places in Mexico.  The woman and other co-conspirators also accepted $49,500 in cash \nrepresented as drug proceeds and laundered the funds through her stores.  The woman charged a ten percent \ncommission to help launder the money.  She admitted that when she wired these funds, she used false sender \ninformation, structured wire transfers into smaller amounts, and used different stores she owned to help conceal \n214       FinCEN, \u201cMoney Services Business Definition, \u201d (accessed December 15, 2025) https://www.fincen.gov/money-services-business-\ndefinition.  \n215       31 CFR 1022.380(a)-(f); FinCEN, \u201cMSB Registrant Search, \u201d (updated December 15, 2025) https://www.fincen.gov/resources/msb-state-\nselector. \n216       See generally 31 CFR Part 1022.  Many digital asset service providers are MSBs. See FinCEN, \u201cApplication of FinCEN\u2019s Regulations \nto Persons Administering, Exchanging, or Using Virtual Currencies, \u201d (March 18, 2013) https://www.fincen.gov/resources/statutes-\nregulations/guidance/application-fincens-regulations-persons-administering.  See the Digital Assets section for a discussion of money \nlaundering risks associated with digital service providers that are also MSBs. \n217       See, e.g., DOJ, \u201cLeader of $1.4 million bank fraud and identity theft scheme pleads guilty to victimizing bank customers nationwide, \u201d \n(March 4, 2025) https://www.justice.gov/usao-wdwa/pr/leader-14-million-bank-fraud-and-identity-theft-scheme-pleads-guilty-\nvictimizing-bank.\n218       See, e.g., DOJ, \u201cThree New York Residents Sentenced For Fraud And Money Laundering Using Funds From Elderly Lottery Scam Victims, \u201d \n(November 18, 2024) https://www.justice.gov/usao-mdpa/pr/three-new-york-residents-sentenced-fraud-and-money-laundering-using-\nfunds-elderly. \n219       See, e.g., DOJ, \u201cLocal man & woman plead guilty to drug, money laundering crimes, \u201d (April 2, 2025) https://www.justice.gov/usao-sdoh/\npr/local-man-woman-plead-guilty-drug-money-laundering-crimes; DOJ, \u201cCalifornia man sentenced for drug distribution, money \nlaundering, and human smuggling scheme, \u201d (June 7, 2024) https://www.justice.gov/usao-wdwa/pr/california-man-sentenced-drug-\ndistribution-money-laundering-and-human-smuggling-scheme. \n220       See, e.g., DOJ, \u201c\u2019King\u2019 of Violent Haitian Gang Pleads Guilty to Gun Smuggling and Money Laundering After Government\u2019s Case, \u201d \n(January 31, 2024) https://www.justice.gov/usao-dc/pr/king-violent-haitian-gang-pleads-guilty-gun-smuggling-and-money-laundering-\nafter. \n221       See 2026 National Terrorist Financing Risk Assessment (NTFRA) and National Proliferation Financing Risk Assessment (NPFRA).\n222       See, e.g. DOJ, \u201cMoney Transmitting Business Pleads Guilty to Failing to Report Transactions; Agrees to Forfeit $700,000, \u201d (June 26, \n2024) https://www.justice.gov/usao-sdca/pr/money-transmitting-business-pleads-guilty-failing-report-transactions-agrees-forfeit; \nDOJ, \u201cNew Jersey Owner of Check Casher and Money Service (sic) Business Admits Filing More Than $325 Million in False Currency \nTransaction Reports, Operating and Aiding and Abetting an Unlicensed Money Transmitting Business, \u201d (October 16, 2024) https://www.\njustice.gov/usao-nj/pr/new-jersey-owner-check-casher-and-money-serivce-business-admits-filing-more-325-million.",
+      "dense_score": 0.511107743,
+      "fusion_score": 0.015625,
+      "retrieval_channels": [
+        "semantic"
+      ],
+      "retrieval_ranks": {
+        "semantic": 4
+      }
+    }
+  ],
+  "retrieval": "Hybrid \u00b7 BM25 + Nebius embeddings + Pinecone \u00b7 RRF",
+  "retrieval_details": {
+    "method": "Hybrid \u00b7 BM25 + Nebius embeddings + Pinecone \u00b7 RRF",
+    "degraded": false
+  },
+  "question": "Identify two source-supported red flags related to underground banking & hawala. Explain the observed behaviour, why it warrants contextual review, and what information to verify next. Preserve qualifications and explain why an indicator alone is not proof.",
+  "scope": "US banks",
+  "research_mode": "red_flags",
+  "citation_check": "IDs and exact quotes checked; claim support needs review",
+  "cached": false,
+  "timings": {
+    "retrieval_seconds": 0.503,
+    "generation_seconds": 10.357,
+    "validation_seconds": 0.006
+  },
+  "status": "supported",
+  "summary": "Red Flags in Underground Banking & Hawala",
+  "claims": [
+    {
+      "title": "Unregistered MSB Activity",
+      "text": "Individuals operating as part of IVTS or unregistered money transmitters, including those using personal accounts to offer money transmission, may be engaged in underground banking. This behavior warrants contextual review due to lack of regulatory oversight and potential for concealment. An indicator alone is not proof of illicit activity.",
+      "evidence": [
+        {
+          "id": "S14:L78-L78",
+          "quote": "During this illegal conduct, Brink\u2019s failed to have \ncompliance controls in place to ensure its business activities remained within the regulatory safe harbor provided to \nthe armored car industry.227\nUnregistered MSBs can also include individuals operating as part of IVTS, or underground banking, as well as \nindividuals who misuse their personal or business bank accounts to independently offer money transmission \n223       DOJ, \u201cOwner of Money Service Business Unlawfully Residing in the United States Pleads Guilty to Conspiracy to Launder Drug \nProceeds, \u201d (October 24, 2025) https://www.justice.gov/usao-or/pr/owner-money-service-business-unlawfully-residing-united-states-\npleads-guilty-conspiracy."
+        }
+      ],
+      "authority_basis": "source context"
+    },
+    {
+      "title": "Use of False or Structured Transfers",
+      "text": "Using false sender information, structuring wire transfers into smaller amounts, and routing funds through multiple businesses to conceal origin or purpose are observed in hawala-like schemes. These patterns suggest attempts to evade detection and warrant further verification of transaction intent and customer identity. An indicator alone is not proof of illicit activity.",
+      "evidence": [
+        {
+          "id": "S14:L76-L76",
+          "quote": "She admitted that when she wired these funds, she used false sender \ninformation, structured wire transfers into smaller amounts, and used different stores she owned to help conceal \n214       FinCEN, \u201cMoney Services Business Definition, \u201d (accessed December 15, 2025) https://www.fincen.gov/money-services-business-\ndefinition."
+        }
+      ],
+      "authority_basis": "source context"
+    }
+  ],
+  "checklist": [
+    {
+      "item": "Verify the identity and registration status of the MSB or individual offering money transmission services",
+      "basis": "reviewer_suggestion",
+      "evidence": [
+        {
+          "id": "S14:L78-L78",
+          "quote": "During this illegal conduct, Brink\u2019s failed to have \ncompliance controls in place to ensure its business activities remained within the regulatory safe harbor provided to \nthe armored car industry.227\nUnregistered MSBs can also include individuals operating as part of IVTS, or underground banking, as well as \nindividuals who misuse their personal or business bank accounts to independently offer money transmission \n223       DOJ, \u201cOwner of Money Service Business Unlawfully Residing in the United States Pleads Guilty to Conspiracy to Launder Drug \nProceeds, \u201d (October 24, 2025) https://www.justice.gov/usao-or/pr/owner-money-service-business-unlawfully-residing-united-states-\npleads-guilty-conspiracy."
+        }
+      ]
+    },
+    {
+      "item": "Request documentation for the source of funds and purpose of structured or false-transferred transactions",
+      "basis": "reviewer_suggestion",
+      "evidence": [
+        {
+          "id": "S14:L76-L76",
+          "quote": "She admitted that when she wired these funds, she used false sender \ninformation, structured wire transfers into smaller amounts, and used different stores she owned to help conceal \n214       FinCEN, \u201cMoney Services Business Definition, \u201d (accessed December 15, 2025) https://www.fincen.gov/money-services-business-\ndefinition."
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "The evidence does not establish a threshold for what constitutes 'structured' or 'false' transfers under the BSA.",
+    "The evidence does not confirm whether the individuals involved were acting independently or as part of a larger network."
+  ],
+  "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+  "latency_seconds": 10.883,
+  "latency_target_seconds": 8,
+  "latency_target_met": false
+}

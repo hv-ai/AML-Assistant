@@ -99,7 +99,7 @@ def create_app(test_config=None):
         index=load_index();conf=svc.settings();hybrid=hybrid_retrieval.status()
         sources=list({c['source_id']:{k:c[k] for k in ('source_id','title','issuer','authority_type','url','captured_date','published_date')} for c in index.chunks}.values())
         return jsonify(hosted=True,key_configured=bool(conf.get('NEBIUS_API_KEY')),default_model=conf.get('NEBIUS_MODEL',''),
-            sources=sources,chunks=len(index.chunks),cases=[],topics=json.loads((ROOT/'config/typology_topics.json').read_text()),
+            sources=sources,chunks=len(index.chunks),cases=[],topics=json.loads((ROOT/'config/typology_topics.json').read_text()),additional_topics=json.loads((ROOT/'config/additional_research_topics.json').read_text()),
             usage={'attempts':0,'input_tokens':0,'output_tokens':0},call_limit=app.config['PILOT_VISITOR_DAILY'],
             retrieval=hybrid['method'],hybrid=hybrid)
 
@@ -123,7 +123,7 @@ def create_app(test_config=None):
         try:
             if action=='news':
                 return jsonify(news_service.news_snapshot())
-            if action=='news/brief':return jsonify(news_service.brief(data.get('id')))
+            if action=='news/brief':return jsonify(news_service.brief(data.get('id'),category=data.get('category','aml')))
             if not isinstance(data.get('generate',True),bool):return jsonify(error='Invalid search option.'),400
             if action=='ask/stream':
                 events=queue.Queue()

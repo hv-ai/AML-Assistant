@@ -86,7 +86,7 @@ class Handler(BaseHTTPRequestHandler):
             cases = list(csv.DictReader((ROOT/'evaluation/retrieval_cases.csv').open()))
             self.send({'key_configured':bool(conf.get('NEBIUS_API_KEY')), 'default_model':conf.get('NEBIUS_MODEL',''),
                        'sources':sources,'chunks':len(index.chunks),'cases':cases,
-                       'topics':json.loads((ROOT/'config/typology_topics.json').read_text()),
+                       'topics':json.loads((ROOT/'config/typology_topics.json').read_text()),'additional_topics':json.loads((ROOT/'config/additional_research_topics.json').read_text()),
                        'usage':usage_state(),'call_limit':CALL_LIMIT,'retrieval':hybrid_retrieval.status()['method'],'hybrid':hybrid_retrieval.status()})
         else:
             self.send({'error':'Not found'},404)
@@ -125,10 +125,10 @@ class Handler(BaseHTTPRequestHandler):
                     self.send({'work':accounts.save_work(user['id'],body.get('work'))})
             elif self.path == '/api/news':
                 if not isinstance(body.get('refresh',False),bool):raise ValueError('Invalid refresh')
-                self.send(news_service.news_list(body.get('refresh',False)))
+                self.send(news_service.news_snapshot())
             elif self.path == '/api/news/brief':
                 if not isinstance(body.get('model',''),str):raise ValueError('Invalid model')
-                self.send(news_service.brief(body.get('id'),body.get('model','')))
+                self.send(news_service.brief(body.get('id'),body.get('model',''),body.get('category','aml')))
             elif self.path == '/api/models':
                 self.send({'models':models()})
             elif self.path == '/api/ask':

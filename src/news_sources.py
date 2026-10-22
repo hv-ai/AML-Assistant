@@ -10,6 +10,7 @@ import uuid
 import re
 import xml.etree.ElementTree as ET
 import assistant_service as svc
+import risk_news
 
 SOURCES = [
  {'publisher':'FinCEN','full_name':'Financial Crimes Enforcement Network','sector':'Cross-sector BSA / AML','url':'https://www.fincen.gov/news/press-releases','kind':'fincen','hosts':['www.fincen.gov'],'paths':[r'/news/news-releases/[a-zA-Z0-9-]+']},
@@ -25,6 +26,11 @@ for source in SOURCES:
             'FDIC':['https://www.fdic.gov/news/financial-institution-letters'],
             'CFTC':['https://www.cftc.gov/RSS/RSSENF/rssenf.xml']}
     source['feeds']=[source['url']]+extras.get(source['publisher'],[])
+SOURCES.extend(risk_news.ADDITIONAL_SOURCES)
+for source in SOURCES:
+    source.setdefault('source_type','official')
+    source.setdefault('archive_urls',[])
+
 AML_TERMS=re.compile(r'\b(?:AML|BSA|CFT|CIP|CDD|EDD|SARs?|CTRs?|FinCEN|OFAC)\b|anti[ -]?money[ -]?launder|money[ -]?launder|bank secrecy|illicit financ|terroris[tm].{0,15}financ|financ.{0,15}terroris|beneficial owner|customer (?:due diligence|identification)|suspicious activit|transaction monitoring|correspondent (?:bank|account)|sanctions|financial crim',re.I)
 
 def agency_for_url(url):
@@ -32,7 +38,7 @@ def agency_for_url(url):
     if u.scheme!='https' or u.username or u.password or u.port or u.query or u.fragment or '%' in u.path or '..' in u.path:
         raise svc.SetupError('Only approved HTTPS agency news URLs can be fetched.')
     for source in SOURCES:
-        if u.netloc in source['hosts'] and (url in source['feeds'] or any(re.fullmatch(p,u.path) for p in source['paths'])):
+        if u.netloc in source['hosts'] and (url in source['feeds'] or url in source.get('archive_urls',[]) or any(re.fullmatch(p,u.path) for p in source['paths'])):
             return source
     raise svc.SetupError('This URL is outside the approved official agency news sources.')
 
@@ -52,9 +58,12 @@ def make_item(source,title,url,date,description=''):
             except (ValueError,TypeError):stamp=datetime.strptime(date,'%m/%d/%Y')
         if stamp.date()>datetime.now(timezone.utc).date():return None
     except (svc.SetupError,ValueError,TypeError):return None
-    return {'id':hashlib.sha256(url.encode()).hexdigest()[:16],'title':clean(title),'url':url,
+    item = {'id':hashlib.sha256(url.encode()).hexdigest()[:16],'title':clean(title),'url':url,
             'published_date':stamp.date().isoformat(),'publisher':source['publisher'],
-            'sector':source['sector'],'description':clean(description)[:700]}
+            'sector':source['sector'],'source_type':source.get('source_type','official'),
+            'description':clean(description)[:(280 if source.get('source_type')=='industry_reporting' else 700)]}
+    item['categories']=risk_news.categories(item,AML_TERMS)
+    return item
 
 def parse_rss(text,source):
     if re.search(r'<!DOCTYPE|<!ENTITY',text,re.I):raise svc.SetupError('Unsupported XML declaration in agency feed.')
@@ -72,7 +81,7 @@ def parse_rss(text,source):
         item=make_item(source,val('title'),link,val('pubDate') or val('date') or val('updated') or val('published'),val('description') or val('summary'))
         if item:items.append(item)
     if not items:raise svc.SetupError('No dated agency announcements could be read from the feed.')
-    return items[:80]
+    return items[:500]
 
 class IndexParser(HTMLParser):
     """Capture dated rows only, excluding navigation and unrelated links."""
@@ -108,28 +117,41 @@ def parse_index(text,source):
             item=make_item(source,title,url,date,body)
             if item:items.append(item);break
     if not items:raise svc.SetupError('No dated announcement rows could be read from the agency index.')
-    return items[:80]
+    return items[:500]
+
+def parse_channel(text,source,parse_fincen):
+    kind=source['kind']
+    if kind=='release_dates':return risk_news.parse_release_dates(text,source,make_item)
+    if kind=='fincen':return parse_fincen(text)
+    if kind=='rss':return parse_rss(text,source)
+    if kind=='auto':
+        xml=re.match(r'\s*(?:<\?xml[^>]*>\s*)?<(?:rss|feed|rdf:RDF)\b',text)
+        return parse_rss(text,source) if xml else risk_news.parse_html(text,source,make_item)
+    if kind=='generic':return risk_news.parse_html(text,source,make_item)
+    return parse_index(text,source)
 
 def collect_news(root,fetch,parse_fincen,force=False):
     now=datetime.now(timezone.utc)
     def collect(source):
         path=root/'.runtime/news/feeds'/(source['publisher'].replace(' ','-').lower()+'.json')
         saved=json.loads(path.read_text()) if path.exists() else None
-        info={k:source[k] for k in ('publisher','full_name','sector','url')}
-        if saved and saved.get('channels_total')==len(source['feeds']) and not force and (now-datetime.fromisoformat(saved['fetched_at'])).total_seconds()<3600:
+        info={k:source[k] for k in ('publisher','full_name','sector','url','source_type')}
+        if saved and saved.get('schema_version')==3 and saved.get('channels_total')==len(source['feeds']) and not force and (now-datetime.fromisoformat(saved['fetched_at'])).total_seconds()<3600:
             return {**info,'state':'cached','fetched_at':saved['fetched_at'],'scanned':saved['scanned'],'items':saved['items'],'channels_checked':saved.get('channels_checked',1),'channels_total':saved.get('channels_total',1),'feed_errors':saved.get('feed_errors',[])}
         try:
             rows=[];failures=[]
             for feed in source['feeds']:
                 try:
                     text=fetch(feed)
-                    rows.extend(parse_fincen(text) if source['kind']=='fincen' else parse_rss(text,source) if source['kind']=='rss' else parse_index(text,source))
+                    rows.extend(parse_channel(text,source,parse_fincen))
                 except (svc.SetupError,ValueError) as exc:failures.append(str(exc))
             rows=list({r['id']:r for r in rows}.values())
             if not rows:raise svc.SetupError(failures[0] if failures else 'No announcements could be read.')
-            for row in rows:row['sector']=source['sector']
-            relevant=[x for x in rows if source['publisher']=='FinCEN' or AML_TERMS.search(x['title']+' '+x['description'])]
-            data={'items':relevant,'scanned':len(rows),'fetched_at':now.isoformat(),'channels_checked':len(source['feeds'])-len(failures),'channels_total':len(source['feeds']),'feed_errors':failures}
+            for row in rows:
+                row['sector']=source['sector'];row['source_type']=source.get('source_type','official')
+                row['categories']=risk_news.categories(row,AML_TERMS)
+            relevant=[x for x in rows if x['categories'] and '2026-01-01'<=x['published_date']<=now.date().isoformat()]
+            data={'schema_version':3,'items':relevant,'scanned':len(rows),'fetched_at':now.isoformat(),'channels_checked':len(source['feeds'])-len(failures),'channels_total':len(source['feeds']),'feed_errors':failures}
             path.parent.mkdir(parents=True,exist_ok=True);tmp=path.with_name(path.name+'.'+uuid.uuid4().hex+'.tmp');tmp.write_text(json.dumps(data));tmp.replace(path)
             return {**info,**data,'state':'fresh'}
         except (svc.SetupError,ValueError,OSError) as exc:
@@ -137,9 +159,9 @@ def collect_news(root,fetch,parse_fincen,force=False):
             return {**info,'items':[],'state':'unavailable','scanned':0,'fetched_at':None,'error':str(exc)}
     with ThreadPoolExecutor(max_workers=7) as executor:results=list(executor.map(collect,SOURCES))
     unique={x['id']:x for result in results for x in result['items']}
-    items=sorted(unique.values(),key=lambda x:(x['published_date'],x['publisher']),reverse=True)[:100]
+    items=sorted(unique.values(),key=lambda x:(x['published_date'],x['publisher']),reverse=True)[:2000]
     if not items and all(x['state']=='unavailable' for x in results):raise svc.SetupError('Official agency news sources could not be reached. Please try again later.')
     return {'items':items,'sources':[{k:v for k,v in r.items() if k!='items'}|{'matches':len(r['items'])} for r in results],
             'fetched_at':now.isoformat(),'cached':all(r['state']=='cached' for r in results),
             'stale':any(r['state']=='stale' for r in results),
-            'coverage':'Recent entries in seven official news feeds/indexes; AML relevance is filtered from titles and feed summaries. This is not an exhaustive archive or every AML news source.'}
+            'coverage':'Selected public publisher feeds and dated indexes, classified into AML, Fraud and Credit from titles and descriptions. Archive availability varies by publisher.'}

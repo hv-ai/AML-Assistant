@@ -1,0 +1,84 @@
+[
+  {
+    "id": "professional_networks",
+    "label": "Professional laundering networks",
+    "aliases": [
+      "professional laundering",
+      "professional money laundering",
+      "laundering network"
+    ],
+    "source_ids": [
+      "S14",
+      "S16"
+    ],
+    "coverage_basis": "National risk assessment context; source depth varies by topic",
+    "question": "What does the captured national risk assessment explain about professional laundering networks? Focus on mechanisms, relevant financial patterns and the context needed for a bank review. Distinguish assessment context from legal requirements."
+  },
+  {
+    "id": "underground_banking",
+    "label": "Underground banking & hawala",
+    "aliases": [
+      "underground banking",
+      "hawala"
+    ],
+    "source_ids": [
+      "S14"
+    ],
+    "coverage_basis": "National risk assessment context; source depth varies by topic",
+    "question": "What does the captured national risk assessment explain about underground banking & hawala? Focus on mechanisms, relevant financial patterns and the context needed for a bank review. Distinguish assessment context from legal requirements."
+  },
+  {
+    "id": "real_estate",
+    "label": "Real estate",
+    "aliases": [
+      "real estate",
+      "property laundering"
+    ],
+    "source_ids": [
+      "S14"
+    ],
+    "coverage_basis": "National risk assessment context; source depth varies by topic",
+    "question": "What does the captured national risk assessment explain about real estate? Focus on mechanisms, relevant financial patterns and the context needed for a bank review. Distinguish assessment context from legal requirements."
+  },
+  {
+    "id": "cash_movement",
+    "label": "Bulk cash movement",
+    "aliases": [
+      "cash smuggling",
+      "bulk cash"
+    ],
+    "source_ids": [
+      "S14"
+    ],
+    "coverage_basis": "National risk assessment context; source depth varies by topic",
+    "question": "What does the captured national risk assessment explain about bulk cash movement? Focus on mechanisms, relevant financial patterns and the context needed for a bank review. Distinguish assessment context from legal requirements."
+  },
+  {
+    "id": "fraud_proceeds",
+    "label": "Fraud & cybercrime proceeds",
+    "aliases": [
+      "fraud proceeds",
+      "cybercrime proceeds",
+      "business email compromise"
+    ],
+    "source_ids": [
+      "S14",
+      "S19"
+    ],
+    "coverage_basis": "National risk assessment context; source depth varies by topic",
+    "question": "What does the captured national risk assessment explain about fraud & cybercrime proceeds? Focus on mechanisms, relevant financial patterns and the context needed for a bank review. Distinguish assessment context from legal requirements."
+  },
+  {
+    "id": "gambling",
+    "label": "Gambling & casinos",
+    "aliases": [
+      "gambling",
+      "casino"
+    ],
+    "source_ids": [
+      "S14"
+    ],
+    "coverage_basis": "National risk assessment context; source depth varies by topic",
+    "question": "What does the captured national risk assessment explain about gambling & casinos? Focus on mechanisms, relevant financial patterns and the context needed for a bank review. Distinguish assessment context from legal requirements."
+  }
+]

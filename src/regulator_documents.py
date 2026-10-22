@@ -24,7 +24,7 @@ MAX_PAGES = 50
 def official_document(url, publisher):
     u=urlsplit(url)
     source=next((s for s in news_sources.SOURCES if s['publisher']==publisher),None)
-    if (not source or u.scheme!='https' or u.netloc not in source['hosts'] or
+    if (not source or source.get('source_type','official')!='official' or u.scheme!='https' or u.netloc not in source['hosts'] or
         u.username or u.password or u.port or u.query or re.search(r'%(?!20)',u.path,re.I) or '..' in u.path or '\\' in u.path):
         raise svc.SetupError('Only directly linked PDFs on the issuing regulator’s official HTTPS hosts are supported.')
     if not (u.path.lower().endswith('.pdf') or re.fullmatch(r'/media/[A-Za-z0-9_% .-]+(?:/[A-Za-z0-9_% .-]+)*/download',u.path)):
