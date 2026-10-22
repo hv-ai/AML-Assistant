@@ -1,22 +1,175 @@
 {
   "items": [
     {
+      "id": "b67093df2da63743",
+      "title": "Iran-related Designations; Belarus and North Korea Designations Removals; Issuance of Iran-related and Russia-related General Licenses and Amended Frequently Asked Questions",
+      "url": "https://ofac.treasury.gov/recent-actions/20261021",
+      "published_date": "2026-10-21",
+      "publisher": "OFAC",
+      "sector": "Sanctions and evasion",
+      "source_type": "official",
+      "description": "Iran-related Designations; Belarus and North Korea Designations Removals; Issuance of Iran-related and Russia-related General Licenses and Amended Frequently Asked Questions October 21, 2026 - Sanctions List Updates",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "81573eaa7c3b0f56",
+      "title": "CFTC Secures Court Order Directing Louisiana Man and His Companies to Pay Over $9 Million in Forex Fraud",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/9313-26",
+      "published_date": "2026-10-21",
+      "publisher": "CFTC",
+      "sector": "Futures / derivatives sector",
+      "source_type": "official",
+      "description": "",
+      "categories": [
+        "fraud"
+      ]
+    },
+    {
+      "id": "162b0cd1e426e67a",
+      "title": "Operation Economic Outcast Targets Iran\u2019s Shadow Fleet Networks",
+      "url": "https://www.fincen.gov/news/news-releases/operation-economic-outcast-targets-irans-shadow-fleet-networks",
+      "published_date": "2026-10-21",
+      "publisher": "FinCEN",
+      "description": "Today, as part of Operation Economic Outcast, the U.S. Department of the Treasury sanctioned Panama- and Greece-based law firm Karnakis and Karnakis, which has supported illicit Iranian shipping activity for years, indirectly aiding Tehran\u2019s ability to generate revenue to fund its military,\u2026",
+      "sector": "Cross-sector BSA / AML",
+      "source_type": "official",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "ec534d877591929d",
+      "title": "TransUnion Launches Industry-First Adverse-Actionable Scores to Combat Synthetic Identity Fraud and Credit Washing, Now Being Integrated With Oscilar",
+      "url": "https://newsroom.transunion.com/transunion-launches-industry-first-adverse-actionable-scores-to-combat-synthetic-identity-fraud-and-credit-washing-now-being-integrated-with-oscilar/",
+      "published_date": "2026-10-20",
+      "publisher": "TransUnion",
+      "sector": "Consumer credit research",
+      "source_type": "company_research",
+      "description": "TransUnion Launches Industry-First Adverse-Actionable Scores to Combat Synthetic Identity Fraud and Credit Washing, Now Being Integrated With Oscilar 20 October 2026 | 07:17 AM America/Chicago TransUnion (NYSE: TRU) today announced the launch of its Credit Washing and Synthetic Fraud Scores with adverse action capability. These are the first-ever adverse-actionable solutions of their \u2026 Read more",
+      "categories": [
+        "fraud",
+        "credit"
+      ]
+    },
+    {
+      "id": "a4337ff2f5a8fc35",
+      "title": "Protecting American Intellectual Property Act of 2022 (PAIPA) Designations; Issuance of Associated General Licenses",
+      "url": "https://ofac.treasury.gov/recent-actions/20261019",
+      "published_date": "2026-10-19",
+      "publisher": "OFAC",
+      "sector": "Sanctions and evasion",
+      "source_type": "official",
+      "description": "Protecting American Intellectual Property Act of 2022 (PAIPA) Designations; Issuance of Associated General Licenses October 19, 2026 - Sanctions List Updates",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "3b6ec1d5bfe827e9",
+      "title": "CFTC Secures Federal Court Orders Requiring Former Long Island Resident and His Firm to Pay Over $288 Million for Operating a Commodity Pool Ponzi Scheme",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/9311-26",
+      "published_date": "2026-10-19",
+      "publisher": "CFTC",
+      "sector": "Futures / derivatives sector",
+      "source_type": "official",
+      "description": "",
+      "categories": [
+        "fraud"
+      ]
+    },
+    {
+      "id": "1095727b969d30da",
+      "title": "Treasury Press Release: U.S. Treasury Identifies $270 Million in Suspicious Activity Linked to Federal Student Aid Fraud",
+      "url": "https://www.fincen.gov/news/news-releases/treasury-press-release-us-treasury-identifies-270-million-suspicious-activity",
+      "published_date": "2026-10-19",
+      "publisher": "FinCEN",
+      "description": "The U.S. Department of the Treasury announced today that its Financial Crimes Enforcement Network (FinCEN) has identified approximately $270 million in suspicious financial activity potentially linked to fraud against federal student aid programs. FinCEN has referred these findings to federal\u2026",
+      "sector": "Cross-sector BSA / AML",
+      "source_type": "official",
+      "categories": [
+        "aml",
+        "fraud"
+      ]
+    },
+    {
+      "id": "5b4e0ae3700806be",
+      "title": "Issuance of Amended Venezuela-related General License and Frequently Asked Question",
+      "url": "https://ofac.treasury.gov/recent-actions/20261016",
+      "published_date": "2026-10-16",
+      "publisher": "OFAC",
+      "sector": "Sanctions and evasion",
+      "source_type": "official",
+      "description": "Issuance of Amended Venezuela-related General License and Frequently Asked Question October 16, 2026 - General Licenses",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
       "id": "bcb4e528926eba55",
       "title": "Operation Economic Outcast Targets Iranian Regime\u2019s Abuse of Religious Charity Networks",
       "url": "https://www.fincen.gov/news/news-releases/operation-economic-outcast-targets-iranian-regimes-abuse-religious-charity",
       "published_date": "2026-10-15",
       "publisher": "FinCEN",
       "description": "Today, as part of Operation Economic Outcast, the U.S. Department of the Treasury\u2019s Financial Crimes Enforcement Network (FinCEN) issued an Alert asking financial institutions to report potential Iranian regime abuse of religious charity networks, including diversion of religious tithes, or \u2026",
-      "sector": "Cross-sector BSA / AML"
+      "sector": "Cross-sector BSA / AML",
+      "source_type": "official",
+      "categories": [
+        "aml"
+      ]
     },
     {
-      "id": "01224e174c938d8f",
-      "title": "FinCEN Assesses $1.2 Billion Penalty against Bank of America",
-      "url": "https://www.fincen.gov/news/news-releases/fincen-assesses-12-billion-penalty-against-bank-america",
+      "id": "b851362417536419",
+      "title": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions",
+      "url": "https://ofac.treasury.gov/recent-actions/20261015",
+      "published_date": "2026-10-15",
+      "publisher": "OFAC",
+      "sector": "Sanctions and evasion",
+      "source_type": "official",
+      "description": "Iran-related Designations; Cuba Designation; Issuance of New and Amended General Licenses and Frequently Asked Questions October 15, 2026 - Sanctions List Updates",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "223484d5ba3220ac",
+      "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+      "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+      "published_date": "2026-10-15",
+      "publisher": "FBI IC3",
+      "sector": "Cyber-enabled fraud",
+      "source_type": "official",
+      "description": "",
+      "categories": [
+        "fraud"
+      ]
+    },
+    {
+      "id": "05b616a96a8c3fe8",
+      "title": "Venezuela-related Designation Removal",
+      "url": "https://ofac.treasury.gov/recent-actions/20261014",
+      "published_date": "2026-10-14",
+      "publisher": "OFAC",
+      "sector": "Sanctions and evasion",
+      "source_type": "official",
+      "description": "Venezuela-related Designation Removal October 14, 2026 - Sanctions List Updates",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "fb21fb6f3126b998",
+      "title": "FINRA Launches Enhanced Investor Education and Protection Tools to Help Research Markets and Recognize Fraud",
+      "url": "https://www.finra.org/media-center/newsreleases/2026/finra-launches-enhanced-investor-education-and-protection-tools-help",
       "published_date": "2026-10-13",
-      "publisher": "FinCEN",
-      "description": "Today, the U.S. Department of the Treasury\u2019s Financial Crimes Enforcement Network (FinCEN) announced that it has assessed a $1.2 billion penalty against Bank of America, N.A. (Bank of America) for its failure to mitigate and report priority national security risks, including Chinese money\u2026",
-      "sector": "Cross-sector BSA / AML"
+      "publisher": "FINRA",
+      "sector": "Securities supervision",
+      "source_type": "official",
+      "description": "FINRA Launches Enhanced Investor Education and Protection Tools to Help Research Markets and Recognize Fraud WASHINGTON\u2014In a continuing effort to empower investors with the tools and knowledge they need to make informed financial decisions and avoid fraud, FINRA announced today the launch of the Market Data and Investments Explorer, as well as enhanced Risk and Scam Meters. Oct 13, 2026",
+      "categories": [
+        "fraud"
+      ]
     },
     {
       "id": "cd2747adeed22bbb",
@@ -25,16 +178,102 @@
       "published_date": "2026-10-13",
       "publisher": "OCC",
       "sector": "National banks / federal savings associations",
-      "description": "The Office of the Comptroller of the Currency (OCC) today announced a $750 million civil money penalty against Bank of America, N.A. (bank), for violations of the Bank Secrecy Act and its implementing regulations, including 12 CFR 21.21 and 12 CFR 21.11. This amount is the largest in OCC history."
+      "source_type": "official",
+      "description": "The Office of the Comptroller of the Currency (OCC) today announced a $750 million civil money penalty against Bank of America, N.A. (bank), for violations of the Bank Secrecy Act and its implementing regulations, including 12 CFR 21.21 and 12 CFR 21.11. This amount is the largest in OCC history.",
+      "categories": [
+        "aml"
+      ]
     },
     {
-      "id": "8fbb18afd13a46e5",
-      "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm\u2019s failure to sufficiently detect and report certain suspicious activity related to money laundering",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
+      "id": "30df9329252b9db9",
+      "title": "Counter Narcotics and Counter Terrorism Designations",
+      "url": "https://ofac.treasury.gov/recent-actions/20261013",
+      "published_date": "2026-10-13",
+      "publisher": "OFAC",
+      "sector": "Sanctions and evasion",
+      "source_type": "official",
+      "description": "Counter Narcotics and Counter Terrorism Designations October 13, 2026 - Sanctions List Updates",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "289d1d2047b3c290",
+      "title": "Enforcement Actions",
+      "url": "https://ofac.treasury.gov/recent-actions/enforcement-actions",
+      "published_date": "2026-10-13",
+      "publisher": "OFAC",
+      "sector": "Sanctions and evasion",
+      "source_type": "official",
+      "description": "October 13, 2026 - Enforcement Actions",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "01224e174c938d8f",
+      "title": "FinCEN Assesses $1.2 Billion Penalty against Bank of America",
+      "url": "https://www.fincen.gov/news/news-releases/fincen-assesses-12-billion-penalty-against-bank-america",
+      "published_date": "2026-10-13",
+      "publisher": "FinCEN",
+      "description": "Today, the U.S. Department of the Treasury\u2019s Financial Crimes Enforcement Network (FinCEN) announced that it has assessed a $1.2 billion penalty against Bank of America, N.A. (Bank of America) for its failure to mitigate and report priority national security risks, including Chinese money\u2026",
+      "sector": "Cross-sector BSA / AML",
+      "source_type": "official",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "dc73945711b17546",
+      "title": "Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and Pegasus Worldwide Logistics; International Criminal Court Designation and General Licenses; Burma-related Designation Removal",
+      "url": "https://ofac.treasury.gov/recent-actions/20261009",
+      "published_date": "2026-10-09",
+      "publisher": "OFAC",
+      "sector": "Sanctions and evasion",
+      "source_type": "official",
+      "description": "Settlement Agreement between the U.S. Department of the Treasury's Office of Foreign Assets Control and Pegasus Worldwide Logistics; International Criminal Court Designation and General Licenses; Burma-related Designation Removal October 09, 2026 - Sanctions List Updates",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "d4f8ac83635e0d91",
+      "title": "Speaking Notes for Tina Matos, Deputy Director of Supervision and Chief Compliance Officer, Financial Transactions and Reports Analysis Centre of Canada at The Assembly Canada (ACAMS)",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/ps-pa/2026-10-09-eng",
+      "published_date": "2026-10-09",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-10-09 ] Speaking Notes for Tina Matos, Deputy Director of Supervision and Chief Compliance Officer, Financial Transactions and Reports Analysis Centre of Canada at The Assembly Canada (ACAMS)",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "9f1c153f6d96c22c",
+      "title": "General Licenses",
+      "url": "https://ofac.treasury.gov/recent-actions/general-licenses",
+      "published_date": "2026-10-09",
+      "publisher": "OFAC",
+      "sector": "Sanctions and evasion",
+      "source_type": "official",
+      "description": "October 09, 2026 - General Licenses",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "bb8437e193c79ea8",
+      "title": "Iran-related Designations; Issuance of Iran-related General License; Issuance of Amended Russia-related General License",
+      "url": "https://ofac.treasury.gov/recent-actions/20261008",
       "published_date": "2026-10-08",
-      "publisher": "Federal Reserve",
-      "sector": "Federal Reserve-supervised institutions",
-      "description": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm\u2019s failure to sufficiently detect and report certain suspicious activity related to money laundering"
+      "publisher": "OFAC",
+      "sector": "Sanctions and evasion",
+      "source_type": "official",
+      "description": "Iran-related Designations; Issuance of Iran-related General License; Issuance of Amended Russia-related General License October 08, 2026 - Sanctions List Updates",
+      "categories": [
+        "aml"
+      ]
     },
     {
       "id": "a4754723a815e4c8",
@@ -43,7 +282,89 @@
       "published_date": "2026-10-08",
       "publisher": "OCC",
       "sector": "National banks / federal savings associations",
-      "description": "The Office of the Comptroller of the Currency (OCC) today announced a cease-and-desist order and a $350 million civil money penalty against American Express National Bank, Sandy, Utah (bank), for deficiencies in the bank's Bank Secrecy Act (BSA) and anti-money laundering (AML) compliance program."
+      "source_type": "official",
+      "description": "The Office of the Comptroller of the Currency (OCC) today announced a cease-and-desist order and a $350 million civil money penalty against American Express National Bank, Sandy, Utah (bank), for deficiencies in the bank's Bank Secrecy Act (BSA) and anti-money laundering (AML) compliance program.",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "8fbb18afd13a46e5",
+      "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm\u2019s failure to sufficiently detect and report certain suspicious activity related to money laundering",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
+      "published_date": "2026-10-08",
+      "publisher": "Federal Reserve",
+      "sector": "Federal Reserve-supervised institutions",
+      "source_type": "official",
+      "description": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm\u2019s failure to sufficiently detect and report certain suspicious activity related to money laundering",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "02c0704e2d419764",
+      "title": "Sanctions List Updates",
+      "url": "https://ofac.treasury.gov/recent-actions/sanctions-list-updates",
+      "published_date": "2026-10-08",
+      "publisher": "OFAC",
+      "sector": "Sanctions and evasion",
+      "source_type": "official",
+      "description": "October 08, 2026 - Sanctions List Updates",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "868d3f8731247956",
+      "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+      "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+      "published_date": "2026-10-07",
+      "publisher": "Fed Consumer Credit",
+      "sector": "Consumer credit statistical releases",
+      "source_type": "official",
+      "description": "Federal Reserve statistical release on outstanding consumer credit, including revolving and nonrevolving credit. Open the brief for the reported figures and context.",
+      "categories": [
+        "credit"
+      ]
+    },
+    {
+      "id": "1484dc178742649e",
+      "title": "Comptroller Gould Announces New Efforts to Combat Financial Fraud in Minnesota",
+      "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-86.html",
+      "published_date": "2026-10-07",
+      "publisher": "OCC",
+      "sector": "National banks / federal savings associations",
+      "source_type": "official",
+      "description": "Comptroller of the Currency Jonathan V. Gould today convened a panel of community bankers in Minneapolis, Minnesota, to discuss ongoing efforts to combat financial fraud.",
+      "categories": [
+        "fraud"
+      ]
+    },
+    {
+      "id": "2aec8580a175eb0b",
+      "title": "FINRA Fines Revere Securities $800,000 for Small-Cap IPO-Related AML and Supervisory Failures",
+      "url": "https://www.finra.org/media-center/newsreleases/2026/finra-fines-revere-securities-800000-small-cap-ipo-related-aml-and",
+      "published_date": "2026-10-06",
+      "publisher": "FINRA",
+      "sector": "Securities supervision",
+      "source_type": "official",
+      "description": "FINRA Fines Revere Securities $800,000 for Small-Cap IPO-Related AML and Supervisory Failures WASHINGTON\u2014FINRA has fined Revere Securities LLC $800,000 for anti-money laundering (AML) and supervisory violations related to small-cap initial public offerings (IPOs) for foreign-based issuers. As part of the settlement, FINRA also required Revere to retain a third-party consultant to conduct a review of compliance with FINRA rules, obtain a report from the consultant with recommendations on how to remediate its supervisory procedures and systems, and implement those recommendations. Oct 06, 2026",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "4a25c6e484514c0d",
+      "title": "SEC Coordinates with Global Financial Regulators to Raise Fraud Awareness During World Investor Week",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-101-sec-coordinates-global-financial-regulators-raise-fraud-awareness-during-world-investor-week",
+      "published_date": "2026-10-05",
+      "publisher": "SEC",
+      "sector": "Securities sector",
+      "source_type": "official",
+      "description": "The Securities and Exchange Commission, in coordination with other U.S. and global financial regulators, today issued a joint investor bulletin as part of World Investor Week (WIW). The bulletin encourages investors to be resilient in changing\u2026",
+      "categories": [
+        "fraud"
+      ]
     },
     {
       "id": "265a0f9b6aaad4e4",
@@ -52,7 +373,11 @@
       "published_date": "2026-10-05",
       "publisher": "FinCEN",
       "description": "The Financial Crimes Enforcement Network (FinCEN) is withdrawing the following proposed rules that would have imposed certain regulatory requirements on financial institutions related to certain digital assets, specifically convertible virtual currencies: \u2026",
-      "sector": "Cross-sector BSA / AML"
+      "sector": "Cross-sector BSA / AML",
+      "source_type": "official",
+      "categories": [
+        "aml"
+      ]
     },
     {
       "id": "0cad373967ce148b",
@@ -61,7 +386,141 @@
       "published_date": "2026-10-01",
       "publisher": "FinCEN",
       "description": "Today, as part of Operation Economic Outcast, the U.S. Department of the Treasury took unprecedented action against the A7 Network, a shadow banking network with ties to Russia used by the Iranian regime to evade sanctions. Treasury\u2019s Financial Crimes Enforcement Network (FinCEN) proposed a rule\u2026",
-      "sector": "Cross-sector BSA / AML"
+      "sector": "Cross-sector BSA / AML",
+      "source_type": "official",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "8fe6372d4b9e1112",
+      "title": "SEC Charges Two Individuals With Orchestrating Fraud Scheme That Targeted Veterans",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-97-sec-charges-two-individuals-orchestrating-fraud-scheme-targeted-veterans",
+      "published_date": "2026-09-30",
+      "publisher": "SEC",
+      "sector": "Securities sector",
+      "source_type": "official",
+      "description": "The Securities and Exchange Commission today announced charges against Christopher Kenji Dinelli and Jacob David \u201cKobe\u201d Frankel for allegedly orchestrating a fraud scheme that raised more than $8.7 million from 35 investors through their fund, Beyond\u2026",
+      "categories": [
+        "fraud"
+      ]
+    },
+    {
+      "id": "1e8f723ea51d4d7a",
+      "title": "CFTC Secures Court Order Directing Louisiana Man and Arkansas Woman to Pay Over $31 Million for Digital Assets, Precious Metals Fraud",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/9305-26",
+      "published_date": "2026-09-30",
+      "publisher": "CFTC",
+      "sector": "Futures / derivatives sector",
+      "source_type": "official",
+      "description": "",
+      "categories": [
+        "fraud"
+      ]
+    },
+    {
+      "id": "f86b9c9a1f89d0ef",
+      "title": "SEC Charges Multiple Entities in Fraud Schemes Totaling at Least $15 Million That Used WhatsApp and Other Platforms to Lure Investors",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-95-sec-charges-multiple-entities-fraud-schemes-totaling-least-15-million-used-whatsapp-other-platforms",
+      "published_date": "2026-09-29",
+      "publisher": "SEC",
+      "sector": "Securities sector",
+      "source_type": "official",
+      "description": "The Securities and Exchange Commission today charged multiple entities that are likely operated by individuals located overseas for defrauding hundreds of retail investors, including many in the U.S., through so-called investment confidence scams where\u2026",
+      "categories": [
+        "fraud"
+      ]
+    },
+    {
+      "id": "1a454431e4c1bc28",
+      "title": "FINTRAC Statement \u2013 Financial Action Task Force (FATF) Evaluation",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/statementfatf-declarationgafi-eng",
+      "published_date": "2026-09-29",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-09-29 ] FINTRAC Statement \u2013 Financial Action Task Force (FATF) Evaluation",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "0b0f0295d35b75cd",
+      "title": "CFTC Charges Cash FX Group S.A., and CEO; Three Others With $950 Million Fraud Scheme",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/9304-26",
+      "published_date": "2026-09-25",
+      "publisher": "CFTC",
+      "sector": "Futures / derivatives sector",
+      "source_type": "official",
+      "description": "",
+      "categories": [
+        "fraud"
+      ]
+    },
+    {
+      "id": "8a80cc5fa5203870",
+      "title": "FINTRAC imposes an administrative monetary penalty on Your Neighbourhood Credit Union Limited",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/nr/2026-09-24-2-eng",
+      "published_date": "2026-09-24",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-09-24 ] FINTRAC imposes an administrative monetary penalty on Your Neighbourhood Credit Union Limited",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "85bcbdf9d602826b",
+      "title": "FINTRAC imposes an administrative monetary penalty on Pathwise Credit Union",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/nr/2026-09-24-3-eng",
+      "published_date": "2026-09-24",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-09-24 ] FINTRAC imposes an administrative monetary penalty on Pathwise Credit Union",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "7305d04de83089b8",
+      "title": "FINTRAC imposes an administrative monetary penalty on Caisse populaire acadienne lt\u00e9e",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/nr/2026-09-24-4-eng",
+      "published_date": "2026-09-24",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-09-24 ] FINTRAC imposes an administrative monetary penalty on Caisse populaire acadienne lt\u00e9e",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "05913d5f4fd0f895",
+      "title": "FINTRAC imposes an administrative monetary penalty on Caisse populaire Alliance limit\u00e9e",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/nr/2026-09-24-1-eng",
+      "published_date": "2026-09-24",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-09-24 ] FINTRAC imposes an administrative monetary penalty on Caisse populaire Alliance limit\u00e9e",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "85dbf20ef76279a1",
+      "title": "Scammers Impersonating Law Enforcement and Government Officials in Fraud Schemes",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260917",
+      "published_date": "2026-09-17",
+      "publisher": "FBI IC3",
+      "sector": "Cyber-enabled fraud",
+      "source_type": "official",
+      "description": "",
+      "categories": [
+        "fraud"
+      ]
     },
     {
       "id": "22ec1040f225463c",
@@ -70,7 +529,24 @@
       "published_date": "2026-09-16",
       "publisher": "FinCEN",
       "description": "WASHINGTON\u2014Today, the U.S. Department of the Treasury\u2019s (Treasury) Financial Crimes Enforcement Network (FinCEN) led a FinCEN Exchange with global financial institutions to advance Operation Economic Outcast. The event armed financial institutions with the information they need\u2026",
-      "sector": "Cross-sector BSA / AML"
+      "sector": "Cross-sector BSA / AML",
+      "source_type": "official",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "52c2c6d94de41d46",
+      "title": "CFTC Secures Court Order Directing Florida Man to Pay Over $6 Million for Options Fraud and Imposing Trading Bans",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/9299-26",
+      "published_date": "2026-09-15",
+      "publisher": "CFTC",
+      "sector": "Futures / derivatives sector",
+      "source_type": "official",
+      "description": "",
+      "categories": [
+        "fraud"
+      ]
     },
     {
       "id": "584057734a2c281c",
@@ -79,7 +555,37 @@
       "published_date": "2026-09-10",
       "publisher": "FinCEN",
       "description": "Today, the U.S. Department of the Treasury\u2019s Financial Crimes Enforcement Network (FinCEN) is issuing a Whistleblower Bulletin in support of Operation Economic Outcast. FinCEN maintains a whistleblower incentive program for\u2026",
-      "sector": "Cross-sector BSA / AML"
+      "sector": "Cross-sector BSA / AML",
+      "source_type": "official",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "090be0142402bc55",
+      "title": "SEC Charges Founder and His Two New Jersey-Based Companies in Alleged $16 Million Ponzi Scheme",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-86-sec-charges-founder-his-two-new-jersey-based-companies-alleged-16-million-ponzi-scheme",
+      "published_date": "2026-09-10",
+      "publisher": "SEC",
+      "sector": "Securities sector",
+      "source_type": "official",
+      "description": "The Securities and Exchange Commission today charged Ernest Ossei Boateng and two New Jersey-based companies he controls, Intercontinental Wealth Network LLC and I Wealth Network LP, for allegedly raising approximately $16 million from more than 200\u2026",
+      "categories": [
+        "fraud"
+      ]
+    },
+    {
+      "id": "ea310755dc180090",
+      "title": "CFTC Secures Court Orders Directing Texas and Florida Residents to Pay Over $500,000 in Disgorgement and Civil Monetary Penalties and Imposing Trading Bans for Commodity Pool Fraud",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/9294-26",
+      "published_date": "2026-09-09",
+      "publisher": "CFTC",
+      "sector": "Futures / derivatives sector",
+      "source_type": "official",
+      "description": "",
+      "categories": [
+        "fraud"
+      ]
     },
     {
       "id": "dd3c52b768738ff4",
@@ -88,16 +594,12 @@
       "published_date": "2026-09-09",
       "publisher": "FinCEN",
       "description": "Today, the U.S. Department of the Treasury's Financial Crimes Enforcement Network (FinCEN) issued a Financial Trend Analysis identifying approximately $17.5 billion in suspicious financial activity potentially linked to\u2026",
-      "sector": "Cross-sector BSA / AML"
-    },
-    {
-      "id": "ba3f6f8c943f8137",
-      "title": "FinCEN Issues Frequently Asked Questions Regarding Treatment of Verifiable Digital Credentials Under the Customer Identification Program Rule",
-      "url": "https://www.fincen.gov/news/news-releases/fincen-issues-frequently-asked-questions-regarding-treatment-verifiable-digital",
-      "published_date": "2026-09-08",
-      "publisher": "FinCEN",
-      "description": "Today, the U.S. Department of the Treasury\u2019s Financial Crimes Enforcement Network (FinCEN) issued answers to two new Frequently Asked Questions (FAQs) and updated one existing FAQ that address the use of state-issued mobile driver\u2019s licenses (mDLs) and other government-issued verifiable digital\u2026",
-      "sector": "Cross-sector BSA / AML"
+      "sector": "Cross-sector BSA / AML",
+      "source_type": "official",
+      "categories": [
+        "aml",
+        "fraud"
+      ]
     },
     {
       "id": "ef516328343177df",
@@ -106,7 +608,11 @@
       "published_date": "2026-09-08",
       "publisher": "FinCEN",
       "description": "Today, the U.S. Department of the Treasury\u2019s Financial Crimes Enforcement Network (FinCEN) is issuing an Alert to assist financial institutions in identifying and reporting procurement networks supporting Iran\u2019s\u2026",
-      "sector": "Cross-sector BSA / AML"
+      "sector": "Cross-sector BSA / AML",
+      "source_type": "official",
+      "categories": [
+        "aml"
+      ]
     },
     {
       "id": "e8e6523dd046f84b",
@@ -115,7 +621,37 @@
       "published_date": "2026-09-08",
       "publisher": "OCC",
       "sector": "National banks / federal savings associations",
-      "description": "The Office of the Comptroller of the Currency (OCC), jointly with the Financial Crimes Enforcement Network (FinCEN), the Board of Governors of the Federal Reserve System, the Federal Deposit Insurance Corporation, and the National Credit Union Administration, issued answers to frequently asked questions (FAQ) related to the use of state-issued mobile driver's licenses and other government-issued verifiable digital credentials (VDC)."
+      "source_type": "official",
+      "description": "The Office of the Comptroller of the Currency (OCC), jointly with the Financial Crimes Enforcement Network (FinCEN), the Board of Governors of the Federal Reserve System, the Federal Deposit Insurance Corporation, and the National Credit Union Administration, issued answers to frequently asked questions (FAQ) related to the use of state-issued mobile driver's licenses and other government-issued verifiable digital credentials (VDC).",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "cb32631fa10ad4e4",
+      "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-09-08",
+      "url": "https://www.federalreserve.gov/releases/g19/20260908/default.htm",
+      "published_date": "2026-09-08",
+      "publisher": "Fed Consumer Credit",
+      "sector": "Consumer credit statistical releases",
+      "source_type": "official",
+      "description": "Federal Reserve statistical release on outstanding consumer credit, including revolving and nonrevolving credit. Open the brief for the reported figures and context.",
+      "categories": [
+        "credit"
+      ]
+    },
+    {
+      "id": "ba3f6f8c943f8137",
+      "title": "FinCEN Issues Frequently Asked Questions Regarding Treatment of Verifiable Digital Credentials Under the Customer Identification Program Rule",
+      "url": "https://www.fincen.gov/news/news-releases/fincen-issues-frequently-asked-questions-regarding-treatment-verifiable-digital",
+      "published_date": "2026-09-08",
+      "publisher": "FinCEN",
+      "description": "Today, the U.S. Department of the Treasury\u2019s Financial Crimes Enforcement Network (FinCEN) issued answers to two new Frequently Asked Questions (FAQs) and updated one existing FAQ that address the use of state-issued mobile driver\u2019s licenses (mDLs) and other government-issued verifiable digital\u2026",
+      "sector": "Cross-sector BSA / AML",
+      "source_type": "official",
+      "categories": [
+        "aml"
+      ]
     },
     {
       "id": "4c027549b351cad1",
@@ -124,7 +660,37 @@
       "published_date": "2026-09-08",
       "publisher": "FDIC",
       "sector": "FDIC-supervised institutions",
-      "description": "Sep 8, 2026 Frequently Asked Questions Regarding Treatment of Verifiable Digital Credentials Under the Customer Identification Program Rule Supervisory Guidance FIL-56-2026"
+      "source_type": "official",
+      "description": "Sep 8, 2026 Frequently Asked Questions Regarding Treatment of Verifiable Digital Credentials Under the Customer Identification Program Rule Supervisory Guidance FIL-56-2026",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "a9d766bb66b4b0ce",
+      "title": "FINTRAC imposes an administrative monetary penalty on Nova Scotia Gaming Corporation",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/nr/2026-09-03-1-eng",
+      "published_date": "2026-09-03",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-09-03 ] FINTRAC imposes an administrative monetary penalty on Nova Scotia Gaming Corporation",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "4fde5a68342f65a6",
+      "title": "FINTRAC imposes an administrative monetary penalty on the New Brunswick Lotteries and Gaming Corporation",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/nr/2026-09-03-2-eng",
+      "published_date": "2026-09-03",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-09-03 ] FINTRAC imposes an administrative monetary penalty on the New Brunswick Lotteries and Gaming Corporation",
+      "categories": [
+        "aml"
+      ]
     },
     {
       "id": "0407a11e5a1b818a",
@@ -133,7 +699,12 @@
       "published_date": "2026-09-03",
       "publisher": "FinCEN",
       "description": "Urges Financial Institutions to be Vigilant and Report Suspicious Activity\nWASHINGTON\u2014Today, the U.S. Department of the Treasury\u2019s Financial Crimes Enforcement Network (FinCEN) published an\u2026",
-      "sector": "Cross-sector BSA / AML"
+      "sector": "Cross-sector BSA / AML",
+      "source_type": "official",
+      "categories": [
+        "aml",
+        "fraud"
+      ]
     },
     {
       "id": "cb6859f963c44d9f",
@@ -142,25 +713,10 @@
       "published_date": "2026-09-02",
       "publisher": "FinCEN",
       "description": "WASHINGTON\u2014Today, the U.S. Department of the Treasury\u2019s Financial Crimes Enforcement Network (FinCEN) reissued a\u2026",
-      "sector": "Cross-sector BSA / AML"
-    },
-    {
-      "id": "65e01872fbfc35e5",
-      "title": "FinCEN, Agencies, Issue Joint Statement on Suspicious Activity Report Confidentiality Considerations Regarding Communications with Customers",
-      "url": "https://www.fincen.gov/news/news-releases/fincen-agencies-issue-joint-statement-suspicious-activity-report-confidentiality",
-      "published_date": "2026-09-02",
-      "publisher": "FinCEN",
-      "description": "Today, the U.S. Department of the Treasury\u2019s Financial Crimes Enforcement Network (FinCEN), together with the Board of Governors of the Federal Reserve System (Federal Reserve), the Federal Deposit Insurance Corporation (FDIC), the National Credit Union Administration (NCUA), and the Office of\u2026",
-      "sector": "Cross-sector BSA / AML"
-    },
-    {
-      "id": "55b6125de2e1fca4",
-      "title": "Suspicious Activity Reporting: Joint Statement on Suspicious Activity Report Confidentiality Considerations Regarding Communications with Customers",
-      "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-43.html",
-      "published_date": "2026-09-02",
-      "publisher": "OCC",
-      "sector": "National banks / federal savings associations",
-      "description": "On September 2, 2026, the Office of the Comptroller of the Currency, the Board of Governors of the Federal Reserve System, the Federal Deposit Insurance Corporation, the Financial Crimes Enforcement Network (FinCEN), and the National Credit Union Administration issued a statement to clarify confidentiality requirements related to Suspicious Activity Reports (SAR), particularly when banks communicate with their customers regarding potentially fraudulent transactions."
+      "sector": "Cross-sector BSA / AML",
+      "categories": [
+        "aml"
+      ]
     },
     {
       "id": "ab2cd8ca0a86a8a9",
@@ -169,7 +725,23 @@
       "published_date": "2026-09-02",
       "publisher": "NCUA",
       "sector": "Credit unions",
-      "description": "Joint Statement on Suspicious Activity Report Confidentiality Considerations Regarding Communications with Customers FFIEC/Joint Agency 09/02/2026"
+      "source_type": "official",
+      "description": "Joint Statement on Suspicious Activity Report Confidentiality Considerations Regarding Communications with Customers FFIEC/Joint Agency 09/02/2026",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "65e01872fbfc35e5",
+      "title": "FinCEN, Agencies, Issue Joint Statement on Suspicious Activity Report Confidentiality Considerations Regarding Communications with Customers",
+      "url": "https://www.fincen.gov/news/news-releases/fincen-agencies-issue-joint-statement-suspicious-activity-report-confidentiality",
+      "published_date": "2026-09-02",
+      "publisher": "FinCEN",
+      "description": "Today, the U.S. Department of the Treasury\u2019s Financial Crimes Enforcement Network (FinCEN), together with the Board of Governors of the Federal Reserve System (Federal Reserve), the Federal Deposit Insurance Corporation (FDIC), the National Credit Union Administration (NCUA), and the Office of\u2026",
+      "sector": "Cross-sector BSA / AML",
+      "categories": [
+        "aml"
+      ]
     },
     {
       "id": "64363f72f76ae26c",
@@ -178,7 +750,76 @@
       "published_date": "2026-09-02",
       "publisher": "FDIC",
       "sector": "FDIC-supervised institutions",
-      "description": "Sep 2, 2026 Joint Statement on Suspicious Activity Report Confidentiality Considerations Regarding Communications with Customers Laws and Regulations FIL-55-2026"
+      "source_type": "official",
+      "description": "Sep 2, 2026 Joint Statement on Suspicious Activity Report Confidentiality Considerations Regarding Communications with Customers Laws and Regulations FIL-55-2026",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "55b6125de2e1fca4",
+      "title": "Suspicious Activity Reporting: Joint Statement on Suspicious Activity Report Confidentiality Considerations Regarding Communications with Customers",
+      "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-43.html",
+      "published_date": "2026-09-02",
+      "publisher": "OCC",
+      "sector": "National banks / federal savings associations",
+      "source_type": "official",
+      "description": "On September 2, 2026, the Office of the Comptroller of the Currency, the Board of Governors of the Federal Reserve System, the Federal Deposit Insurance Corporation, the Financial Crimes Enforcement Network (FinCEN), and the National Credit Union Administration issued a statement to clarify confidentiality requirements related to Suspicious Activity Reports (SAR), particularly when banks communicate with their customers regarding potentially fraudulent transactions.",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "997fe92a63467666",
+      "title": "Malicious Cyber Actors Gain Access to Victim Accounts Through Consent Phishing",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260901",
+      "published_date": "2026-09-01",
+      "publisher": "FBI IC3",
+      "sector": "Cyber-enabled fraud",
+      "source_type": "official",
+      "description": "",
+      "categories": [
+        "fraud"
+      ]
+    },
+    {
+      "id": "6acffcfc718166ed",
+      "title": "How Distressed Are Consumers? Reconciling Diverging Credit Card Delinquency Measures",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/how-distressed-are-consumers-reconciling-diverging-credit-card-delinquency-measures/",
+      "published_date": "2026-08-11",
+      "publisher": "Liberty Street Economics",
+      "sector": "New York Fed credit research",
+      "source_type": "official",
+      "description": "Total debt balances declined slightly by $13 billion in the second quarter of 2026, according to the latest Quarterly Report on Household Debt and Credit from the New York Fed\u2019s Center for Microeconomic Data . Mortgage and student loan balances saw a small decline, while there were increases across other debt products. Delinquency rates across most products remained fairly stable. Still, between 2022:Q3 and 2026:Q1, the percentage of credit card balances 90+ days delinquent rose from 7.6 percent to 12.8 percent, prompting concerns that Americans are falling behind on their debt payments at rates not seen since the Great Recession. Yet the flow delinquency rate\u2014which captures the rate of new ",
+      "categories": [
+        "credit"
+      ]
+    },
+    {
+      "id": "4d22712a329176f5",
+      "title": "Household Debt Balances Decreased Slightly; Credit Card Delinquency Transition Rates Remained Steady",
+      "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260811",
+      "published_date": "2026-08-11",
+      "publisher": "New York Fed",
+      "sector": "Household debt and credit",
+      "source_type": "official",
+      "description": "Aug 11, 2026 Household Debt Balances Decreased Slightly; Credit Card Delinquency Transition Rates Remained Steady",
+      "categories": [
+        "credit"
+      ]
+    },
+    {
+      "id": "9060e142d3458be5",
+      "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-08-07",
+      "url": "https://www.federalreserve.gov/releases/g19/20260807/default.htm",
+      "published_date": "2026-08-07",
+      "publisher": "Fed Consumer Credit",
+      "sector": "Consumer credit statistical releases",
+      "source_type": "official",
+      "description": "Federal Reserve statistical release on outstanding consumer credit, including revolving and nonrevolving credit. Open the brief for the reported figures and context.",
+      "categories": [
+        "credit"
+      ]
     },
     {
       "id": "ca83accd027928c7",
@@ -187,7 +828,49 @@
       "published_date": "2026-08-03",
       "publisher": "CFTC",
       "sector": "Futures / derivatives sector",
-      "description": ""
+      "description": "",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "7b352a495ece9916",
+      "title": "FINRA Fines UBS Financial $20 Million for Anti-Money Laundering Violations",
+      "url": "https://www.finra.org/media-center/newsreleases/2026/finra-fines-ubs-financial-20-million-anti-money-laundering",
+      "published_date": "2026-08-03",
+      "publisher": "FINRA",
+      "sector": "Securities supervision",
+      "source_type": "official",
+      "description": "FINRA Fines UBS Financial $20 Million for Anti-Money Laundering Violations WASHINGTON\u2014FINRA has fined UBS Financial Services Inc. (UBS Financial) $20 million for anti-money laundering (AML) violations. Aug 03, 2026",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "e6449925f7a3dc78",
+      "title": "FINRA Foundation Research Reveals Gaps in Fraud Awareness That May Leave Americans Vulnerable",
+      "url": "https://www.finra.org/media-center/newsreleases/2026/finra-foundation-research-reveals-gaps-fraud-awareness-may-leave",
+      "published_date": "2026-07-22",
+      "publisher": "FINRA",
+      "sector": "Securities supervision",
+      "source_type": "official",
+      "description": "FINRA Foundation Research Reveals Gaps in Fraud Awareness That May Leave Americans Vulnerable WASHINGTON\u2014A new report released today by the FINRA Investor Education Foundation (FINRA Foundation) reveals troubling knowledge gaps that may leave millions of Americans vulnerable to victimization as financial fraud losses near $200 billion annually. Jul 22, 2026",
+      "categories": [
+        "fraud"
+      ]
+    },
+    {
+      "id": "ffc3d7afe953052f",
+      "title": "FBI Warns of Scammers Impersonating the IC3",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260720",
+      "published_date": "2026-07-20",
+      "publisher": "FBI IC3",
+      "sector": "Cyber-enabled fraud",
+      "source_type": "official",
+      "description": "",
+      "categories": [
+        "fraud"
+      ]
     },
     {
       "id": "cda0881c8a27db38",
@@ -196,7 +879,51 @@
       "published_date": "2026-07-10",
       "publisher": "NCUA",
       "sector": "Credit unions",
-      "description": "NCUA Highlights Anti-Fraud and Other Updates in FinCEN\u2019s Revised 314(b) Program Guidance NCUA Operations/Activities 07/10/2026"
+      "source_type": "official",
+      "description": "NCUA Highlights Anti-Fraud and Other Updates in FinCEN\u2019s Revised 314(b) Program Guidance NCUA Operations/Activities 07/10/2026",
+      "categories": [
+        "aml",
+        "fraud"
+      ]
+    },
+    {
+      "id": "c169c6bcc00c06e9",
+      "title": "FINTRAC imposes an administrative monetary penalty on Atlantic Lottery Corporation Inc.",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/nr/2026-07-09-1-eng",
+      "published_date": "2026-07-09",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-07-09 ] FINTRAC imposes an administrative monetary penalty on Atlantic Lottery Corporation Inc.",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "2d2dee5e809643d7",
+      "title": "FINTRAC imposes an administrative monetary penalty on VIP Realty Inc.",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/nr/2026-07-09-2-eng",
+      "published_date": "2026-07-09",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-07-09 ] FINTRAC imposes an administrative monetary penalty on VIP Realty Inc.",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "df4bea49b37f4ba7",
+      "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-07-08",
+      "url": "https://www.federalreserve.gov/releases/g19/20260708/default.htm",
+      "published_date": "2026-07-08",
+      "publisher": "Fed Consumer Credit",
+      "sector": "Consumer credit statistical releases",
+      "source_type": "official",
+      "description": "Federal Reserve statistical release on outstanding consumer credit, including revolving and nonrevolving credit. Open the brief for the reported figures and context.",
+      "categories": [
+        "credit"
+      ]
     },
     {
       "id": "2e77e304c59a26a9",
@@ -205,7 +932,232 @@
       "published_date": "2026-06-18",
       "publisher": "NCUA",
       "sector": "Credit unions",
-      "description": "Agencies Request Comment on Customer Identification Program Requirements for Permitted Payment Stablecoin Issuers NCUA Operations/Activities 06/18/2026"
+      "source_type": "official",
+      "description": "Agencies Request Comment on Customer Identification Program Requirements for Permitted Payment Stablecoin Issuers NCUA Operations/Activities 06/18/2026",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "de675275f2038d84",
+      "title": "Protect Your Property from Illegal Sales Through Parcel Owner Impersonation",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260616",
+      "published_date": "2026-06-16",
+      "publisher": "FBI IC3",
+      "sector": "Cyber-enabled fraud",
+      "source_type": "official",
+      "description": "",
+      "categories": [
+        "fraud"
+      ]
+    },
+    {
+      "id": "801e2bb9a6f42dda",
+      "title": "Scammers Use Couriers to Collect Cash in Cryptocurrency Investment Scams",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260615",
+      "published_date": "2026-06-15",
+      "publisher": "FBI IC3",
+      "sector": "Cyber-enabled fraud",
+      "source_type": "official",
+      "description": "",
+      "categories": [
+        "fraud"
+      ]
+    },
+    {
+      "id": "f8caeeea0cecbb2b",
+      "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-06-05",
+      "url": "https://www.federalreserve.gov/releases/g19/20260605/default.htm",
+      "published_date": "2026-06-05",
+      "publisher": "Fed Consumer Credit",
+      "sector": "Consumer credit statistical releases",
+      "source_type": "official",
+      "description": "Federal Reserve statistical release on outstanding consumer credit, including revolving and nonrevolving credit. Open the brief for the reported figures and context.",
+      "categories": [
+        "credit"
+      ]
+    },
+    {
+      "id": "fd010b09ada9179a",
+      "title": "The Unintended Effects of Interest Rate Caps: Credit Reallocation to Safer Borrowers",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/06/the-unintended-effects-of-interest-rate-caps-credit-reallocation-to-safer-borrowers/",
+      "published_date": "2026-06-03",
+      "publisher": "Liberty Street Economics",
+      "sector": "New York Fed credit research",
+      "source_type": "official",
+      "description": "Several states have recently capped consumer loan rates with the stated purpose of protecting borrowers. In a recent Staff Report , we study how these interventions have played out in three states. In our first post about that study , we showed that rate caps lead riskier borrowers to face rationing in the credit market. One question that naturally arises is what lenders do with the credit they used to provide to high-risk borrowers before the caps were imposed. Lenders that lend exclusively to high-risk borrowers (at rates above the cap) may decide to stop lending to high-risk borrowers in that state. Others, however, may try to change their \u201ccredit box\u201d by lending more to somewhat safer bo",
+      "categories": [
+        "credit"
+      ]
+    },
+    {
+      "id": "794fa09061994584",
+      "title": "Emerging Hospice Fraud Targeting Medicare Recipients",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260603",
+      "published_date": "2026-06-03",
+      "publisher": "FBI IC3",
+      "sector": "Cyber-enabled fraud",
+      "source_type": "official",
+      "description": "",
+      "categories": [
+        "fraud"
+      ]
+    },
+    {
+      "id": "622f10d09fe1dcc9",
+      "title": "The Unintended Effects of Interest Rate Caps: Credit Rationing for Risky Borrowers",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/06/the-unintended-effects-of-interest-rate-caps-credit-rationing-for-risky-borrowers/",
+      "published_date": "2026-06-03",
+      "publisher": "Liberty Street Economics",
+      "sector": "New York Fed credit research",
+      "source_type": "official",
+      "description": "In imperial China, 3 percent was the maximum legal monthly loan rate; charging more was punishable by 40 to 100 blows with the \u201c light cane .\u201d (Rockoff 2003 ) Centuries later, many U.S. states are imposing the same cap (without corporal penalties) on alternative credit providers, such as payday, installment, and auto-title lenders, with the goal of lowering credit costs and delinquency for the high-risk borrowers that rely on these funding sources. A concern, however, is that lenders will simply refuse to lend to these borrowers at lower interest rates. Our recent Staff Report studies how interest rate caps have played out in several states that recently adopted them. Using household-level d",
+      "categories": [
+        "credit"
+      ]
+    },
+    {
+      "id": "29cbb8aff4da624c",
+      "title": "FINTRAC publishes money laundering indicators relating to human trafficking and major international sporting and entertainment events",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/nr/2026-05-28-eng",
+      "published_date": "2026-05-28",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-05-28 ] FINTRAC publishes money laundering indicators relating to human trafficking and major international sporting and entertainment events",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "f4a687b0e8eebf89",
+      "title": "Kali365 Phishing-as-a-Service Kit Hijacks Microsoft 365 Access Tokens",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260521",
+      "published_date": "2026-05-21",
+      "publisher": "FBI IC3",
+      "sector": "Cyber-enabled fraud",
+      "source_type": "official",
+      "description": "Kali365 Phishing-as-a-Service Kit Hijacks Microsoft 365 Access Tokens Thu, 21 May 2026",
+      "categories": [
+        "fraud"
+      ]
+    },
+    {
+      "id": "cf3da566102d1da0",
+      "title": "FINTRAC imposes an administrative monetary penalty on 13010431 Canada Inc.",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/nr/2026-05-14-eng",
+      "published_date": "2026-05-14",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-05-14 ] FINTRAC imposes an administrative monetary penalty on 13010431 Canada Inc.",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "7051ed883a44c82a",
+      "title": "Federal Student Loan Defaults Return After Pandemic Pause",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/05/federal-student-loan-defaults-return-after-pandemic-pause/",
+      "published_date": "2026-05-12",
+      "publisher": "Liberty Street Economics",
+      "sector": "New York Fed credit research",
+      "source_type": "official",
+      "description": "During 2026:Q1, household debt balances increased slightly, by $18 billion, to reach $18.8 trillion, according to the latest Quarterly Report on Household Debt and Credit from the New York Fed\u2019s Center for Microeconomic Data . Amid upticks in mortgage, HELOC, and auto balances and a seasonal decline in credit card balances, student loan balances remained unchanged. However, the share of student loan balances past due increased, nearing pre-pandemic levels at just over 10 percent. In this post, we focus on which borrowers entered default on their federal student loans over the past two quarters. We find that the average borrower entering default is nearly 40 years old, was not past due on the",
+      "categories": [
+        "credit"
+      ]
+    },
+    {
+      "id": "08c5f6bc15e9dad1",
+      "title": "Household Debt Balances Rise Slightly as Delinquency Transition Rates Hold Steady",
+      "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260512",
+      "published_date": "2026-05-12",
+      "publisher": "New York Fed",
+      "sector": "Household debt and credit",
+      "source_type": "official",
+      "description": "May 12, 2026 Household Debt Balances Rise Slightly as Delinquency Transition Rates Hold Steady",
+      "categories": [
+        "credit"
+      ]
+    },
+    {
+      "id": "1d9f32c1c1eb64da",
+      "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-05-07",
+      "url": "https://www.federalreserve.gov/releases/g19/20260507/default.htm",
+      "published_date": "2026-05-07",
+      "publisher": "Fed Consumer Credit",
+      "sector": "Consumer credit statistical releases",
+      "source_type": "official",
+      "description": "Federal Reserve statistical release on outstanding consumer credit, including revolving and nonrevolving credit. Open the brief for the reported figures and context.",
+      "categories": [
+        "credit"
+      ]
+    },
+    {
+      "id": "f793e6501541ead4",
+      "title": "FINTRAC imposes an administrative monetary penalty on VersaBank",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/nr/2026-05-05-eng",
+      "published_date": "2026-05-05",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-05-05 ] FINTRAC imposes an administrative monetary penalty on VersaBank",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "4bab880beff10bfd",
+      "title": "FINTRAC imposes an administrative monetary penalty on Birks Group Inc.",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/nr/2026-05-05-2-eng",
+      "published_date": "2026-05-05",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-05-05 ] FINTRAC imposes an administrative monetary penalty on Birks Group Inc.",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "26f42274ca792e41",
+      "title": "FINTRAC imposes an administrative monetary penalty on RE/MAX Twin City Realty Inc.",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/nr/2026-05-05-1-eng",
+      "published_date": "2026-05-05",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-05-05 ] FINTRAC imposes an administrative monetary penalty on RE/MAX Twin City Realty Inc.",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "e237217a49378285",
+      "title": "Speaking points for Sarah Paquet, Director and CEO of FINTRAC at the C.D. Howe Institute",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/ps-pa/2026-04-23-eng",
+      "published_date": "2026-04-23",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-04-23 ] Speaking points for Sarah Paquet, Director and CEO of FINTRAC at the C.D. Howe Institute",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "dd6bc8d07298d011",
+      "title": "FINTRAC publishes money laundering indicators related to extortion",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/nr/2026-04-23-eng",
+      "published_date": "2026-04-23",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-04-23 ] FINTRAC publishes money laundering indicators related to extortion",
+      "categories": [
+        "aml"
+      ]
     },
     {
       "id": "2f8bf8da7316d675",
@@ -214,7 +1166,128 @@
       "published_date": "2026-04-07",
       "publisher": "NCUA",
       "sector": "Credit unions",
-      "description": "Agencies Request Comment on Anti-Money Laundering/Countering the Financing of Terrorism Proposed Rule FFIEC/Joint Agency 04/07/2026"
+      "source_type": "official",
+      "description": "Agencies Request Comment on Anti-Money Laundering/Countering the Financing of Terrorism Proposed Rule FFIEC/Joint Agency 04/07/2026",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "18bd0ae5140b3f7b",
+      "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-04-07",
+      "url": "https://www.federalreserve.gov/releases/g19/20260407/default.htm",
+      "published_date": "2026-04-07",
+      "publisher": "Fed Consumer Credit",
+      "sector": "Consumer credit statistical releases",
+      "source_type": "official",
+      "description": "Federal Reserve statistical release on outstanding consumer credit, including revolving and nonrevolving credit. Open the brief for the reported figures and context.",
+      "categories": [
+        "credit"
+      ]
+    },
+    {
+      "id": "47cd895284d3e361",
+      "title": "Sports Betting Is Everywhere, Especially on Credit Reports",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/03/sports-betting-is-everywhere-especially-on-credit-reports/",
+      "published_date": "2026-03-25",
+      "publisher": "Liberty Street Economics",
+      "sector": "New York Fed credit research",
+      "source_type": "official",
+      "description": "Since 2018, more than thirty states have legalized mobile sports betting, leading to more than a half trillion dollars in wagers. In our recent Staff Report , we examine how legalized sports betting affects household financial health by comparing betting activity and consumer credit outcomes between states that legalized to those that have not. We find that legalization increases spending at online sportsbooks roughly tenfold, but betting does not stop at state boundaries. Nearby areas where betting is not legal still experience roughly 15 percent the increase of counties where it is legal. At the same time, consumer financial health suffers. Our analysis finds rising delinquencies in partic",
+      "categories": [
+        "credit"
+      ]
+    },
+    {
+      "id": "73fa56e942d3d7b3",
+      "title": "Criminals Impersonating City and County Officials in Phishing Emails for Planning and Zoning Permits",
+      "url": "https://www.ic3.gov/PSA/2026/PSA260309",
+      "published_date": "2026-03-09",
+      "publisher": "FBI IC3",
+      "sector": "Cyber-enabled fraud",
+      "source_type": "official",
+      "description": "",
+      "categories": [
+        "fraud"
+      ]
+    },
+    {
+      "id": "60aab5d652feb5ba",
+      "title": "Labor Market Expectations Soften Slightly, but Delinquency Expectations Improve",
+      "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260309",
+      "published_date": "2026-03-09",
+      "publisher": "New York Fed",
+      "sector": "Household debt and credit",
+      "source_type": "official",
+      "description": "Mar 9, 2026 Labor Market Expectations Soften Slightly, but Delinquency Expectations Improve",
+      "categories": [
+        "credit"
+      ]
+    },
+    {
+      "id": "84b9a3d0ad8aa53b",
+      "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-03-06",
+      "url": "https://www.federalreserve.gov/releases/g19/20260306/default.htm",
+      "published_date": "2026-03-06",
+      "publisher": "Fed Consumer Credit",
+      "sector": "Consumer credit statistical releases",
+      "source_type": "official",
+      "description": "Federal Reserve statistical release on outstanding consumer credit, including revolving and nonrevolving credit. Open the brief for the reported figures and context.",
+      "categories": [
+        "credit"
+      ]
+    },
+    {
+      "id": "2ba5dd15c8d25783",
+      "title": "NCUA and FDIC to Host Webinar on Financial Scams",
+      "url": "https://ncua.gov/newsroom/press-release/2026/ncua-and-fdic-host-webinar-financial-scams",
+      "published_date": "2026-03-02",
+      "publisher": "NCUA",
+      "sector": "Credit unions",
+      "source_type": "official",
+      "description": "NCUA and FDIC to Host Webinar on Financial Scams NCUA Operations/Activities 03/02/2026",
+      "categories": [
+        "fraud"
+      ]
+    },
+    {
+      "id": "f57189c3d603d151",
+      "title": "Backgrounder: Establishment of a new liaison function to support efforts countering extortion",
+      "url": "https://fintrac-canafe.canada.ca/intel/extortion-extorsion/liaison-eng",
+      "published_date": "2026-02-19",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-02-19 ] Backgrounder: Establishment of a new liaison function to support efforts countering extortion",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "43d190c6405b2fc7",
+      "title": "Backgrounder: Working in partnership with the private sector to counter extortion",
+      "url": "https://fintrac-canafe.canada.ca/intel/extortion-extorsion/partner-partenaire-eng",
+      "published_date": "2026-02-19",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-02-19 ] Backgrounder: Working in partnership with the private sector to counter extortion",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "345bd012e3461339",
+      "title": "Backgrounder: Targeted indicator profiles on laundering the proceeds of extortion",
+      "url": "https://fintrac-canafe.canada.ca/intel/extortion-extorsion/profiles-profils-eng",
+      "published_date": "2026-02-19",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-02-19 ] Backgrounder: Targeted indicator profiles on laundering the proceeds of extortion",
+      "categories": [
+        "aml"
+      ]
     },
     {
       "id": "59d78307256e766e",
@@ -223,7 +1296,114 @@
       "published_date": "2026-02-17",
       "publisher": "NCUA",
       "sector": "Credit unions",
-      "description": "FinCEN Issues Exceptive Relief on a Bank Secrecy Act Requirement for Credit Unions FFIEC/Joint Agency 02/17/2026"
+      "description": "FinCEN Issues Exceptive Relief on a Bank Secrecy Act Requirement for Credit Unions FFIEC/Joint Agency 02/17/2026",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "6758c92d7ad7ece8",
+      "title": "FINTRAC imposes an administrative monetary penalty on Manor Windsor Realty Ltd.",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/nr/2026-02-12-eng",
+      "published_date": "2026-02-12",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-02-12 ] FINTRAC imposes an administrative monetary penalty on Manor Windsor Realty Ltd.",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "93d3904f392513fa",
+      "title": "FINTRAC imposes an administrative monetary penalty on Century 21 Heritage Group Ltd.",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/nr/2026-02-10-eng",
+      "published_date": "2026-02-10",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-02-10 ] FINTRAC imposes an administrative monetary penalty on Century 21 Heritage Group Ltd.",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "867d7f89b7f8ee10",
+      "title": "Household Debt Balances Grow Modestly; Early Delinquencies Level Out for Non-Housing Debts",
+      "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260210",
+      "published_date": "2026-02-10",
+      "publisher": "New York Fed",
+      "sector": "Household debt and credit",
+      "source_type": "official",
+      "description": "Feb 10, 2026 Household Debt Balances Grow Modestly; Early Delinquencies Level Out for Non-Housing Debts",
+      "categories": [
+        "credit"
+      ]
+    },
+    {
+      "id": "0f41ea5e6a3150ce",
+      "title": "Where Are Mortgage Delinquencies Rising the Most?",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/02/where-are-mortgage-delinquencies-rising-the-most/",
+      "published_date": "2026-02-10",
+      "publisher": "Liberty Street Economics",
+      "sector": "New York Fed credit research",
+      "source_type": "official",
+      "description": "The Federal Reserve Bank of New York's Center for Microeconomic Data recently released its Quarterly Report on Household Debt and Credit for the fourth quarter of 2025, revealing continued growth in household debt balances. Aggregate household debt balances rose by $191 billion to reach $18.8 trillion, marking a $4.6 trillion increase since the end of 2019. Mortgage balances grew by $98 billion to $13.2 trillion, while credit card debt increased by $44 billion to $1.28 trillion. Credit card and auto loan delinquency rates appear to have stabilized, albeit at elevated rates. By contrast, the delinquency rate for mortgages\u2014although still near low levels on a longer-term basis\u2014has been steadily",
+      "categories": [
+        "credit"
+      ]
+    },
+    {
+      "id": "52581f686f4ca10a",
+      "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-02-06",
+      "url": "https://www.federalreserve.gov/releases/g19/20260206/default.htm",
+      "published_date": "2026-02-06",
+      "publisher": "Fed Consumer Credit",
+      "sector": "Consumer credit statistical releases",
+      "source_type": "official",
+      "description": "Federal Reserve statistical release on outstanding consumer credit, including revolving and nonrevolving credit. Open the brief for the reported figures and context.",
+      "categories": [
+        "credit"
+      ]
+    },
+    {
+      "id": "7598d9d3196a693a",
+      "title": "FINTRAC imposes an administrative monetary penalty on Commerciale I.C. - Pacific Inc.",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/nr/2026-02-05-eng",
+      "published_date": "2026-02-05",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-02-05 ] FINTRAC imposes an administrative monetary penalty on Commerciale I.C. - Pacific Inc.",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "162962b3abb8e6ec",
+      "title": "FINTRAC imposes an administrative monetary penalty on TreasureMeta Corporation",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/nr/2026-02-05-1-eng",
+      "published_date": "2026-02-05",
+      "publisher": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "source_type": "official",
+      "description": "[ 2026-02-05 ] FINTRAC imposes an administrative monetary penalty on TreasureMeta Corporation",
+      "categories": [
+        "aml"
+      ]
+    },
+    {
+      "id": "b764ec4c568bc6c5",
+      "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-01-08",
+      "url": "https://www.federalreserve.gov/releases/g19/20260108/default.htm",
+      "published_date": "2026-01-08",
+      "publisher": "Fed Consumer Credit",
+      "sector": "Consumer credit statistical releases",
+      "source_type": "official",
+      "description": "Federal Reserve statistical release on outstanding consumer credit, including revolving and nonrevolving credit. Open the brief for the reported figures and context.",
+      "categories": [
+        "credit"
+      ]
     }
   ],
   "sources": [
@@ -232,78 +1412,573 @@
       "full_name": "Financial Crimes Enforcement Network",
       "sector": "Cross-sector BSA / AML",
       "url": "https://www.fincen.gov/news/press-releases",
-      "state": "cached",
-      "matches": 12,
+      "source_type": "official",
+      "schema_version": 3,
       "scanned": 12,
-      "fetched_at": "2026-10-18T05:46:12.805280+00:00",
-      "feed_errors": []
+      "fetched_at": "2026-10-22T03:39:27.227775+00:00",
+      "channels_checked": 1,
+      "channels_total": 1,
+      "feed_errors": [],
+      "state": "fresh",
+      "matches": 12
     },
     {
       "publisher": "OCC",
       "full_name": "Office of the Comptroller of the Currency",
       "sector": "National banks / federal savings associations",
       "url": "https://www.occ.gov/rss/occ_news.xml",
-      "state": "cached",
-      "matches": 4,
+      "source_type": "official",
+      "schema_version": 3,
       "scanned": 20,
-      "fetched_at": "2026-10-18T05:46:12.805280+00:00",
-      "feed_errors": []
+      "fetched_at": "2026-10-22T03:39:27.227775+00:00",
+      "channels_checked": 2,
+      "channels_total": 2,
+      "feed_errors": [],
+      "state": "fresh",
+      "matches": 5
     },
     {
       "publisher": "Federal Reserve",
       "full_name": "Board of Governors of the Federal Reserve System",
       "sector": "Federal Reserve-supervised institutions",
       "url": "https://www.federalreserve.gov/feeds/press_all.xml",
-      "state": "cached",
-      "matches": 1,
+      "source_type": "official",
+      "schema_version": 3,
       "scanned": 20,
-      "fetched_at": "2026-10-18T05:47:08.071785+00:00",
-      "feed_errors": []
+      "fetched_at": "2026-10-22T03:39:27.227775+00:00",
+      "channels_checked": 1,
+      "channels_total": 1,
+      "feed_errors": [],
+      "state": "fresh",
+      "matches": 1
     },
     {
       "publisher": "FDIC",
       "full_name": "Federal Deposit Insurance Corporation",
       "sector": "FDIC-supervised institutions",
       "url": "https://www.fdic.gov/news/press-releases",
-      "state": "cached",
-      "matches": 2,
+      "source_type": "official",
+      "schema_version": 3,
       "scanned": 45,
-      "fetched_at": "2026-10-18T05:46:12.805280+00:00",
-      "feed_errors": []
+      "fetched_at": "2026-10-22T03:39:27.227775+00:00",
+      "channels_checked": 2,
+      "channels_total": 2,
+      "feed_errors": [],
+      "state": "fresh",
+      "matches": 2
     },
     {
       "publisher": "NCUA",
       "full_name": "National Credit Union Administration",
       "sector": "Credit unions",
       "url": "https://ncua.gov/news/press-releases",
-      "state": "cached",
-      "matches": 5,
+      "source_type": "official",
+      "schema_version": 3,
       "scanned": 60,
-      "fetched_at": "2026-10-18T05:46:12.805280+00:00",
-      "feed_errors": []
+      "fetched_at": "2026-10-22T03:39:27.227775+00:00",
+      "channels_checked": 1,
+      "channels_total": 1,
+      "feed_errors": [],
+      "state": "fresh",
+      "matches": 5
     },
     {
       "publisher": "SEC",
       "full_name": "Securities and Exchange Commission",
       "sector": "Securities sector",
       "url": "https://www.sec.gov/news/pressreleases.rss",
-      "state": "cached",
-      "matches": 0,
+      "source_type": "official",
+      "schema_version": 3,
       "scanned": 25,
-      "fetched_at": "2026-10-18T05:46:12.805280+00:00",
-      "feed_errors": []
+      "fetched_at": "2026-10-22T03:39:27.227775+00:00",
+      "channels_checked": 1,
+      "channels_total": 1,
+      "feed_errors": [],
+      "state": "fresh",
+      "matches": 4
     },
     {
       "publisher": "CFTC",
       "full_name": "Commodity Futures Trading Commission",
       "sector": "Futures / derivatives sector",
       "url": "https://www.cftc.gov/RSS/RSSGP/rssgp.xml",
-      "state": "cached",
-      "matches": 1,
+      "source_type": "official",
+      "schema_version": 3,
       "scanned": 20,
-      "fetched_at": "2026-10-18T05:46:12.805280+00:00",
-      "feed_errors": []
+      "fetched_at": "2026-10-22T03:39:27.227775+00:00",
+      "channels_checked": 2,
+      "channels_total": 2,
+      "feed_errors": [],
+      "state": "fresh",
+      "matches": 6
+    },
+    {
+      "publisher": "FBI IC3",
+      "full_name": "FBI IC3",
+      "sector": "Cyber-enabled fraud",
+      "url": "https://www.ic3.gov/PSA/rss",
+      "source_type": "official",
+      "schema_version": 3,
+      "scanned": 5,
+      "fetched_at": "2026-10-22T03:39:27.227775+00:00",
+      "channels_checked": 1,
+      "channels_total": 1,
+      "feed_errors": [],
+      "state": "fresh",
+      "matches": 5
+    },
+    {
+      "publisher": "FTC",
+      "full_name": "FTC",
+      "sector": "Consumer fraud and protection",
+      "url": "https://www.ftc.gov/news-events/news/press-releases",
+      "source_type": "official",
+      "state": "unavailable",
+      "scanned": 0,
+      "fetched_at": null,
+      "error": "Agency endpoint returned HTTP 404.",
+      "matches": 0
+    },
+    {
+      "publisher": "CFPB",
+      "full_name": "CFPB",
+      "sector": "Consumer lending and payments",
+      "url": "https://www.consumerfinance.gov/about-us/newsroom/feed/",
+      "source_type": "official",
+      "state": "unavailable",
+      "scanned": 0,
+      "fetched_at": null,
+      "error": "Agency endpoint returned HTTP 403.",
+      "matches": 0
+    },
+    {
+      "publisher": "DOJ",
+      "full_name": "DOJ",
+      "sector": "Enforcement and prosecutions",
+      "url": "https://www.justice.gov/news",
+      "source_type": "official",
+      "state": "unavailable",
+      "scanned": 0,
+      "fetched_at": null,
+      "error": "No supported dated story cards were found on this publisher page.",
+      "matches": 0
+    },
+    {
+      "publisher": "FBI",
+      "full_name": "FBI",
+      "sector": "Financial crime investigations",
+      "url": "https://www.fbi.gov/news",
+      "source_type": "official",
+      "state": "unavailable",
+      "scanned": 0,
+      "fetched_at": null,
+      "error": "No supported dated story cards were found on this publisher page.",
+      "matches": 0
+    },
+    {
+      "publisher": "US Treasury",
+      "full_name": "US Treasury",
+      "sector": "Financial policy and illicit finance",
+      "url": "https://home.treasury.gov/news/press-releases",
+      "source_type": "official",
+      "state": "unavailable",
+      "scanned": 0,
+      "fetched_at": null,
+      "error": "No supported dated story cards were found on this publisher page.",
+      "matches": 0
+    },
+    {
+      "publisher": "OFAC",
+      "full_name": "OFAC",
+      "sector": "Sanctions and evasion",
+      "url": "https://ofac.treasury.gov/recent-actions",
+      "source_type": "official",
+      "schema_version": 3,
+      "scanned": 11,
+      "fetched_at": "2026-10-22T03:39:27.227775+00:00",
+      "channels_checked": 1,
+      "channels_total": 1,
+      "feed_errors": [],
+      "state": "fresh",
+      "matches": 11
+    },
+    {
+      "publisher": "New York Fed",
+      "full_name": "New York Fed",
+      "sector": "Household debt and credit",
+      "url": "https://www.newyorkfed.org/press",
+      "source_type": "official",
+      "schema_version": 3,
+      "scanned": 500,
+      "fetched_at": "2026-10-22T03:39:27.227775+00:00",
+      "channels_checked": 1,
+      "channels_total": 1,
+      "feed_errors": [],
+      "state": "fresh",
+      "matches": 4
+    },
+    {
+      "publisher": "Fed Lending Survey",
+      "full_name": "Fed Lending Survey",
+      "sector": "Lending standards and demand",
+      "url": "https://www.federalreserve.gov/feeds/sloos.html",
+      "source_type": "official",
+      "state": "unavailable",
+      "scanned": 0,
+      "fetched_at": null,
+      "error": "No supported dated story cards were found on this publisher page.",
+      "matches": 0
+    },
+    {
+      "publisher": "NY DFS",
+      "full_name": "NY DFS",
+      "sector": "Financial services supervision",
+      "url": "https://www.dfs.ny.gov/press-room",
+      "source_type": "official",
+      "state": "unavailable",
+      "scanned": 0,
+      "fetched_at": null,
+      "error": "No supported dated story cards were found on this publisher page.",
+      "matches": 0
+    },
+    {
+      "publisher": "FINRA",
+      "full_name": "FINRA",
+      "sector": "Securities supervision",
+      "url": "https://www.finra.org/media-center/newsreleases",
+      "source_type": "official",
+      "schema_version": 3,
+      "scanned": 12,
+      "fetched_at": "2026-10-22T03:39:27.227775+00:00",
+      "channels_checked": 1,
+      "channels_total": 1,
+      "feed_errors": [],
+      "state": "fresh",
+      "matches": 4
+    },
+    {
+      "publisher": "FCA",
+      "full_name": "FCA",
+      "sector": "UK financial services",
+      "url": "https://www.fca.org.uk/news",
+      "source_type": "official",
+      "schema_version": 3,
+      "scanned": 1,
+      "fetched_at": "2026-10-22T03:39:27.227775+00:00",
+      "channels_checked": 1,
+      "channels_total": 2,
+      "feed_errors": [
+        "No dated agency announcements could be read from the feed."
+      ],
+      "state": "fresh",
+      "matches": 0
+    },
+    {
+      "publisher": "AUSTRAC",
+      "full_name": "AUSTRAC",
+      "sector": "Australian financial intelligence",
+      "url": "https://www.austrac.gov.au/news-and-media",
+      "source_type": "official",
+      "state": "unavailable",
+      "scanned": 0,
+      "fetched_at": null,
+      "error": "Agency source could not be reached.",
+      "matches": 0
+    },
+    {
+      "publisher": "FINTRAC",
+      "full_name": "FINTRAC",
+      "sector": "Canadian financial intelligence",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/1-eng",
+      "source_type": "official",
+      "schema_version": 3,
+      "scanned": 127,
+      "fetched_at": "2026-10-22T03:39:27.227775+00:00",
+      "channels_checked": 2,
+      "channels_total": 2,
+      "feed_errors": [],
+      "state": "fresh",
+      "matches": 24
+    },
+    {
+      "publisher": "FATF",
+      "full_name": "FATF",
+      "sector": "International financial crime standards",
+      "url": "https://www.fatf-gafi.org/en/publications.html",
+      "source_type": "official",
+      "state": "unavailable",
+      "scanned": 0,
+      "fetched_at": null,
+      "error": "Agency endpoint returned HTTP 403.",
+      "matches": 0
+    },
+    {
+      "publisher": "BIS",
+      "full_name": "BIS",
+      "sector": "International banking risk",
+      "url": "https://www.bis.org/media/news",
+      "source_type": "official",
+      "state": "unavailable",
+      "scanned": 0,
+      "fetched_at": null,
+      "error": "Agency endpoint returned HTTP 403.",
+      "matches": 0
+    },
+    {
+      "publisher": "ECB Banking Supervision",
+      "full_name": "ECB Banking Supervision",
+      "sector": "European bank supervision",
+      "url": "https://www.bankingsupervision.europa.eu/press/html/index.en.html",
+      "source_type": "official",
+      "state": "unavailable",
+      "scanned": 0,
+      "fetched_at": null,
+      "error": "No supported dated story cards were found on this publisher page.",
+      "matches": 0
+    },
+    {
+      "publisher": "Bank of England",
+      "full_name": "Bank of England",
+      "sector": "UK credit and prudential risk",
+      "url": "https://www.bankofengland.co.uk/news",
+      "source_type": "official",
+      "state": "unavailable",
+      "scanned": 0,
+      "fetched_at": null,
+      "error": "No supported dated story cards were found on this publisher page.",
+      "matches": 0
+    },
+    {
+      "publisher": "TransUnion",
+      "full_name": "TransUnion",
+      "sector": "Consumer credit research",
+      "url": "https://newsroom.transunion.com/",
+      "source_type": "company_research",
+      "schema_version": 3,
+      "scanned": 3,
+      "fetched_at": "2026-10-22T03:39:27.227775+00:00",
+      "channels_checked": 1,
+      "channels_total": 2,
+      "feed_errors": [
+        "No supported dated story cards were found on this publisher page."
+      ],
+      "state": "fresh",
+      "matches": 1
+    },
+    {
+      "publisher": "Experian",
+      "full_name": "Experian",
+      "sector": "Consumer credit research",
+      "url": "https://www.experian.com/insights/",
+      "source_type": "company_research",
+      "state": "unavailable",
+      "scanned": 0,
+      "fetched_at": null,
+      "error": "This URL is outside the approved official agency news sources.",
+      "matches": 0
+    },
+    {
+      "publisher": "Banking Dive",
+      "full_name": "Banking Dive",
+      "sector": "Banking industry reporting",
+      "url": "https://www.bankingdive.com/feeds/news/",
+      "source_type": "industry_reporting",
+      "schema_version": 3,
+      "scanned": 10,
+      "fetched_at": "2026-10-22T03:39:27.227775+00:00",
+      "channels_checked": 1,
+      "channels_total": 1,
+      "feed_errors": [],
+      "state": "fresh",
+      "matches": 0
+    },
+    {
+      "publisher": "Payments Dive",
+      "full_name": "Payments Dive",
+      "sector": "Payments industry reporting",
+      "url": "https://www.paymentsdive.com/feeds/news/",
+      "source_type": "industry_reporting",
+      "schema_version": 3,
+      "scanned": 8,
+      "fetched_at": "2026-10-22T03:39:27.227775+00:00",
+      "channels_checked": 1,
+      "channels_total": 1,
+      "feed_errors": [],
+      "state": "fresh",
+      "matches": 0
+    },
+    {
+      "publisher": "The Paypers",
+      "full_name": "The Paypers",
+      "sector": "Payments and financial crime reporting",
+      "url": "https://thepaypers.com/",
+      "source_type": "industry_reporting",
+      "schema_version": 3,
+      "scanned": 4,
+      "fetched_at": "2026-10-22T03:39:27.227775+00:00",
+      "channels_checked": 1,
+      "channels_total": 1,
+      "feed_errors": [],
+      "state": "fresh",
+      "matches": 0
+    },
+    {
+      "publisher": "Finextra",
+      "full_name": "Finextra",
+      "sector": "Financial services reporting",
+      "url": "https://www.finextra.com/",
+      "source_type": "industry_reporting",
+      "state": "unavailable",
+      "scanned": 0,
+      "fetched_at": null,
+      "error": "Agency endpoint returned HTTP 403.",
+      "matches": 0
+    },
+    {
+      "publisher": "AML Intelligence",
+      "full_name": "AML Intelligence",
+      "sector": "Financial crime reporting",
+      "url": "https://www.amlintelligence.com/",
+      "source_type": "industry_reporting",
+      "state": "unavailable",
+      "scanned": 0,
+      "fetched_at": null,
+      "error": "Agency endpoint returned HTTP 503.",
+      "matches": 0
+    },
+    {
+      "publisher": "Fed Consumer Credit",
+      "full_name": "Fed Consumer Credit",
+      "sector": "Consumer credit statistical releases",
+      "url": "https://www.federalreserve.gov/Releases/G19/releaseDates.json",
+      "source_type": "official",
+      "schema_version": 3,
+      "scanned": 10,
+      "fetched_at": "2026-10-22T03:39:27.227775+00:00",
+      "channels_checked": 1,
+      "channels_total": 1,
+      "feed_errors": [],
+      "state": "fresh",
+      "matches": 10
+    },
+    {
+      "publisher": "Liberty Street Economics",
+      "full_name": "Liberty Street Economics",
+      "sector": "New York Fed credit research",
+      "url": "https://libertystreeteconomics.newyorkfed.org/feed/",
+      "source_type": "official",
+      "schema_version": 3,
+      "scanned": 100,
+      "fetched_at": "2026-10-22T03:39:27.227775+00:00",
+      "channels_checked": 1,
+      "channels_total": 1,
+      "feed_errors": [],
+      "state": "fresh",
+      "matches": 6
+    },
+    {
+      "publisher": "MAS",
+      "full_name": "MAS",
+      "sector": "Singapore financial supervision",
+      "url": "https://www.mas.gov.sg/news",
+      "source_type": "official",
+      "state": "unavailable",
+      "scanned": 0,
+      "fetched_at": null,
+      "error": "No supported dated story cards were found on this publisher page.",
+      "matches": 0
+    },
+    {
+      "publisher": "Europol",
+      "full_name": "Europol",
+      "sector": "International financial crime operations",
+      "url": "https://www.europol.europa.eu/media-press/newsroom",
+      "source_type": "official",
+      "state": "unavailable",
+      "scanned": 0,
+      "fetched_at": null,
+      "error": "No supported dated story cards were found on this publisher page.",
+      "matches": 0
+    },
+    {
+      "publisher": "ACFE",
+      "full_name": "ACFE",
+      "sector": "Fraud investigation and research",
+      "url": "https://www.acfe.com/fraud-magazine/all-issues",
+      "source_type": "industry_reporting",
+      "state": "unavailable",
+      "scanned": 0,
+      "fetched_at": null,
+      "error": "No supported dated story cards were found on this publisher page.",
+      "matches": 0
     }
   ],
-  "fetched_at": "2026-10-18T05:46:12.805280+00:00"
+  "fetched_at": "2026-10-22T03:39:27.227775+00:00",
+  "cached": false,
+  "stale": false,
+  "coverage": "Selected public publisher feeds and dated indexes, classified into AML, Fraud and Credit from titles and descriptions. Archive availability varies by publisher.",
+  "archive_checks": [
+    {
+      "publisher": "FBI IC3",
+      "url": "https://www.ic3.gov/PSA/2026",
+      "state": "read"
+    },
+    {
+      "publisher": "FBI IC3",
+      "url": "https://www.ic3.gov/PSA",
+      "state": "read"
+    },
+    {
+      "publisher": "CFPB",
+      "url": "https://www.consumerfinance.gov/about-us/newsroom/",
+      "state": "unavailable",
+      "error": "Agency endpoint returned HTTP 403."
+    },
+    {
+      "publisher": "New York Fed",
+      "url": "https://www.newyorkfed.org/press/2026",
+      "state": "unavailable",
+      "error": "This URL is outside the approved official agency news sources."
+    },
+    {
+      "publisher": "Fed Lending Survey",
+      "url": "https://www.federalreserve.gov/data/sloos.htm",
+      "state": "unavailable",
+      "error": "No supported dated story cards were found on this publisher page."
+    },
+    {
+      "publisher": "FCA",
+      "url": "https://www.fca.org.uk/news",
+      "state": "read"
+    },
+    {
+      "publisher": "FINTRAC",
+      "url": "https://fintrac-canafe.canada.ca/new-neuf/1-eng",
+      "state": "read"
+    },
+    {
+      "publisher": "TransUnion",
+      "url": "https://newsroom.transunion.com/",
+      "state": "read"
+    },
+    {
+      "publisher": "AML Intelligence",
+      "url": "https://www.amlintelligence.com/",
+      "state": "unavailable",
+      "error": "Agency endpoint returned HTTP 503."
+    },
+    {
+      "publisher": "Liberty Street Economics",
+      "url": "https://libertystreeteconomics.newyorkfed.org/household-finance/",
+      "state": "unavailable",
+      "error": "No supported dated story cards were found on this publisher page."
+    },
+    {
+      "publisher": "Liberty Street Economics",
+      "url": "https://libertystreeteconomics.newyorkfed.org/household-finance/page/2/",
+      "state": "unavailable",
+      "error": "No supported dated story cards were found on this publisher page."
+    }
+  ],
+  "archive_notice": "Captured 2026 publisher entries. Month filters show stored publication dates; coverage varies by source."
 }

@@ -123,7 +123,7 @@ def create_app(test_config=None):
         try:
             if action=='news':
                 return jsonify(news_service.news_snapshot())
-            if action=='news/brief':return jsonify(news_service.brief(data.get('id')))
+            if action=='news/brief':return jsonify(news_service.brief(data.get('id'),category=data.get('category','aml')))
             if not isinstance(data.get('generate',True),bool):return jsonify(error='Invalid search option.'),400
             if action=='ask/stream':
                 events=queue.Queue()

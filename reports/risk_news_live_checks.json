@@ -1,0 +1,799 @@
+[
+  {
+    "category": "fraud",
+    "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+    "elapsed_seconds": 21.442,
+    "status": "supported",
+    "result": {
+      "status": "supported",
+      "summary": "Election-Related Fraud Schemes Exploiting 2026 Midterm Election",
+      "claims": [
+        {
+          "text": "The FBI issued a public service announcement on 15 October 2026 warning that scammers are exploiting the 2026 U.S. Midterm Election to perpetrate financial fraud schemes targeting U.S. residents. These schemes include fraudulent campaign donation solicitations, non-delivery of political merchandise, and phishing for personally identifiable information (PII) via fake voter registration pages. Scammers use AI-generated voices, images, and messages to impersonate candidates, campaigns, and government entities, increasing the realism and detectability challenges of these frauds. The FBI notes these tactics have been used in prior elections, including the 2024 U.S. General Election, and urges the public to verify organizations through the Federal Election Commission (FEC) website and report incidents to the Internet Crime Complaint Center (IC3).",
+          "evidence": [
+            {
+              "id": "NEWS:P1",
+              "quote": "The FBI warns the public that scammers could exploit the 2026 US Midterm Election to perpetrate financial fraud schemes."
+            },
+            {
+              "id": "NEWS:P2",
+              "quote": "As previously reported, scammers use the names, images, logos, and slogans of candidates to fraudulently solicit campaign contributions, sell merchandise that is never delivered, or steal personally identifiable information (PII) that can be used for other fraud."
+            },
+            {
+              "id": "NEWS:P2",
+              "quote": "Scammers also exploit artificial intelligence (AI) tools to generate highly realistic voices, images, and written messages that impersonate candidates, campaigns, government entities, and trusted contacts."
+            },
+            {
+              "id": "NEWS:P2",
+              "quote": "The realism makes these schemes harder for victims to detect and increases the likelihood of financial loss or exposure of PII."
+            },
+            {
+              "id": "NEWS:P2",
+              "quote": "Election-related fraud schemes come in many varieties, including the schemes detailed below."
+            },
+            {
+              "id": "NEWS:P4",
+              "quote": "Political Action Committee Scheme (a.k.a."
+            },
+            {
+              "id": "NEWS:P5",
+              "quote": "Scammers dupe victims into believing they are donating to a legitimate Political Action Committee (PAC), such as a Super PAC or candidate's campaign committee but the scammers have no affiliation with the PAC and keep the funds."
+            },
+            {
+              "id": "NEWS:P6",
+              "quote": "Scammers claim to sell political merchandise but do not ship the purchase when ordered."
+            },
+            {
+              "id": "NEWS:P6",
+              "quote": "This is a classic \"non-shipment scam\" or \"non-delivery fraud\" scheme."
+            },
+            {
+              "id": "NEWS:P7",
+              "quote": "Victims receive a text message or email stating they are not registered to vote in their state and are encouraged to click a link that takes the victim to a fraudulent state voter registration page."
+            },
+            {
+              "id": "NEWS:P7",
+              "quote": "This scheme is a means to steal PII for identity theft and potentially to further target victims for additional fraud schemes."
+            },
+            {
+              "id": "NEWS:P10",
+              "quote": "Verify and review the Political Action, Party, or Candidate Committee registration and financial filings on the Federal Election Commission (FEC) website."
+            },
+            {
+              "id": "NEWS:P10",
+              "quote": "Be mindful some scam PACs and SuperPACs may appear registered; if a PAC or SuperPAC reports high expenses for fundraising, consulting, compliance, or other administrative costs it may be a scam."
+            },
+            {
+              "id": "NEWS:P11",
+              "quote": "Confirm unsolicited contact information is associated with the organization it claims to represent."
+            },
+            {
+              "id": "NEWS:P12",
+              "quote": "Research companies before making purchases by checking reviews and complaints on BBB.org."
+            },
+            {
+              "id": "NEWS:P13",
+              "quote": "Check your voter registration at www.vote.gov."
+            },
+            {
+              "id": "NEWS:P14",
+              "quote": "If you or someone you know encounters an election-related scam, report it to your local FBI field office or to the Internet Crime Complaint Center (IC3) at www.ic3.gov."
+            },
+            {
+              "id": "NEWS:P14",
+              "quote": "Provide as much detail as possible:"
+            },
+            {
+              "id": "NEWS:P15",
+              "quote": "The name of the person or company that contacted you."
+            },
+            {
+              "id": "NEWS:P16",
+              "quote": "Identifying information about the company and/or individuals who contacted you, including phone number, address, email address, and websites."
+            },
+            {
+              "id": "NEWS:P17",
+              "quote": "Financial transaction information including method of payment."
+            },
+            {
+              "id": "NEWS:P18",
+              "quote": "Describe your interaction with the individual, including how contact was initiated, the type of communication, what you were told or instructed, what you provided, and any other details pertinent to your complaint."
+            },
+            {
+              "id": "NEWS:P19",
+              "quote": "For additional information on other election-related threats, please see the following Public Service Announcements:"
+            }
+          ]
+        }
+      ],
+      "checklist": [],
+      "limitations": [],
+      "implications": [
+        {
+          "text": "Fraud schemes exploiting election cycles may increase the volume and sophistication of impersonation attacks targeting individuals and organizations, potentially leading to higher rates of financial loss and PII compromise. The use of AI to generate realistic impersonations raises the risk of successful social engineering, particularly in high-stakes periods like elections, where public attention and urgency are heightened.",
+          "evidence": [
+            {
+              "id": "NEWS:P2",
+              "quote": "Scammers also exploit artificial intelligence (AI) tools to generate highly realistic voices, images, and written messages that impersonate candidates, campaigns, government entities, and trusted contacts."
+            },
+            {
+              "id": "NEWS:P2",
+              "quote": "The realism makes these schemes harder for victims to detect and increases the likelihood of financial loss or exposure of PII."
+            }
+          ]
+        }
+      ],
+      "document_insights": [],
+      "executive_summary": {
+        "text": "The FBI issued a public service announcement warning of fraud schemes exploiting the 2026 U.S. Midterm Election. Scammers use candidate names, logos, and AI-generated content to solicit fake campaign donations, sell non-delivered merchandise, steal personally identifiable information (PII), and impersonate government entities. These schemes target U.S. residents through unsolicited communications and have been observed in prior elections. The FBI urges the public to verify organizations via the FEC website and report incidents to IC3.",
+        "evidence": [
+          {
+            "id": "NEWS:P1",
+            "quote": "The FBI warns the public that scammers could exploit the 2026 US Midterm Election to perpetrate financial fraud schemes."
+          }
+        ]
+      },
+      "item": {
+        "id": "223484d5ba3220ac",
+        "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+        "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+        "published_date": "2026-10-15",
+        "publisher": "FBI IC3",
+        "sector": "Cyber-enabled fraud",
+        "source_type": "official",
+        "description": "",
+        "categories": [
+          "fraud"
+        ]
+      },
+      "evidence": [
+        {
+          "chunk_id": "NEWS:P1",
+          "source_id": "NEWS",
+          "heading": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "authority_type": "news_announcement",
+          "text": "The FBI warns the public that scammers could exploit the 2026 US Midterm Election to perpetrate financial fraud schemes. These schemes target victims across the United States and have previously exploited state and local elections. This PSA is an update to alert number I-102924-PSA, published on 29 October 2024, titled \u201cScammers Exploit 2024 US General Election to Perpetrate Multiple Fraud Schemes.\u201d",
+          "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 1"
+        },
+        {
+          "chunk_id": "NEWS:P2",
+          "source_id": "NEWS",
+          "heading": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "authority_type": "news_announcement",
+          "text": "As previously reported, scammers use the names, images, logos, and slogans of candidates to fraudulently solicit campaign contributions, sell merchandise that is never delivered, or steal personally identifiable information (PII) that can be used for other fraud. Scammers also exploit artificial intelligence (AI) tools to generate highly realistic voices, images, and written messages that impersonate candidates, campaigns, government entities, and trusted contacts. The realism makes these schemes harder for victims to detect and increases the likelihood of financial loss or exposure of PII. Election-related fraud schemes come in many varieties, including the schemes detailed below.",
+          "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 2"
+        },
+        {
+          "chunk_id": "NEWS:P3",
+          "source_id": "NEWS",
+          "heading": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "authority_type": "news_announcement",
+          "text": "Scammers promise victims a guaranteed return on campaign contribution dollars by investing in a candidate campaign pool that supposedly pays out after the candidate wins. Victims are also encouraged to recruit others to invest in the pool to increase their share of the payout.",
+          "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 3"
+        },
+        {
+          "chunk_id": "NEWS:P4",
+          "source_id": "NEWS",
+          "heading": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "authority_type": "news_announcement",
+          "text": "Political Action Committee Scheme (a.k.a. ScamPACs)",
+          "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 4"
+        },
+        {
+          "chunk_id": "NEWS:P5",
+          "source_id": "NEWS",
+          "heading": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "authority_type": "news_announcement",
+          "text": "Scammers dupe victims into believing they are donating to a legitimate Political Action Committee (PAC), such as a Super PAC or candidate's campaign committee but the scammers have no affiliation with the PAC and keep the funds.",
+          "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 5"
+        },
+        {
+          "chunk_id": "NEWS:P6",
+          "source_id": "NEWS",
+          "heading": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "authority_type": "news_announcement",
+          "text": "Scammers claim to sell political merchandise but do not ship the purchase when ordered. This is a classic \"non-shipment scam\" or \"non-delivery fraud\" scheme.",
+          "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 6"
+        },
+        {
+          "chunk_id": "NEWS:P7",
+          "source_id": "NEWS",
+          "heading": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "authority_type": "news_announcement",
+          "text": "Victims receive a text message or email stating they are not registered to vote in their state and are encouraged to click a link that takes the victim to a fraudulent state voter registration page. This scheme is a means to steal PII for identity theft and potentially to further target victims for additional fraud schemes.",
+          "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 7"
+        },
+        {
+          "chunk_id": "NEWS:P8",
+          "source_id": "NEWS",
+          "heading": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "authority_type": "news_announcement",
+          "text": "Be cautious with unsolicited calls, texts, emails, or surveys. Do not provide PII to persons you do not know or click unknown links.",
+          "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 8"
+        },
+        {
+          "chunk_id": "NEWS:P9",
+          "source_id": "NEWS",
+          "heading": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "authority_type": "news_announcement",
+          "text": "Campaign donations are not an investment and will not increase in value nor be returned.",
+          "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 9"
+        },
+        {
+          "chunk_id": "NEWS:P10",
+          "source_id": "NEWS",
+          "heading": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "authority_type": "news_announcement",
+          "text": "Verify and review the Political Action, Party, or Candidate Committee registration and financial filings on the Federal Election Commission (FEC) website. Be mindful some scam PACs and SuperPACs may appear registered; if a PAC or SuperPAC reports high expenses for fundraising, consulting, compliance, or other administrative costs it may be a scam.",
+          "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 10"
+        },
+        {
+          "chunk_id": "NEWS:P11",
+          "source_id": "NEWS",
+          "heading": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "authority_type": "news_announcement",
+          "text": "Confirm unsolicited contact information is associated with the organization it claims to represent.",
+          "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 11"
+        },
+        {
+          "chunk_id": "NEWS:P12",
+          "source_id": "NEWS",
+          "heading": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "authority_type": "news_announcement",
+          "text": "Research companies before making purchases by checking reviews and complaints on BBB.org.",
+          "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 12"
+        },
+        {
+          "chunk_id": "NEWS:P13",
+          "source_id": "NEWS",
+          "heading": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "authority_type": "news_announcement",
+          "text": "Check your voter registration at www.vote.gov.",
+          "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 13"
+        },
+        {
+          "chunk_id": "NEWS:P14",
+          "source_id": "NEWS",
+          "heading": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "authority_type": "news_announcement",
+          "text": "If you or someone you know encounters an election-related scam, report it to your local FBI field office or to the Internet Crime Complaint Center (IC3) at www.ic3.gov. Provide as much detail as possible:",
+          "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 14"
+        },
+        {
+          "chunk_id": "NEWS:P15",
+          "source_id": "NEWS",
+          "heading": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "authority_type": "news_announcement",
+          "text": "The name of the person or company that contacted you.",
+          "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 15"
+        },
+        {
+          "chunk_id": "NEWS:P16",
+          "source_id": "NEWS",
+          "heading": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "authority_type": "news_announcement",
+          "text": "Identifying information about the company and/or individuals who contacted you, including phone number, address, email address, and websites.",
+          "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 16"
+        },
+        {
+          "chunk_id": "NEWS:P17",
+          "source_id": "NEWS",
+          "heading": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "authority_type": "news_announcement",
+          "text": "Financial transaction information including method of payment.",
+          "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 17"
+        },
+        {
+          "chunk_id": "NEWS:P18",
+          "source_id": "NEWS",
+          "heading": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "authority_type": "news_announcement",
+          "text": "Describe your interaction with the individual, including how contact was initiated, the type of communication, what you were told or instructed, what you provided, and any other details pertinent to your complaint.",
+          "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 18"
+        },
+        {
+          "chunk_id": "NEWS:P19",
+          "source_id": "NEWS",
+          "heading": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "title": "Scammers Exploit 2026 U.S. Midterm Election to Perpetrate Multiple Fraud Schemes",
+          "authority_type": "news_announcement",
+          "text": "For additional information on other election-related threats, please see the following Public Service Announcements:",
+          "url": "https://www.ic3.gov/PSA/2026/PSA261015-3",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 19"
+        }
+      ],
+      "cached": false,
+      "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+      "article_fetched_at": "2026-10-22T03:41:55.894396+00:00",
+      "documents": [],
+      "document_links_found": 0,
+      "brief_version": 3,
+      "category": "fraud",
+      "coverage": "Announcement: up to 30 substantive paragraphs. PDFs: at most two directly linked official documents, 6 MB each, first 50 pages / 160,000 characters each; up to six selected passages per document. Scanned PDFs need OCR. Findings do not establish complete document review.",
+      "citation_check": "IDs and exact quotes checked; factual support and analyst suggestions require review."
+    }
+  },
+  {
+    "category": "credit",
+    "error": "The model returned an invalid news brief. No unverified brief was displayed. You can still read the original announcement."
+  },
+  {
+    "category": "credit",
+    "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+    "status": "supported",
+    "elapsed_seconds": 15.06,
+    "result": {
+      "status": "supported",
+      "summary": "Consumer Credit Trends - August 2026",
+      "claims": [
+        {
+          "text": "The Federal Reserve reported that in August 2026, total consumer credit increased at a seasonally adjusted annual rate of 1.9 percent, with revolving credit decreasing at an annual rate of 4.2 percent and nonrevolving credit increasing at 4.1 percent. The data include most credit extended to individuals, excluding loans secured by real estate, and are based on reporting from depository institutions, finance companies, credit unions, and federal government entities.",
+          "evidence": [
+            {
+              "id": "NEWS:D1:P1:C1",
+              "quote": "(Eastern Time) August 2026 October 7, 2026 In August, consumer credit increased at a seasonally adjusted annual rate of 1.9 percent."
+            },
+            {
+              "id": "NEWS:D1:P1:C1",
+              "quote": "Revolving credit decreased at an annual rate of 4.2 percent, while nonrevolving credit increased at an annual rate of 4.1 percent."
+            },
+            {
+              "id": "NEWS:D1:P2:C1",
+              "quote": "Covers most credit extended to individuals, excluding loans secured by real estate."
+            },
+            {
+              "id": "NEWS:D1:P2:C2",
+              "quote": "Includes receivables carried on the balance sheet of the institution as well as outstanding balances of pools upon which securities have been issued; under the current accounting rule, most of those balances remain on the balance sheets of the loan originator."
+            }
+          ]
+        }
+      ],
+      "checklist": [],
+      "limitations": [],
+      "implications": [
+        {
+          "text": "A sustained decline in revolving credit, such as credit card balances, may indicate tighter consumer borrowing conditions or reduced consumer spending, which could affect credit quality and default risk in the near term.",
+          "evidence": [
+            {
+              "id": "NEWS:D1:P1:C1",
+              "quote": "Revolving credit decreased at an annual rate of 4.2 percent, while nonrevolving credit increased at an annual rate of 4.1 percent."
+            }
+          ]
+        }
+      ],
+      "document_insights": [
+        {
+          "text": "The series for finance company new car loan terms included in previous G.19 releases are discontinued, though they remain available through the Data Download Program.",
+          "evidence": [
+            {
+              "id": "NEWS:D1:P3:C2",
+              "quote": "The series of finance company new car loan terms included in previous releases are discontinued."
+            }
+          ]
+        }
+      ],
+      "executive_summary": {
+        "text": "In August 2026, total consumer credit rose at a seasonally adjusted annual rate of 1.9 percent. Revolving credit declined at an annual rate of 4.2 percent, while nonrevolving credit increased at 4.1 percent. The data cover most credit extended to individuals, excluding real estate-secured loans, and are compiled by the Federal Reserve.",
+        "evidence": [
+          {
+            "id": "NEWS:D1:P1:C1",
+            "quote": "(Eastern Time) August 2026 October 7, 2026 In August, consumer credit increased at a seasonally adjusted annual rate of 1.9 percent."
+          },
+          {
+            "id": "NEWS:D1:P1:C1",
+            "quote": "Revolving credit decreased at an annual rate of 4.2 percent, while nonrevolving credit increased at an annual rate of 4.1 percent."
+          },
+          {
+            "id": "NEWS:D1:P2:C1",
+            "quote": "Covers most credit extended to individuals, excluding loans secured by real estate."
+          }
+        ]
+      },
+      "item": {
+        "id": "868d3f8731247956",
+        "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+        "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+        "published_date": "2026-10-07",
+        "publisher": "Fed Consumer Credit",
+        "sector": "Consumer credit statistical releases",
+        "source_type": "official",
+        "description": "Federal Reserve statistical release on outstanding consumer credit, including revolving and nonrevolving credit. Open the brief for the reported figures and context.",
+        "categories": [
+          "credit"
+        ]
+      },
+      "evidence": [
+        {
+          "chunk_id": "NEWS:P1",
+          "source_id": "NEWS",
+          "heading": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "authority_type": "news_announcement",
+          "text": "Please enable JavaScript if it is disabled in your browser or",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 1"
+        },
+        {
+          "chunk_id": "NEWS:P2",
+          "source_id": "NEWS",
+          "heading": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "authority_type": "news_announcement",
+          "text": "access the information through the links provided below.",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 2"
+        },
+        {
+          "chunk_id": "NEWS:P3",
+          "source_id": "NEWS",
+          "heading": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "authority_type": "news_announcement",
+          "text": "During the week of November 9, the \u201cBuild Your Package\u201d feature in the Data Download Program (DDP) will be removed in preparation for the eventual retirement of the DDP. Users can access data and expanded download options through the Federal Reserve Bank of St. Louis's",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 3"
+        },
+        {
+          "chunk_id": "NEWS:P4",
+          "source_id": "NEWS",
+          "heading": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "authority_type": "news_announcement",
+          "text": "Federal Reserve Economic Data (FRED). Learn more about the",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 4"
+        },
+        {
+          "chunk_id": "NEWS:P5",
+          "source_id": "NEWS",
+          "heading": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "authority_type": "news_announcement",
+          "text": "In August, consumer credit increased at a seasonally adjusted annual rate of 1.9 percent. Revolving credit decreased at an annual rate of 4.2 percent, while nonrevolving credit increased at an annual rate of 4.1 percent.",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 5"
+        },
+        {
+          "chunk_id": "NEWS:P6",
+          "source_id": "NEWS",
+          "heading": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "authority_type": "news_announcement",
+          "text": "Seasonally adjusted. Billions of dollars except as noted.",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 6"
+        },
+        {
+          "chunk_id": "NEWS:P7",
+          "source_id": "NEWS",
+          "heading": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "authority_type": "news_announcement",
+          "text": "Not seasonally adjusted. Percent except as noted.",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 7"
+        },
+        {
+          "chunk_id": "NEWS:P8",
+          "source_id": "NEWS",
+          "heading": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "authority_type": "news_announcement",
+          "text": "Not seasonally adjusted. Billions of dollars.",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 8"
+        },
+        {
+          "chunk_id": "NEWS:P9",
+          "source_id": "NEWS",
+          "heading": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "authority_type": "news_announcement",
+          "text": "Not seasonally adjusted. Billions of dollars, annual rate.",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 9"
+        },
+        {
+          "chunk_id": "NEWS:P10",
+          "source_id": "NEWS",
+          "heading": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "authority_type": "news_announcement",
+          "text": "*This release is generally issued on the fifth business day of each month. See the Statistical Release Schedule for more information.",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 10"
+        },
+        {
+          "chunk_id": "NEWS:P11",
+          "source_id": "NEWS",
+          "heading": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "authority_type": "news_announcement",
+          "text": "Covers most credit extended to individuals, excluding loans secured by real estate. Includes receivables carried on the balance sheet of the institution as well as outstanding balances of pools upon which securities have been issued; under the current accounting rule, most of those balances remain on the balance sheets of the loan originator.",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 11"
+        },
+        {
+          "chunk_id": "NEWS:P12",
+          "source_id": "NEWS",
+          "heading": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "authority_type": "news_announcement",
+          "text": "The series for consumer credit outstanding and its components may contain breaks that result from discontinuities in source data. Percent changes are adjusted to exclude the effect of such breaks. In addition, percent changes are at a simple annual rate and are calculated from unrounded data.",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 12"
+        },
+        {
+          "chunk_id": "NEWS:P13",
+          "source_id": "NEWS",
+          "heading": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "authority_type": "news_announcement",
+          "text": "Includes motor vehicle loans and all other loans not included in revolving credit, such as loans for mobile homes, education, boats, trailers, or vacations. These loans may be secured or unsecured.",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 13"
+        },
+        {
+          "chunk_id": "NEWS:P14",
+          "source_id": "NEWS",
+          "heading": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "authority_type": "news_announcement",
+          "text": "Flow data represent changes in the level of credit due to economic and financial activity, and exclude breaks in the data series due to changes in methodology, source data, and other technical aspects of the estimation that could affect the level of credit.",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 14"
+        },
+        {
+          "chunk_id": "NEWS:P15",
+          "source_id": "NEWS",
+          "heading": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "authority_type": "news_announcement",
+          "text": "Interest rates are annual percentage rates (APR) as specified by the Federal Reserve's Regulation Z. Interest rates for new-car loans and personal loans at commercial banks are simple unweighted averages of each bank's most common rate charged during the first calendar week of the middle month of each quarter. For credit card accounts, the rate for all accounts is the stated APR averaged across all credit card accounts at all reporting banks. The rate for accounts assessed interest is the annualized ratio of total finance charges at all reporting banks to the total average daily balances against which the finance charges were assessed (excludes accounts for which no finance charges were assessed).",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 15"
+        },
+        {
+          "chunk_id": "NEWS:P16",
+          "source_id": "NEWS",
+          "heading": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "authority_type": "news_announcement",
+          "text": "Covers most of the captive and non-captive finance companies. The series of finance company new car loan terms included in previous releases are discontinued. They remain available from the Data Download Program.",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 16"
+        },
+        {
+          "chunk_id": "NEWS:P17",
+          "source_id": "NEWS",
+          "heading": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "authority_type": "news_announcement",
+          "text": "Includes student loans originated by the Department of Education under the Federal Direct Loan Program and the Perkins Loan Program, as well as Federal Family Education Program loans that the government purchased under the Ensuring Continued Access to Student Loans Act.",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 17"
+        },
+        {
+          "chunk_id": "NEWS:P18",
+          "source_id": "NEWS",
+          "heading": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "authority_type": "news_announcement",
+          "text": "Includes student loans originated under the Federal Family Education Loan Program and held by educational institutions and nonprofit organizations.",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 18"
+        },
+        {
+          "chunk_id": "NEWS:P19",
+          "source_id": "NEWS",
+          "heading": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "authority_type": "news_announcement",
+          "text": "Includes student loans originated under the Federal Family Education Loan Program and the Direct Loan Program; Perkins loans; and private student loans without government guarantees. This memo item includes loan balances that are not included in the nonrevolving credit balances. For additional information, see public documentation. Data for this memo item are released for each quarter-end month.",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 19"
+        },
+        {
+          "chunk_id": "NEWS:P20",
+          "source_id": "NEWS",
+          "heading": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "authority_type": "news_announcement",
+          "text": "Includes motor vehicle loans owned and securitized by depository institutions, finance companies, and credit unions. The estimate also includes loans owned by nonfinancial business business lenders through 2019. Includes loans for passenger cars and other vehicles such as minivans, vans, sport-utility vehicles, pickup trucks, and similar light trucks for personal use. Loans for boats, motorcycles and recreational vehicles are not included. Data for this memo item are released for each quarter-end month.",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 20"
+        },
+        {
+          "chunk_id": "NEWS:P21",
+          "source_id": "NEWS",
+          "heading": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "title": "Consumer Credit \u2014 G.19 release \u00b7 2026-10-07",
+          "authority_type": "news_announcement",
+          "text": "r=revised. p=preliminary. n.a.=not available. ...=not applicable.",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/default.htm",
+          "captured_date": "2026-10-22",
+          "locator": "Extracted announcement paragraph 21"
+        },
+        {
+          "chunk_id": "NEWS:D1:P1:C1",
+          "source_id": "NEWS_DOC",
+          "authority_type": "linked_regulator_document",
+          "text": "G.19 Consumer Credit For release at 3 p.m. (Eastern Time) August 2026 October 7, 2026 In August, consumer credit increased at a seasonally adjusted annual rate of 1.9 percent. Revolving credit decreased at an annual rate of 4.2 percent, while nonrevolving credit increased at an annual rate of 4.1 percent. Consumer Credit Outstanding1 Seasonally adjusted. Billions of dollars except as noted. 2025 2026 2021 2022 2023 2024 2025 Q2 Q3 Q4 Q1 Q2 r Junr Julr Augp Total percent change (annual rate)2 5.7 7.7 2.7 2.0 2.2 2.8 2.3 2.1 2.6 3.1 3.6 4.1 1.9 Revolving 6.9 15.4 8.9 4.1 3.1 3.0 3.4 3.5 4.2 4.9 6.0 2.5 -4.2 Nonrevolving3 5.4 5.4 0.6 1.2 1.8 2.8 1.9 1.6 2.0 2.4 2.7 4.7 4.1 Total flow (annual rate)2,4 237.8 345.7 129.8 98.0 107.2 142.3 113.7 107.4 130.4 157.3 184.0 212.9 99.4 Revolving 65.7 159.1 106.2 52.9 40.0 38.1 43.9 46.4 55.4 64.9 80.7 33.4 -57.4 Nonrevolving3 172.2 186.6 23.6 45.1 67.2 104.1 69.8 61.0 75.0 92.4 103.4 179.5 156.8 Total outstanding 4,512.7 4,858.4 4,988.2 4,947.2 5,098.8 5,043.5 5,072.0 5,098.8 5,131.4 5,170.8 5,170.8 5,188.5 5,196.8 Revolving 1,033.5 1,192.6 1,298.9 1,297.0 1,324.3 1,301.7 1,312.7 1,324.3 1,338.2 1,354.4 1,354.4 1,357.2 1,352.4 Nonrevolving3 3,479.2 3,665.8 3,689.4 3,650.3 3,774.5 3,741.8 3,759.2 3,774.5 3,793.2 3,816.3 3,816.3 3,831.3 3,844.4 Terms of Credit Not seasonally adjusted. Percent except as noted. Commercial bank interest rates5 New car loans 60-month 4.82 5.36 7.83 8.16 7.65 7.67 7.64 7.24 7.53 7.14 n.a. n.a. 7.54 72-month 4.82 5.50 7.89 8.29 7.80 7.73 7.80 7.50 7.53 6.97 n.a. n.a. 7.17 Credit card plans All accounts 14.60 16.26 20.90 21.58 21.22 21.16 21.39 20.97 21.00 20.94 n.a. n.a. 21.19 Accounts assessed interest 16.45 17.91 22.15 22.89 22.32 22.25 22.83 22.30 21.52 22.15 n.a. n.a. 22.36 Personal loans 24-month 9.38 9.87 11.87 12.27 11.50 11.57 11.14 11.63 11.36 11.86 n.a. n.a. 11.90 Finance companies (new car loans)6 Interest rates 4.6 5.2 6.7 6.2 6.4 6.6 6.3 6.1 6.2 6.3 6.3 n.a. n.a. Maturity (months) 67 67 66 66 66 66 66 66 67 67 67 n.a. n.a. Amount financed (dollars) 35,307 38,900 38,716 39,386 40,582 39,867 40,803 41,742 41,727 41,705 41,705 n.a. n.a. This release is",
+          "title": "PDF",
+          "heading": "PDF",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/g19.pdf",
+          "pdf_page": 1,
+          "locator": "PDF page 1",
+          "captured_date": "2026-10-22"
+        },
+        {
+          "chunk_id": "NEWS:D1:P3:C1",
+          "source_id": "NEWS_DOC",
+          "authority_type": "linked_regulator_document",
+          "text": "Consumer Credit Outstanding (Flows) Not seasonally adjusted Billions of dollars, annual rate 2025 2026 2021 2022 2023 2024 2025 Q2 Q3 Q4 Q1 Q2 r Junr Julr Augp Total 237.8 345.7 129.8 98.0 107.2 188.0 175.9 236.8 -106.9 203.1 201.4 208.2 272.2 Major holders Depository institutions 139.7 205.6 84.7 46.7 74.8 166.6 95.6 243.0 -156.7 181.4 162.3 166.1 68.7 Finance companies 17.8 -12.4 44.6 12.1 -25.8 -23.5 -31.1 -13.8 -42.8 -13.1 -8.6 -9.1 -19.0 Credit unions 26.9 104.7 25.9 -12.6 0.9 22.9 0.6 -3.4 -19.0 32.4 56.8 48.0 65.6 Federal government7 55.4 51.0 -25.1 55.8 60.1 23.0 112.1 18.9 114.5 4.8 -5.4 5.5 157.8 Nonprofit and educational institutions8 -2.0 -3.2 -0.3 -4.0 -2.8 -1.0 -1.3 -7.9 -2.9 -2.4 -3.7 -2.4 -0.9 Major types of credit, by holder Revolving 65.7 159.1 106.2 52.9 40.0 99.4 44.5 227.6 -187.6 126.2 103.3 85.8 -10.8 Depository institutions 68.9 151.5 99.8 52.3 39.3 97.4 42.9 217.4 -175.9 121.1 93.1 77.3 -16.7 Finance companies -5.6 -2.5 -1.4 -2.6 -2.0 -2.9 -2.1 2.9 -4.5 0.5 0.0 0.4 0.1 Credit unions 2.4 10.0 7.8 3.2 2.6 4.9 3.7 7.4 -7.2 4.7 10.2 8.1 5.8 Federal government7 ... ... ... ... ... ... ... ... ... ... ... ... ... Nonprofit and educational institutions8 ... ... ... ... ... ... ... ... ... ... ... ... ... Nonrevolving 172.2 186.6 23.6 45.1 67.2 88.6 131.5 9.1 80.7 76.9 98.1 122.4 283.0 Depository institutions 70.8 54.1 -15.1 -5.6 35.5 69.2 52.7 25.6 19.3 60.4 69.2 88.9 85.4 Finance companies 23.5 -9.9 46.0 14.7 -23.8 -20.7 -29.0 -16.7 -38.4 -13.6 -8.6 -9.5 -19.1 Credit unions 24.6 94.6 18.1 -15.7 -1.7 18.0 -3.1 -10.8 -11.8 27.8 46.6 39.9 59.8 Federal government7 55.4 51.0 -25.1 55.8 60.1 23.0 112.1 18.9 114.5 4.8 -5.4 5.5 157.8 Nonprofit and educational institutions8 -2.0 -3.2 -0.3 -4.0 -2.8 -1.0 -1.3 -7.9 -2.9 -2.4 -3.7 -2.4 -0.9 Memo Student Loans9 39.6 30.7 -34.9 49.2 56.3 -11.4 121.5 6.9 112.0 -3.4 -3.4 n.a. n.a. Motor Vehicle Loans10 90.4 106.8 55.8 13.6 -2.1 22.5 -0.2 5.8 -9.8 59.6 59.6 n.a. n.a. 6. Covers most of the captive and non-captive finance companies. The series of finance company new car loan terms",
+          "title": "PDF",
+          "heading": "PDF",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/g19.pdf",
+          "pdf_page": 3,
+          "locator": "PDF page 3",
+          "captured_date": "2026-10-22"
+        },
+        {
+          "chunk_id": "NEWS:D1:P2:C1",
+          "source_id": "NEWS_DOC",
+          "authority_type": "linked_regulator_document",
+          "text": "Consumer Credit Outstanding (Levels) Not seasonally adjusted Billions of dollars 2025 2026 2021 2022 2023 2024 2025 Q2 Q3 Q4 Q1 Q2 r Junr Julr Augp Total 4,512.7 4,858.4 4,988.2 4,947.2 5,098.8 4,995.7 5,039.6 5,098.8 5,072.1 5,122.9 5,122.9 5,140.2 5,162.9 Major holders Depository institutions 1,827.2 2,032.8 2,117.6 2,025.2 2,074.2 1,989.5 2,013.4 2,074.2 2,035.0 2,080.4 2,080.4 2,094.2 2,099.9 Finance companies 695.1 682.7 727.3 739.4 713.6 724.8 717.0 713.6 702.9 699.6 699.6 698.8 697.3 Credit unions 532.0 636.7 662.6 650.0 721.3 721.9 722.1 721.3 716.5 724.6 724.6 728.6 734.1 Federal government7 1,436.4 1,487.3 1,462.2 1,518.0 1,578.0 1,545.3 1,573.3 1,578.0 1,606.7 1,607.9 1,607.9 1,608.3 1,621.5 Nonprofit and educational institutions8 22.0 18.9 18.6 14.6 11.8 14.1 13.7 11.8 11.0 10.4 10.4 10.2 10.1 Major types of credit, by holder Revolving 1,033.5 1,192.6 1,298.9 1,297.0 1,324.3 1,256.3 1,267.4 1,324.3 1,277.4 1,309.0 1,309.0 1,316.1 1,315.2 Depository institutions 944.2 1,095.7 1,195.5 1,193.0 1,219.7 1,154.7 1,165.4 1,219.7 1,175.8 1,206.0 1,206.0 1,212.5 1,211.1 Finance companies 24.7 22.3 20.8 18.3 16.3 16.1 15.6 16.3 15.2 15.3 15.3 15.3 15.3 Credit unions 64.7 74.7 82.5 85.7 88.3 85.5 86.4 88.3 86.5 87.7 87.7 88.3 88.8 Federal government7 ... ... ... ... ... ... ... ... ... ... ... ... ... Nonprofit and educational institutions8 ... ... ... ... ... ... ... ... ... ... ... ... ... Nonrevolving 3,479.2 3,665.8 3,689.4 3,650.3 3,774.5 3,739.4 3,772.2 3,774.5 3,794.7 3,813.9 3,813.9 3,824.1 3,847.7 Depository institutions 883.0 937.1 922.0 832.2 854.4 834.9 848.0 854.4 859.3 874.3 874.3 881.7 888.9 Finance companies 670.4 660.5 706.4 721.1 697.3 708.7 701.5 697.3 687.7 684.3 684.3 683.5 681.9 Credit unions 467.4 562.0 580.1 564.4 633.0 636.4 635.7 633.0 630.0 637.0 637.0 640.3 645.3 Federal government7 1,436.4 1,487.3 1,462.2 1,518.0 1,578.0 1,545.3 1,573.3 1,578.0 1,606.7 1,607.9 1,607.9 1,608.3 1,621.5 Nonprofit and educational institutions8 22.0 18.9 18.6 14.6 11.8 14.1 13.7 11.8 11.0 10.4 10.4 10.2 10.1 Memo Student Loans9 1,733.4 1,764.1 1,729.1 1,778.4 1,834.7 1,802.6 1,833.0 1,834.7 1,862.7 1,861.8 1,861.8 n.a. n.a. Motor Vehicle Loans10 1,388.1 1,494.9 1,550.7 1,564.3 1,562.2 1,560.8 1,560.7 1,562.2 1,559.7 1,574.6 1,574.6 n.a. n.a. Footnotes 1. Covers most credit extended to individuals, excluding loans secured by real estate. Includes receivables carried on the balance sheet",
+          "title": "PDF",
+          "heading": "PDF",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/g19.pdf",
+          "pdf_page": 2,
+          "locator": "PDF page 2",
+          "captured_date": "2026-10-22"
+        },
+        {
+          "chunk_id": "NEWS:D1:P2:C2",
+          "source_id": "NEWS_DOC",
+          "authority_type": "linked_regulator_document",
+          "text": "1,861.8 n.a. n.a. Motor Vehicle Loans10 1,388.1 1,494.9 1,550.7 1,564.3 1,562.2 1,560.8 1,560.7 1,562.2 1,559.7 1,574.6 1,574.6 n.a. n.a. Footnotes 1. Covers most credit extended to individuals, excluding loans secured by real estate. Includes receivables carried on the balance sheet of the institution as well as outstanding balances of pools upon which securities have been issued; under the current accounting rule, most of those balances remain on the balance sheets of the loan originator. 2. The series for consumer credit outstanding and its components may contain breaks that result from discontinuities in source data. Percent changes are adjusted to exclude the effect of such breaks. In addition, percent changes are at a simple annual rate and are calculated from unrounded data. 3. Includes motor vehicle loans and all other loans not included in revolving credit, such as loans for mobile homes, education, boats, trailers, or vacations. These loans may be secured or unsecured. 4. Flow data represent changes in the level of credit due to economic and financial activity, and exclude breaks in the data series due to changes in methodology, source data, and other technical aspects of the estimation that could affect the level of credit. 5. Interest rates are annual percentage rates (APR) as specified by the Federal Reserve\u2019s Regulation Z. Interest rates for new-car loans and personal loans at commercial banks are simple unweighted averages of each bank\u2019s most common rate charged during the first calendar week of the middle month of each quarter. For credit card accounts, the rate for all accounts is the stated APR averaged across all credit card accounts at all reporting banks. The rate for accounts assessed interest is the annualized ratio of total finance charges at all reporting banks to the total average daily balances against which the finance charges were assessed (excludes accounts for which no finance charges were assessed).",
+          "title": "PDF",
+          "heading": "PDF",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/g19.pdf",
+          "pdf_page": 2,
+          "locator": "PDF page 2",
+          "captured_date": "2026-10-22"
+        },
+        {
+          "chunk_id": "NEWS:D1:P3:C2",
+          "source_id": "NEWS_DOC",
+          "authority_type": "linked_regulator_document",
+          "text": "112.0 -3.4 -3.4 n.a. n.a. Motor Vehicle Loans10 90.4 106.8 55.8 13.6 -2.1 22.5 -0.2 5.8 -9.8 59.6 59.6 n.a. n.a. 6. Covers most of the captive and non-captive finance companies. The series of finance company new car loan terms included in previous releases are discontinued. They remain available from the Data Download Program. 7. Includes student loans originated by the Department of Education under the Federal Direct Loan Program and the Perkins Loan Program, as well as Federal Family Education Program loans that the government purchased under the Ensuring Continued Access to Student Loans Act. 8. Includes student loans originated under the Federal Family Education Loan Program and held by educational institutions and nonprofit organizations. 9. Includes student loans originated under the Federal Family Education Loan Program and the Direct Loan Program; Perkins loans; and private student loans without government guarantees. This memo item includes loan balances that are not included in the nonrevolving credit balances. For additional information, see public documentation. Data for this memo item are released for each quarter-end month. 10. Includes motor vehicle loans owned and securitized by depository institutions, finance companies, and credit unions. The estimate also includes loans owned by nonfinancial business business lenders through 2019. Includes loans for passenger cars and other vehicles such as minivans, vans, sport-utility vehicles, pickup trucks, and similar light trucks for personal use. Loans for boats, motorcycles and recreational vehicles are not included. Data for this memo item are released for each quarter-end month. r=revised. p=preliminary. n.a.=not available. ...=not applicable.",
+          "title": "PDF",
+          "heading": "PDF",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/g19.pdf",
+          "pdf_page": 3,
+          "locator": "PDF page 3",
+          "captured_date": "2026-10-22"
+        },
+        {
+          "chunk_id": "NEWS:D1:P1:C2",
+          "source_id": "NEWS_DOC",
+          "authority_type": "linked_regulator_document",
+          "text": "6.1 6.2 6.3 6.3 n.a. n.a. Maturity (months) 67 67 66 66 66 66 66 66 67 67 67 n.a. n.a. Amount financed (dollars) 35,307 38,900 38,716 39,386 40,582 39,867 40,803 41,742 41,727 41,705 41,705 n.a. n.a. This release is generally issued on the fifth business day of each month. See the Statistical Release Schedule for more information. Footnotes appear on the second and third pages.",
+          "title": "PDF",
+          "heading": "PDF",
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/g19.pdf",
+          "pdf_page": 1,
+          "locator": "PDF page 1",
+          "captured_date": "2026-10-22"
+        }
+      ],
+      "cached": false,
+      "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+      "article_fetched_at": "2026-10-22T03:45:56.360234+00:00",
+      "documents": [
+        {
+          "url": "https://www.federalreserve.gov/releases/g19/20261007/g19.pdf",
+          "title": "PDF",
+          "state": "read",
+          "total_pages": 3,
+          "pages_scanned": 3,
+          "truncated": false,
+          "selected_pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "document_links_found": 1,
+      "brief_version": 3,
+      "category": "credit",
+      "coverage": "Announcement: up to 30 substantive paragraphs. PDFs: at most two directly linked official documents, 6 MB each, first 50 pages / 160,000 characters each; up to six selected passages per document. Scanned PDFs need OCR. Findings do not establish complete document review.",
+      "citation_check": "IDs and exact quotes checked; factual support and analyst suggestions require review."
+    }
+  },
+  {
+    "category": "credit",
+    "title": "TransUnion Launches Industry-First Adverse-Actionable Scores to Combat Synthetic Identity Fraud and Credit Washing, Now Being Integrated With Oscilar",
+    "check": "Revalidate recorded provider response after omitting optional PDF section when no PDF evidence was read",
+    "new_provider_call": false,
+    "status": "supported",
+    "claims": 1,
+    "document_insights": 0
+  }
+]

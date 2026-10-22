@@ -14,3 +14,8 @@
 /* Secondary text stays readable against the quiet background. */
 .hero-note,.context-bar,.helper,.workspace-guide p,.starters-heading>span,.topic-heading>span,.coverage-heading p,.coverage-note,.news-source-line,.news-controls label,.news-controls>span,.news-item>p,.news-sector,.inspector-help,.locator,.source-title,.judgment label,.judgment>summary small,.session-explanation{color:#687e68}.news-item:first-child>p{color:#b4cbb1}.news-item:first-child .news-sector{color:#afc6a6}
 @media(max-width:600px){.research-mode-switch{margin-bottom:15px}.research-mode-switch button{font-size:10px;padding:6px 10px}.additional-topic-heading{display:block;margin-top:18px}.additional-topic-heading span{display:block;margin-top:4px}.redflag-mode-note{font-size:10px}}
+
+.home-coverage{margin-top:40px;padding-top:28px;border-top:1px solid var(--line)}.home-coverage .coverage-heading{align-items:center;gap:20px;flex-wrap:wrap}.home-coverage .coverage-heading p{max-width:620px}.home-coverage button{white-space:normal}
+
+.risk-tabs{display:flex;gap:8px;margin:25px 0 12px;flex-wrap:wrap}.risk-tabs button{display:flex;gap:12px;align-items:center;border:1px solid var(--line);border-radius:30px;padding:11px 19px;background:white;color:var(--ink);font-weight:600;font-size:13px}.risk-tabs button.active{background:var(--ink);color:white;border-color:var(--ink)}.risk-tabs button span{font-size:10px;opacity:.7}.risk-tabs button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+@media(max-width:600px){.risk-tabs{gap:6px}.risk-tabs button{font-size:11px;padding:9px 13px;gap:7px}}

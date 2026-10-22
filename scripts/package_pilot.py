@@ -9,7 +9,7 @@ import zipfile
 ROOT=Path(__file__).resolve().parents[1]
 FILES=['app.py','hosted.py','gunicorn.conf.py','configure.py','requirements.txt','render.yaml','.replit',
        '.gitignore','.env.example','README.md','DEPLOYMENT.md','data/processed/chunks.json','data/news_archive.json']
-for pattern in ['src/*.py','web/*','config/*.json','evaluation/*','tests/*.py','scripts/package_pilot.py']:
+for pattern in ['src/*.py','web/*','config/*.json','evaluation/*','tests/*.py','scripts/*.py']:
     FILES.extend(str(p.relative_to(ROOT)) for p in ROOT.glob(pattern) if p.is_file())
 FILES.extend('reports/'+name for name in ['retrieval_comparison.json','retrieval_comparison.csv',
     'retrieval_comparison_initial_labels.json','answer_comparison.json','answer_comparison_small_model.json',

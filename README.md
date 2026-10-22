@@ -50,7 +50,9 @@ The app rejects unknown citation IDs and checks that selected quotes exist in th
 
 One narrow question—what a bank CDD program should include—has a labelled, prepared explanation tied to retrieved FinCEN and FFIEC passages. That path makes no new answer-model call. It is a reference response, not a fresh generation result or a complete legal checklist.
 
-News follows a separate path: official feeds and announcement pages, followed by a summary of the selected story and available linked PDFs. It does not currently search a vector database of news.
+The homepage opens with a news brief covering AML, fraud and credit risk. Stories can carry more than one category. The default view is the past 30 days, with month and publisher filters for the captured 2026 archive. Opening a story produces a category-specific explanation of what happened and why it matters, with references to the original announcement and available official PDFs. Official sources, industry reporting and company research are labelled separately. News uses publisher feeds and dated pages rather than the policy library’s vector search.
+
+The publisher registry is in `src/risk_news.py` and `src/news_sources.py`. Each connector reports its actual status; configured publishers are not automatically counted as successful coverage. To collect feeds and bounded archive pages before deployment, run `python scripts/collect_risk_news.py --backfill`. This saves public story metadata in `data/news_archive.json`, so captured history travels with the project. The running app also refreshes in the background and uses a shared one-hour cache.
 
 | Part | What I used |
 | --- | --- |
@@ -78,7 +80,7 @@ Hit @ 5 means at least one labelled relevant passage appeared in the first five 
 
 These results come from an earlier corpus version. They have not been rerun as a benchmark for the latest FAQ and routing update. The relevance labels were prepared during development, with AI assistance, and have not been independently reviewed by an AML expert. These are retrieval results, not answer-accuracy percentages.
 
-The repository also has **97 passing software tests**, covering retrieval, citation handling, source checksums, public routes, request limits and other application behavior. GitHub Actions runs the tests on pushes and pull requests.
+The repository also has **105 passing software tests**, covering retrieval, citation handling, source checksums, public routes, request limits and other application behavior. GitHub Actions runs the tests on pushes and pull requests.
 
 Latency was a real problem during testing. After reducing the model context and switching the answer model, four live generated-answer checks took **2.9–6.4 seconds server-side**. That is a small sample; it excludes hosting startup and browser overhead. The app shows retrieval, drafting and checking progress against an eight-second target. Slow first visits still need a controlled cold-start investigation.
 

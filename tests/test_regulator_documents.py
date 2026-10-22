@@ -32,7 +32,9 @@ class RegulatorDocumentTests(unittest.TestCase):
         evidence=[{'chunk_id':'NEWS:P1','text':'The regulator issued an announcement on transaction monitoring.','source_id':'NEWS','heading':'Announcement','authority_type':'news_announcement'}]
         raw={'status':'supported','summary':'Case','claims':[{'text':'The regulator issued an announcement.','evidence':[{'id':'E001'}]}],'checklist':[],'limitations':[],
             'document_insights':[{'text':'The order describes a monitoring finding.','evidence':[{'id':'E001'}]}]}
-        with self.assertRaises(ValueError):news.validate_brief(raw,evidence)
+        checked=news.validate_brief(raw,evidence)
+        self.assertEqual(checked['document_insights'],[])
+        self.assertEqual(len(checked['claims']),1)
         raw['document_insights']=[];raw['suggested_actions']=[{'text':'Unrequested suggestion'}]
         self.assertNotIn('suggested_actions',news.validate_brief(raw,evidence))
 
